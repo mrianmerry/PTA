@@ -1,0 +1,933 @@
+{
+	"pokemon": [
+		{
+			"id": 1,
+			"name": "Bulbasaur",
+	        "base_stats": {
+	            "HP": 5,
+	            "ATK": 5,
+	            "DEF": 5,
+	            "SPA": 7,
+	            "SDF": 7,
+	            "SPD": 5
+	        },
+	        "type": [
+	            "Grass",
+	            "Poison"],
+	        "abilities": {
+	            "basic": [
+	                "Overgrow",
+	                "Venom",
+	                "Chlorophyll"
+	            ],
+	            "high": [
+	                "Leaf Guard"
+	            ]
+	        },
+	        "evolution": {
+	            "001": 0,
+	            "002": 15,
+	            "003": 30
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.7,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 6.9,
+					"class": 1
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+	                "Monster",
+	                "Plant"
+	            ],
+	            "hatch_rate": 10,
+	            "diet": [
+	                "Herbivore",
+	                "Phototroph"
+	            ],
+	            "habitat": [
+	                "Forest",
+	                "Grassland",
+	                "Rainforest"
+	            ]
+	        },
+	        "skills": {
+	            "Overland": 7,
+	            "Surface": 2,
+	            "Jump": 2,
+	            "Power": 1,
+	            "Intelligence": 3,
+	            "Other": [
+	                "Sprouter"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+	                "01": "Tackle",
+	                "03": "Growl",
+	                "07": "Leech Seed",
+	                "09": "Vine Whip",
+	                "13": "Poison Powder, Sleep Powder",
+	                "15": "Take Down",
+	                "19": "Razor Leaf",
+	                "21": "Sweet Scent",
+	                "25": "Growth",
+	                "27": "Double-Edge",
+	                "31": "Worry Seed",
+	                "33": "Synthesis",
+	                "37": "Seed Bomb"
+	            },
+	            "egg": [
+	                "Amnesia",
+	                "Charm",
+	                "Curse",
+	                "Endure",
+	                "Giga Drain",
+	                "Grass Whistle",
+	                "Grassy Terrain",
+					"Ingrain",
+					"Leaf Storm",
+					"Magical Leaf",
+					"Nature Power",
+					"Petal Dance",
+					"Power Whip",
+					"Skull Bash",
+					"Sludge"
+	            ],
+				"tutor": [
+					"Bind",
+					"Frenzy Plant",
+					"Giga Drain",
+					"Grass Pledge",
+					"Knock Off",
+					"Seed Bomb",
+					"Snore",
+					"Synthesis",
+					"Worry Seed"
+				]
+	        },
+			"capture_rate": 20,
+			"experience_drop": 15
+		},
+		{
+			"id": 2,
+			"name": "Ivysaur",
+	        "base_stats": {
+	            "HP": 6,
+	            "ATK": 6,
+	            "DEF": 6,
+	            "SPA": 8,
+	            "SDF": 8,
+	            "SPD": 6
+	        },
+	        "type": [
+	            "Grass",
+	            "Poison"],
+	        "abilities": {
+	            "basic": [
+	                "Overgrow",
+	                "Venom",
+	                "Chlorophyll"
+	            ],
+	            "high": [
+	                "Leaf Guard",
+					"Flower Gift"
+	            ]
+	        },
+	        "evolution": {
+	            "001": 0,
+	            "002": 15,
+	            "003": 30
+	        },
+	        "biology": {
+					"height": {
+						"value": 1.0,
+						"class": "Medium"
+					},
+		            "weight": {
+						"value": 13.0,
+						"class": 2
+					},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+	                "Monster",
+	                "Plant"
+	            ],
+	            "diet": [
+	                "Omnivore",
+	                "Phototroph"
+	            ],
+	            "habitat": [
+	                "Forest",
+	                "Grassland",
+	                "Rainforest"
+	            ]
+	        },
+	        "skills": {
+	            "Overland": 8,
+	            "Surface": 2,
+	            "Jump": 2,
+	            "Power": 2,
+	            "Intelligence": 3,
+	            "Other": [
+	                "Sprouter"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+	                "03": "Growl",
+	                "07": "Leech Seed",
+	                "09": "Vine Whip",
+	                "13": "Poison Powder, Sleep Powder",
+	                "15": "Take Down",
+	                "20": "Razor Leaf",
+	                "23": "Sweet Scent",
+	                "28": "Growth",
+	                "31": "Double-Edge",
+	                "36": "Worry Seed",
+	                "39": "Synthesis",
+	                "44": "Seed Bomb"
+	            },
+				"tutor": [
+					"Bind",
+					"Frenzy Plant",
+					"Giga Drain",
+					"Grass Pledge",
+					"Knock Off",
+					"Seed Bomb",
+					"Snore",
+					"Synthesis",
+					"Worry Seed"
+				]
+	        },
+			"capture_rate": 10,
+			"experience_drop": 30
+		},
+		{
+			"id": 3,
+			"name": "Venusaur",
+			"base_stats": {
+				"HP": 8,
+				"ATK": 8,
+				"DEF": 8,
+				"SPA": 10,
+				"SDF": 10,
+				"SPD": 8
+			},
+			"type": [
+				"Grass",
+				"Poison"],
+			"abilities": {
+				"basic": [
+					"Overgrow",
+					"Venom",
+					"Chlorophyll"
+				],
+				"high": [
+					"Leaf Guard",
+					"Flower Gift"
+				]
+			},
+			"evolution": {
+				"001": 0,
+				"002": 15,
+				"003": 30
+			},
+			"biology": {
+				"height": {
+					"value": 2.0,
+					"class": "Large"
+				},
+	            "weight": {
+					"value": 100.0,
+					"class": 5
+				},
+				"male_ratio": 0.875,
+				"egg_group": [
+					"Monster",
+					"Plant"
+				],
+				"diet": [
+					"Omnivore",
+					"Phototroph"
+				],
+				"habitat": [
+					"Forest",
+					"Grassland",
+					"Rainforest"
+				]
+			},
+			"skills": {
+				"Overland": 9,
+				"Surface": 2,
+				"Jump": 1,
+				"Power": 4,
+				"Intelligence": 4,
+				"Other": [
+					"Sprouter"
+				]
+			},
+			"moves": {
+				"natural": {
+					"E": "Petal Dance",
+					"03": "Growl",
+					"07": "Leech Seed",
+					"09": "Vine Whip",
+					"13": "Poison Powder, Sleep Powder",
+					"15": "Take Down",
+					"20": "Razor Leaf",
+					"23": "Sweet Scent",
+					"28": "Growth",
+					"31": "Double-Edge",
+					"32": "Petal Dance",
+					"39": "Worry Seed",
+					"45": "Synthesis",
+					"53": "Seed Bomb"
+				},
+				"tutor": [
+					"Bind",
+					"Block",
+					"Frenzy Plant",
+					"Giga Drain",
+					"Grass Pledge",
+					"Knock Off",
+					"Outrage",
+					"Petal Dance",
+					"Seed Bomb",
+					"Snore",
+					"Synthesis",
+					"Worry Seed"
+				]
+			},
+			"capture_rate": 5,
+			"experience_drop": 50
+		},
+		{
+			"id": 4,
+			"name": "Chikorita",
+			"base_stats": {
+				"HP": 5,
+				"ATK": 5,
+				"DEF": 7,
+				"SPA": 5,
+				"SDF": 7,
+				"SPD": 5
+			},
+			"type": [
+				"Grass"
+			],
+			"abilities": {
+				"basic": [
+					"Overgrow",
+					"Chlorophyll",
+					"Sap Sipper"
+				],
+				"high": [
+					"Leaf Guard"
+				]
+			},
+			"evolution": {
+				"004": 0,
+				"005": 15,
+				"006": 30
+			},
+			"biology": {
+				"height": {
+					"value": 0.9,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 6.4,
+					"class": 1
+				},
+				"male_ratio": 0.875,
+				"egg_group": [
+					"Monster",
+					"Plant"
+				],
+				"hatch_rate": 10,
+				"diet": [
+					"Phototroph",
+					"Herbivore"
+				],
+				"habitat": [
+					"Forest",
+					"Grassland"
+				]
+			},
+			"skills": {
+				"Overland": 7,
+				"Surface": 2,
+				"Jump": 2,
+				"Power": 1,
+				"Intelligence": 3,
+				"Other": [
+					"Sprouter"
+				]
+			},
+			"moves": {
+				"natural": {
+					"01": "Tackle",
+					"03": "Growl",
+					"06": "Razor Leaf",
+					"09": "Poison Powder",
+					"12": "Synthesis",
+					"17": "Reflect",
+					"20": "Magical Leaf",
+					"23": "Natural Gift",
+					"28": "Sweet Scent",
+					"31": "Light Screen",
+					"34": "Body Slam",
+					"39": "Safeguard",
+					"42": "Aromatherapy",
+					"45": "Solar Beam"
+				},
+				"egg": [
+					"Ancient Power",
+					"Aromatherapy",
+					"Body Slam",
+					"Counter",
+					"Flail",
+					"Grass Whistle",
+					"Grassy Terrain",
+					"Heal Pulse",
+					"Ingrain",
+					"Leaf Storm"
+					"Leech Seed",
+					"Nature Power",
+					"Refresh",
+					"Vine Whip",
+					"Wring Out"
+				],
+				"tutor": [
+					"Frenzy Plant",
+					"Giga Drain",
+					"Grass Pledge",
+					"Iron Tail",
+					"Magic Coat",
+					"Seed Bomb",
+					"Snore",
+					"Synthesis",
+					"Worry Seed"
+				]
+			},
+			"capture_rate": 20,
+			"experience_drop": 15
+		},
+		{
+			"id": 5,
+			"name": "Bayleef",
+			"base_stats": {
+				"HP": 6,
+				"ATK": 6,
+				"DEF": 8,
+				"SPA": 6,
+				"SDF": 8,
+				"SPD": 6
+			},
+			"type": [
+				"Grass"
+			],
+			"abilities": {
+				"basic": [
+					"Overgrow",
+					"Chlorophyll",
+					"Sap Sipper"
+				],
+				"high": [
+					"Leaf Guard"
+				]
+			},
+			"evolution": {
+				"004": 0,
+				"005": 15,
+				"006": 30
+			},
+			"biology": {
+				"height": {
+					"value": 1.2,
+					"class": "Medium"
+				},
+	            "weight": {
+					"value": 15.8,
+					"class": 2
+				},
+				"male_ratio": 0.875,
+				"egg_group": [
+					"Monster",
+					"Plant"
+				],
+				"diet": [
+					"Phototroph",
+					"Herbivore"
+				],
+				"habitat": [
+					"Forest",
+					"Grassland"
+				]
+			},
+			"skills": {
+				"Overland": 8,
+				"Surface": 2,
+				"Jump": 3,
+				"Power": 2,
+				"Intelligence": 3,
+				"Other": [
+					"Sprouter"
+				]
+			},
+			"moves": {
+				"natural": {
+					"03": "Growl",
+					"06": "Razor Leaf",
+					"09": "Poison Powder",
+					"12": "Synthesis",
+					"18": "Reflect",
+					"22": "Magical Leaf",
+					"26": "Natural Gift",
+					"32": "Sweet Scent",
+					"36": "Light Screen",
+					"40": "Body Slam",
+					"46": "Safeguard",
+					"50": "Aromatherapy",
+					"54": "Solar Beam"
+				},
+				"tutor": [
+					"Frenzy Plant",
+					"Giga Drain",
+					"Grass Pledge",
+					"Iron Tail",
+					"Magic Coat",
+					"Seed Bomb",
+					"Snore",
+					"Synthesis",
+					"Worry Seed"
+				]
+			},
+			"capture_rate": 10,
+			"experience_drop": 30
+		},
+		{
+			"id": 6,
+			"name": "Meganium",
+			"base_stats": {
+				"HP": 8,
+				"ATK": 8,
+				"DEF": 10,
+				"SPA": 8,
+				"SDF": 10,
+				"SPD": 8
+			},
+			"type": [
+				"Grass"
+			],
+			"abilities": {
+				"basic": [
+					"Overgrow",
+					"Chlorophyll",
+					"Sap Sipper"
+				],
+				"high": [
+					"Leaf Guard",
+					"Flower Gift"
+				]
+			},
+			"evolution": {
+				"004": 0,
+				"005": 15,
+				"006": 30
+			},
+			"biology": {
+				"height": {
+					"value": 1.8,
+					"class": "Large"
+				},
+	            "weight": {
+					"value": 100.5,
+					"class": 5
+				},
+				"male_ratio": 0.875,
+				"egg_group": [
+					"Monster",
+					"Plant"
+				],
+				"diet": [
+					"Phototroph",
+					"Herbivore"
+				],
+				"habitat": [
+					"Forest",
+					"Grassland"
+				]
+			},
+			"skills": {
+				"Overland": 9,
+				"Surface": 2,
+				"Jump": 3,
+				"Power": 4,
+				"Intelligence": 4,
+				"Other": [
+					"Sprouter"
+				]
+			},
+			"moves": {
+				"natural": {
+					"E": "Petal Dance",
+					"03": "Growl",
+					"06": "Razor Leaf",
+					"09": "Poison Powder",
+					"12": "Synthesis",
+					"18": "Reflect",
+					"22": "Magical Leaf",
+					"26": "Natural Gift",
+					"32": "Petal Dance",
+					"34": "Sweet Scent",
+					"40": "Light Screen",
+					"46": "Body Slam",
+					"54": "Safeguard",
+					"60": "Aromatherapy",
+					"66": "Solar Beam",
+					"70": "Petal Blizzard"
+				},
+				"tutor": [
+					"Frenzy Plant",
+					"Giga Drain",
+					"Grass Pledge",
+					"Iron Tail",
+					"Magic Coat",
+					"Outrage",
+					"Petal Blizzard",
+					"Petal Dance",
+					"Seed Bomb",
+					"Snore",
+					"Synthesis",
+					"Worry Seed"
+				]
+			},
+			"capture_rate": 5,
+			"experience_drop": 50
+		},
+		{
+			"id": 7,
+			"name": "Treecko",
+			"base_stats": {
+				"HP": 4,
+				"ATK": 5,
+				"DEF": 4,
+				"SPA": 7,
+				"SDF": 6,
+				"SPD": 7
+			},
+			"type": [
+				"Grass"
+			],
+			"abilities": {
+				"basic": [
+					"Overgrow",
+					"Unburden",
+					"Leaf Guard"
+				],
+				"high": [
+					"Marvel Scale"
+				]
+			},
+			"evolution": {
+				"007": 0,
+				"008": 15,
+				"009": 30
+			},
+			"biology": {
+				"height": {
+					"value": 0.5,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 5.0,
+					"class": 1
+				},
+				"male_ratio": 0.875,
+				"egg_group": [
+					"Monster",
+					"Dragon"
+				],
+				"diet": [
+					"Herbivore"
+				],
+				"habitat": [
+					"Rainforest"
+				]
+			},
+			"skills": {
+				"Overland": 8,
+				"Surface": 2,
+				"Jump": 4,
+				"Power": 1,
+				"Intelligence": 3,
+				"Other": [
+					"Sprouter",
+					"Sticky Climber"
+				]
+			},
+			"moves": {
+				"natural": {
+					"01": "Pound",
+					"01": "Leer",
+					"05": "Absorb",
+					"09": "Quick Attack",
+					"13": "Mega Drain",
+					"17": "Pursuit",
+					"21": "Giga Drain",
+					"25": "Agility",
+					"29": "Slam",
+					"33": "Detect",
+					"37": "Energy Ball",
+					"41": "Quick Guard",
+					"45": "Endeavour",
+					"49": "Screech"
+				},
+				"egg": [
+					"Bullet Seed",
+					"Crunch",
+					"Crush Claw",
+					"Double Kick",
+					"Dragon Breath",
+					"Endeavour",
+					"Grass Whistle",
+					"Grassy Terrain",
+					"Leaf Storm",
+					"Leech Seed",
+					"Magical Leaf",
+					"Mud Sport",
+					"Natural Gift",
+					"Razor Wind",
+					"Synthesis",
+					"Worry Seed"
+				],
+				"tutor": [
+					"Drain Punch",
+					"Endeavour",
+					"Focus Punch",
+					"Frenzy Plant",
+					"Giga Drain",
+					"Grass Pledge",
+					"Iron Tail",
+					"Low Kick",
+					"Seed Bomb",
+					"Snore",
+					"Synthesis",
+					"Thunder Punch",
+					"Worry Seed"
+				]
+			},
+			"capture_rate": 20,
+			"experience_drop": 15
+		},
+		{
+			"id": 8,
+			"name": "Grovyle",
+			"base_stats": {
+				"HP": 5,
+				"ATK": 7,
+				"DEF": 5,
+				"SPA": 9,
+				"SDF": 6,
+				"SPD": 7
+			},
+			"type": [
+				"Grass"
+			],
+			"abilities": {
+				"basic": [
+					"Overgrow",
+					"Unburden",
+					"Leaf Guard"
+				],
+				"high": [
+					"Marvel Scale"
+				]
+			},
+			"evolution": {
+				"007": 0,
+				"008": 15,
+				"009": 30
+			},
+			"biology": {
+				"height": {
+					"value": 0.9,
+					"class": "Medium"
+				},
+	            "weight": {
+					"value": 21.6,
+					"class": 2
+				},
+				"male_ratio": 0.875,
+				"egg_group": [
+					"Monster",
+					"Dragon"
+				],
+				"diet": [
+					"Herbivore"
+				],
+				"habitat": [
+					"Rainforest"
+				]
+			},
+			"skills": {
+				"Overland": 8,
+				"Surface": 2,
+				"Jump": 5,
+				"Power": 2,
+				"Intelligence": 3,
+				"Other": [
+					"Sprouter",
+					"Sticky Climber"
+				]
+			},
+			"moves": {
+				"natural": {
+					"E": "Fury Cutter",
+					"05": "Absorb",
+					"09": "Quick Attack",
+					"13": "Mega Drain",
+					"16": "Fury Cutter",
+					"18": "Pursuit",
+					"23": "Leaf Blade",
+					"28": "Agility",
+					"33": "Slam",
+					"38": "Detect",
+					"43": "X-scissor",
+					"48": "False Swipe",
+					"53": "Quick Guard",
+					"58": "Leaf Storm",
+					"63": "Screech"
+				},
+				"tutor": [
+					"Drain Punch",
+					"Endeavour",
+					"Energy Ball",
+					"Focus Punch",
+					"Frenzy Plant",
+					"Giga Drain",
+					"Grass Pledge",
+					"Iron Tail",
+					"Low Kick",
+					"Seed Bomb",
+					"Snore",
+					"Synthesis",
+					"Thunder Punch",
+					"Worry Seed"
+				]
+			},
+			"capture_rate": 10,
+			"experience_drop": 30
+		},
+		{
+			"id": 9,
+			"name": "Sceptile",
+			"base_stats": {
+				"HP": 7,
+				"ATK": 9,
+				"DEF": 7,
+				"SPA": 11,
+				"SDF": 9,
+				"SPD": 12
+			},
+			"type": [
+				"Grass"
+			],
+			"abilities": {
+				"basic": [
+					"Overgrow",
+					"Unburden",
+					"Leaf Guard"
+				],
+				"high": [
+					"Marvel Scale"
+				]
+			},
+			"evolution": {
+				"007": 0,
+				"008": 15,
+				"009": 30
+			},
+			"biology": {
+				"height": {
+					"value": 1.7,
+					"class": "Medium"
+				},
+	            "weight": {
+					"value": 52.2,
+					"class": 4
+				},
+				"male_ratio": 0.875,
+				"egg_group": [
+					"Monster",
+					"Dragon"
+				],
+				"diet": [
+					"Omnivore"
+				],
+				"habitat": [
+					"Rainforest"
+				]
+			},
+			"skills": {
+				"Overland": 10,
+				"Surface": 4,
+				"Jump": 6,
+				"Power": 4,
+				"Intelligence": 4,
+				"Other": [
+					"Sprouter",
+					"Sticky Climber"
+				]
+			},
+			"moves": {
+				"natural": {
+					"E": "Dual Chop",
+					"05": "Absorb",
+					"09": "Quick Attack",
+					"13": "Mega Drain",
+					"16": "Fury Cutter",
+					"18": "Pursuit",
+					"23": "Leaf Blade",
+					"28": "Agility",
+					"33": "Slam",
+					"36": "Dual Chop",
+					"39": "Detect",
+					"45": "X-scissor",
+					"51": "False Swipe",
+					"57": "Quick Guard",
+					"63": "Leaf Storm",
+					"69": "Screech"
+				},
+				"tutor": [
+					"Drain Punch",
+					"Dragon Pulse",
+					"Dual Chop",
+					"Endeavour",
+					"Energy Ball",
+					"Focus Punch",
+					"Frenzy Plant",
+					"Giga Drain",
+					"Grass Pledge",
+					"Iron Tail",
+					"Leaf Storm",
+					"Low Kick",
+					"Night Slash",
+					"Outrage",
+					"Seed Bomb",
+					"Snore",
+					"Synthesis",
+					"Thunder Punch",
+					"Worry Seed"
+				]
+			},
+			"capture_rate": 5,
+			"experience_drop": 50
+		}
+	]
+}

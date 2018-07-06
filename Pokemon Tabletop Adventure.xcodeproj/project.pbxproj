@@ -14,6 +14,7 @@
 		DC3BD4A720A3591F0043B49C /* Pokemon_Tabletop_AdventureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BD4A620A3591F0043B49C /* Pokemon_Tabletop_AdventureTests.swift */; };
 		DC3BD4B220A3591F0043B49C /* Pokemon_Tabletop_AdventureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BD4B120A3591F0043B49C /* Pokemon_Tabletop_AdventureUITests.swift */; };
 		DCDA770A20EF5B9000BC0D55 /* WBBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDA770920EF5B9000BC0D55 /* WBBaseViewController.swift */; };
+		DCDA770D20EF5E3A00BC0D55 /* pokedex.json in Resources */ = {isa = PBXBuildFile; fileRef = DCDA770C20EF5E3A00BC0D55 /* pokedex.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DC3BD4B120A3591F0043B49C /* Pokemon_Tabletop_AdventureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon_Tabletop_AdventureUITests.swift; sourceTree = "<group>"; };
 		DC3BD4B320A3591F0043B49C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCDA770920EF5B9000BC0D55 /* WBBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBBaseViewController.swift; sourceTree = "<group>"; };
+		DCDA770C20EF5E3A00BC0D55 /* pokedex.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pokedex.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 		DCDA770720EF5B5D00BC0D55 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DCDA770B20EF5E3A00BC0D55 /* JSON */,
 				DC3BD49820A3591F0043B49C /* Assets.xcassets */,
 				DC3BD49A20A3591F0043B49C /* LaunchScreen.storyboard */,
 				DC3BD49D20A3591F0043B49C /* Info.plist */,
@@ -139,6 +142,14 @@
 				DCDA770920EF5B9000BC0D55 /* WBBaseViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		DCDA770B20EF5E3A00BC0D55 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				DCDA770C20EF5E3A00BC0D55 /* pokedex.json */,
+			);
+			path = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCDA770D20EF5E3A00BC0D55 /* pokedex.json in Resources */,
 				DC3BD49C20A3591F0043B49C /* LaunchScreen.storyboard in Resources */,
 				DC3BD49920A3591F0043B49C /* Assets.xcassets in Resources */,
 			);
