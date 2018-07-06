@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC3BD48F20A3591D0043B49C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BD48E20A3591D0043B49C /* AppDelegate.swift */; };
-		DC3BD49120A3591D0043B49C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BD49020A3591D0043B49C /* ViewController.swift */; };
-		DC3BD49420A3591D0043B49C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3BD49220A3591D0043B49C /* Main.storyboard */; };
+		DC3BD48F20A3591D0043B49C /* WBAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BD48E20A3591D0043B49C /* WBAppDelegate.swift */; };
 		DC3BD49720A3591D0043B49C /* Pokemon_Tabletop_Adventure.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC3BD49520A3591D0043B49C /* Pokemon_Tabletop_Adventure.xcdatamodeld */; };
 		DC3BD49920A3591F0043B49C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3BD49820A3591F0043B49C /* Assets.xcassets */; };
 		DC3BD49C20A3591F0043B49C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3BD49A20A3591F0043B49C /* LaunchScreen.storyboard */; };
 		DC3BD4A720A3591F0043B49C /* Pokemon_Tabletop_AdventureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BD4A620A3591F0043B49C /* Pokemon_Tabletop_AdventureTests.swift */; };
 		DC3BD4B220A3591F0043B49C /* Pokemon_Tabletop_AdventureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BD4B120A3591F0043B49C /* Pokemon_Tabletop_AdventureUITests.swift */; };
+		DCDA770A20EF5B9000BC0D55 /* WBBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDA770920EF5B9000BC0D55 /* WBBaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +35,7 @@
 
 /* Begin PBXFileReference section */
 		DC3BD48B20A3591D0043B49C /* Pokemon Tabletop Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokemon Tabletop Adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC3BD48E20A3591D0043B49C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC3BD49020A3591D0043B49C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DC3BD49320A3591D0043B49C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC3BD48E20A3591D0043B49C /* WBAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBAppDelegate.swift; sourceTree = "<group>"; };
 		DC3BD49620A3591D0043B49C /* Pokemon_Tabletop_Adventure.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pokemon_Tabletop_Adventure.xcdatamodel; sourceTree = "<group>"; };
 		DC3BD49820A3591F0043B49C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC3BD49B20A3591F0043B49C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +46,7 @@
 		DC3BD4AD20A3591F0043B49C /* Pokemon Tabletop AdventureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pokemon Tabletop AdventureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3BD4B120A3591F0043B49C /* Pokemon_Tabletop_AdventureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon_Tabletop_AdventureUITests.swift; sourceTree = "<group>"; };
 		DC3BD4B320A3591F0043B49C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCDA770920EF5B9000BC0D55 /* WBBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBBaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +97,9 @@
 		DC3BD48D20A3591D0043B49C /* Pokemon Tabletop Adventure */ = {
 			isa = PBXGroup;
 			children = (
-				DC3BD48E20A3591D0043B49C /* AppDelegate.swift */,
-				DC3BD49020A3591D0043B49C /* ViewController.swift */,
-				DC3BD49220A3591D0043B49C /* Main.storyboard */,
-				DC3BD49820A3591F0043B49C /* Assets.xcassets */,
-				DC3BD49A20A3591F0043B49C /* LaunchScreen.storyboard */,
-				DC3BD49D20A3591F0043B49C /* Info.plist */,
-				DC3BD49520A3591D0043B49C /* Pokemon_Tabletop_Adventure.xcdatamodeld */,
+				DC3BD48E20A3591D0043B49C /* WBAppDelegate.swift */,
+				DCDA770820EF5B6800BC0D55 /* View Controllers */,
+				DCDA770720EF5B5D00BC0D55 /* Supporting Files */,
 			);
 			path = "Pokemon Tabletop Adventure";
 			sourceTree = "<group>";
@@ -126,6 +120,25 @@
 				DC3BD4B320A3591F0043B49C /* Info.plist */,
 			);
 			path = "Pokemon Tabletop AdventureUITests";
+			sourceTree = "<group>";
+		};
+		DCDA770720EF5B5D00BC0D55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC3BD49820A3591F0043B49C /* Assets.xcassets */,
+				DC3BD49A20A3591F0043B49C /* LaunchScreen.storyboard */,
+				DC3BD49D20A3591F0043B49C /* Info.plist */,
+				DC3BD49520A3591D0043B49C /* Pokemon_Tabletop_Adventure.xcdatamodeld */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCDA770820EF5B6800BC0D55 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DCDA770920EF5B9000BC0D55 /* WBBaseViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +203,7 @@
 		DC3BD48320A3591D0043B49C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WB;
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = WeatherBear;
@@ -234,7 +248,6 @@
 			files = (
 				DC3BD49C20A3591F0043B49C /* LaunchScreen.storyboard in Resources */,
 				DC3BD49920A3591F0043B49C /* Assets.xcassets in Resources */,
-				DC3BD49420A3591D0043B49C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +273,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC3BD49720A3591D0043B49C /* Pokemon_Tabletop_Adventure.xcdatamodeld in Sources */,
-				DC3BD49120A3591D0043B49C /* ViewController.swift in Sources */,
-				DC3BD48F20A3591D0043B49C /* AppDelegate.swift in Sources */,
+				DCDA770A20EF5B9000BC0D55 /* WBBaseViewController.swift in Sources */,
+				DC3BD48F20A3591D0043B49C /* WBAppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +310,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DC3BD49220A3591D0043B49C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DC3BD49320A3591D0043B49C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DC3BD49A20A3591F0043B49C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -434,14 +439,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Pokemon Tabletop Adventure/Info.plist";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Pokemon Tabletop Adventure/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.weatherbear.Pokemon-Tabletop-Adventure";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,14 +459,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Pokemon Tabletop Adventure/Info.plist";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Pokemon Tabletop Adventure/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.weatherbear.Pokemon-Tabletop-Adventure";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

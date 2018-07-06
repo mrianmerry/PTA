@@ -1,5 +1,5 @@
 //
-//  AppDelegate.swift
+//  WBAppDelegate.swift
 //  Pokemon Tabletop Adventure
 //
 //  Created by Ian Merry on 09/05/2018.
@@ -17,6 +17,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        window = UIWindow.init(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        
+        let initialView = WBBaseViewController()
+        let rootNav = UINavigationController(rootViewController: initialView)
+        
+        window?.rootViewController = rootNav
+        
         return true
     }
 
