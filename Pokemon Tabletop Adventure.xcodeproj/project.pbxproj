@@ -11,6 +11,8 @@
 		DC3BD49720A3591D0043B49C /* Pokemon_Tabletop_Adventure.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC3BD49520A3591D0043B49C /* Pokemon_Tabletop_Adventure.xcdatamodeld */; };
 		DC3BD49920A3591F0043B49C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3BD49820A3591F0043B49C /* Assets.xcassets */; };
 		DC3BD49C20A3591F0043B49C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3BD49A20A3591F0043B49C /* LaunchScreen.storyboard */; };
+		DCB170A220F2600B00BAA64D /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB170A120F2600B00BAA64D /* SnapKit.framework */; };
+		DCB170A620F2AF8600BAA64D /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB170A520F2AF8600BAA64D /* Pokemon.swift */; };
 		DCDA770A20EF5B9000BC0D55 /* WBBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDA770920EF5B9000BC0D55 /* WBBaseViewController.swift */; };
 		DCDA770D20EF5E3A00BC0D55 /* pokedex.json in Resources */ = {isa = PBXBuildFile; fileRef = DCDA770C20EF5E3A00BC0D55 /* pokedex.json */; };
 		DCDA771220EF5EC300BC0D55 /* WBBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDA771120EF5EC300BC0D55 /* WBBaseViewController.swift */; };
@@ -44,6 +46,8 @@
 		DC3BD4A820A3591F0043B49C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC3BD4AD20A3591F0043B49C /* Pokemon Tabletop AdventureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pokemon Tabletop AdventureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3BD4B320A3591F0043B49C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCB170A120F2600B00BAA64D /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = SOURCE_ROOT; };
+		DCB170A520F2AF8600BAA64D /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		DCDA770920EF5B9000BC0D55 /* WBBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBBaseViewController.swift; sourceTree = "<group>"; };
 		DCDA770C20EF5E3A00BC0D55 /* pokedex.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pokedex.json; sourceTree = "<group>"; };
 		DCDA771120EF5EC300BC0D55 /* WBBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBBaseViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCB170A220F2600B00BAA64D /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				DC3BD48E20A3591D0043B49C /* WBAppDelegate.swift */,
+				DCB170A420F2AF7000BAA64D /* Data Models */,
 				DCDA770820EF5B6800BC0D55 /* View Controllers */,
+				DCB170A020F25FF400BAA64D /* Frameworks */,
 				DCDA770720EF5B5D00BC0D55 /* Supporting Files */,
 			);
 			path = "Pokemon Tabletop Adventure";
@@ -119,6 +126,22 @@
 				DCDA770F20EF5E8300BC0D55 /* Supporting Files */,
 			);
 			path = "Pokemon Tabletop AdventureUITests";
+			sourceTree = "<group>";
+		};
+		DCB170A020F25FF400BAA64D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCB170A120F2600B00BAA64D /* SnapKit.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCB170A420F2AF7000BAA64D /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				DCB170A520F2AF8600BAA64D /* Pokemon.swift */,
+			);
+			path = "Data Models";
 			sourceTree = "<group>";
 		};
 		DCDA770720EF5B5D00BC0D55 /* Supporting Files */ = {
@@ -183,6 +206,7 @@
 				DC3BD48720A3591D0043B49C /* Sources */,
 				DC3BD48820A3591D0043B49C /* Frameworks */,
 				DC3BD48920A3591D0043B49C /* Resources */,
+				DCB170A320F2622500BAA64D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -300,12 +324,30 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DCB170A320F2622500BAA64D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DC3BD48720A3591D0043B49C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DC3BD49720A3591D0043B49C /* Pokemon_Tabletop_Adventure.xcdatamodeld in Sources */,
+				DCB170A620F2AF8600BAA64D /* Pokemon.swift in Sources */,
 				DCDA770A20EF5B9000BC0D55 /* WBBaseViewController.swift in Sources */,
 				DC3BD48F20A3591D0043B49C /* WBAppDelegate.swift in Sources */,
 			);
@@ -473,6 +515,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Pokemon Tabletop Adventure/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -493,6 +539,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Pokemon Tabletop Adventure/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
