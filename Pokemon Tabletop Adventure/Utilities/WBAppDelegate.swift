@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow.init(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         
-        let initialView = WBBaseViewController()
+        let initialView = WBRandomPoke_monViewController(with: WBRandomPokémonViewModel())
         let rootNav = UINavigationController(rootViewController: initialView)
         
         window?.rootViewController = rootNav

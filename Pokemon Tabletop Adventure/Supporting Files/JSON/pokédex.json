@@ -1,5 +1,5 @@
 {
-	"pokemon": [
+	"pokémon": [
 		{
 			"id": 1,
 			"name": "Bulbasaur",
@@ -395,7 +395,7 @@
 					"Grassy Terrain",
 					"Heal Pulse",
 					"Ingrain",
-					"Leaf Storm"
+					"Leaf Storm",
 					"Leech Seed",
 					"Nature Power",
 					"Refresh",
@@ -673,7 +673,7 @@
 			},
 			"moves": {
 				"natural": {
-					"01": "Pound",
+					"00": "Pound",
 					"01": "Leer",
 					"05": "Absorb",
 					"09": "Quick Attack",

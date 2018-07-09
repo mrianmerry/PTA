@@ -1,5 +1,5 @@
 //
-//  Pokemon.swift
+//  WBPokémon.swift
 //  Pokemon Tabletop Adventure
 //
 //  Created by Ian Merry on 08/07/2018.
@@ -8,17 +8,21 @@
 
 import Foundation
 
-struct Pokemon: Codable {
+struct Pokédex: Codable {
+    let pokémon: [Pokémon]
+}
+
+struct Pokémon: Codable {
     let dexNumber: Int
     let name: String
     let stats: StatArray
     let type: [PokeType]
-    let abilities: [AbilityType: [String]] // TODO: Change [String] to [PokeAbility] once written
+    let abilities: PokeAbilities
     let evolution: [String: Int]
     let biology: PokeBiology
     
     private enum CodingKeys: String, CodingKey {
-        case dexNumber
+        case dexNumber = "id"
         case name
         case stats = "base_stats"
         case type
@@ -37,29 +41,55 @@ struct StatArray: Codable {
     let SPD: Int
 }
 
+struct PokeAbilities: Codable {
+    // TODO: Change String to Ability once written
+    let basic: [String]
+    let high: [String]
+}
+
 struct PokeBiology: Codable {
     let height: PokeHeight
     let weight: PokeWeight
     let maleRatio: Double
     let eggGroup: [EggGroup]
-    let hatchRate: Int
+    let hatchRate: Int?
     let diet: [DietType]
     let habitat: [Environment]
+    
+    private enum CodingKeys: String, CodingKey {
+        case height
+        case weight
+        case maleRatio = "male_ratio"
+        case eggGroup = "egg_group"
+        case hatchRate = "hatch_rate"
+        case diet
+        case habitat
+    }
 }
 
 struct PokeHeight: Codable {
     let value: Double
     let sizeClass: SizeClass
+    
+    private enum CodingKeys: String, CodingKey {
+        case value
+        case sizeClass = "class"
+    }
 }
 
 struct PokeWeight: Codable {
     let value: Double
     let weightClass: Int
+    
+    private enum CodingKeys: String, CodingKey {
+        case value
+        case weightClass = "class"
+    }
 }
 
 enum PokeType: String, Codable {
-    case grass
-    case poison
+    case Grass
+    case Poison
 }
 
 enum AbilityType: String, Codable {
@@ -68,25 +98,26 @@ enum AbilityType: String, Codable {
 }
 
 enum SizeClass: String, Codable {
-    case small
-    case medium
-    case large
+    case Small
+    case Medium
+    case Large
 }
 
 enum EggGroup: String, Codable {
-    case monster
-    case plant
+    case Dragon
+    case Monster
+    case Plant
 }
 
 enum DietType: String, Codable {
-    case carnivore
-    case herbivore
-    case omnivore
-    case phototroph
+    case Carnivore
+    case Herbivore
+    case Omnivore
+    case Phototroph
 }
 
 enum Environment: String, Codable {
-    case forest
-    case grassland
-    case rainforest
+    case Forest
+    case Grassland
+    case Rainforest
 }

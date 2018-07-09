@@ -7,14 +7,17 @@
 //
 
 import UIKit
-import SnapKit
 
 class WBBaseViewController: UIViewController {
     
-    let temporaryButton: UIButton
+    let viewModel: WBBaseViewModel
     
-    init() {
-        temporaryButton = UIButton(type: .roundedRect)
+    convenience init() {
+        self.init(with: WBBaseViewModel())
+    }
+    
+    init(with viewModel: WBBaseViewModel) {
+        self.viewModel = viewModel
         
         super.init(nibName: nil, bundle: nil)
     }
@@ -26,8 +29,6 @@ class WBBaseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let randomPokemon = UIBarButtonItem(title: "Show Random Pokémon", style: .plain, target: self, action: #selector(showRandomPokemon))
-        navigationItem.rightBarButtonItem = randomPokemon
         setupViews()
     }
 
@@ -36,34 +37,7 @@ class WBBaseViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @objc private func showRandomPokemon() {
-        // JSON currently only has 9 pokemon detailed, so we limit our random to 9
-        let pokedexScore: Int = 9
-        
-        let chosen = Int(arc4random_uniform(UInt32(pokedexScore)))
-        
-        print("Choosing pokémon #\(chosen + 1)")
-    }
-    
-    private func setupViews() {
-        navigationItem.title = "Base View Controller"
+    func setupViews() {
         view.backgroundColor = .white
-        
-        setupButtons()
-    }
-    
-    private func setupButtons() {
-        temporaryButton.setTitle("Random Pokémon", for: .normal)
-        
-        prepare(temporaryButton, forDisplayIn:view)
-    }
-    
-    private func prepare(_ button: UIButton, forDisplayIn superview: UIView) {
-        superview.addSubview(button)
-        button.snp.makeConstraints { make in
-            make.height.equalTo(50)
-            make.top.equalToSuperview().inset(100)
-            make.left.right.equalToSuperview().inset(100)
-        }
     }
 }
