@@ -21,10 +21,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow.init(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         
-        let initialView = WBRandomPoke_monViewController(with: WBRandomPokémonViewModel())
-        let rootNav = UINavigationController(rootViewController: initialView)
         
-        window?.rootViewController = rootNav
+        // Standalone Randomiser View
+//        let initialView = WBRandomPokémonViewController(with: WBRandomPokémonViewModel())
+//        let rootViewController = UINavigationController(rootViewController: initialView)
+        
+        // Application Tab Bar
+        let rootViewController = WBTabBarController()
+        window?.rootViewController = rootViewController
         
         return true
     }

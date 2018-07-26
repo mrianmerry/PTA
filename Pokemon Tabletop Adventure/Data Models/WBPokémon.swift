@@ -20,7 +20,18 @@ struct Pokémon: Codable {
     let abilities: PokeAbilities
     let evolution: [String: Int]
     let biology: PokeBiology
-    
+    func basicDescription() -> String {
+        return """
+        Pokémon: \(name)
+        Stats:
+             HP: \(stats.HP)
+            ATK: \(stats.ATK)
+            DEF: \(stats.DEF)
+            SPA: \(stats.SPA)
+            SDF: \(stats.SDF)
+            SPD: \(stats.SPD)
+        """
+    }
     private enum CodingKeys: String, CodingKey {
         case dexNumber = "id"
         case name
@@ -30,6 +41,12 @@ struct Pokémon: Codable {
         case evolution
         case biology
     }
+}
+
+extension Pokémon: Equatable {}
+func ==(lhs: Pokémon, rhs: Pokémon) -> Bool {
+    let areEqual = lhs.dexNumber == rhs.dexNumber
+    return areEqual
 }
 
 struct StatArray: Codable {

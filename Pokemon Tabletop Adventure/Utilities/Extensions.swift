@@ -8,9 +8,28 @@
 
 import Foundation
 
-extension Array {
-    var random: Element {
-        let randomIndex = arc4random_uniform(UInt32(self.count))
-        return self[Int(randomIndex)]
+public extension Optional {
+    public var exists: Bool {
+        return self != nil
     }
+}
+
+public extension Array where Element: Equatable {
+    public func random(avoiding element: Element? = nil) -> Element {
+        guard let element = element,
+            let index = index(of: element) else { return trueRandom }
+        
+        var randomIndex = index
+        while (randomIndex == index) {
+            randomIndex = Int(arc4random_uniform(UInt32(count)))
+        }
+        
+        return self[randomIndex]
+    }
+    
+    public var trueRandom: Element {
+        let randomIndex = Int(arc4random_uniform(UInt32(count)))
+        return self[randomIndex]
+    }
+    
 }

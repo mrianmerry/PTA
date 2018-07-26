@@ -30,7 +30,6 @@ class WBJSON {
         }
     }
     
-    
     private static func getJSON(from filename: String) -> Data? {
         if let url = Bundle.main.url(forResource: filename, withExtension: "json") {
             do {

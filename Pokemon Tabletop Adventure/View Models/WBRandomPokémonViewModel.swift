@@ -10,12 +10,15 @@ import Foundation
 
 class WBRandomPokémonViewModel: WBBaseViewModel {
     private var pokémon = [Pokémon]()
+    private var current: Pokémon?
     
     override init() {
         pokémon = WBJSON.pokémon()
     }
     
-    func getRandomPokémon() -> Pokémon? {
-        return pokémon.random
+    func getRandomPokémon() -> Pokémon {
+        let random = pokémon.random(avoiding: current)
+        current = random
+        return random
     }
 }

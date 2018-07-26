@@ -10,15 +10,11 @@ import UIKit
 
 class WBBaseViewController: UIViewController {
     
-    let viewModel: WBBaseViewModel
-    
     convenience init() {
         self.init(with: WBBaseViewModel())
     }
     
     init(with viewModel: WBBaseViewModel) {
-        self.viewModel = viewModel
-        
         super.init(nibName: nil, bundle: nil)
     }
     

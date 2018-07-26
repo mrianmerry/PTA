@@ -11,6 +11,13 @@
 		DC3BD49720A3591D0043B49C /* Pokemon_Tabletop_Adventure.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC3BD49520A3591D0043B49C /* Pokemon_Tabletop_Adventure.xcdatamodeld */; };
 		DC3BD49920A3591F0043B49C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3BD49820A3591F0043B49C /* Assets.xcassets */; };
 		DC3BD49C20A3591F0043B49C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3BD49A20A3591F0043B49C /* LaunchScreen.storyboard */; };
+		DC60F27620F3C33E00DF1C98 /* WBTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC60F27520F3C33E00DF1C98 /* WBTabBarController.swift */; };
+		DC9E1DC520FFBDB2006D6B97 /* WBTrainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9E1DC420FFBDB2006D6B97 /* WBTrainerViewController.swift */; };
+		DC9E1DC720FFCE11006D6B97 /* WBTrainerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9E1DC620FFCE11006D6B97 /* WBTrainerViewModel.swift */; };
+		DC9E1DCC20FFD62A006D6B97 /* WBRandomPokémonViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9E1DCB20FFD62A006D6B97 /* WBRandomPokémonViewControllerTests.swift */; };
+		DC9E1DCF20FFD65E006D6B97 /* WBArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9E1DCE20FFD65E006D6B97 /* WBArrayTests.swift */; };
+		DC9E1DD020FFD96D006D6B97 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB170B220F3529700BAA64D /* Extensions.swift */; };
+		DCAB27C8210A7EDB00B8EFC7 /* WBOptionalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB27C7210A7EDB00B8EFC7 /* WBOptionalTests.swift */; };
 		DCB170A220F2600B00BAA64D /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB170A120F2600B00BAA64D /* SnapKit.framework */; };
 		DCB170A620F2AF8600BAA64D /* WBPokémon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB170A520F2AF8600BAA64D /* WBPokémon.swift */; };
 		DCB170A920F2B4A400BAA64D /* WBJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB170A820F2B4A400BAA64D /* WBJSON.swift */; };
@@ -20,7 +27,6 @@
 		DCB170B320F3529700BAA64D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB170B220F3529700BAA64D /* Extensions.swift */; };
 		DCDA770A20EF5B9000BC0D55 /* WBBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDA770920EF5B9000BC0D55 /* WBBaseViewController.swift */; };
 		DCDA770D20EF5E3A00BC0D55 /* pokédex.json in Resources */ = {isa = PBXBuildFile; fileRef = DCDA770C20EF5E3A00BC0D55 /* pokédex.json */; };
-		DCDA771220EF5EC300BC0D55 /* WBBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDA771120EF5EC300BC0D55 /* WBBaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		DC3BD4A820A3591F0043B49C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC3BD4AD20A3591F0043B49C /* Pokemon Tabletop AdventureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pokemon Tabletop AdventureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3BD4B320A3591F0043B49C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC60F27520F3C33E00DF1C98 /* WBTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBTabBarController.swift; sourceTree = "<group>"; };
+		DC9E1DC420FFBDB2006D6B97 /* WBTrainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBTrainerViewController.swift; sourceTree = "<group>"; };
+		DC9E1DC620FFCE11006D6B97 /* WBTrainerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBTrainerViewModel.swift; sourceTree = "<group>"; };
+		DC9E1DCB20FFD62A006D6B97 /* WBRandomPokémonViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WBRandomPokémonViewControllerTests.swift"; sourceTree = "<group>"; };
+		DC9E1DCE20FFD65E006D6B97 /* WBArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBArrayTests.swift; sourceTree = "<group>"; };
+		DCAB27C7210A7EDB00B8EFC7 /* WBOptionalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBOptionalTests.swift; sourceTree = "<group>"; };
 		DCB170A120F2600B00BAA64D /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = SOURCE_ROOT; };
 		DCB170A520F2AF8600BAA64D /* WBPokémon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WBPokémon.swift"; sourceTree = "<group>"; };
 		DCB170A820F2B4A400BAA64D /* WBJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBJSON.swift; sourceTree = "<group>"; };
@@ -60,7 +72,6 @@
 		DCB170B220F3529700BAA64D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		DCDA770920EF5B9000BC0D55 /* WBBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBBaseViewController.swift; sourceTree = "<group>"; };
 		DCDA770C20EF5E3A00BC0D55 /* pokédex.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokédex.json"; sourceTree = "<group>"; };
-		DCDA771120EF5EC300BC0D55 /* WBBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBBaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +136,7 @@
 		DC3BD4A520A3591F0043B49C /* Pokemon Tabletop AdventureTests */ = {
 			isa = PBXGroup;
 			children = (
+				DC9E1DC820FFD5CD006D6B97 /* Utilities */,
 				DCDA771020EF5E8C00BC0D55 /* View Controllers */,
 				DCDA770E20EF5E7900BC0D55 /* Supporting Files */,
 			);
@@ -137,6 +149,23 @@
 				DCDA770F20EF5E8300BC0D55 /* Supporting Files */,
 			);
 			path = "Pokemon Tabletop AdventureUITests";
+			sourceTree = "<group>";
+		};
+		DC9E1DC820FFD5CD006D6B97 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DC9E1DCD20FFD648006D6B97 /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DC9E1DCD20FFD648006D6B97 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DC9E1DCE20FFD65E006D6B97 /* WBArrayTests.swift */,
+				DCAB27C7210A7EDB00B8EFC7 /* WBOptionalTests.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		DCB170A020F25FF400BAA64D /* Frameworks */ = {
@@ -170,6 +199,7 @@
 			children = (
 				DCB170B020F34EFD00BAA64D /* WBBaseViewModel.swift */,
 				DCB170AC20F34E5500BAA64D /* WBRandomPokémonViewModel.swift */,
+				DC9E1DC620FFCE11006D6B97 /* WBTrainerViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -191,6 +221,8 @@
 			children = (
 				DCDA770920EF5B9000BC0D55 /* WBBaseViewController.swift */,
 				DCB170AE20F34E7F00BAA64D /* WBRandomPokémonViewController.swift */,
+				DC60F27520F3C33E00DF1C98 /* WBTabBarController.swift */,
+				DC9E1DC420FFBDB2006D6B97 /* WBTrainerViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -222,7 +254,7 @@
 		DCDA771020EF5E8C00BC0D55 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				DCDA771120EF5EC300BC0D55 /* WBBaseViewController.swift */,
+				DC9E1DCB20FFD62A006D6B97 /* WBRandomPokémonViewControllerTests.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -381,10 +413,13 @@
 				DCB170B320F3529700BAA64D /* Extensions.swift in Sources */,
 				DCB170AF20F34E7F00BAA64D /* WBRandomPokémonViewController.swift in Sources */,
 				DCB170AD20F34E5500BAA64D /* WBRandomPokémonViewModel.swift in Sources */,
+				DC9E1DC520FFBDB2006D6B97 /* WBTrainerViewController.swift in Sources */,
+				DC9E1DC720FFCE11006D6B97 /* WBTrainerViewModel.swift in Sources */,
 				DC3BD49720A3591D0043B49C /* Pokemon_Tabletop_Adventure.xcdatamodeld in Sources */,
 				DCB170A920F2B4A400BAA64D /* WBJSON.swift in Sources */,
 				DCB170A620F2AF8600BAA64D /* WBPokémon.swift in Sources */,
 				DCDA770A20EF5B9000BC0D55 /* WBBaseViewController.swift in Sources */,
+				DC60F27620F3C33E00DF1C98 /* WBTabBarController.swift in Sources */,
 				DC3BD48F20A3591D0043B49C /* WBAppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,7 +428,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCDA771220EF5EC300BC0D55 /* WBBaseViewController.swift in Sources */,
+				DC9E1DCF20FFD65E006D6B97 /* WBArrayTests.swift in Sources */,
+				DC9E1DD020FFD96D006D6B97 /* Extensions.swift in Sources */,
+				DCAB27C8210A7EDB00B8EFC7 /* WBOptionalTests.swift in Sources */,
+				DC9E1DCC20FFD62A006D6B97 /* WBRandomPokémonViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,7 +637,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Pokemon Tabletop AdventureTests/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Pokemon Tabletop AdventureTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -619,7 +657,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Pokemon Tabletop AdventureTests/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Pokemon Tabletop AdventureTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -638,7 +676,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Pokemon Tabletop AdventureUITests/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Pokemon Tabletop AdventureUITests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -657,7 +695,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Pokemon Tabletop AdventureUITests/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Pokemon Tabletop AdventureUITests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
