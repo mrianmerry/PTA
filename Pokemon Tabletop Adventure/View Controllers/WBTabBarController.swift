@@ -10,15 +10,10 @@ import UIKit
 
 class WBTabBarController: UITabBarController {
 
-//    let randomiser: WBRandomPokémonViewController
-    
     convenience init() {
         let randomiser = WBRandomPokémonViewController(with: WBRandomPokémonViewModel())
-        // TODO: Fix Icon size being WAAAAY too large
-        let unselected = UIImage(named: "tabbar-items/pokeball-unselected")
-        let selected = UIImage(named: "tabbar-items/pokeball-selected")
-        
-        let tabBarItem = UITabBarItem(title: nil, image: unselected, selectedImage: selected)
+        let icon = UIImage(named: "tabbar-items/pokeball-unselected")
+        let tabBarItem = UITabBarItem(title: "Randomiser", image: icon, selectedImage: icon)
         randomiser.tabBarItem = tabBarItem
         
         let blankVC = UIViewController()

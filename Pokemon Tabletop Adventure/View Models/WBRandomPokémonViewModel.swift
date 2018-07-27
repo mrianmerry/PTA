@@ -12,12 +12,18 @@ class WBRandomPokémonViewModel: WBBaseViewModel {
     private var pokémon = [Pokémon]()
     private var current: Pokémon?
     
+    var describeCurrentPokémon: String {
+        let pokémon = current ?? getRandomPokémon()
+        return pokémon.basicDescription()
+    }
+    
     override init() {
         pokémon = WBJSON.pokémon()
     }
     
     func getRandomPokémon() -> Pokémon {
         let random = pokémon.random(avoiding: current)
+        print("Choosing pokémon #\(random.dexNumber) - \(random.name)")
         current = random
         return random
     }

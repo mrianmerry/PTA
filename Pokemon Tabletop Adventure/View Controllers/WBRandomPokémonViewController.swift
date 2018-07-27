@@ -32,7 +32,7 @@ class WBRandomPokémonViewController: WBBaseViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        showRandomPokémon()
+        descriptionLabel.text = randomViewModel.describeCurrentPokémon
     }
     
     override func setupViews() {
@@ -62,7 +62,5 @@ class WBRandomPokémonViewController: WBBaseViewController {
     @objc private func showRandomPokémon() {
         let chosenPokémon: Pokémon = randomViewModel.getRandomPokémon()
         descriptionLabel.text = chosenPokémon.basicDescription()
-        
-        print("Choosing pokémon #\(chosenPokémon.dexNumber) - \(chosenPokémon.name)")
     }
 }

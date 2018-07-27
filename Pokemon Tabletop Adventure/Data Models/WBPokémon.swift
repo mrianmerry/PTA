@@ -12,7 +12,7 @@ struct Pokédex: Codable {
     let pokémon: [Pokémon]
 }
 
-struct Pokémon: Codable {
+struct Pokémon: Codable, Equatable {
     let dexNumber: Int
     let name: String
     let stats: StatArray
@@ -20,6 +20,7 @@ struct Pokémon: Codable {
     let abilities: PokeAbilities
     let evolution: [String: Int]
     let biology: PokeBiology
+    
     func basicDescription() -> String {
         return """
         Pokémon: \(name)
@@ -32,6 +33,12 @@ struct Pokémon: Codable {
             SPD: \(stats.SPD)
         """
     }
+    
+    static func ==(lhs: Pokémon, rhs: Pokémon) -> Bool {
+        let areEqual = lhs.dexNumber == rhs.dexNumber
+        return areEqual
+    }
+    
     private enum CodingKeys: String, CodingKey {
         case dexNumber = "id"
         case name
@@ -41,12 +48,6 @@ struct Pokémon: Codable {
         case evolution
         case biology
     }
-}
-
-extension Pokémon: Equatable {}
-func ==(lhs: Pokémon, rhs: Pokémon) -> Bool {
-    let areEqual = lhs.dexNumber == rhs.dexNumber
-    return areEqual
 }
 
 struct StatArray: Codable {
