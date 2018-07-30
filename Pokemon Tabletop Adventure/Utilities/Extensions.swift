@@ -20,7 +20,7 @@ public extension Array where Element: Equatable {
             let index = index(of: element) else { return trueRandom }
         
         var randomIndex = index
-        while (randomIndex == index) {
+        while randomIndex == index {
             randomIndex = Int(arc4random_uniform(UInt32(count)))
         }
         
