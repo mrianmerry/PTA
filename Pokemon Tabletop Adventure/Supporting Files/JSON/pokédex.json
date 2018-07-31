@@ -928,6 +928,215 @@
 			},
 			"capture_rate": 5,
 			"experience_drop": 50
+		},
+		{
+			"id": 10,
+			"name": "Turtwig",
+	        "base_stats": {
+	            "HP": 6,
+	            "ATK": 7,
+	            "DEF": 6,
+	            "SPA": 7,
+	            "SDF": 6,
+	            "SPD": 3
+	        },
+	        "type": [
+	            "Grass"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Overgrow",
+	                "Inner Focus",
+	                "Leaf Guard"
+	            ],
+	            "high": [
+	                "Shell Armour"
+	            ]
+	        },
+	        "evolution": {
+	            "001": 0,
+	            "002": 15,
+	            "003": 30
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.4,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 10.2,
+					"class": 1
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+	                "Monster",
+	                "Plant"
+	            ],
+	            "hatch_rate": 10,
+	            "diet": [
+	                "Herbivore",
+	                "Phototroph"
+	            ],
+	            "habitat": [
+	                "Forest",
+	                "Marsh",
+	                "Rainforest"
+	            ]
+	        },
+	        "skills": {
+	            "Overland": 4,
+	            "Surface": 2,
+				"Burrow": 4,
+	            "Jump": 3,
+	            "Power": 1,
+	            "Intelligence": 3,
+	            "Other": [
+	                "Sprouter"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+	                "01": "Tackle",
+	                "05": "Withdraw",
+	                "09": "Absorb",
+	                "13": "Razor Leaf",
+	                "17": "Curse",
+	                "21": "Bite",
+	                "25": "Mega Drain",
+	                "29": "Leech Seed",
+	                "33": "Synthesis",
+	                "37": "Crunch",
+	                "41": "Giga Drain",
+	                "45": "Leaf Storm"
+	            },
+	            "egg": [
+	                "Amnesia",
+	                "Body Slam",
+	                "Double-Edge",
+	                "Earth Power",
+	                "Grassy Terrain",
+	                "Growth",
+	                "Sand Tomb",
+					"Seed Bomb",
+					"Spit Up",
+					"Stockpile",
+					"Superpower",
+					"Swallow",
+					"Thrash",
+					"Tickle",
+					"Wide Guard",
+					"Worry Seed"
+	            ],
+				"tutor": [
+					"Earth Power",
+					"Frenzy Plant",
+					"Giga Drain",
+					"Grass Pledge",
+					"Iron Tail",
+					"Seed Bomb",
+					"Stealth Rock",
+					"Superpower",
+					"Synthesis",
+					"Worry Seed"
+				]
+	        },
+			"capture_rate": 20,
+			"experience_drop": 15
+		},
+		{
+			"id": 11,
+			"name": "Grotle",
+	        "base_stats": {
+	            "HP": 8,
+	            "ATK": 9,
+	            "DEF": 9,
+	            "SPA": 6,
+	            "SDF": 7,
+	            "SPD": 4
+	        },
+	        "type": [
+	            "Grass"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Overgrow",
+	                "Inner Focus",
+	                "Leaf Guard"
+	            ],
+	            "high": [
+	                "Shell Armour"
+	            ]
+	        },
+	        "evolution": {
+	            "001": 0,
+	            "002": 15,
+	            "003": 30
+	        },
+	        "biology": {
+				"height": {
+					"value": 1.1,
+					"class": "Medium"
+				},
+	            "weight": {
+					"value": 97,
+					"class": 4
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+	                "Monster",
+	                "Plant"
+	            ],
+	            "hatch_rate": 10,
+	            "diet": [
+	                "Herbivore",
+	                "Phototroph"
+	            ],
+	            "habitat": [
+	                "Forest",
+	                "Marsh",
+	                "Rainforest"
+	            ]
+	        },
+	        "skills": {
+	            "Overland": 5,
+	            "Jump": 1,
+	            "Power": 2,
+	            "Intelligence": 3,
+	            "Other": [
+					"Sinker",
+	                "Sprouter"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+	                "05": "Withdraw",
+	                "09": "Absorb",
+	                "13": "Razor Leaf",
+	                "17": "Curse",
+	                "22": "Bite",
+	                "27": "Mega Drain",
+	                "32": "Leech Seed",
+	                "37": "Synthesis",
+	                "42": "Crunch",
+	                "47": "Giga Drain",
+	                "52": "Leaf Storm"
+	            },
+				"tutor": [
+					"Earth Power",
+					"Frenzy Plant",
+					"Giga Drain",
+					"Grass Pledge",
+					"Iron Tail",
+					"Seed Bomb",
+					"Snore",
+					"Stealth Rock",
+					"Superpower",
+					"Synthesis",
+					"Worry Seed"
+				]
+	        },
+			"capture_rate": 10,
+			"experience_drop": 30
 		}
 	]
 }
