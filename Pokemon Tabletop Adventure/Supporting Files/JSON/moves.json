@@ -1,0 +1,50 @@
+{
+    "moves": [
+        {
+            "name": "Growl",
+            "type": "Normal",
+            "frequency": "At-Will",
+            "accuracy": 2,
+            "style": "Effect",
+            "range": "Ranged - 5",
+            "targets": 0,
+            "effect": "Burst, Sound",
+            "description": "Growl creates a 5-meter Burst. Growl lowers all Legal Targets' Attack by 1 Combat Stage.",
+            "contest": {
+                "type": "Cute",
+                "appeal": "2d4",
+                "effect": "Excitement"
+            }
+        },
+        {
+            "name": "Leech Seed",
+            "type": "Grass",
+            "frequency": "Center",
+            "accuracy": 4,
+            "style": "Effect",
+            "range": "Ranged - 6",
+            "targets": 1,
+            "description": "At the beginning of each of the target's turns, the target loses 1/8th of their full HP. Do not apply weakness or resistance to the HP lost. Leech Seed's user then gains HP equal to the amount the target lost. Leech Seed lasts until the target faints or is returned to a Pokéball. Leech Seed cannot hit a Grass-type Pokémon.",
+            "contest": {
+                "type": "Smart",
+                "appeal": "None",
+                "effect": "Torrential Appeal"
+            }
+        },
+        {
+            "name": "Tackle",
+            "type": "Normal",
+            "damage": "2d8",
+            "frequency": "At-Will",
+            "accuracy": 3,
+            "style": "Physical",
+            "range": "Melee",
+            "targets": 1,
+            "effect": "Dash",
+            "contest": {
+                "type": "Tough",
+                "appeal": "3d4"
+            }
+        }
+    ]
+}

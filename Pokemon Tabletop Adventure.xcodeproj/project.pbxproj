@@ -17,6 +17,7 @@
 		DC9E1DCC20FFD62A006D6B97 /* WBRandomPokémonViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9E1DCB20FFD62A006D6B97 /* WBRandomPokémonViewControllerTests.swift */; };
 		DC9E1DCF20FFD65E006D6B97 /* WBArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9E1DCE20FFD65E006D6B97 /* WBArrayTests.swift */; };
 		DC9E1DD020FFD96D006D6B97 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB170B220F3529700BAA64D /* Extensions.swift */; };
+		DCA38C41211053B600CA1A8E /* moves.json in Resources */ = {isa = PBXBuildFile; fileRef = DCA38C40211053B600CA1A8E /* moves.json */; };
 		DCAB27C8210A7EDB00B8EFC7 /* WBOptionalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB27C7210A7EDB00B8EFC7 /* WBOptionalTests.swift */; };
 		DCB170A220F2600B00BAA64D /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB170A120F2600B00BAA64D /* SnapKit.framework */; };
 		DCB170A620F2AF8600BAA64D /* WBPokémon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB170A520F2AF8600BAA64D /* WBPokémon.swift */; };
@@ -62,6 +63,7 @@
 		DC9E1DC620FFCE11006D6B97 /* WBTrainerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBTrainerViewModel.swift; sourceTree = "<group>"; };
 		DC9E1DCB20FFD62A006D6B97 /* WBRandomPokémonViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WBRandomPokémonViewControllerTests.swift"; sourceTree = "<group>"; };
 		DC9E1DCE20FFD65E006D6B97 /* WBArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBArrayTests.swift; sourceTree = "<group>"; };
+		DCA38C40211053B600CA1A8E /* moves.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = moves.json; sourceTree = "<group>"; };
 		DCAB27C7210A7EDB00B8EFC7 /* WBOptionalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBOptionalTests.swift; sourceTree = "<group>"; };
 		DCB170A120F2600B00BAA64D /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = SOURCE_ROOT; };
 		DCB170A520F2AF8600BAA64D /* WBPokémon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WBPokémon.swift"; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 		DCDA770B20EF5E3A00BC0D55 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
+				DCA38C40211053B600CA1A8E /* moves.json */,
 				DCDA770C20EF5E3A00BC0D55 /* pokédex.json */,
 			);
 			path = JSON;
@@ -365,6 +368,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCA38C41211053B600CA1A8E /* moves.json in Resources */,
 				DCDA770D20EF5E3A00BC0D55 /* pokédex.json in Resources */,
 				DC3BD49C20A3591F0043B49C /* LaunchScreen.storyboard in Resources */,
 				DC3BD49920A3591F0043B49C /* Assets.xcassets in Resources */,
