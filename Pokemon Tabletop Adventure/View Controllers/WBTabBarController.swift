@@ -20,7 +20,15 @@ class WBTabBarController: UITabBarController {
         blankVC.view.backgroundColor = .white
         blankVC.title = "blank"
 
-        self.init(with: [randomiser, blankVC])
+        let pokédex = WBPokédexViewController()
+        pokédex.view.backgroundColor = .red
+        pokédex.title = "Pokédex"
+        
+        self.init(with: [
+            randomiser,
+            blankVC,
+            pokédex,
+            ])
     }
     
     init(with viewControllers: [UIViewController]) {
