@@ -6,13 +6,15 @@
 //  Copyright © 2018 WeatherBear. All rights reserved.
 //
 
-import UIKit
 import SnapKit
+import UIKit
 
 class WBRandomPokémonViewController: WBBaseViewController {
     /* Need to add label at the bottom to indicate logo author. HTML for this:
      <div>
-        Icons made by <a href="https://www.flaticon.com/authors/nikita-golubev" title="Nikita Golubev">Nikita Golubev</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+        Icons made by <a href="https://www.flaticon.com/authors/nikita-golubev" title="Nikita Golubev">Nikita Golubev</a> from <a
+        href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a
+        href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
      </div>
      */
     let descriptionLabel: UILabel

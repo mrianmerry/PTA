@@ -10,8 +10,14 @@ import SnapKit
 import UIKit
 
 class WBPokédexViewController: WBBaseViewController {
-
-    let dummyLabel = UILabel(frame: .zero)
+    /* Need to add label at the bottom to indicate logo author. HTML for this:
+    <div>
+        Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a
+        href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a
+        href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+     </div>
+     */
+    private let pokédexTableView = UITableView(frame: .zero, style: .grouped)
 
     var pokédexViewModel: WBPokédexViewModel
 
@@ -26,27 +32,27 @@ class WBPokédexViewController: WBBaseViewController {
         fatalError("\"\(#function)\" not implemented; check your code structure to see how this is being called!")
     }
 
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-
-        dummyLabel.text = "Fuck yeah"
-    }
-
     override func setupViews() {
         super.setupViews()
 
-        setupDummyLabel()
+        setupNavigationView()
+        setupTableView()
     }
 
-    private func setupDummyLabel() {
-        dummyLabel.backgroundColor = .clear
-        dummyLabel.textAlignment = .center
-        dummyLabel.numberOfLines = 0
-        dummyLabel.textColor = .white
+    private func setupNavigationView() {
+        navigationItem.title = "Pokédex"
+    }
 
-        view.addSubview(dummyLabel)
-        dummyLabel.snp.makeConstraints { make in
-            make.topMargin.left.right.equalToSuperview().inset(50)
+    private func setupTableView() {
+        pokédexTableView.backgroundColor = .white
+        pokédexTableView.estimatedRowHeight = 44.0
+        pokédexTableView.rowHeight = UITableViewAutomaticDimension
+        pokédexTableView.dataSource = pokédexViewModel.tableManager
+        pokédexTableView.delegate = pokédexViewModel.tableManager
+
+        view.addSubview(pokédexTableView)
+        pokédexTableView.snp.makeConstraints { make in
+            make.topMargin.left.right.bottomMargin.equalToSuperview()
         }
     }
 }

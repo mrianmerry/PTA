@@ -8,7 +8,7 @@
 
 import Foundation
 
-class WBJSON {
+enum WBJSON {
 
     private static var cachedPokédex: Pokédex?
 

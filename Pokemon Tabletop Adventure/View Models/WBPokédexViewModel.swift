@@ -9,9 +9,23 @@
 import UIKit
 
 class WBPokédexViewModel: WBBaseViewModel {
+
     private var pokédex: Pokédex
+    let tableManager: WBTableManager
 
     override init() {
-        pokédex = WBJSON.pokédex
+        let pokédex = WBJSON.pokédex
+        self.pokédex = pokédex
+
+        tableManager = WBTableManager(with: "pokédex", rowCount: { _ -> Int in
+            return pokédex.pokémon.count
+        }, sectionCount: { () -> Int in
+            return 1
+        }, cellConfiguration: { cell, index in
+            let pokémon = pokédex.pokémon[index]
+
+            cell.detailTextLabel?.text = pokémon.name
+            cell.textLabel?.text = pokémon.dexNumber.written()
+        })
     }
 }

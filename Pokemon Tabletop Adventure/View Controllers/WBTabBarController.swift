@@ -11,23 +11,19 @@ import UIKit
 class WBTabBarController: UITabBarController {
 
     convenience init() {
-        let randomiser = WBRandomPokémonViewController(with: WBRandomPokémonViewModel())
-        let icon = UIImage(named: "tabbar-items/pokeball-unselected")
-        let tabBarItem = UITabBarItem(title: "Randomiser", image: icon, selectedImage: icon)
-        randomiser.tabBarItem = tabBarItem
-        
-        let blankVC = UIViewController()
-        blankVC.view.backgroundColor = .white
-        blankVC.title = "blank"
-
         let pokédex = WBPokédexViewController()
-        pokédex.view.backgroundColor = .red
-        pokédex.title = "Pokédex"
-        
+        var icon = UIImage(named: "tabbar-items/pokédex")
+        var tabBarItem = UITabBarItem(title: "Pokédex", image: icon, selectedImage: icon)
+        pokédex.tabBarItem = tabBarItem
+
+        let randomiser = WBRandomPokémonViewController(with: WBRandomPokémonViewModel())
+        icon = UIImage(named: "tabbar-items/pokéball")
+        tabBarItem = UITabBarItem(title: "Randomiser", image: icon, selectedImage: icon)
+        randomiser.tabBarItem = tabBarItem
+
         self.init(with: [
-            randomiser,
-            blankVC,
             pokédex,
+            randomiser
             ])
     }
     
@@ -43,11 +39,6 @@ class WBTabBarController: UITabBarController {
     }
     
     required init?(coder aDecoder: NSCoder) {
-        fatalError("\"init?(coder aDecoder: NSCoder)\" not implemented; check your code structure to see how this is being called!")
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        fatalError("\"\(#function)\" not implemented; check your code structure to see how this is being called!")
     }
 }
