@@ -9,7 +9,7 @@
 import UIKit
 
 class WBTrainerViewController: WBBaseViewController {
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

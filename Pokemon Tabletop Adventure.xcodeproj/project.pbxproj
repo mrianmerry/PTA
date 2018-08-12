@@ -272,7 +272,8 @@
 				DC3BD48720A3591D0043B49C /* Sources */,
 				DC3BD48820A3591D0043B49C /* Frameworks */,
 				DC3BD48920A3591D0043B49C /* Resources */,
-				DCB170A320F2622500BAA64D /* ShellScript */,
+				DCB170A320F2622500BAA64D /* Copy Carthage Frameworks */,
+				DCA38C3F210F4F6900CA1A8E /* Run SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -392,7 +393,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		DCB170A320F2622500BAA64D /* ShellScript */ = {
+		DCA38C3F210F4F6900CA1A8E /* Run SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		DCB170A320F2622500BAA64D /* Copy Carthage Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -400,6 +415,7 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
 			);
+			name = "Copy Carthage Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;

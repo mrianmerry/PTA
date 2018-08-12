@@ -11,7 +11,7 @@ import XCTest
 class WBOptionalTests: XCTestCase {
     
     func testExists() {
-        var testOptional: Optional<Int> = nil
+        var testOptional: Int? = nil
         XCTAssert(!testOptional.exists, "Evaluated true instead of false")
         
         testOptional = 1

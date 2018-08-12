@@ -12,5 +12,4 @@ class WBTrainerViewModel: WBBaseViewModel {
     
     let pokémon: [String: Pokémon] = [:]
     
-    
 }
