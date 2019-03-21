@@ -2208,6 +2208,2196 @@
 			"experience_drop": 50
 		},
 		{
+			"dexID": 4,
+			"ptaID": 74,
+			"name": "Charmander",
+	        "base_stats": {
+	            "HP": 4,
+	            "ATK": 5,
+	            "DEF": 4,
+	            "SPA": 6,
+	            "SDF": 5,
+	            "SPD": 7
+	        },
+	        "type": [
+				"Fire"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Blaze",
+	                "Flash Fire",
+	                "Intimidate"
+	            ],
+	            "high": [
+	                "Solar Power"
+	            ]
+	        },
+	        "evolution": {
+	            "074": "---",
+	            "075": "Minimum level 15",
+	            "076": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.6,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 8.5,
+					"class": 1
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Monster",
+					"Dragon"
+				],
+				"hatch_rate": 10,
+	            "diet": [
+					"Herbivore"
+	            ],
+	            "habitat": [
+	                "Cave",
+					"Mountain"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 6,
+	            "Jump": 3,
+	            "Power": 1,
+	            "Intelligence": 3,
+	            "Other": [
+					"Firestarter",
+					"Glow",
+					"Sinker"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"01": "Scratch",
+					"03": "Growl",
+					"07": "Ember",
+					"10": "Smokescreen",
+					"16": "Dragon Rage",
+					"19": "Scary Face",
+					"25": "Fire Fang",
+					"28": "Flame Burst",
+					"34": "Slash",
+					"37": "Flamethrower",
+					"43": "Fire Spin",
+					"46": "Inferno"
+				},
+				"egg": [
+					"Air Cutter",
+					"Ancient Power",
+					"Beat Up",
+					"Belly Drum",
+					"Bite",
+					"Counter",
+					"Crunch",
+					"Dragon Dance",
+					"Dragon Pulse",
+					"Dragon Rush",
+					"Flare Blitz",
+					"Focus Punch",
+					"Heat Wave",
+					"Iron Tail",
+					"Snore",
+					"Thunder Punch"
+				],
+				"tutor": [
+					"Blast Burn",
+					"Dragon Pulse",
+					"Fire Pledge",
+					"Fire Punch",
+					"Focus Punch",
+					"Heat Wave",
+					"Iron Tail",
+					"Snore",
+					"Thunder Punch"
+				]
+	        },
+			"capture_rate": 20,
+			"experience_drop": 15
+		},
+		{
+			"dexID": 5,
+			"ptaID": 75,
+			"name": "Charmeleon",
+	        "base_stats": {
+	            "HP": 6,
+	            "ATK": 6,
+	            "DEF": 6,
+	            "SPA": 8,
+	            "SDF": 7,
+	            "SPD": 8
+	        },
+	        "type": [
+				"Fire"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Blaze",
+	                "Flash Fire",
+	                "Intimidate"
+	            ],
+	            "high": [
+	                "Solar Power"
+	            ]
+	        },
+	        "evolution": {
+	            "074": "---",
+	            "075": "Minimum level 15",
+	            "076": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 1.1,
+					"class": "Medium"
+				},
+	            "weight": {
+					"value": 19,
+					"class": 2
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Monster",
+					"Dragon"
+				],
+	            "diet": [
+					"Carnivore"
+	            ],
+	            "habitat": [
+	                "Cave",
+					"Mountain"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 6,
+	            "Jump": 3,
+	            "Power": 2,
+	            "Intelligence": 3,
+	            "Other": [
+					"Firestarter",
+					"Glow",
+					"Sinker"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"07": "Ember",
+					"10": "Smokescreen",
+					"17": "Dragon Rage",
+					"21": "Scary Face",
+					"28": "Fire Fang",
+					"32": "Flame Burst",
+					"39": "Slash",
+					"43": "Flamethrower",
+					"50": "Fire Spin",
+					"54": "Inferno"
+				},
+				"tutor": [
+					"Blast Burn",
+					"Dragon Pulse",
+					"Fire Pledge",
+					"Fire Punch",
+					"Focus Punch",
+					"Heat Wave",
+					"Iron Tail",
+					"Snore",
+					"Thunder Punch"
+				]
+	        },
+			"capture_rate": 10,
+			"experience_drop": 30
+		},
+		{
+			"dexID": 6,
+			"ptaID": 76,
+			"name": "Charizard",
+	        "base_stats": {
+	            "HP": 8,
+	            "ATK": 8,
+	            "DEF": 8,
+	            "SPA": 11,
+	            "SDF": 9,
+	            "SPD": 10
+	        },
+	        "type": [
+				"Fire",
+				"Flying"
+			],
+	        "abilities": {
+	            "basic": [
+					"Blaze",
+					"Mach Speed",
+	                "Flash Fire",
+	                "Intimidate"
+	            ],
+	            "high": [
+	                "Solar Power"
+	            ]
+	        },
+	        "evolution": {
+	            "074": "---",
+	            "075": "Minimum level 15",
+	            "076": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 1.7,
+					"class": "Medium"
+				},
+	            "weight": {
+					"value": 90.5,
+					"class": 4
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Monster",
+					"Dragon"
+				],
+	            "diet": [
+					"Carnivore"
+	            ],
+	            "habitat": [
+	                "Cave",
+					"Mountain"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 6,
+				"Sky": 8,
+	            "Jump": 2,
+	            "Power": 4,
+	            "Intelligence": 4,
+	            "Other": [
+					"Firestarter",
+					"Glow",
+					"Heater",
+					"Sinker"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"E": "Wing Attack",
+					"07": "Ember",
+					"10": "Smokescreen",
+					"17": "Dragon Rage",
+					"21": "Scary Face",
+					"28": "Fire Fang",
+					"32": "Flame Burst",
+					"36": "Wing Attack",
+					"41": "Slash",
+					"47": "Flamethrower",
+					"56": "Fire Spin",
+					"71": "Heat Wave",
+					"77": "Flare Blitz"
+				},
+				"tutor": [
+					"Air Cutter",
+					"Air Slash",
+					"Blast Burn",
+					"Dragon Claw",
+					"Dragon Pulse",
+					"Fire Pledge",
+					"Fire Punch",
+					"Flare Blitz",
+					"Focus Punch",
+					"Heat Wave",
+					"Iron Tail",
+					"Outrage",
+					"Shadow Claw",
+					"Snore",
+					"Tailwind",
+					"Thunder Punch"
+				]
+	        },
+			"capture_rate": 5,
+			"experience_drop": 50
+		},
+		{
+			"dexID": 155,
+			"ptaID": 77,
+			"name": "Cyndaquil",
+	        "base_stats": {
+	            "HP": 4,
+	            "ATK": 5,
+	            "DEF": 4,
+	            "SPA": 6,
+	            "SDF": 5,
+	            "SPD": 7
+	        },
+	        "type": [
+				"Fire"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Blaze",
+	                "Flame Body",
+	                "Heatproof"
+	            ],
+	            "high": [
+	                "Flash Fire"
+	            ]
+	        },
+	        "evolution": {
+	            "077": "---",
+	            "078": "Minimum level 15",
+	            "079": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.5,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 7.9,
+					"class": 1
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Field"
+				],
+				"hatch_rate": 10,
+	            "diet": [
+					"Herbivore"
+	            ],
+	            "habitat": [
+	                "Cave",
+					"Mountain"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 6,
+	            "Jump": 3,
+	            "Power": 1,
+	            "Intelligence": 3,
+	            "Other": [
+					"Firestarter",
+					"Heater",
+					"Sinker"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"00": "Tackle",
+					"01": "Leer",
+					"06": "Smokescreen",
+					"10": "Ember",
+					"13": "Quick Attack",
+					"19": "Flame Wheel",
+					"22": "Defense Curl",
+					"28": "Flame Charge",
+					"31": "Swift",
+					"37": "Lava Plume",
+					"40": "Flamethrower",
+					"46": "Inferno",
+					"49": "Rollout",
+					"55": "Double-Edge",
+					"58": "Burn Up",
+					"64": "Eruption"
+				},
+				"egg": [
+					"Covet",
+					"Crush Claw",
+					"Double Kick",
+					"Double-Edge",
+					"Extrasensory",
+					"Flame Burst",
+					"Flare Blitz",
+					"Foresight",
+					"Fury Swipes",
+					"Howl",
+					"Nature Power",
+					"Quick Attack",
+					"Reversal",
+					"Thrash"
+				],
+				"tutor": [
+					"Blast Burn",
+					"Covet",
+					"Fire Pledge",
+					"Heat Wave",
+					"Snore"
+				]
+	        },
+			"capture_rate": 20,
+			"experience_drop": 15
+		},
+		{
+			"dexID": 156,
+			"ptaID": 78,
+			"name": "Quilava",
+	        "base_stats": {
+	            "HP": 6,
+	            "ATK": 6,
+	            "DEF": 6,
+	            "SPA": 8,
+	            "SDF": 7,
+	            "SPD": 8
+	        },
+	        "type": [
+				"Fire"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Blaze",
+	                "Flame Body",
+	                "Heatproof"
+	            ],
+	            "high": [
+	                "Flash Fire"
+	            ]
+	        },
+	        "evolution": {
+	            "077": "---",
+	            "078": "Minimum level 15",
+	            "079": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.9,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 19,
+					"class": 2
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Field"
+				],
+	            "diet": [
+					"Carnivore"
+	            ],
+	            "habitat": [
+	                "Cave",
+					"Mountain"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 7,
+	            "Jump": 3,
+	            "Power": 2,
+	            "Intelligence": 3,
+	            "Other": [
+					"Firestarter",
+					"Heater",
+					"Sinker"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"06": "Smokescreen",
+					"10": "Ember",
+					"13": "Quick Attack",
+					"20": "Flame Wheel",
+					"24": "Defense Curl",
+					"31": "Swift",
+					"35": "Flame Charge",
+					"42": "Lava Plume",
+					"46": "Flamethrower",
+					"53": "Inferno",
+					"57": "Rollout",
+					"64": "Double-Edge",
+					"68": "Burn Up",
+					"75": "Eruption"
+				},
+				"tutor": [
+					"Blast Burn",
+					"Covet",
+					"Fire Pledge",
+					"Heat Wave",
+					"Snore"
+				]
+	        },
+			"capture_rate": 10,
+			"experience_drop": 30
+		},
+		{
+			"dexID": 157,
+			"ptaID": 79,
+			"name": "Typhlosion",
+	        "base_stats": {
+	            "HP": 8,
+	            "ATK": 8,
+	            "DEF": 8,
+	            "SPA": 11,
+	            "SDF": 9,
+	            "SPD": 10
+	        },
+	        "type": [
+				"Fire"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Blaze",
+	                "Flame Body",
+	                "Heatproof"
+	            ],
+	            "high": [
+	                "Flash Fire"
+	            ]
+	        },
+	        "evolution": {
+	            "077": "---",
+	            "078": "Minimum level 15",
+	            "079": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 1.7,
+					"class": "Medium"
+				},
+	            "weight": {
+					"value": 79.5,
+					"class": 4
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Field"
+				],
+	            "diet": [
+					"Carnivore"
+	            ],
+	            "habitat": [
+	                "Cave",
+					"Mountain"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 8,
+	            "Jump": 3,
+	            "Power": 4,
+	            "Intelligence": 4,
+	            "Other": [
+					"Firestarter",
+					"Heater",
+					"Sinker"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"06": "Smokescreen",
+					"10": "Ember",
+					"13": "Quick Attack",
+					"20": "Flame Wheel",
+					"24": "Defense Curl",
+					"31": "Swift",
+					"35": "Flame Charge",
+					"43": "Lava Plume",
+					"48": "Flamethrower",
+					"61": "Rollout",
+					"69": "Double-Edge",
+					"74": "Burn Up",
+					"82": "Eruption"
+				},
+				"tutor": [
+					"Blast Burn",
+					"Covet",
+					"Double-Edge",
+					"Eruption",
+					"Fire Pledge",
+					"Fire Punch",
+					"Focus Punch",
+					"Gyro Ball",
+					"Heat Wave",
+					"Low Kick",
+					"Snore",
+					"Thunder Punch"
+				]
+	        },
+			"capture_rate": 5,
+			"experience_drop": 50
+		},
+		{
+			"dexID": 255,
+			"ptaID": 80,
+			"name": "Torchic",
+	        "base_stats": {
+	            "HP": 5,
+	            "ATK": 6,
+	            "DEF": 4,
+	            "SPA": 7,
+	            "SDF": 5,
+	            "SPD": 5
+	        },
+	        "type": [
+				"Fire"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Blaze",
+	                "Klutz",
+	                "Moxie"
+	            ],
+	            "high": [
+	                "Speed Boost"
+	            ]
+	        },
+	        "evolution": {
+	            "080": "---",
+	            "081": "Minimum level 15",
+	            "082": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.4,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 2.5,
+					"class": 1
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Field"
+				],
+				"hatch_rate": 10,
+	            "diet": [
+					"Herbivore"
+	            ],
+	            "habitat": [
+	                "Grassland"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 4,
+	            "Jump": 1,
+	            "Power": 1,
+	            "Intelligence": 2,
+	            "Other": [
+					"Sinker"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"00": "Growl",
+					"01": "Scratch",
+					"05": "Ember",
+					"10": "Sand Attack",
+					"14": "Peck",
+					"19": "Fire Spin",
+					"23": "Quick Attack",
+					"28": "Flame Burst",
+					"32": "Focus Energy",
+					"37": "Slash",
+					"41": "Mirror Move",
+					"46": "Flamethrower"
+				},
+				"egg": [
+					"Agility",
+					"Baton Pass",
+					"Counter",
+					"Crush Claw",
+					"Curse",
+					"Endure",
+					"Feather Dance",
+					"Feint",
+					"Flame Burst",
+					"Last Resort",
+					"Low Kick",
+					"Night Slash",
+					"Reversal",
+					"Smelling Salts"
+				],
+				"tutor": [
+					"Blast Burn",
+					"Bounce",
+					"Fire Pledge",
+					"Heat Wave",
+					"Helping Hand",
+					"Last Resort",
+					"Low Kick",
+					"Snore"
+				]
+	        },
+			"capture_rate": 20,
+			"experience_drop": 15
+		},
+		{
+			"dexID": 256,
+			"ptaID": 81,
+			"name": "Combusken",
+	        "base_stats": {
+	            "HP": 6,
+	            "ATK": 9,
+	            "DEF": 6,
+	            "SPA": 9,
+	            "SDF": 6,
+	            "SPD": 6
+	        },
+	        "type": [
+				"Fire",
+				"Fighting"
+			],
+	        "abilities": {
+	            "basic": [
+					"Blaze",
+					"Focus",
+					"Flash Fire",
+	                "Moxie"
+	            ],
+	            "high": [
+	                "Speed Boost"
+	            ]
+	        },
+	        "evolution": {
+	            "080": "---",
+	            "081": "Minimum level 15",
+	            "082": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.9,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 19.5,
+					"class": 2
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Field"
+				],
+	            "diet": [
+					"Omnivore"
+	            ],
+	            "habitat": [
+	                "Grassland"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 8,
+				"Surface": 1,
+	            "Jump": 3,
+	            "Power": 4,
+	            "Intelligence": 3,
+	            "Other": [
+					"Firestarter"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"E": "Double Kick",
+					"05": "Ember",
+					"10": "Sand Attack",
+					"14": "Peck",
+					"16": "Double Kick",
+					"20": "Flame Charge",
+					"25": "Quick Attack",
+					"31": "Bulk Up",
+					"36": "Focus Energy",
+					"42": "Slash",
+					"47": "Mirror Move",
+					"53": "Sky Uppercut",
+					"58": "Flare Blitz"
+				},
+				"tutor": [
+					"Blast Burn",
+					"Bounce",
+					"Dual Chop",
+					"Fire Pledge",
+					"Fire Punch",
+					"Fire Spin",
+					"Flame Burst",
+					"Flamethrower",
+					"Focus Punch",
+					"Heat Wave",
+					"Helping Hand",
+					"Last Resort",
+					"Low Kick",
+					"Snore",
+					"Thunder Punch"
+				]
+	        },
+			"capture_rate": 10,
+			"experience_drop": 30
+		},
+		{
+			"dexID": 257,
+			"ptaID": 82,
+			"name": "Blaziken",
+	        "base_stats": {
+	            "HP": 8,
+	            "ATK": 12,
+	            "DEF": 7,
+	            "SPA": 11,
+	            "SDF": 7,
+	            "SPD": 8
+	        },
+	        "type": [
+				"Fire",
+				"Fighting"
+			],
+	        "abilities": {
+	            "basic": [
+					"Blaze",
+					"Focus",
+					"Flash Fire",
+	                "Moxie"
+	            ],
+	            "high": [
+	                "Speed Boost"
+	            ]
+	        },
+	        "evolution": {
+	            "080": "---",
+	            "081": "Minimum level 15",
+	            "082": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 1.9,
+					"class": "Medium"
+				},
+	            "weight": {
+					"value": 52,
+					"class": 4
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Field"
+				],
+	            "diet": [
+					"Omnivore"
+	            ],
+	            "habitat": [
+	                "Grassland"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 10,
+				"Surface": 1,
+	            "Jump": 7,
+	            "Power": 5,
+	            "Intelligence": 4,
+	            "Other": [
+					"Firestarter"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"E": "Blaze Kick",
+					"05": "Ember",
+					"10": "Sand Attack",
+					"14": "Peck",
+					"16": "Double Kick",
+					"20": "Flame Charge",
+					"25": "Quick Attack",
+					"31": "Bulk Up",
+					"36": "Blaze Kick",
+					"37": "Focus Energy",
+					"44": "Slash",
+					"50": "Brave Bird",
+					"57": "Sky Uppercut",
+					"63": "Flare Blitz"
+				},
+				"tutor": [
+					"Blast Burn",
+					"Bounce",
+					"Dual Chop",
+					"Fire Pledge",
+					"Fire Punch",
+					"Fire Spin",
+					"Flame Burst",
+					"Flamethrower",
+					"Flare Blitz",
+					"Focus Punch",
+					"Heat Wave",
+					"Helping Hand",
+					"High Jump Kick",
+					"Knock Off",
+					"Last Resort",
+					"Low Kick",
+					"Mirror Move",
+					"Role Play",
+					"Snore",
+					"Superpower",
+					"Thunder Punch"
+				]
+	        },
+			"capture_rate": 5,
+			"experience_drop": 50
+		},
+		{
+			"dexID": 390,
+			"ptaID": 83,
+			"name": "Chimchar",
+	        "base_stats": {
+	            "HP": 4,
+	            "ATK": 6,
+	            "DEF": 4,
+	            "SPA": 6,
+	            "SDF": 4,
+	            "SPD": 6
+	        },
+	        "type": [
+				"Fire"
+			],
+	        "abilities": {
+	            "basic": [
+					"Blaze",
+					"Flash Fire",
+					"Gluttony"
+	            ],
+	            "high": [
+	                "Iron Fist"
+	            ]
+	        },
+	        "evolution": {
+	            "083": "---",
+	            "084": "Minimum level 15",
+	            "085": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.5,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 6.2,
+					"class": 1
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Field",
+					"Humanshape"
+				],
+				"hatch_rate": 10,
+	            "diet": [
+					"Omnivore"
+	            ],
+	            "habitat": [
+					"Cave",
+					"Mountain"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 5,
+	            "Jump": 2,
+	            "Power": 1,
+	            "Intelligence": 3,
+	            "Other": [
+					"Climber",
+					"Sinker"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"00": "Leer",
+					"01": "Scratch",
+					"07": "Ember",
+					"09": "Taunt",
+					"15": "Fury Swipes",
+					"17": "Flame Wheel",
+					"23": "Nasty Plot",
+					"25": "Torment",
+					"31": "Façade",
+					"33": "Fire Spin",
+					"39": "Acrobatics",
+					"41": "Slack Off",
+					"47": "Flamethrower"
+				},
+				"egg": [
+					"Assist",
+					"Blaze Kick",
+					"Counter",
+					"Double Kick",
+					"Encore",
+					"Fake Out",
+					"Fire Punch",
+					"Focus Energy",
+					"Focus Punch",
+					"Heat Wave",
+					"Helping Hand",
+					"Quick Guard",
+					"Submission",
+					"Thunder Punch"
+				],
+				"tutor": [
+					"Blast Burn",
+					"Covet",
+					"Endeavour",
+					"Fire Pledge",
+					"Fire Punch",
+					"Focus Punch",
+					"Gunk Shot",
+					"Heat Wave",
+					"Helping Hand",
+					"Iron Tail",
+					"Low Kick",
+					"Role Play",
+					"Snore",
+					"Stealth Rock",
+					"Thunder Punch",
+					"Uproar"
+				]
+	        },
+			"capture_rate": 20,
+			"experience_drop": 15
+		},
+		{
+			"dexID": 391,
+			"ptaID": 84,
+			"name": "Monferno",
+	        "base_stats": {
+	            "HP": 6,
+	            "ATK": 8,
+	            "DEF": 5,
+	            "SPA": 8,
+	            "SDF": 5,
+	            "SPD": 8
+	        },
+	        "type": [
+				"Fire",
+				"Fighting"
+			],
+	        "abilities": {
+	            "basic": [
+					"Blaze",
+					"Focus",
+					"Flash Fire",
+					"Inner Focus"
+	            ],
+	            "high": [
+	                "Iron Fist"
+	            ]
+	        },
+	        "evolution": {
+	            "083": "---",
+	            "084": "Minimum level 15",
+	            "085": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.9,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 22,
+					"class": 2
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Field",
+					"Humanshape"
+				],
+	            "diet": [
+					"Omnivore"
+	            ],
+	            "habitat": [
+					"Cave",
+					"Mountain"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 7,
+	            "Jump": 3,
+	            "Power": 3,
+	            "Intelligence": 4,
+	            "Other": [
+					"Climber",
+					"Firestarter",
+					"Heater",
+					"Sinker"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"E": "Mach Punch",
+					"07": "Ember",
+					"09": "Taunt",
+					"14": "Mach Punch",
+					"16": "Fury Swipes",
+					"19": "Flame Wheel",
+					"26": "Feint",
+					"29": "Torment",
+					"36": "Close Combat",
+					"39": "Fire Spin",
+					"46": "Acrobatics",
+					"49": "Slack Off",
+					"56": "Flare Blitz"
+				},
+				"tutor": [
+					"Blast Burn",
+					"Covet",
+					"Dual Chop",
+					"Endeavour",
+					"Façade",
+					"Fire Pledge",
+					"Fire Punch",
+					"Flamethrower",
+					"Focus Punch",
+					"Gunk Shot",
+					"Heat Wave",
+					"Helping Hand",
+					"Iron Tail",
+					"Low Kick",
+					"Nasty Plot",
+					"Role Play",
+					"Snore",
+					"Stealth Rock",
+					"Thunder Punch",
+					"Uproar"
+				]
+	        },
+			"capture_rate": 10,
+			"experience_drop": 30
+		},
+		{
+			"dexID": 392,
+			"ptaID": 85,
+			"name": "Infernape",
+	        "base_stats": {
+	            "HP": 8,
+	            "ATK": 10,
+	            "DEF": 7,
+	            "SPA": 10,
+	            "SDF": 7,
+	            "SPD": 10
+	        },
+	        "type": [
+				"Fire",
+				"Fighting"
+			],
+	        "abilities": {
+	            "basic": [
+					"Blaze",
+					"Focus",
+					"Flash Fire",
+					"Inner Focus"
+	            ],
+	            "high": [
+	                "Iron Fist"
+	            ]
+	        },
+	        "evolution": {
+	            "083": "---",
+	            "084": "Minimum level 15",
+	            "085": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 1.2,
+					"class": "Medium"
+				},
+	            "weight": {
+					"value": 55,
+					"class": 4
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Field",
+					"Humanshape"
+				],
+	            "diet": [
+					"Omnivore"
+	            ],
+	            "habitat": [
+					"Cave",
+					"Mountain"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 8,
+	            "Jump": 4,
+	            "Power": 5,
+	            "Intelligence": 4,
+	            "Other": [
+					"Climber",
+					"Firestarter",
+					"Heater",
+					"Sinker"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"E": "Close Combat",
+					"07": "Ember",
+					"09": "Taunt",
+					"14": "Mach Punch",
+					"16": "Fury Swipes",
+					"19": "Flame Wheel",
+					"26": "Feint",
+					"29": "Punishment",
+					"36": "Close Combat",
+					"42": "Fire Spin",
+					"52": "Acrobatics",
+					"58": "Calm Mind",
+					"68": "Flare Blitz"
+				},
+				"tutor": [
+					"Blast Burn",
+					"Covet",
+					"Dual Chop",
+					"Endeavour",
+					"Façade",
+					"Fire Pledge",
+					"Fire Punch",
+					"Flamethrower",
+					"Flare Blitz",
+					"Focus Punch",
+					"Gunk Shot",
+					"Heat Wave",
+					"Helping Hand",
+					"Iron Tail",
+					"Low Kick",
+					"Nasty Plot",
+					"Role Play",
+					"Slack Off",
+					"Snore",
+					"Stealth Rock",
+					"Thunder Punch",
+					"Torment",
+					"Uproar"
+				]
+	        },
+			"capture_rate": 5,
+			"experience_drop": 50
+		},
+		{
+			"dexID": 498,
+			"ptaID": 86,
+			"name": "Tepig",
+	        "base_stats": {
+	            "HP": 7,
+	            "ATK": 6,
+	            "DEF": 5,
+	            "SPA": 5,
+	            "SDF": 5,
+	            "SPD": 5
+	        },
+	        "type": [
+				"Fire"
+			],
+	        "abilities": {
+	            "basic": [
+					"Blaze",
+					"Heatproof",
+					"Gluttony"
+	            ],
+	            "high": [
+	                "Thick Fat"
+	            ]
+	        },
+	        "evolution": {
+	            "086": "---",
+	            "087": "Minimum level 15",
+	            "088": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.5,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 9.9,
+					"class": 1
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Field"
+				],
+				"hatch_rate": 10,
+	            "diet": [
+					"Herbivore"
+	            ],
+	            "habitat": [
+					"Forest",
+					"Grassland",
+					"Mountain"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 6,
+				"Surface": 4,
+	            "Jump": 2,
+	            "Power": 3,
+	            "Intelligence": 3,
+	            "Other": [
+					"Firestarter",
+					"Heater"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"01": "Tackle",
+					"03": "Tail Whip",
+					"07": "Ember",
+					"09": "Odor Sleuth",
+					"13": "Defense Curl",
+					"15": "Flame Charge",
+					"19": "Smog",
+					"21": "Rollout",
+					"25": "Take Down",
+					"27": "Heat Crash",
+					"31": "Assurance",
+					"33": "Flamethrower",
+					"37": "Head Smash",
+					"39": "Roar",
+					"43": "Flare Blitz"
+				},
+				"egg": [
+					"Body Slam",
+					"Covet",
+					"Curse",
+					"Endeavour",
+					"Heavy Slam",
+					"Magnitude",
+					"Sleep Talk",
+					"Sucker Punch",
+					"Superpower",
+					"Thrash",
+					"Yawn"
+				],
+				"tutor": [
+					"Blast Burn",
+					"Covet",
+					"Endeavour",
+					"Fire Pledge",
+					"Heat Wave",
+					"Helping Hand",
+					"Iron Tail",
+					"Snore",
+					"Superpower",
+					"Zen Headbutt"
+				]
+	        },
+			"capture_rate": 20,
+			"experience_drop": 15
+		},
+		{
+			"dexID": 499,
+			"ptaID": 87,
+			"name": "Pignite",
+	        "base_stats": {
+	            "HP": 9,
+	            "ATK": 9,
+	            "DEF": 6,
+	            "SPA": 7,
+	            "SDF": 6,
+	            "SPD": 6
+	        },
+	        "type": [
+				"Fire",
+				"Fighting"
+			],
+	        "abilities": {
+	            "basic": [
+					"Blaze",
+					"Focus",
+					"Heatproof",
+					"Gluttony"
+	            ],
+	            "high": [
+	                "Thick Fat"
+	            ]
+	        },
+	        "evolution": {
+	            "086": "---",
+	            "087": "Minimum level 15",
+	            "088": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 1,
+					"class": "Medium"
+				},
+	            "weight": {
+					"value": 55.5,
+					"class": 4
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Field"
+				],
+	            "diet": [
+					"Herbivore"
+	            ],
+	            "habitat": [
+					"Cave",
+					"Grassland",
+					"Mountain"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 7,
+				"Surface": 5,
+	            "Jump": 4,
+	            "Power": 5,
+	            "Intelligence": 4,
+	            "Other": [
+					"Firestarter",
+					"Heater"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"E": "Arm Thrust",
+					"03": "Tail Whip",
+					"07": "Ember",
+					"09": "Odor Sleuth",
+					"13": "Defense Curl",
+					"15": "Flame Charge",
+					"17": "Arm Thrust",
+					"20": "Smog",
+					"23": "Rollout",
+					"28": "Take Down",
+					"31": "Heat Crash",
+					"36": "Assurance",
+					"39": "Flamethrower",
+					"44": "Head Smash",
+					"47": "Roar",
+					"52": "Flare Blitz"
+				},
+				"tutor": [
+					"Blast Burn",
+					"Covet",
+					"Endeavour",
+					"Fire Pledge",
+					"Fire Punch",
+					"Focus Punch",
+					"Heat Wave",
+					"Helping Hand",
+					"Iron Tail",
+					"Low Kick",
+					"Snore",
+					"Superpower",
+					"Thunder Punch",
+					"Zen Headbutt"
+				]
+	        },
+			"capture_rate": 10,
+			"experience_drop": 30
+		},
+		{
+			"dexID": 500,
+			"ptaID": 88,
+			"name": "Emboar",
+	        "base_stats": {
+	            "HP": 11,
+	            "ATK": 12,
+	            "DEF": 7,
+	            "SPA": 10,
+	            "SDF": 7,
+	            "SPD": 7
+	        },
+	        "type": [
+				"Fire",
+				"Fighting"
+			],
+	        "abilities": {
+	            "basic": [
+					"Blaze",
+					"Focus",
+					"Heatproof",
+					"Gluttony"
+	            ],
+	            "high": [
+					"Thick Fat",
+					"Reckless"
+	            ]
+	        },
+	        "evolution": {
+	            "086": "---",
+	            "087": "Minimum level 15",
+	            "088": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 1.6,
+					"class": "Medium"
+				},
+	            "weight": {
+					"value": 150,
+					"class": 5
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Field"
+				],
+	            "diet": [
+					"Omnivore"
+	            ],
+	            "habitat": [
+					"Cave",
+					"Grassland",
+					"Mountain"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 8,
+				"Surface": 6,
+	            "Jump": 5,
+	            "Power": 6,
+	            "Intelligence": 4,
+	            "Other": [
+					"Firestarter",
+					"Heater"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"03": "Tail Whip",
+					"07": "Ember",
+					"09": "Odor Sleuth",
+					"13": "Defense Curl",
+					"15": "Flame Charge",
+					"17": "Arm Thrust",
+					"20": "Smog",
+					"23": "Rollout",
+					"28": "Take Down",
+					"31": "Heat Crash",
+					"38": "Assurance",
+					"43": "Flamethrower",
+					"50": "Head Smash",
+					"55": "Roar",
+					"62": "Flare Blitz"
+				},
+				"tutor": [
+					"Blast Burn",
+					"Block",
+					"Covet",
+					"Endeavour",
+					"Fire Pledge",
+					"Fire Punch",
+					"Focus Punch",
+					"Hammer Arm",
+					"Heat Wave",
+					"Helping Hand",
+					"Iron Tail",
+					"Low Kick",
+					"Snore",
+					"Superpower",
+					"Thunder Punch",
+					"Zen Headbutt"
+				]
+	        },
+			"capture_rate": 5,
+			"experience_drop": 50
+		},
+		{
+			"dexID": 653,
+			"ptaID": 89,
+			"name": "Fennekin",
+	        "base_stats": {
+	            "HP": 4,
+	            "ATK": 5,
+	            "DEF": 4,
+	            "SPA": 6,
+	            "SDF": 6,
+	            "SPD": 6
+	        },
+	        "type": [
+				"Fire"
+			],
+	        "abilities": {
+	            "basic": [
+					"Blaze",
+					"Heatproof",
+					"Prankster"
+	            ],
+	            "high": [
+	                "Magician"
+	            ]
+	        },
+	        "evolution": {
+	            "089": "---",
+	            "090": "Minimum level 15",
+	            "091": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.4,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 9.4,
+					"class": 1
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Field"
+				],
+				"hatch_rate": 10,
+	            "diet": [
+					"Omnivore"
+	            ],
+	            "habitat": [
+					"Forest",
+					"Grassland",
+					"Mountain"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 6,
+				"Surface": 2,
+	            "Jump": 1,
+	            "Power": 3,
+	            "Intelligence": 4,
+	            "Other": [
+					"Firestarter",
+					"Heater"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"01": "Scratch",
+					"03": "Tail Whip",
+					"05": "Ember",
+					"11": "Howl",
+					"14": "Flame Charge",
+					"17": "Psybeam",
+					"20": "Fire Spin",
+					"25": "Lucky Chant",
+					"27": "Light Screen",
+					"31": "Psyshock",
+					"35": "Flamethrower",
+					"38": "Will-O-Wisp",
+					"41": "Psychic",
+					"43": "Sunny Day",
+					"46": "Magic Room",
+					"48": "Fire Blast"
+				},
+				"egg": [
+					"Heat Wave",
+					"Hypnosis",
+					"Magic Coat",
+					"Wish"
+				],
+				"tutor": [
+					"Blast Burn",
+					"Covet",
+					"Fire Pledge",
+					"Foul Play",
+					"Heat Wave",
+					"Iron Tail",
+					"Magic Coat",
+					"Magic Room",
+					"Snore"
+				]
+	        },
+			"capture_rate": 20,
+			"experience_drop": 15
+		},
+		{
+			"dexID": 654,
+			"ptaID": 90,
+			"name": "Braixen",
+	        "base_stats": {
+	            "HP": 6,
+	            "ATK": 6,
+	            "DEF": 6,
+	            "SPA": 9,
+	            "SDF": 7,
+	            "SPD": 7
+	        },
+	        "type": [
+				"Fire"
+			],
+	        "abilities": {
+	            "basic": [
+					"Blaze",
+					"Heatproof",
+					"Prankster"
+	            ],
+	            "high": [
+	                "Magician"
+	            ]
+	        },
+	        "evolution": {
+	            "089": "---",
+	            "090": "Minimum level 15",
+	            "091": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 1,
+					"class": "Medium"
+				},
+	            "weight": {
+					"value": 14.5,
+					"class": 2
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Field"
+				],
+	            "diet": [
+					"Omnivore"
+	            ],
+	            "habitat": [
+					"Forest",
+					"Grassland",
+					"Mountain"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 8,
+				"Surface": 2,
+	            "Jump": 3,
+	            "Power": 3,
+	            "Intelligence": 5,
+	            "Other": [
+					"Firestarter",
+					"Heater"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"05": "Ember",
+					"11": "Howl",
+					"14": "Flame Charge",
+					"18": "Psybeam",
+					"22": "Fire Spin",
+					"28": "Lucky Chant",
+					"31": "Light Screen",
+					"36": "Psyshock",
+					"41": "Flamethrower",
+					"45": "Will-O-Wisp",
+					"49": "Psychic",
+					"52": "Sunny Day",
+					"56": "Magic Room",
+					"59": "Fire Blast"
+				},
+				"tutor": [
+					"Blast Burn",
+					"Covet",
+					"Fire Pledge",
+					"Fire Punch",
+					"Foul Play",
+					"Heat Wave",
+					"Iron Tail",
+					"Low Kick",
+					"Magic Coat",
+					"Magic Room",
+					"Recycle",
+					"Shock Wave",
+					"Skill Swap",
+					"Snatch",
+					"Snore",
+					"Thunder Punch",
+					"Trick",
+					"Wonder Room",
+					"Zen Headbutt"
+				]
+	        },
+			"capture_rate": 10,
+			"experience_drop": 30
+		},
+		{
+			"dexID": 655,
+			"ptaID": 91,
+			"name": "Delphox",
+	        "base_stats": {
+	            "HP": 8,
+	            "ATK": 7,
+	            "DEF": 7,
+	            "SPA": 11,
+	            "SDF": 10,
+	            "SPD": 10
+	        },
+	        "type": [
+				"Fire",
+				"Psychic"
+			],
+	        "abilities": {
+	            "basic": [
+					"Blaze",
+					"Mind Mold",
+					"Heatproof",
+					"Prankster"
+	            ],
+	            "high": [
+	                "Magician"
+	            ]
+	        },
+	        "evolution": {
+	            "089": "---",
+	            "090": "Minimum level 15",
+	            "091": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 1.5,
+					"class": "Medium"
+				},
+	            "weight": {
+					"value": 39,
+					"class": 3
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Field"
+				],
+	            "diet": [
+					"Omnivore"
+	            ],
+	            "habitat": [
+					"Forest",
+					"Grassland",
+					"Mountain"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 8,
+				"Surface": 4,
+	            "Jump": 3,
+	            "Power": 3,
+	            "Intelligence": 5,
+	            "Other": [
+					"Firestarter",
+					"Heater"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"E": "Mystical Fire",
+					"05": "Ember",
+					"11": "Howl",
+					"14": "Flame Charge",
+					"18": "Psybeam",
+					"22": "Fire Spin",
+					"28": "Lucky Chant",
+					"31": "Light Screen",
+					"38": "Psyshock",
+					"45": "Flamethrower",
+					"51": "Will-O-Wisp",
+					"57": "Psychic",
+					"62": "Sunny Day",
+					"68": "Magic Room",
+					"74": "Fire Blast",
+					"80": "Future Sight"
+				},
+				"tutor": [
+					"Blast Burn",
+					"Covet",
+					"Fire Pledge",
+					"Fire Punch",
+					"Foul Play",
+					"Future Sight",
+					"Heat Wave",
+					"Iron Tail",
+					"Low Kick",
+					"Magic Coat",
+					"Magic Room",
+					"Recycle",
+					"Role Play",
+					"Shadow Ball",
+					"Shock Wave",
+					"Signal Beam",
+					"Skill Swap",
+					"Snatch",
+					"Snore",
+					"Switcheroo",
+					"Thunder Punch",
+					"Trick",
+					"Wonder Room",
+					"Zen Headbutt"
+				]
+	        },
+			"capture_rate": 5,
+			"experience_drop": 50
+		},
+		{
+			"dexID": 725,
+			"ptaID": 92,
+			"name": "Litten",
+	        "base_stats": {
+	            "HP": 5,
+	            "ATK": 7,
+	            "DEF": 4,
+	            "SPA": 6,
+	            "SDF": 4,
+	            "SPD": 7
+	        },
+	        "type": [
+				"Fire"
+			],
+	        "abilities": {
+	            "basic": [
+					"Blaze",
+					"Keen Eye"
+	            ],
+	            "high": [
+	                "Intimidate"
+	            ]
+	        },
+	        "evolution": {
+	            "092": "---",
+	            "093": "Minimum level 15",
+	            "094": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.4,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 4.3,
+					"class": 1
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Field"
+				],
+				"hatch_rate": 10,
+	            "diet": [
+					"Carnivore"
+	            ],
+	            "habitat": [
+					"Grassland",
+					"Urban"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 7,
+				"Surface": 1,
+	            "Jump": 1,
+	            "Power": 1,
+	            "Intelligence": 3,
+	            "Other": [
+					"Firestarter"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"00": "Scratch",
+					"01": "Ember",
+					"04": "Growl",
+					"08": "Lick",
+					"11": "Leer",
+					"15": "Fire Fang",
+					"18": "Roar",
+					"22": "Bite",
+					"25": "Swagger",
+					"29": "Fury Swipes",
+					"32": "Thrash",
+					"36": "Flamethrower",
+					"39": "Scary Face",
+					"43": "Flare Blitz",
+					"46": "Outrage"
+				},
+				"egg": [
+					"Body Slam",
+					"Crunch",
+					"Fake Out",
+					"Heat Wave",
+					"Nasty Plot",
+					"Revenge"
+				],
+				"tutor": [
+					"Blast Burn",
+					"Covet",
+					"Endeavour",
+					"Fire Pledge",
+					"Heat Wave",
+					"Outrage",
+					"Snore"
+				]
+	        },
+			"capture_rate": 20,
+			"experience_drop": 15
+		},
+		{
+			"dexID": 726,
+			"ptaID": 93,
+			"name": "Torracat",
+	        "base_stats": {
+	            "HP": 7,
+	            "ATK": 9,
+	            "DEF": 5,
+	            "SPA": 8,
+	            "SDF": 5,
+	            "SPD": 9
+	        },
+	        "type": [
+				"Fire"
+			],
+	        "abilities": {
+	            "basic": [
+					"Blaze",
+					"Keen Eye"
+	            ],
+	            "high": [
+	                "Intimidate"
+	            ]
+	        },
+	        "evolution": {
+	            "092": "---",
+	            "093": "Minimum level 15",
+	            "094": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.7,
+					"class": "Medium"
+				},
+	            "weight": {
+					"value": 25,
+					"class": 3
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Field"
+				],
+	            "diet": [
+					"Carnivore"
+	            ],
+	            "habitat": [
+					"Grassland",
+					"Urban"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 7,
+				"Surface": 1,
+	            "Jump": 3,
+	            "Power": 3,
+	            "Intelligence": 4,
+	            "Other": [
+					"Firestarter"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"04": "Growl",
+					"08": "Lick",
+					"11": "Leer",
+					"15": "Fire Fang",
+					"19": "Roar",
+					"24": "Bite",
+					"28": "Swagger",
+					"33": "Fury Swipes",
+					"37": "Thrash",
+					"42": "Flamethrower",
+					"46": "Scary Face",
+					"51": "Flare Blitz",
+					"55": "Outrage"
+				},
+				"tutor": [
+					"Blast Burn",
+					"Covet",
+					"Dual Chop",
+					"Endeavour",
+					"Fire Pledge",
+					"Heat Wave",
+					"Outrage",
+					"Snore"
+				]
+	        },
+			"capture_rate": 10,
+			"experience_drop": 30
+		},
+		{
+			"dexID": 727,
+			"ptaID": 94,
+			"name": "Incineroar",
+	        "base_stats": {
+	            "HP": 10,
+	            "ATK": 12,
+	            "DEF": 9,
+	            "SPA": 8,
+	            "SDF": 9,
+	            "SPD": 6
+	        },
+	        "type": [
+				"Fire",
+				"Dark"
+			],
+	        "abilities": {
+	            "basic": [
+					"Blaze",
+					"Dark Art",
+					"Keen Eye"
+	            ],
+	            "high": [
+	                "Intimidate"
+	            ]
+	        },
+	        "evolution": {
+	            "092": "---",
+	            "093": "Minimum level 15",
+	            "094": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 1.8,
+					"class": "Large"
+				},
+	            "weight": {
+					"value": 83,
+					"class": 4
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Field"
+				],
+	            "diet": [
+					"Carnivore"
+	            ],
+	            "habitat": [
+					"Grassland",
+					"Urban"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 8,
+				"Surface": 5,
+	            "Jump": 4,
+	            "Power": 7,
+	            "Intelligence": 5,
+	            "Other": [
+					"Firestarter"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"E": "Darkest Lariat",
+					"04": "Growl",
+					"08": "Lick",
+					"11": "Leer",
+					"15": "Fire Fang",
+					"19": "Roar",
+					"24": "Bite",
+					"28": "Swagger",
+					"33": "Fury Swipes",
+					"38": "Thrash",
+					"44": "Flamethrower",
+					"49": "Scary Face",
+					"55": "Flare Blitz",
+					"60": "Outrage",
+					"66": "Cross Chop"
+				},
+				"tutor": [
+					"Bind",
+					"Blast Burn",
+					"Bulk Up",
+					"Covet",
+					"Drain Punch",
+					"Dual Chop",
+					"Endeavour",
+					"Fire Pledge",
+					"Fire Punch",
+					"Focus Punch",
+					"Heat Wave",
+					"Iron Head",
+					"Knock Off",
+					"Low Kick",
+					"Outrage",
+					"Snatch",
+					"Snore",
+					"Stomping Tantrum",
+					"Superpower",
+					"Throat Chop",
+					"Thunder Punch"
+				]
+	        },
+			"capture_rate": 5,
+			"experience_drop": 50
+		},
+		{
 			"dexID": 7,
 			"ptaID": 120,
 			"name": "Squirtle",
