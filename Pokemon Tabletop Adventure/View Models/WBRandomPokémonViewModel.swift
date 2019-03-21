@@ -23,7 +23,7 @@ class WBRandomPokémonViewModel: WBBaseViewModel {
     
     func getRandomPokémon() -> Pokémon {
         let random = pokémon.random(avoiding: current)
-        print("Choosing pokémon #\(random.dexNumber) - \(random.name)")
+        print("Choosing pokémon #\(random.dexID) - \(random.name)")
         current = random
         return random
     }

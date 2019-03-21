@@ -13,7 +13,8 @@ struct Pokédex: Codable {
 }
 
 struct Pokémon: Codable, Equatable {
-    let dexNumber: Int
+    let dexID: Int
+    let ptaID: Int
     let name: String
     let stats: StatArray
     let type: [PokeType]
@@ -35,12 +36,13 @@ struct Pokémon: Codable, Equatable {
     }
     
     static func == (lhs: Pokémon, rhs: Pokémon) -> Bool {
-        let areEqual = lhs.dexNumber == rhs.dexNumber
+        let areEqual = lhs.dexID == rhs.dexID
         return areEqual
     }
     
     private enum CodingKeys: String, CodingKey {
-        case dexNumber = "id"
+        case dexID = "dexID"
+        case ptaID = "ptaID"
         case name = "name"
         case stats = "base_stats"
         case type = "type"

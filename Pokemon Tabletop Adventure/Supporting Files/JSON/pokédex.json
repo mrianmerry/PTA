@@ -1,7 +1,8 @@
 {
 	"pokémon": [
 		{
-			"id": 1,
+			"dexID": 1,
+			"ptaID": 1,
 			"name": "Bulbasaur",
 	        "base_stats": {
 	            "HP": 5,
@@ -113,7 +114,8 @@
 			"experience_drop": 15
 		},
 		{
-			"id": 2,
+			"dexID": 2,
+			"ptaID": 2,
 			"name": "Ivysaur",
 	        "base_stats": {
 	            "HP": 6,
@@ -207,7 +209,8 @@
 			"experience_drop": 30
 		},
 		{
-			"id": 3,
+			"dexID": 3,
+			"ptaID": 3,
 			"name": "Venusaur",
 			"base_stats": {
 				"HP": 8,
@@ -306,7 +309,8 @@
 			"experience_drop": 50
 		},
 		{
-			"id": 4,
+			"dexID": 152,
+			"ptaID": 4,
 			"name": "Chikorita",
 			"base_stats": {
 				"HP": 5,
@@ -418,7 +422,8 @@
 			"experience_drop": 15
 		},
 		{
-			"id": 5,
+			"dexID": 153,
+			"ptaID": 5,
 			"name": "Bayleef",
 			"base_stats": {
 				"HP": 6,
@@ -511,7 +516,8 @@
 			"experience_drop": 30
 		},
 		{
-			"id": 6,
+			"dexID": 154,
+			"ptaID": 6,
 			"name": "Meganium",
 			"base_stats": {
 				"HP": 8,
@@ -611,7 +617,8 @@
 			"experience_drop": 50
 		},
 		{
-			"id": 7,
+			"dexID": 252,
+			"ptaID": 7,
 			"name": "Treecko",
 			"base_stats": {
 				"HP": 4,
@@ -726,7 +733,8 @@
 			"experience_drop": 15
 		},
 		{
-			"id": 8,
+			"dexID": 253,
+			"ptaID": 8,
 			"name": "Grovyle",
 			"base_stats": {
 				"HP": 5,
@@ -825,7 +833,8 @@
 			"experience_drop": 30
 		},
 		{
-			"id": 9,
+			"dexID": 254,
+			"ptaID": 9,
 			"name": "Sceptile",
 			"base_stats": {
 				"HP": 7,
@@ -930,7 +939,8 @@
 			"experience_drop": 50
 		},
 		{
-			"id": 10,
+			"dexID": 387,
+			"ptaID": 10,
 			"name": "Turtwig",
 	        "base_stats": {
 	            "HP": 6,
@@ -1044,7 +1054,8 @@
 			"experience_drop": 15
 		},
 		{
-			"id": 11,
+			"dexID": 388,
+			"ptaID": 11,
 			"name": "Grotle",
 	        "base_stats": {
 	            "HP": 8,
@@ -1138,7 +1149,8 @@
 			"experience_drop": 30
 		},
 		{
-			"id": 12,
+			"dexID": 289,
+			"ptaID": 12,
 			"name": "Torterra",
 	        "base_stats": {
 	            "HP": 10,
@@ -1243,7 +1255,8 @@
 			"experience_drop": 50
 		},
 		{
-			"id": 13,
+			"dexID": 495,
+			"ptaID": 13,
 			"name": "Snivy",
 	        "base_stats": {
 	            "HP": 5,
@@ -1356,7 +1369,8 @@
 			"experience_drop": 15
 		},
 		{
-			"id": 14,
+			"dexID": 496,
+			"ptaID": 14,
 			"name": "Servine",
 	        "base_stats": {
 	            "HP": 6,
@@ -1456,7 +1470,8 @@
 			"experience_drop": 30
 		},
 		{
-			"id": 15,
+			"dexID": 497,
+			"ptaID": 15,
 			"name": "Serperior",
 	        "base_stats": {
 	            "HP": 8,
@@ -1558,7 +1573,8 @@
 			"experience_drop": 50
 		},
 		{
-			"id": 16,
+			"dexID": 650,
+			"ptaID": 16,
 			"name": "Chespin",
 	        "base_stats": {
 	            "HP": 6,
@@ -1673,7 +1689,8 @@
 			"experience_drop": 15
 		},
 		{
-			"id": 17,
+			"dexID": 651,
+			"ptaID": 17,
 			"name": "Quilladin",
 	        "base_stats": {
 	            "HP": 6,
@@ -1777,7 +1794,8 @@
 			"experience_drop": 30
 		},
 		{
-			"id": 18,
+			"dexID": 652,
+			"ptaID": 18,
 			"name": "Chesnaught",
 	        "base_stats": {
 	            "HP": 9,
@@ -1885,7 +1903,8 @@
 			"experience_drop": 50
 		},
 		{
-			"id": 19,
+			"dexID": 722,
+			"ptaID": 19,
 			"name": "Rowlet",
 	        "base_stats": {
 	            "HP": 7,
@@ -1991,7 +2010,8 @@
 			"experience_drop": 15
 		},
 		{
-			"id": 20,
+			"dexID": 723,
+			"ptaID": 20,
 			"name": "Dartrix",
 	        "base_stats": {
 	            "HP": 8,
@@ -2088,7 +2108,8 @@
 			"experience_drop": 30
 		},
 		{
-			"id": 21,
+			"dexID": 724,
+			"ptaID": 21,
 			"name": "Decidueye",
 	        "base_stats": {
 	            "HP": 8,
@@ -2187,7 +2208,8 @@
 			"experience_drop": 50
 		},
 		{
-			"id": 120,
+			"dexID": 7,
+			"ptaID": 120,
 			"name": "Squirtle",
 	        "base_stats": {
 	            "HP": 4,
@@ -2304,7 +2326,8 @@
 			"experience_drop": 15
 		},
 		{
-			"id": 121,
+			"dexID": 8,
+			"ptaID": 121,
 			"name": "Wartortle",
 	        "base_stats": {
 	            "HP": 6,
@@ -2401,7 +2424,8 @@
 			"experience_drop": 30
 		},
 		{
-			"id": 122,
+			"dexID": 9,
+			"ptaID": 122,
 			"name": "Blastoise",
 	        "base_stats": {
 	            "HP": 8,
@@ -2499,7 +2523,8 @@
 			"experience_drop": 50
 		},
 		{
-			"id": 123,
+			"dexID": 158,
+			"ptaID": 123,
 			"name": "Totodile",
 	        "base_stats": {
 	            "HP": 5,
@@ -2616,7 +2641,8 @@
 			"experience_drop": 15
 		},
 		{
-			"id": 124,
+			"dexID": 159,
+			"ptaID": 124,
 			"name": "Croconaw",
 	        "base_stats": {
 	            "HP": 7,
@@ -2716,7 +2742,8 @@
 			"experience_drop": 30
 		},
 		{
-			"id": 125,
+			"dexID": 160,
+			"ptaID": 125,
 			"name": "Feraligatr",
 	        "base_stats": {
 	            "HP": 9,
@@ -2820,7 +2847,8 @@
 			"experience_drop": 50
 		},
 		{
-			"id": 126,
+			"dexID": 258,
+			"ptaID": 126,
 			"name": "Mudkip",
 	        "base_stats": {
 	            "HP": 5,
@@ -2935,7 +2963,8 @@
 			"experience_drop": 15
 		},
 		{
-			"id": 127,
+			"dexID": 259,
+			"ptaID": 127,
 			"name": "Marshtomp",
 	        "base_stats": {
 	            "HP": 7,
@@ -3040,7 +3069,8 @@
 			"experience_drop": 30
 		},
 		{
-			"id": 128,
+			"dexID": 260,
+			"ptaID": 128,
 			"name": "Swampert",
 	        "base_stats": {
 	            "HP": 10,
@@ -3147,7 +3177,8 @@
 			"experience_drop": 50
 		},
 		{
-			"id": 129,
+			"dexID": 393,
+			"ptaID": 129,
 			"name": "Piplup",
 	        "base_stats": {
 	            "HP": 5,
@@ -3257,7 +3288,8 @@
 			"experience_drop": 15
 		},
 		{
-			"id": 130,
+			"dexID": 394,
+			"ptaID": 130,
 			"name": "Prinplup",
 	        "base_stats": {
 	            "HP": 6,
@@ -3353,7 +3385,8 @@
 			"experience_drop": 30
 		},
 		{
-			"id": 131,
+			"dexID": 395,
+			"ptaID": 131,
 			"name": "Empoleon",
 	        "base_stats": {
 	            "HP": 8,
@@ -3457,7 +3490,8 @@
 			"experience_drop": 50
 		},
 		{
-			"id": 132,
+			"dexID": 501,
+			"ptaID": 132,
 			"name": "Oshawott",
 	        "base_stats": {
 	            "HP": 6,
@@ -3562,7 +3596,8 @@
 			"experience_drop": 15
 		},
 		{
-			"id": 133,
+			"dexID": 502,
+			"ptaID": 133,
 			"name": "Dewott",
 	        "base_stats": {
 	            "HP": 8,
@@ -3655,7 +3690,8 @@
 			"experience_drop": 30
 		},
 		{
-			"id": 134,
+			"dexID": 503,
+			"ptaID": 134,
 			"name": "Samurott",
 	        "base_stats": {
 	            "HP": 10,
@@ -3754,7 +3790,8 @@
 			"experience_drop": 50
 		},
 		{
-			"id": 135,
+			"dexID": 656,
+			"ptaID": 135,
 			"name": "Froakie",
 	        "base_stats": {
 	            "HP": 4,
@@ -3857,7 +3894,8 @@
 			"experience_drop": 15
 		},
 		{
-			"id": 136,
+			"dexID": 657,
+			"ptaID": 136,
 			"name": "Frogadier",
 	        "base_stats": {
 	            "HP": 5,
@@ -3952,7 +3990,8 @@
 			"experience_drop": 30
 		},
 		{
-			"id": 137,
+			"dexID": 658,
+			"ptaID": 137,
 			"name": "Greninja",
 	        "base_stats": {
 	            "HP": 7,
@@ -4058,7 +4097,8 @@
 			"experience_drop": 50
 		},
 		{
-			"id": 138,
+			"dexID": 728,
+			"ptaID": 138,
 			"name": "Popplio",
 	        "base_stats": {
 	            "HP": 5,
@@ -4164,7 +4204,8 @@
 			"experience_drop": 15
 		},
 		{
-			"id": 139,
+			"dexID": 729,
+			"ptaID": 139,
 			"name": "Brionne",
 	        "base_stats": {
 	            "HP": 6,
@@ -4261,7 +4302,8 @@
 			"experience_drop": 30
 		},
 		{
-			"id": 140,
+			"dexID": 730,
+			"ptaID": 140,
 			"name": "Primarina",
 	        "base_stats": {
 	            "HP": 8,
