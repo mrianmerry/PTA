@@ -106,7 +106,11 @@ struct PokeWeight: Codable {
 }
 
 enum PokeType: String, Codable {
+    case fighting = "Fighting"
+    case flying = "Flying"
+    case ghost = "Ghost"
     case grass = "Grass"
+    case ground = "Ground"
     case poison = "Poison"
 }
 
@@ -123,6 +127,8 @@ enum SizeClass: String, Codable {
 
 enum EggGroup: String, Codable {
     case dragon = "Dragon"
+    case field = "Field"
+    case flying = "Flying"
     case monster = "Monster"
     case plant = "Plant"
 }
@@ -137,5 +143,6 @@ enum DietType: String, Codable {
 enum Environment: String, Codable {
     case forest = "Forest"
     case grassland = "Grassland"
+    case marsh = "Marsh"
     case rainforest = "Rainforest"
 }
