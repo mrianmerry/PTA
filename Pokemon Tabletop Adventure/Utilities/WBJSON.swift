@@ -16,7 +16,7 @@ class WBJSON {
     static func pokémon() -> [Pokémon] {
         
         guard let pokédexJSON = getJSON(from: "pokédex") else {
-            print("No data for pokédex! Returning empty pokémon list")
+            print("Could not retrieve data from bundled pokédex json!")
             return []
         }
         
@@ -30,7 +30,7 @@ class WBJSON {
         }
     }
     
-    private static func getJSON(from filename: String) -> Data? {
+    static func getJSON(from filename: String) -> Data? {
         if let url = Bundle.main.url(forResource: filename, withExtension: "json") {
             do {
                 let data = try Data(contentsOf: url)
