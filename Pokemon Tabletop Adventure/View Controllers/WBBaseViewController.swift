@@ -9,12 +9,12 @@
 import UIKit
 
 class WBBaseViewController: UIViewController {
-    
+
     convenience init() {
         self.init(with: WBBaseViewModel())
     }
     
-    init(with viewModel: WBBaseViewModel) {
+    init(with viewModel: WBBaseViewModel, credits: String? = nil) {
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -26,11 +26,6 @@ class WBBaseViewController: UIViewController {
         super.viewDidLoad()
         
         setupViews()
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     func setupViews() {

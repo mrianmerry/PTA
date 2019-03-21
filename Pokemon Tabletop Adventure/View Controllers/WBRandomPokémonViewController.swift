@@ -21,12 +21,12 @@ class WBRandomPokémonViewController: WBBaseViewController {
     
     var randomViewModel: WBRandomPokémonViewModel
     
-    override init(with viewModel: WBBaseViewModel) {
+    override init(with viewModel: WBBaseViewModel, credits: String? = nil) {
         let randomViewModel = viewModel as? WBRandomPokémonViewModel ?? WBRandomPokémonViewModel()
         self.randomViewModel = randomViewModel
         self.descriptionLabel = UILabel(frame: .zero)
         
-        super.init(with: viewModel)
+        super.init(with: viewModel, credits: credits)
     }
     
     required init?(coder aDecoder: NSCoder) {

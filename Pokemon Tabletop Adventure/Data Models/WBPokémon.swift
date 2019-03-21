@@ -25,7 +25,7 @@ struct Pokémon: Codable, Equatable {
     func basicDescription() -> String {
         return """
         Pokémon: \(name)
-        Stats:
+        Base Stats:
              HP: \(stats.HP)
             ATK: \(stats.ATK)
             DEF: \(stats.DEF)

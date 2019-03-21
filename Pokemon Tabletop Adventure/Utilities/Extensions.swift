@@ -6,7 +6,7 @@
 //  Copyright © 2018 WeatherBear. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 public extension Int {
     public func written(digits: Int = 3) -> String {
@@ -15,9 +15,43 @@ public extension Int {
     }
 }
 
+public extension String {
+    public var html: NSAttributedString? {
+        guard let data = data(using: .utf8) else { return nil }
+        let htmlOptions: [NSAttributedString.DocumentReadingOptionKey: Any] =
+            [.documentType: NSAttributedString.DocumentType.html, .characterEncoding: String.Encoding.utf8.rawValue]
+        return try? NSAttributedString(data: data, options: htmlOptions, documentAttributes: nil)
+    }
+    
+    public var htmlBasic: String {
+        return html.value
+    }
+}
+
+public extension UIView {
+    var layoutGuide: UILayoutGuide {
+        if #available(iOS 11.0, *) {
+            return self.safeAreaLayoutGuide
+        } else {
+            return self.layoutMarginsGuide
+        }
+
+    }
+}
+
 public extension Optional {
     public var exists: Bool {
         return self != nil
+    }
+}
+
+public extension Optional where Wrapped == String {
+    public var orEmpty: String { return self ?? "" }
+}
+
+public extension Optional where Wrapped == NSAttributedString {
+    public var value: String {
+        return self?.string ?? ""
     }
 }
 
