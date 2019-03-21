@@ -1086,7 +1086,6 @@
 	                "Monster",
 	                "Plant"
 	            ],
-	            "hatch_rate": 10,
 	            "diet": [
 	                "Herbivore",
 	                "Phototroph"
@@ -1137,6 +1136,1055 @@
 	        },
 			"capture_rate": 10,
 			"experience_drop": 30
+		},
+		{
+			"id": 12,
+			"name": "Torterra",
+	        "base_stats": {
+	            "HP": 10,
+	            "ATK": 11,
+	            "DEF": 11,
+	            "SPA": 8,
+	            "SDF": 9,
+	            "SPD": 4
+	        },
+	        "type": [
+				"Grass",
+				"Ground"
+			],
+	        "abilities": {
+	            "basic": [
+					"Overgrow",
+					"Landslide",
+	                "Inner Focus",
+	                "Leaf Guard"
+	            ],
+	            "high": [
+					"Shell Armour",
+					"Rock Head"
+	            ]
+	        },
+	        "evolution": {
+	            "001": 0,
+	            "002": 15,
+	            "003": 30
+	        },
+	        "biology": {
+				"height": {
+					"value": 2.2,
+					"class": "Large"
+				},
+	            "weight": {
+					"value": 310,
+					"class": 6
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+	                "Monster",
+	                "Plant"
+	            ],
+	            "diet": [
+	                "Herbivore",
+	                "Phototroph"
+	            ],
+	            "habitat": [
+	                "Forest",
+	                "Marsh",
+	                "Rainforest"
+	            ]
+	        },
+	        "skills": {
+	            "Overland": 6,
+	            "Jump": 1,
+	            "Power": 4,
+	            "Intelligence": 4,
+	            "Other": [
+					"Groundshaper",
+					"Sinker",
+	                "Sprouter"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"E": "Earthquake",
+					"05": "Withdraw",
+	                "09": "Absorb",
+	                "13": "Razor Leaf",
+	                "17": "Curse",
+	                "22": "Bite",
+	                "27": "Mega Drain",
+					"32": "Earthquake",
+					"33": "Leech Seed",
+	                "39": "Synthesis",
+	                "45": "Crunch",
+	                "51": "Giga Drain",
+	                "57": "Leaf Storm"
+	            },
+				"tutor": [
+					"Block",
+					"Earth Power",
+					"Earthquake",
+					"Frenzy Plant",
+					"Giga Drain",
+					"Grass Pledge",
+					"Iron Head",
+					"Iron Tail",
+					"Outrage",
+					"Seed Bomb",
+					"Snore",
+					"Stealth Rock",
+					"Superpower",
+					"Synthesis",
+					"Wood Hammer",
+					"Worry Seed"
+				]
+	        },
+			"capture_rate": 5,
+			"experience_drop": 50
+		},
+		{
+			"id": 13,
+			"name": "Snivy",
+	        "base_stats": {
+	            "HP": 5,
+	            "ATK": 5,
+	            "DEF": 6,
+	            "SPA": 5,
+	            "SDF": 6,
+	            "SPD": 6
+	        },
+	        "type": [
+	            "Grass"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Overgrow",
+	                "Chlorophyll",
+	                "Rivalry"
+	            ],
+	            "high": [
+	                "Contrary"
+	            ]
+	        },
+	        "evolution": {
+	            "001": 0,
+	            "002": 15,
+	            "003": 30
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.6,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 8.1,
+					"class": 1
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+	                "Field",
+	                "Plant"
+	            ],
+	            "hatch_rate": 10,
+	            "diet": [
+	                "Herbivore"
+	            ],
+	            "habitat": [
+	                "Forest",
+	                "Rainforest"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 6,
+				"Surface": 4,
+				"Burrow": 2,
+	            "Jump": 1,
+	            "Power": 2,
+	            "Intelligence": 4,
+	            "Other": [
+					"Sprouter",
+					"Stealth"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+	                "01": "Tackle",
+	                "04": "Leer",
+	                "07": "Vine Whip",
+	                "10": "Wrap",
+	                "13": "Growth",
+	                "16": "Leaf Tornado",
+	                "19": "Leech Seed",
+	                "22": "Mega Drain",
+	                "25": "Slam",
+	                "28": "Leaf Blade",
+					"31": "Coil",
+					"34": "Giga Drain",
+					"37": "Wring Out",
+					"40": "Gastro Acid",
+					"43": "Leaf Storm"
+	            },
+				"egg": [
+					"Captivate",
+					"Glare",
+					"Grassy Terrain",
+					"Iron Tail",
+					"Magical Leaf",
+					"Mean Look",
+					"Mirror Coat",
+					"Natural Gift",
+					"Pursuit",
+					"Sweet Scent",
+					"Twister"
+				],
+				"tutor": [
+					"Aqua Tail",
+					"Bind",
+					"Frenzy Plant",
+					"Gastro Acid",
+					"Giga Drain",
+					"Iron Tail",
+					"Knock Off",
+					"Seed Bomb",
+					"Snatch",
+					"Snore",
+					"Synthesis",
+					"Worry Seed"
+				]
+	        },
+			"capture_rate": 20,
+			"experience_drop": 15
+		},
+		{
+			"id": 14,
+			"name": "Servine",
+	        "base_stats": {
+	            "HP": 6,
+	            "ATK": 6,
+	            "DEF": 8,
+	            "SPA": 6,
+	            "SDF": 8,
+	            "SPD": 8
+	        },
+	        "type": [
+	            "Grass"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Overgrow",
+	                "Chlorophyll",
+	                "Rivalry"
+	            ],
+	            "high": [
+	                "Contrary"
+	            ]
+	        },
+	        "evolution": {
+	            "001": 0,
+	            "002": 15,
+	            "003": 30
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.8,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 16,
+					"class": 2
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+	                "Field",
+	                "Plant"
+	            ],
+	            "diet": [
+					"Herbivore",
+					"Phototroph"
+	            ],
+	            "habitat": [
+	                "Forest",
+	                "Rainforest"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 8,
+				"Surface": 6, 
+				"Burrow": 24,
+	            "Jump": 1,
+	            "Power": 3,
+	            "Intelligence": 4,
+	            "Other": [
+					"Sprouter",
+					"Stealth"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+	                "04": "Leer",
+	                "07": "Vine Whip",
+	                "10": "Wrap",
+	                "13": "Growth",
+	                "16": "Leaf Tornado",
+	                "20": "Leech Seed",
+	                "24": "Mega Drain",
+	                "28": "Slam",
+	                "32": "Leaf Blade",
+					"36": "Coil",
+					"40": "Giga Drain",
+					"44": "Wring Out",
+					"48": "Gastro Acid",
+					"52": "Leaf Storm"
+	            },
+				"tutor": [
+					"Aqua Tail",
+					"Bind",
+					"Frenzy Plant",
+					"Gastro Acid",
+					"Giga Drain",
+					"Grass Pledge",
+					"Iron Tail",
+					"Knock Off",
+					"Seed Bomb",
+					"Snatch",
+					"Snore",
+					"Synthesis",
+					"Worry Seed"
+				]
+	        },
+			"capture_rate": 10,
+			"experience_drop": 30
+		},
+		{
+			"id": 15,
+			"name": "Serperior",
+	        "base_stats": {
+	            "HP": 8,
+	            "ATK": 8,
+	            "DEF": 10,
+	            "SPA": 8,
+	            "SDF": 10,
+	            "SPD": 11
+	        },
+	        "type": [
+	            "Grass"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Overgrow",
+	                "Chlorophyll",
+	                "Rivalry"
+	            ],
+	            "high": [
+	                "Contrary"
+	            ]
+	        },
+	        "evolution": {
+	            "001": 0,
+	            "002": 15,
+	            "003": 30
+	        },
+	        "biology": {
+				"height": {
+					"value": 3.3,
+					"class": "Large"
+				},
+	            "weight": {
+					"value": 63,
+					"class": 4
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+	                "Field",
+	                "Plant"
+	            ],
+	            "diet": [
+					"Herbivore",
+					"Phototroph"
+	            ],
+	            "habitat": [
+	                "Forest",
+	                "Rainforest"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 6,
+				"Surface": 4,
+				"Burrow": 2,
+	            "Jump": 1,
+	            "Power": 2,
+	            "Intelligence": 4,
+	            "Other": [
+					"Sprouter",
+					"Stealth"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+	                "04": "Leer",
+	                "07": "Vine Whip",
+	                "10": "Wrap",
+	                "13": "Growth",
+	                "16": "Leaf Tornado",
+	                "20": "Leech Seed",
+	                "24": "Mega Drain",
+	                "28": "Slam",
+	                "32": "Leaf Blade",
+					"38": "Coil",
+					"44": "Giga Drain",
+					"50": "Wring Out",
+					"46": "Gastro Acid",
+					"62": "Leaf Storm"
+	            },
+				"tutor": [
+					"Aqua Tail",
+					"Bind",
+					"Dragon Pulse",
+					"Frenzy Plant",
+					"Gastro Acid",
+					"Giga Drain",
+					"Grass Pledge",
+					"Iron Tail",
+					"Knock Off",
+					"Outrage",
+					"Seed Bomb",
+					"Snatch",
+					"Snore",
+					"Synthesis",
+					"Worry Seed"
+				]
+	        },
+			"capture_rate": 5,
+			"experience_drop": 50
+		},
+		{
+			"id": 16,
+			"name": "Chespin",
+	        "base_stats": {
+	            "HP": 6,
+	            "ATK": 6,
+	            "DEF": 7,
+	            "SPA": 5,
+	            "SDF": 5,
+	            "SPD": 4
+	        },
+	        "type": [
+	            "Grass"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Overgrow",
+	                "Gluttony",
+	                "Battle Armour"
+	            ],
+	            "high": [
+	                "Bulletproof"
+	            ]
+	        },
+	        "evolution": {
+	            "001": 0,
+	            "002": 15,
+	            "003": 30
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.7,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 29,
+					"class": 3
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+	                "Field"
+	            ],
+	            "hatch_rate": 10,
+	            "diet": [
+	                "Herbivore"
+	            ],
+	            "habitat": [
+	                "Forest",
+	                "Grassland"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 5,
+				"Surface": 4,
+				"Burrow": 2,
+	            "Jump": 2,
+	            "Power": 2,
+	            "Intelligence": 3,
+	            "Other": [
+					"Sprouter"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+	                "01": "Tackle",
+	                "04": "Growl",
+	                "05": "Vine Whip",
+	                "08": "Rollout",
+	                "11": "Bite",
+	                "15": "Leech Seed",
+	                "18": "Pin Missile",
+	                "27": "Take Down",
+					"32": "Seed Bomb",
+					"35": "Mud Shot",
+					"39": "Bulk Up",
+					"42": "Body Slam",
+					"45": "Pain Split",
+					"48": "Wood Hammer"
+	            },
+				"egg": [
+					"Belly Drum",
+					"Curse",
+					"Defense Curl",
+					"Quick Guard",
+					"Rollout",
+					"Spikes",
+					"Synthesis"
+				],
+				"tutor": [
+					"Drain Punch",
+					"Dual Chop",
+					"Endeavour",
+					"Focus Punch",
+					"Frenzy Plant",
+					"Giga Drain",
+					"Grass Pledge",
+					"Helping Hand",
+					"Iron Defense",
+					"Iron Head",
+					"Iron Tail",
+					"Low Kick",
+					"Pain Split",
+					"Seed Bomb",
+					"Snore",
+					"Super Fang",
+					"Superpower",
+					"Synthesis",
+					"Thunder Punch",
+					"Worry Seed",
+					"Zen Headbutt"
+				]
+	        },
+			"capture_rate": 20,
+			"experience_drop": 15
+		},
+		{
+			"id": 17,
+			"name": "Quilladin",
+	        "base_stats": {
+	            "HP": 6,
+	            "ATK": 8,
+	            "DEF": 10,
+	            "SPA": 6,
+	            "SDF": 6,
+	            "SPD": 6
+	        },
+	        "type": [
+	            "Grass"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Overgrow",
+	                "Gluttony",
+	                "Battle Armour"
+	            ],
+	            "high": [
+	                "Bulletproof"
+	            ]
+	        },
+	        "evolution": {
+	            "001": 0,
+	            "002": 15,
+	            "003": 30
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.7,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 29,
+					"class": 3
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+	                "Field"
+	            ],
+	            "diet": [
+	                "Herbivore"
+	            ],
+	            "habitat": [
+	                "Forest",
+	                "Grassland"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 5,
+				"Surface": 4,
+				"Burrow": 2,
+	            "Jump": 2,
+	            "Power": 2,
+	            "Intelligence": 4,
+	            "Other": [
+					"Sprouter"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"E": "Needle Arm",
+	                "05": "Vine Whip",
+	                "08": "Rollout",
+	                "11": "Bite",
+	                "15": "Leech Seed",
+	                "19": "Pin Missile",
+	                "29": "Take Down",
+					"35": "Seed Bomb",
+					"39": "Mud Shot",
+					"44": "Bulk Up",
+					"48": "Body Slam",
+					"52": "Pain Split",
+					"56": "Wood Hammer"
+	            },
+				"tutor": [
+					"Drain Punch",
+					"Dual Chop",
+					"Endeavour",
+					"Focus Punch",
+					"Frenzy Plant",
+					"Giga Drain",
+					"Grass Pledge",
+					"Helping Hand",
+					"Iron Defense",
+					"Iron Head",
+					"Iron Tail",
+					"Low Kick",
+					"Pain Split",
+					"Seed Bomb",
+					"Snore",
+					"Super Fang",
+					"Superpower",
+					"Synthesis",
+					"Thunder Punch",
+					"Worry Seed",
+					"Zen Headbutt"
+				]
+	        },
+			"capture_rate": 10,
+			"experience_drop": 30
+		},
+		{
+			"id": 18,
+			"name": "Chesnaught",
+	        "base_stats": {
+	            "HP": 9,
+	            "ATK": 11,
+	            "DEF": 12,
+	            "SPA": 7,
+	            "SDF": 8,
+	            "SPD": 6
+	        },
+	        "type": [
+				"Grass",
+				"Fighting"
+			],
+	        "abilities": {
+	            "basic": [
+					"Overgrow",
+					"Focus",
+	                "Gluttony",
+	                "Battle Armour"
+	            ],
+	            "high": [
+	                "Bulletproof"
+	            ]
+	        },
+	        "evolution": {
+	            "001": 0,
+	            "002": 15,
+	            "003": 30
+	        },
+	        "biology": {
+				"height": {
+					"value": 1.6,
+					"class": "Medium"
+				},
+	            "weight": {
+					"value": 90,
+					"class": 4
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+	                "Field"
+	            ],
+	            "diet": [
+	                "Herbivore"
+	            ],
+	            "habitat": [
+	                "Forest",
+	                "Grassland"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 7,
+				"Surface": 5,
+				"Burrow": 2,
+	            "Jump": 3,
+	            "Power": 4,
+	            "Intelligence": 4,
+	            "Other": [
+					"Sprouter"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"E": "Spiky Shield",
+	                "05": "Vine Whip",
+	                "08": "Rollout",
+	                "11": "Bite",
+	                "15": "Leech Seed",
+	                "19": "Pin Missile",
+	                "29": "Take Down",
+					"35": "Seed Bomb",
+					"41": "Mud Shot",
+					"48": "Bulk Up",
+					"54": "Body Slam",
+					"60": "Pain Split",
+					"66": "Wood Hammer",
+					"72": "Hammer Arm",
+					"78": "Giga Impact"
+	            },
+				"tutor": [
+					"Drain Punch",
+					"Dual Chop",
+					"Endeavour",
+					"Focus Punch",
+					"Frenzy Plant",
+					"Giga Drain",
+					"Grass Pledge",
+					"Helping Hand",
+					"Iron Defense",
+					"Iron Head",
+					"Iron Tail",
+					"Low Kick",
+					"Pain Split",
+					"Seed Bomb",
+					"Snore",
+					"Super Fang",
+					"Superpower",
+					"Synthesis",
+					"Thunder Punch",
+					"Worry Seed",
+					"Zen Headbutt"
+				]
+	        },
+			"capture_rate": 5,
+			"experience_drop": 50
+		},
+		{
+			"id": 19,
+			"name": "Rowlet",
+	        "base_stats": {
+	            "HP": 7,
+	            "ATK": 6,
+	            "DEF": 6,
+	            "SPA": 5,
+	            "SDF": 5,
+	            "SPD": 4
+	        },
+	        "type": [
+				"Grass",
+				"Flying"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Overgrow",
+	                "Mach Speed",
+	                "Early Bird"
+	            ],
+	            "high": [
+	                "Long Reach"
+	            ]
+	        },
+	        "evolution": {
+	            "001": 0,
+	            "002": 15,
+	            "003": 30
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.3,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 1.5,
+					"class": 1
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+	                "Flying"
+				],
+				"hatch_rate": 10,
+	            "diet": [
+					"Herbivore",
+					"Phototroph"
+	            ],
+	            "habitat": [
+	                "Forest",
+	                "Rainforest"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 4,
+				"Sky": 5,
+				"Surface": 1,
+	            "Jump": 2,
+	            "Power": 1,
+	            "Intelligence": 3,
+	            "Other": [
+					"Sprouter"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"00": "Tackle",
+					"01": "Leafage",
+					"04": "Growl",
+					"08": "Peck",
+					"11": "Astonish",
+					"15": "Razor Leaf",
+					"18": "Foresight",
+					"22": "Pluck",
+					"25": "Synthesis",
+					"29": "Fury Attack",
+					"32": "Sucker Punch",
+					"36": "Leaf Blade",
+					"39": "Feather Dance",
+					"43": "Brave Bird",
+					"46": "Nasty Plot"
+				},
+				"egg": [
+					"Baton Pass",
+					"Confuse Ray",
+					"Curse",
+					"Defog",
+					"Haze",
+					"Ominous Wind"
+				],
+				"tutor": [
+					"Covet",
+					"Defog",
+					"Frenzy Plant",
+					"Giga Drain",
+					"Grass Pledge",
+					"Seed Bomb",
+					"Sky Attack",
+					"Snore",
+					"Synthesis",
+					"Worry Seed"
+				]
+	        },
+			"capture_rate": 20,
+			"experience_drop": 15
+		},
+		{
+			"id": 20,
+			"name": "Dartrix",
+	        "base_stats": {
+	            "HP": 8,
+	            "ATK": 8,
+	            "DEF": 8,
+	            "SPA": 7,
+	            "SDF": 7,
+	            "SPD": 5
+	        },
+	        "type": [
+				"Grass",
+				"Flying"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Overgrow",
+	                "Mach Speed",
+	                "Early Bird"
+	            ],
+	            "high": [
+	                "Long Reach"
+	            ]
+	        },
+	        "evolution": {
+	            "001": 0,
+	            "002": 15,
+	            "003": 30
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.7,
+					"class": "Medium"
+				},
+	            "weight": {
+					"value": 16,
+					"class": 3
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+	                "Flying"
+				],
+	            "diet": [
+					"Herbivore",
+					"Phototroph"
+	            ],
+	            "habitat": [
+	                "Forest",
+	                "Rainforest"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 4,
+				"Sky": 6,
+				"Surface": 1,
+	            "Jump": 3,
+	            "Power": 2,
+	            "Intelligence": 3,
+	            "Other": [
+					"Sprouter",
+					"Stealth",
+					"Reach"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"04": "Growl",
+					"08": "Peck",
+					"11": "Astonish",
+					"15": "Razor Leaf",
+					"19": "Foresight",
+					"24": "Pluck",
+					"28": "Synthesis",
+					"33": "Fury Attack",
+					"37": "Sucker Punch",
+					"42": "Leaf Blade",
+					"46": "Feather Dance",
+					"51": "Brave Bird",
+					"55": "Nasty Plot"
+				},
+				"tutor": [
+					"Covet",
+					"Defog",
+					"Frenzy Plant",
+					"Giga Drain",
+					"Grass Pledge",
+					"Seed Bomb",
+					"Sky Attack",
+					"Snore",
+					"Synthesis",
+					"Worry Seed"
+				]
+	        },
+			"capture_rate": 10,
+			"experience_drop": 30
+		},
+		{
+			"id": 21,
+			"name": "Decidueye",
+	        "base_stats": {
+	            "HP": 8,
+	            "ATK": 11,
+	            "DEF": 8,
+	            "SPA": 10,
+	            "SDF": 10,
+	            "SPD": 7
+	        },
+	        "type": [
+				"Grass",
+				"Ghost"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Overgrow",
+	                "Haunt",
+	                "Early Bird"
+	            ],
+	            "high": [
+	                "Long Reach"
+	            ]
+	        },
+	        "evolution": {
+	            "001": 0,
+	            "002": 15,
+	            "003": 30
+	        },
+	        "biology": {
+				"height": {
+					"value": 1.6,
+					"class": "Medium"
+				},
+	            "weight": {
+					"value": 36.6,
+					"class": 3
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+	                "Flying"
+				],
+	            "diet": [
+					"Herbivore",
+					"Phototroph"
+	            ],
+	            "habitat": [
+	                "Forest",
+	                "Rainforest"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 6,
+				"Sky": 7,
+				"Surface": 1,
+	            "Jump": 3,
+	            "Power": 3,
+	            "Intelligence": 4,
+	            "Other": [
+					"Sprouter",
+					"Stealth",
+					"Reach"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"E": "Spirit Shackle",
+					"04": "Growl",
+					"08": "Peck",
+					"11": "Astonish",
+					"15": "Razor Leaf",
+					"19": "Foresight",
+					"24": "Pluck",
+					"28": "Synthesis",
+					"33": "Fury Attack",
+					"38": "Sucker Punch",
+					"44": "Leaf Blade",
+					"49": "Feather Dance",
+					"55": "Brave Bird",
+					"60": "Nasty Plot"
+				},
+				"tutor": [
+					"Covet",
+					"Defog",
+					"Frenzy Plant",
+					"Giga Drain",
+					"Grass Pledge",
+					"Seed Bomb",
+					"Sky Attack",
+					"Snore",
+					"Synthesis",
+					"U-Turn",
+					"Worry Seed"
+				]
+	        },
+			"capture_rate": 5,
+			"experience_drop": 50
 		}
 	]
 }
