@@ -18,7 +18,7 @@ struct Pokémon: Codable, Equatable {
     let stats: StatArray
     let type: [PokeType]
     let abilities: PokeAbilities
-    let evolution: [String: Int]
+    let evolution: [String: String]
     let biology: PokeBiology
 
     func basicDescription() -> String {
@@ -106,12 +106,16 @@ struct PokeWeight: Codable {
 }
 
 enum PokeType: String, Codable {
+    case dark = "Dark"
+    case fairy = "Fairy"
     case fighting = "Fighting"
     case flying = "Flying"
     case ghost = "Ghost"
     case grass = "Grass"
     case ground = "Ground"
     case poison = "Poison"
+    case steel = "Steel"
+    case water = "Water"
 }
 
 enum AbilityType: String, Codable {
@@ -131,6 +135,7 @@ enum EggGroup: String, Codable {
     case flying = "Flying"
     case monster = "Monster"
     case plant = "Plant"
+    case waterOne = "Water 1"
 }
 
 enum DietType: String, Codable {
@@ -141,8 +146,13 @@ enum DietType: String, Codable {
 }
 
 enum Environment: String, Codable {
+    case beach = "Beach"
     case forest = "Forest"
+    case freshwater = "Freshwater"
     case grassland = "Grassland"
     case marsh = "Marsh"
+    case ocean = "Ocean"
     case rainforest = "Rainforest"
+    case taiga = "Taiga"
+    case tundra = "Tundra"
 }

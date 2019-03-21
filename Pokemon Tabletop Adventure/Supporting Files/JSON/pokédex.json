@@ -25,9 +25,9 @@
 	            ]
 	        },
 	        "evolution": {
-	            "001": 0,
-	            "002": 15,
-	            "003": 30
+	            "001": "---",
+	            "002": "Minimum level 15",
+	            "003": "Minimum level 30"
 	        },
 	        "biology": {
 				"height": {
@@ -138,9 +138,9 @@
 	            ]
 	        },
 	        "evolution": {
-	            "001": 0,
-	            "002": 15,
-	            "003": 30
+	            "001": "---",
+	            "002": "Minimum level 15",
+	            "003": "Minimum level 30"
 	        },
 	        "biology": {
 					"height": {
@@ -232,9 +232,9 @@
 				]
 			},
 			"evolution": {
-				"001": 0,
-				"002": 15,
-				"003": 30
+				"001": "---",
+				"002": "Minimum level 15",
+				"003": "Minimum level 30"
 			},
 			"biology": {
 				"height": {
@@ -330,9 +330,9 @@
 				]
 			},
 			"evolution": {
-				"004": 0,
-				"005": 15,
-				"006": 30
+				"004": "---",
+				"005": "Minimum level 15",
+				"006": "Minmum level 30"
 			},
 			"biology": {
 				"height": {
@@ -442,9 +442,9 @@
 				]
 			},
 			"evolution": {
-				"004": 0,
-				"005": 15,
-				"006": 30
+				"004": "---",
+				"005": "Minimum level 15",
+				"006": "Minmum level 30"
 			},
 			"biology": {
 				"height": {
@@ -536,9 +536,9 @@
 				]
 			},
 			"evolution": {
-				"004": 0,
-				"005": 15,
-				"006": 30
+				"004": "---",
+				"005": "Minimum level 15",
+				"006": "Minmum level 30"
 			},
 			"biology": {
 				"height": {
@@ -635,9 +635,9 @@
 				]
 			},
 			"evolution": {
-				"007": 0,
-				"008": 15,
-				"009": 30
+				"007": "---",
+				"008": "Minimum level 15",
+				"009": "Minimum level 30"
 			},
 			"biology": {
 				"height": {
@@ -750,9 +750,9 @@
 				]
 			},
 			"evolution": {
-				"007": 0,
-				"008": 15,
-				"009": 30
+				"007": "---",
+				"008": "Minimum level 15",
+				"009": "Minimum level 30"
 			},
 			"biology": {
 				"height": {
@@ -849,9 +849,9 @@
 				]
 			},
 			"evolution": {
-				"007": 0,
-				"008": 15,
-				"009": 30
+				"007": "---",
+				"008": "Minimum level 15",
+				"009": "Minimum level 30"
 			},
 			"biology": {
 				"height": {
@@ -954,9 +954,9 @@
 	            ]
 	        },
 	        "evolution": {
-	            "001": 0,
-	            "002": 15,
-	            "003": 30
+	            "010": "---",
+	            "011": "Minimum level 15",
+	            "012": "Minimum level 30"
 	        },
 	        "biology": {
 				"height": {
@@ -1068,9 +1068,9 @@
 	            ]
 	        },
 	        "evolution": {
-	            "001": 0,
-	            "002": 15,
-	            "003": 30
+	            "010": "---",
+	            "011": "Minimum level 15",
+	            "012": "Minimum level 30"
 	        },
 	        "biology": {
 				"height": {
@@ -1165,9 +1165,9 @@
 	            ]
 	        },
 	        "evolution": {
-	            "001": 0,
-	            "002": 15,
-	            "003": 30
+	            "010": "---",
+	            "011": "Minimum level 15",
+	            "012": "Minimum level 30"
 	        },
 	        "biology": {
 				"height": {
@@ -1267,9 +1267,9 @@
 	            ]
 	        },
 	        "evolution": {
-	            "001": 0,
-	            "002": 15,
-	            "003": 30
+	            "013": "---",
+	            "014": "Minimum level 15",
+	            "015": "Minimum level 30"
 	        },
 	        "biology": {
 				"height": {
@@ -1380,9 +1380,9 @@
 	            ]
 	        },
 	        "evolution": {
-	            "001": 0,
-	            "002": 15,
-	            "003": 30
+	            "013": "---",
+	            "014": "Minimum level 15",
+	            "015": "Minimum level 30"
 	        },
 	        "biology": {
 				"height": {
@@ -1480,9 +1480,9 @@
 	            ]
 	        },
 	        "evolution": {
-	            "001": 0,
-	            "002": 15,
-	            "003": 30
+	            "013": "---",
+	            "014": "Minimum level 15",
+	            "015": "Minimum level 30"
 	        },
 	        "biology": {
 				"height": {
@@ -1582,9 +1582,9 @@
 	            ]
 	        },
 	        "evolution": {
-	            "001": 0,
-	            "002": 15,
-	            "003": 30
+	            "016": "---",
+	            "017": "Minimum level 15",
+	            "018": "Minimum level 30"
 	        },
 	        "biology": {
 				"height": {
@@ -1697,9 +1697,9 @@
 	            ]
 	        },
 	        "evolution": {
-	            "001": 0,
-	            "002": 15,
-	            "003": 30
+	            "016": "---",
+	            "017": "Minimum level 15",
+	            "018": "Minimum level 30"
 	        },
 	        "biology": {
 				"height": {
@@ -1803,9 +1803,9 @@
 	            ]
 	        },
 	        "evolution": {
-	            "001": 0,
-	            "002": 15,
-	            "003": 30
+	            "016": "---",
+	            "017": "Minimum level 15",
+	            "018": "Minimum level 30"
 	        },
 	        "biology": {
 				"height": {
@@ -1910,9 +1910,9 @@
 	            ]
 	        },
 	        "evolution": {
-	            "001": 0,
-	            "002": 15,
-	            "003": 30
+	            "019": "---",
+	            "020": "Minimum level 15",
+	            "021": "Minimum level 30"
 	        },
 	        "biology": {
 				"height": {
@@ -2016,9 +2016,9 @@
 	            ]
 	        },
 	        "evolution": {
-	            "001": 0,
-	            "002": 15,
-	            "003": 30
+	            "019": "---",
+	            "020": "Minimum level 15",
+	            "021": "Minimum level 30"
 	        },
 	        "biology": {
 				"height": {
@@ -2113,9 +2113,9 @@
 	            ]
 	        },
 	        "evolution": {
-	            "001": 0,
-	            "002": 15,
-	            "003": 30
+	            "019": "---",
+	            "020": "Minimum level 15",
+	            "021": "Minimum level 30"
 	        },
 	        "biology": {
 				"height": {
@@ -2181,6 +2181,2181 @@
 					"Synthesis",
 					"U-Turn",
 					"Worry Seed"
+				]
+	        },
+			"capture_rate": 5,
+			"experience_drop": 50
+		},
+		{
+			"id": 120,
+			"name": "Squirtle",
+	        "base_stats": {
+	            "HP": 4,
+	            "ATK": 5,
+	            "DEF": 7,
+	            "SPA": 5,
+	            "SDF": 6,
+	            "SPD": 4
+	        },
+	        "type": [
+				"Water"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Torrent",
+	                "Shell Armour",
+	                "Rock Head"
+	            ],
+	            "high": [
+	                "Rain Dish"
+	            ]
+	        },
+	        "evolution": {
+	            "120": "---",
+	            "121": "Minimum level 15",
+	            "122": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.5,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 9,
+					"class": 1
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Monster",
+					"Water 1"
+				],
+				"hatch_rate": 10,
+	            "diet": [
+					"Herbivore"
+	            ],
+	            "habitat": [
+	                "Beach",
+					"Freshwater",
+					"Ocean"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 6,
+				"Surface": 8,
+				"Underwater": 5,
+	            "Jump": 2,
+	            "Power": 1,
+	            "Intelligence": 3,
+	            "Other": [
+					"Fountain"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"01": "Tackle",
+					"04": "Tail Whip",
+					"07": "Bubble",
+					"10": "Withdraw",
+					"13": "Water Gun",
+					"16": "Bite",
+					"19": "Rapid Spin",
+					"22": "Protect",
+					"25": "Water Pulse",
+					"28": "Aqua Tail",
+					"31": "Skull Bash",
+					"34": "Iron Defense",
+					"37": "Rain Dance",
+					"40": "Hydro Pump"
+				},
+				"egg": [
+					"Aqua Tail",
+					"Aqua Ring",
+					"Aura Sphere",
+					"Brine",
+					"Dragon Pulse",
+					"Fake Out",
+					"Flail",
+					"Foresight",
+					"Haze",
+					"Mirror Coat",
+					"Mist",
+					"Mud Sport",
+					"Muddy Water",
+					"Refresh",
+					"Water Sport",
+					"Yawn"
+				],
+				"tutor": [
+					"Aqua Tail",
+					"Dragon Pulse",
+					"Focus Punch",
+					"Hydro Cannon",
+					"Ice Punch",
+					"Icy Wind",
+					"Iron Defense",
+					"Iron Tail",
+					"Snore",
+					"Water Pledge",
+					"Water Pulse",
+					"Zen Headbutt"
+				]
+	        },
+			"capture_rate": 20,
+			"experience_drop": 15
+		},
+		{
+			"id": 121,
+			"name": "Wartortle",
+	        "base_stats": {
+	            "HP": 6,
+	            "ATK": 6,
+	            "DEF": 8,
+	            "SPA": 7,
+	            "SDF": 8,
+	            "SPD": 6
+	        },
+	        "type": [
+				"Water"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Torrent",
+	                "Shell Armour",
+	                "Rock Head"
+	            ],
+	            "high": [
+	                "Rain Dish"
+	            ]
+	        },
+	        "evolution": {
+	            "120": "---",
+	            "121": "Minimum level 15",
+	            "122": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 1,
+					"class": "Medium"
+				},
+	            "weight": {
+					"value": 22.5,
+					"class": 2
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Monster",
+					"Water 1"
+				],
+	            "diet": [
+					"Omnivore"
+	            ],
+	            "habitat": [
+	                "Beach",
+					"Freshwater",
+					"Ocean"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 6,
+				"Surface": 6,
+				"Underwater": 8,
+	            "Jump": 2,
+	            "Power": 2,
+	            "Intelligence": 3,
+	            "Other": [
+					"Fountain"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"04": "Tail Whip",
+					"07": "Bubble",
+					"10": "Withdraw",
+					"13": "Water Gun",
+					"17": "Bite",
+					"21": "Rapid Spin",
+					"25": "Protect",
+					"29": "Water Pulse",
+					"33": "Aqua Tail",
+					"37": "Skull Bash",
+					"41": "Iron Defense",
+					"45": "Rain Dance",
+					"49": "Hydro Pump"
+				},
+				"tutor": [
+					"Aqua Tail",
+					"Dragon Pulse",
+					"Focus Punch",
+					"Hydro Cannon",
+					"Ice Punch",
+					"Icy Wind",
+					"Iron Defense",
+					"Iron Tail",
+					"Snore",
+					"Water Pledge",
+					"Water Pulse",
+					"Zen Headbutt"
+				]
+	        },
+			"capture_rate": 10,
+			"experience_drop": 30
+		},
+		{
+			"id": 122,
+			"name": "Blastoise",
+	        "base_stats": {
+	            "HP": 8,
+	            "ATK": 8,
+	            "DEF": 10,
+	            "SPA": 9,
+	            "SDF": 11,
+	            "SPD": 8
+	        },
+	        "type": [
+				"Water"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Torrent",
+	                "Shell Armour",
+	                "Rock Head"
+	            ],
+	            "high": [
+					"Rain Dish",
+					"Sniper"
+	            ]
+	        },
+	        "evolution": {
+	            "120": "---",
+	            "121": "Minimum level 15",
+	            "122": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 1.6,
+					"class": "Medium"
+				},
+	            "weight": {
+					"value": 85.5,
+					"class": 4
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Monster",
+					"Water 1"
+				],
+	            "diet": [
+					"Omnivore"
+	            ],
+	            "habitat": [
+	                "Beach",
+					"Freshwater",
+					"Ocean"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 4,
+				"Surface": 8,
+				"Underwater": 6,
+	            "Jump": 1,
+	            "Power": 4,
+	            "Intelligence": 4,
+	            "Other": [
+					"Fountain"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"04": "Tail Whip",
+					"07": "Bubble",
+					"10": "Withdraw",
+					"13": "Water Gun",
+					"17": "Bite",
+					"21": "Rapid Spin",
+					"25": "Protect",
+					"29": "Water Pulse",
+					"33": "Aqua Tail",
+					"40": "Skull Bash",
+					"47": "Iron Defense",
+					"54": "Rain Dance",
+					"60": "Hydro Pump"
+				},
+				"tutor": [
+					"Aqua Tail",
+					"Dragon Pulse",
+					"Focus Punch",
+					"Hydro Cannon",
+					"Ice Punch",
+					"Icy Wind",
+					"Iron Defense",
+					"Iron Tail",
+					"Snore",
+					"Water Pledge",
+					"Water Pulse",
+					"Zen Headbutt"
+				]
+	        },
+			"capture_rate": 5,
+			"experience_drop": 50
+		},
+		{
+			"id": 123,
+			"name": "Totodile",
+	        "base_stats": {
+	            "HP": 5,
+	            "ATK": 7,
+	            "DEF": 6,
+	            "SPA": 4,
+	            "SDF": 5,
+	            "SPD": 4
+	        },
+	        "type": [
+				"Water"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Torrent",
+	                "Hyper Cutter",
+	                "Frisk"
+	            ],
+	            "high": [
+	                "Sheer Force"
+	            ]
+	        },
+	        "evolution": {
+	            "123": "---",
+	            "124": "Minimum level 15",
+	            "125": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.6,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 9.5,
+					"class": 1
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Monster",
+					"Water 1"
+				],
+				"hatch_rate": 10,
+	            "diet": [
+					"Carnivore"
+	            ],
+	            "habitat": [
+	                "Beach",
+					"Freshwater",
+					"Marsh"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 6,
+				"Surface": 8,
+	            "Jump": 3,
+	            "Power": 1,
+	            "Intelligence": 2,
+	            "Other": [
+					"Fountain"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"00": "Leer",
+					"01": "Scratch",
+					"06": "Water Gun",
+					"08": "Rage",
+					"13": "Bite",
+					"15": "Scary Face",
+					"20": "Ice Fang",
+					"22": "Flail",
+					"27": "Crunch",
+					"29": "Chip Away",
+					"34": "Slash",
+					"36": "Screech",
+					"41": "Thrash",
+					"43": "Aqua Tail",
+					"48": "Superpower",
+					"50": "Hydro Pump"
+				},
+				"egg": [
+					"Ancient Power",
+					"Aqua Jet",
+					"Block",
+					"Crunch",
+					"Dragon Dance",
+					"Fake Tears",
+					"Flatter",
+					"Hydro Pump",
+					"Ice Punch",
+					"Metal Claw",
+					"Mud Sport",
+					"Thrash",
+					"Water Pulse",
+					"Water Sport"
+				],
+				"tutor": [
+					"Aqua Tail",
+					"Block",
+					"Focus Punch",
+					"Hydro Cannon",
+					"Ice Punch",
+					"Icy Wind",
+					"Low Kick",
+					"Snore",
+					"Spite",
+					"Superpower",
+					"Uproar",
+					"Water Pledge",
+					"Water Pulse"
+				]
+	        },
+			"capture_rate": 20,
+			"experience_drop": 15
+		},
+		{
+			"id": 124,
+			"name": "Croconaw",
+	        "base_stats": {
+	            "HP": 7,
+	            "ATK": 8,
+	            "DEF": 8,
+	            "SPA": 6,
+	            "SDF": 6,
+	            "SPD": 6
+	        },
+	        "type": [
+				"Water"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Torrent",
+	                "Hyper Cutter",
+	                "Frisk"
+	            ],
+	            "high": [
+	                "Sheer Force"
+	            ]
+	        },
+	        "evolution": {
+	            "123": "---",
+	            "124": "Minimum level 15",
+	            "125": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 1.1,
+					"class": "Medium"
+				},
+	            "weight": {
+					"value": 25,
+					"class": 2
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Monster",
+					"Water 1"
+				],
+	            "diet": [
+					"Carnivore"
+	            ],
+	            "habitat": [
+	                "Beach",
+					"Freshwater",
+					"Marsh"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 7,
+				"Surface": 9,
+				"Underwater": 5,
+	            "Jump": 3,
+	            "Power": 3,
+	            "Intelligence": 3,
+	            "Other": [
+					"Fountain"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"06": "Water Gun",
+					"08": "Rage",
+					"13": "Bite",
+					"15": "Scary Face",
+					"21": "Ice Fang",
+					"24": "Flail",
+					"30": "Crunch",
+					"33": "Chip Away",
+					"39": "Slash",
+					"42": "Screech",
+					"48": "Thrash",
+					"51": "Aqua Tail",
+					"57": "Superpower",
+					"60": "Hydro Pump"
+				},
+				"tutor": [
+					"Aqua Tail",
+					"Block",
+					"Focus Punch",
+					"Hydro Cannon",
+					"Ice Punch",
+					"Icy Wind",
+					"Iron Tail",
+					"Low Kick",
+					"Snore",
+					"Spite",
+					"Superpower",
+					"Uproar",
+					"Water Pledge",
+					"Water Pulse"
+				]
+	        },
+			"capture_rate": 10,
+			"experience_drop": 30
+		},
+		{
+			"id": 125,
+			"name": "Feraligatr",
+	        "base_stats": {
+	            "HP": 9,
+	            "ATK": 11,
+	            "DEF": 10,
+	            "SPA": 8,
+	            "SDF": 8,
+	            "SPD": 8
+	        },
+	        "type": [
+				"Water"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Torrent",
+	                "Hyper Cutter",
+	                "Frisk"
+	            ],
+	            "high": [
+	                "Sheer Force"
+	            ]
+	        },
+	        "evolution": {
+	            "123": "---",
+	            "124": "Minimum level 15",
+	            "125": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 2.3,
+					"class": "Large"
+				},
+	            "weight": {
+					"value": 88.8,
+					"class": 4
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Monster",
+					"Water 1"
+				],
+	            "diet": [
+					"Carnivore"
+	            ],
+	            "habitat": [
+	                "Beach",
+					"Freshwater",
+					"Marsh"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 9,
+				"Surface": 8,
+				"Underwater": 8,
+	            "Jump": 2,
+	            "Power": 4,
+	            "Intelligence": 4,
+	            "Other": [
+					"Fountain"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"06": "Water Gun",
+					"08": "Rage",
+					"13": "Bite",
+					"15": "Scary Face",
+					"21": "Ice Fang",
+					"24": "Flail",
+					"30": "Agility",
+					"32": "Crunch",
+					"37": "Chip Away",
+					"45": "Slash",
+					"50": "Screech",
+					"58": "Thrash",
+					"63": "Aqua Tail",
+					"71": "Superpower",
+					"76": "Hydro Pump"
+				},
+				"tutor": [
+					"Agility",
+					"Aqua Tail",
+					"Block",
+					"Dragon Pulse",
+					"Focus Punch",
+					"Hydro Cannon",
+					"Ice Punch",
+					"Icy Wind",
+					"Iron Tail",
+					"Low Kick",
+					"Outrage",
+					"Snore",
+					"Spite",
+					"Superpower",
+					"Uproar",
+					"Water Pledge",
+					"Water Pulse"
+				]
+	        },
+			"capture_rate": 5,
+			"experience_drop": 50
+		},
+		{
+			"id": 126,
+			"name": "Mudkip",
+	        "base_stats": {
+	            "HP": 5,
+	            "ATK": 7,
+	            "DEF": 5,
+	            "SPA": 5,
+	            "SDF": 5,
+	            "SPD": 4
+	        },
+	        "type": [
+				"Water"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Torrent",
+	                "Oblivious",
+	                "Damp"
+	            ],
+	            "high": [
+	                "Hydration"
+	            ]
+	        },
+	        "evolution": {
+	            "126": "---",
+	            "127": "Minimum level 15",
+	            "128": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.4,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 7.6,
+					"class": 1
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Monster",
+					"Water 1"
+				],
+				"hatch_rate": 10,
+	            "diet": [
+					"Herbivore"
+	            ],
+	            "habitat": [
+					"Marsh"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 5,
+				"Surface": 5,
+				"Underwater": 5,
+	            "Jump": 1,
+	            "Power": 1,
+	            "Intelligence": 3,
+	            "Other": [
+					"Fountain",
+					"Gilled"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"00": "Growl",
+					"01": "Tackle",
+					"04": "Water Gun",
+					"09": "Mud-Slap",
+					"12": "Foresight",
+					"17": "Bide",
+					"20": "Mud Sport",
+					"25": "Rock Throw",
+					"28": "Protect",
+					"33": "Whirpool",
+					"36": "Take Down",
+					"41": "Hydro Pump",
+					"44": "Endeavour"
+				},
+				"egg": [
+					"Ancient Power",
+					"Avalanche",
+					"Barrier",
+					"Bite",
+					"Counter",
+					"Curse",
+					"Double-Edge",
+					"Ice Ball",
+					"Mirror Coat",
+					"Mud Bomb",
+					"Refresh",
+					"Sludge",
+					"Stomp",
+					"Uproar",
+					"Whirlpool",
+					"Wide Guard",
+					"Yawn"
+				],
+				"tutor": [
+					"Aqua Tail",
+					"Earth Power",
+					"Endeavour",
+					"Hydro Cannon",
+					"Icy Wind",
+					"Iron Tail",
+					"Low Kick",
+					"Superpower",
+					"Uproar",
+					"Water Pledge",
+					"Water Pulse"
+				]
+	        },
+			"capture_rate": 20,
+			"experience_drop": 15
+		},
+		{
+			"id": 127,
+			"name": "Marshtomp",
+	        "base_stats": {
+	            "HP": 7,
+	            "ATK": 9,
+	            "DEF": 7,
+	            "SPA": 6,
+	            "SDF": 7,
+	            "SPD": 5
+	        },
+	        "type": [
+				"Water",
+				"Ground"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Torrent",
+					"Landslide",
+					"Dry Skin",
+	                "Damp"
+	            ],
+	            "high": [
+	                "Hydration"
+	            ]
+	        },
+	        "evolution": {
+	            "126": "---",
+	            "127": "Minimum level 15",
+	            "128": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.7,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 28,
+					"class": 3
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Monster",
+					"Water 1"
+				],
+	            "diet": [
+					"Herbivore"
+	            ],
+	            "habitat": [
+					"Marsh"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 6,
+				"Surface": 6,
+				"Underwater": 6,
+				"Burrow": 6,
+	            "Jump": 1,
+	            "Power": 2,
+	            "Intelligence": 3,
+	            "Other": [
+					"Fountain",
+					"Gilled"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"E": "Mud Shot",
+					"04": "Water Gun",
+					"09": "Mud-Slap",
+					"12": "Foresight",
+					"16": "Mud Shot",
+					"18": "Bide",
+					"22": "Mud Bomb",
+					"28": "Rock Slide",
+					"32": "Protect",
+					"38": "Muddy Water",
+					"42": "Take Down",
+					"48": "Earthquake",
+					"52": "Endeavour"
+				},
+				"tutor": [
+					"Aqua Tail",
+					"Earth Power",
+					"Endeavour",
+					"Hydro Cannon",
+					"Hydro Pump",
+					"Ice Punch",
+					"Icy Wind",
+					"Iron Tail",
+					"Low Kick",
+					"Mud Sport",
+					"Rock Throw",
+					"Snore",
+					"Stealth Rock",
+					"Superpower",
+					"Uproar",
+					"Water Pledge",
+					"Water Pulse",
+					"Whirlpool"
+				]
+	        },
+			"capture_rate": 10,
+			"experience_drop": 30
+		},
+		{
+			"id": 128,
+			"name": "Swampert",
+	        "base_stats": {
+	            "HP": 10,
+	            "ATK": 11,
+	            "DEF": 9,
+	            "SPA": 9,
+	            "SDF": 9,
+	            "SPD": 6
+	        },
+	        "type": [
+				"Water",
+				"Ground"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Torrent",
+					"Landslide",
+					"Dry Skin",
+	                "Damp"
+	            ],
+	            "high": [
+	                "Hydration"
+	            ]
+	        },
+	        "evolution": {
+	            "126": "---",
+	            "127": "Minimum level 15",
+	            "128": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 1.5,
+					"class": "Medium"
+				},
+	            "weight": {
+					"value": 81.9,
+					"class": 4
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Monster",
+					"Water 1"
+				],
+	            "diet": [
+					"Herbivore"
+	            ],
+	            "habitat": [
+					"Marsh"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 7,
+				"Surface": 7,
+				"Underwater": 7,
+				"Burrow": 7,
+	            "Jump": 2,
+	            "Power": 4,
+	            "Intelligence": 4,
+	            "Other": [
+					"Fountain",
+					"Gilled"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"04": "Water Gun",
+					"09": "Mud-Slap",
+					"12": "Foresight",
+					"16": "Mud Shot",
+					"18": "Bide",
+					"22": "Mud Bomb",
+					"28": "Rock Slide",
+					"32": "Protect",
+					"39": "Muddy Water",
+					"44": "Take Down",
+					"51": "Earthquake",
+					"56": "Endeavour",
+					"63": "Hammer Arm"
+				},
+				"tutor": [
+					"Aqua Tail",
+					"Earth Power",
+					"Endeavour",
+					"Hammer Arm",
+					"Hydro Cannon",
+					"Hydro Pump",
+					"Ice Punch",
+					"Icy Wind",
+					"Iron Tail",
+					"Low Kick",
+					"Mud Sport",
+					"Outrage",
+					"Rock Throw",
+					"Snore",
+					"Stealth Rock",
+					"Superpower",
+					"Uproar",
+					"Water Pledge",
+					"Water Pulse",
+					"Whirlpool"
+				]
+	        },
+			"capture_rate": 5,
+			"experience_drop": 50
+		},
+		{
+			"id": 129,
+			"name": "Piplup",
+	        "base_stats": {
+	            "HP": 5,
+	            "ATK": 5,
+	            "DEF": 5,
+	            "SPA": 6,
+	            "SDF": 6,
+	            "SPD": 4
+	        },
+	        "type": [
+				"Water"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Torrent",
+					"Cute Charm",
+	                "Klutz"
+	            ],
+	            "high": [
+	                "Defiant"
+	            ]
+	        },
+	        "evolution": {
+	            "129": "---",
+	            "130": "Minimum level 15",
+	            "131": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.4,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 5.2,
+					"class": 1
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Water 1",
+					"Field"
+				],
+				"hatch_rate": 10,
+	            "diet": [
+					"Herbivore"
+	            ],
+	            "habitat": [
+					"Beach",
+					"Taiga",
+					"Tundra"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 4,
+				"Surface": 6,
+				"Underwater": 3,
+	            "Jump": 1,
+	            "Power": 1,
+	            "Intelligence": 2,
+	            "Other": [
+					"Fountain",
+					"Icestep"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"01": "Pound",
+					"04": "Growl",
+					"08": "Bubble",
+					"11": "Water Sport",
+					"15": "Peck",
+					"18": "Bubble Beam",
+					"22": "Bide",
+					"25": "Fury Attack",
+					"29": "Brine",
+					"32": "Whirlpool",
+					"36": "Mist",
+					"39": "Drill Peck",
+					"43": "Hydro Pump"
+				},
+				"egg": [
+					"Agility",
+					"Aqua Ring",
+					"Bide",
+					"Double Hit",
+					"Feather Dance",
+					"Flail",
+					"Hydro Pump",
+					"Icy Wind",
+					"Mud Sport",
+					"Mud-Slap",
+					"Snore",
+					"Supersonic",
+					"Yawn"
+				],
+				"tutor": [
+					"Covet",
+					"Hydro Cannon",
+					"Icy Wind",
+					"Signal Beam",
+					"Snore",
+					"Stealth Rock",
+					"Water Pledge",
+					"Water Pulse"
+				]
+	        },
+			"capture_rate": 20,
+			"experience_drop": 15
+		},
+		{
+			"id": 130,
+			"name": "Prinplup",
+	        "base_stats": {
+	            "HP": 6,
+	            "ATK": 7,
+	            "DEF": 7,
+	            "SPA": 8,
+	            "SDF": 8,
+	            "SPD": 5
+	        },
+	        "type": [
+				"Water"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Torrent",
+					"Swift Swim",
+	                "Rivalry"
+	            ],
+	            "high": [
+	                "Defiant"
+	            ]
+	        },
+	        "evolution": {
+	            "129": "---",
+	            "130": "Minimum level 15",
+	            "131": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.8,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 23,
+					"class": 2
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Water 1",
+					"Field"
+				],
+	            "diet": [
+					"Herbivore"
+	            ],
+	            "habitat": [
+					"Beach",
+					"Taiga",
+					"Tundra"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 5,
+				"Surface": 8,
+				"Underwater": 5,
+	            "Jump": 2,
+	            "Power": 2,
+	            "Intelligence": 3,
+	            "Other": [
+					"Fountain",
+					"Icestep"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"E": "Metal Claw",
+					"04": "Growl",
+					"08": "Bubble",
+					"11": "Water Sport",
+					"15": "Peck",
+					"16": "Metal Claw",
+					"19": "Bubble Beam",
+					"24": "Bide",
+					"28": "Fury Attack",
+					"33": "Brine",
+					"37": "Whirlpool",
+					"42": "Mist",
+					"46": "Drill Peck",
+					"50": "Hydro Pump"
+				},
+				"tutor": [
+					"Covet",
+					"Hydro Cannon",
+					"Icy Wind",
+					"Pound",
+					"Signal Beam",
+					"Snore",
+					"Stealth Rock",
+					"Water Pledge",
+					"Water Pulse"
+				]
+	        },
+			"capture_rate": 10,
+			"experience_drop": 30
+		},
+		{
+			"id": 131,
+			"name": "Empoleon",
+	        "base_stats": {
+	            "HP": 8,
+	            "ATK": 9,
+	            "DEF": 9,
+	            "SPA": 11,
+	            "SDF": 10,
+	            "SPD": 6
+	        },
+	        "type": [
+				"Water",
+				"Steel"
+			],
+	        "abilities": {
+	            "basic": [
+					"Torrent",
+					"Unbreakable",
+					"Swift Swim",
+	                "Rivalry"
+	            ],
+	            "high": [
+	                "Defiant"
+	            ]
+	        },
+	        "evolution": {
+	            "129": "---",
+	            "130": "Minimum level 15",
+	            "131": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 1.7,
+					"class": "Medium"
+				},
+	            "weight": {
+					"value": 84.5,
+					"class": 4
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Water 1",
+					"Field"
+				],
+	            "diet": [
+					"Omnivore"
+	            ],
+	            "habitat": [
+					"Beach",
+					"Taiga",
+					"Tundra"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 5,
+				"Surface": 10,
+				"Underwater": 10,
+	            "Jump": 2,
+	            "Power": 4,
+	            "Intelligence": 4,
+	            "Other": [
+					"Fountain",
+					"Icestep"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"E": "Aqua Jet",
+					"04": "Growl",
+					"08": "Bubble",
+					"11": "Swords Dance",
+					"15": "Peck",
+					"16": "Metal Claw",
+					"19": "Bubble Beam",
+					"24": "Swagger",
+					"28": "Fury Attack",
+					"33": "Brine",
+					"36": "Aqua Jet",
+					"39": "Whirlpool",
+					"46": "Mist",
+					"52": "Drill Peck",
+					"59": "Hydro Pump"
+				},
+				"tutor": [
+					"Bide",
+					"Covet",
+					"Hydro Cannon",
+					"Icy Wind",
+					"Iron Defense",
+					"Knock Off",
+					"Pound",
+					"Metal Claw",
+					"Signal Beam",
+					"Snore",
+					"Stealth Rock",
+					"Water Pledge",
+					"Water Pulse",
+					"Water Sport"
+				]
+	        },
+			"capture_rate": 5,
+			"experience_drop": 50
+		},
+		{
+			"id": 132,
+			"name": "Oshawott",
+	        "base_stats": {
+	            "HP": 6,
+	            "ATK": 6,
+	            "DEF": 5,
+	            "SPA": 6,
+	            "SDF": 5,
+	            "SPD": 5
+	        },
+	        "type": [
+				"Water"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Torrent",
+					"Hyper Cutter",
+	                "Inner Focus"
+	            ],
+	            "high": [
+	                "Shell Armour"
+	            ]
+	        },
+	        "evolution": {
+	            "132": "---",
+	            "133": "Minimum level 15",
+	            "134": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.5,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 5.9,
+					"class": 1
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Field"
+				],
+				"hatch_rate": 10,
+	            "diet": [
+					"Herbivore"
+	            ],
+	            "habitat": [
+					"Beach",
+					"Ocean"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 6,
+				"Surface": 8,
+				"Underwater": 6,
+	            "Jump": 2,
+	            "Power": 2,
+	            "Intelligence": 3,
+	            "Other": [
+					"Fountain"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"01": "Tackle",
+					"05": "Tail Whip",
+					"07": "Water Gun",
+					"11": "Water Sport",
+					"13": "Focus Energy",
+					"17": "Razor Shell",
+					"19": "Fury Cutter",
+					"23": "Water Pulse",
+					"25": "Revenge",
+					"29": "Aqua Jet",
+					"31": "Encore",
+					"35": "Aqua Tail",
+					"37": "Retaliate",
+					"41": "Swords Dance",
+					"43": "Hydro Pump"
+				},
+				"egg": [
+					"Air Slash",
+					"Assurance",
+					"Brine",
+					"Copycat",
+					"Detect",
+					"Night Slash",
+					"Screech",
+					"Trump Card"
+				],
+				"tutor": [
+					"Aqua Tail",
+					"Covet",
+					"Helping Hand",
+					"Hydro Cannon",
+					"Icy Wind",
+					"Iron Tail",
+					"Snore",
+					"Water Pledge",
+					"Water Pulse"
+				]
+	        },
+			"capture_rate": 20,
+			"experience_drop": 15
+		},
+		{
+			"id": 133,
+			"name": "Dewott",
+	        "base_stats": {
+	            "HP": 8,
+	            "ATK": 8,
+	            "DEF": 6,
+	            "SPA": 8,
+	            "SDF": 6,
+	            "SPD": 6
+	        },
+	        "type": [
+				"Water"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Torrent",
+					"Hyper Cutter",
+	                "Inner Focus"
+	            ],
+	            "high": [
+	                "Shell Armour"
+	            ]
+	        },
+	        "evolution": {
+	            "132": "---",
+	            "133": "Minimum level 15",
+	            "134": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.8,
+					"class": "Medium"
+				},
+	            "weight": {
+					"value": 24.5,
+					"class": 2
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Field"
+				],
+	            "diet": [
+					"Herbivore"
+	            ],
+	            "habitat": [
+					"Beach",
+					"Ocean"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 7,
+				"Surface": 9,
+				"Underwater": 76,
+	            "Jump": 3,
+	            "Power": 3,
+	            "Intelligence": 4,
+	            "Other": [
+					"Fountain"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"05": "Tail Whip",
+					"07": "Water Gun",
+					"11": "Water Sport",
+					"13": "Focus Energy",
+					"18": "Razor Shell",
+					"21": "Fury Cutter",
+					"26": "Water Pulse",
+					"29": "Revenge",
+					"34": "Aqua Jet",
+					"37": "Encore",
+					"42": "Aqua Tail",
+					"45": "Retaliate",
+					"50": "Swords Dance",
+					"53": "Hydro Pump"
+				},
+				"tutor": [
+					"Aqua Tail",
+					"Covet",
+					"Helping Hand",
+					"Hydro Cannon",
+					"Icy Wind",
+					"Iron Tail",
+					"Snore",
+					"Water Pledge",
+					"Water Pulse"
+				]
+	        },
+			"capture_rate": 10,
+			"experience_drop": 30
+		},
+		{
+			"id": 134,
+			"name": "Samurott",
+	        "base_stats": {
+	            "HP": 10,
+	            "ATK": 10,
+	            "DEF": 9,
+	            "SPA": 8,
+	            "SDF": 7,
+	            "SPD": 7
+	        },
+	        "type": [
+				"Water"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Torrent",
+					"Hyper Cutter",
+	                "Inner Focus"
+	            ],
+	            "high": [
+	                "Shell Armour"
+	            ]
+	        },
+	        "evolution": {
+	            "132": "---",
+	            "133": "Minimum level 15",
+	            "134": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 1.5,
+					"class": "Large"
+				},
+	            "weight": {
+					"value": 94.6,
+					"class": 4
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Field"
+				],
+				"hatch_rate": 10,
+	            "diet": [
+					"Herbivore"
+	            ],
+	            "habitat": [
+					"Beach",
+					"Ocean"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 8,
+				"Surface": 9,
+				"Underwater": 8,
+	            "Jump": 3,
+	            "Power": 4,
+	            "Intelligence": 4,
+	            "Other": [
+					"Fountain"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"E": "Slash",
+					"05": "Tail Whip",
+					"07": "Water Gun",
+					"11": "Water Sport",
+					"13": "Focus Energy",
+					"18": "Razor Shell",
+					"21": "Fury Cutter",
+					"26": "Water Pulse",
+					"29": "Revenge",
+					"34": "Aqua Jet",
+					"39": "Encore",
+					"46": "Aqua Tail",
+					"51": "Retaliate",
+					"58": "Swords Dance",
+					"63": "Hydro Pump"
+				},
+				"tutor": [
+					"Aqua Tail",
+					"Block",
+					"Covet",
+					"Helping Hand",
+					"Hydro Cannon",
+					"Icy Wind",
+					"Iron Tail",
+					"Knock Off",
+					"Megahorn",
+					"Snore",
+					"Superpower",
+					"Water Pledge",
+					"Water Pulse"
+				]
+	        },
+			"capture_rate": 5,
+			"experience_drop": 50
+		},
+		{
+			"id": 135,
+			"name": "Froakie",
+	        "base_stats": {
+	            "HP": 4,
+	            "ATK": 6,
+	            "DEF": 4,
+	            "SPA": 6,
+	            "SDF": 4,
+	            "SPD": 7
+	        },
+	        "type": [
+				"Water"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Torrent",
+					"Infiltrator",
+	                "Inner Focus"
+	            ],
+	            "high": [
+	                "Protean"
+	            ]
+	        },
+	        "evolution": {
+	            "135": "---",
+	            "136": "Minimum level 15",
+	            "137": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.3,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 7,
+					"class": 1
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Water 1"
+				],
+				"hatch_rate": 10,
+	            "diet": [
+					"Herbivore"
+	            ],
+	            "habitat": [
+					"Freshwater",
+					"Marsh",
+					"Rainforest"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 6,
+				"Surface": 8,
+	            "Jump": 3,
+	            "Power": 1,
+	            "Intelligence": 3,
+	            "Other": [
+					"Fountain",
+					"Stealth"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"01": "Slash",
+					"03": "Growl",
+					"05": "Bubble",
+					"08": "Quick Attack",
+					"10": "Lick",
+					"14": "Water Pulse",
+					"18": "Smokescreen",
+					"21": "Round",
+					"25": "Fling",
+					"29": "Smack Down",
+					"35": "Substitute",
+					"39": "Bounce",
+					"43": "Double Team",
+					"48": "Hydro Pump"
+				},
+				"egg": [
+					"Bestow",
+					"Camouflage",
+					"Mind Reader",
+					"Mud Sport",
+					"Toxic Spikes",
+					"Water Sport"
+				],
+				"tutor": [
+					"Bounce",
+					"Hydro Cannon",
+					"Icy Wind",
+					"Role Play",
+					"Snatch",
+					"Snore",
+					"Spite",
+					"Water Pledge",
+					"Water Pulse"
+				]
+	        },
+			"capture_rate": 20,
+			"experience_drop": 15
+		},
+		{
+			"id": 136,
+			"name": "Frogadier",
+	        "base_stats": {
+	            "HP": 5,
+	            "ATK": 6,
+	            "DEF": 5,
+	            "SPA": 8,
+	            "SDF": 6,
+	            "SPD": 10
+	        },
+	        "type": [
+				"Water"
+			],
+	        "abilities": {
+	            "basic": [
+	                "Torrent",
+					"Infiltrator",
+	                "Inner Focus"
+	            ],
+	            "high": [
+	                "Protean"
+	            ]
+	        },
+	        "evolution": {
+	            "135": "---",
+	            "136": "Minimum level 15",
+	            "137": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.6,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 10.9,
+					"class": 1
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Water 1"
+				],
+	            "diet": [
+					"Herbivore"
+	            ],
+	            "habitat": [
+					"Freshwater",
+					"Marsh",
+					"Rainforest"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 8,
+				"Surface": 8,
+	            "Jump": 4,
+	            "Power": 2,
+	            "Intelligence": 4,
+	            "Other": [
+					"Fountain",
+					"Stealth"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"05": "Bubble",
+					"08": "Quick Attack",
+					"10": "Lick",
+					"14": "Water Pulse",
+					"19": "Smokescreen",
+					"23": "Round",
+					"28": "Fling",
+					"33": "Smack Down",
+					"40": "Substitute",
+					"45": "Bounce",
+					"50": "Double Team",
+					"56": "Hydro Pump"
+				},
+				"tutor": [
+					"Bounce",
+					"Hydro Cannon",
+					"Gunk Shot",
+					"Ice Punch",
+					"Icy Wind",
+					"Low Kick",
+					"Role Play",
+					"Snatch",
+					"Snore",
+					"Spite",
+					"Water Pledge",
+					"Water Pulse"
+				]
+	        },
+			"capture_rate": 10,
+			"experience_drop": 30
+		},
+		{
+			"id": 137,
+			"name": "Greninja",
+	        "base_stats": {
+	            "HP": 7,
+	            "ATK": 10,
+	            "DEF": 7,
+	            "SPA": 10,
+	            "SDF": 7,
+	            "SPD": 12
+	        },
+	        "type": [
+				"Water",
+				"Dark"
+			],
+	        "abilities": {
+	            "basic": [
+					"Torrent",
+					"Dark Art",
+					"Infiltrator",
+	                "Inner Focus"
+	            ],
+	            "high": [
+	                "Protean"
+	            ]
+	        },
+	        "evolution": {
+	            "135": "---",
+	            "136": "Minimum level 15",
+	            "137": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 1.5,
+					"class": "Medium"
+				},
+	            "weight": {
+					"value": 40,
+					"class": 3
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Water 1"
+				],
+	            "diet": [
+					"Herbivore"
+	            ],
+	            "habitat": [
+					"Freshwater",
+					"Marsh",
+					"Rainforest"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 10,
+				"Surface": 8,
+	            "Jump": 5,
+	            "Power": 3,
+	            "Intelligence": 5,
+	            "Other": [
+					"Fountain",
+					"Stealth"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"E": "Water Shuriken",
+					"05": "Bubble",
+					"08": "Quick Attack",
+					"10": "Lick",
+					"14": "Water Pulse",
+					"19": "Smokescreen",
+					"23": "Shadow Sneak",
+					"28": "Spikes",
+					"33": "Feint Attack",
+					"42": "Substitute",
+					"49": "Extrasensory",
+					"56": "Double Team",
+					"68": "Hydro Pump",
+					"70": "Haze",
+					"77": "Night Slash"
+				},
+				"tutor": [
+					"Bounce",
+					"Hydro Cannon",
+					"Fling",
+					"Gunk Shot",
+					"Haze",
+					"Ice Punch",
+					"Icy Wind",
+					"Low Kick",
+					"Mat Block",
+					"Night Slash",
+					"Role Play",
+					"Round",
+					"Smack Down",
+					"Snatch",
+					"Snore",
+					"Spite",
+					"Water Pledge",
+					"Water Pulse"
+				]
+	        },
+			"capture_rate": 5,
+			"experience_drop": 50
+		},
+		{
+			"id": 138,
+			"name": "Popplio",
+	        "base_stats": {
+	            "HP": 5,
+	            "ATK": 5,
+	            "DEF": 5,
+	            "SPA": 7,
+	            "SDF": 6,
+	            "SPD": 4
+	        },
+	        "type": [
+				"Water"
+			],
+	        "abilities": {
+	            "basic": [
+					"Torrent",
+					"Swift Swim"
+	            ],
+	            "high": [
+	                "Liquid Voice"
+	            ]
+	        },
+	        "evolution": {
+	            "138": "---",
+	            "139": "Minimum level 15",
+	            "140": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.4,
+					"class": "Small"
+				},
+	            "weight": {
+					"value": 7.5,
+					"class": 1
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Water 1",
+					"Field"
+				],
+				"hatch_rate": 10,
+	            "diet": [
+					"Herbivore"
+	            ],
+	            "habitat": [
+					"Beach",
+					"Ocean"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 4,
+				"Surface": 5,
+				"Underwater": 5,
+	            "Jump": 2,
+	            "Power": 1,
+	            "Intelligence": 3,
+	            "Other": [
+					"Fountain"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"00": "Pound",
+					"01": "Water Gun",
+					"04": "Growl",
+					"08": "Disarming Voice",
+					"11": "Baby-Doll Eyes",
+					"15": "Aqua Jet",
+					"18": "Encore",
+					"22": "Bubble Beam",
+					"25": "Sing",
+					"29": "Double Slap",
+					"32": "Hyper Voice",
+					"36": "Moonblast",
+					"39": "Captivate",
+					"43": "Hydro Pump",
+					"46": "Misty Terrain"
+				},
+				"egg": [
+					"Amnesia",
+					"Aqua Ring",
+					"Aromatic Mist",
+					"Charm",
+					"Perish Song",
+					"Wonder Room"
+				],
+				"tutor": [
+					"Aqua Tail",
+					"Covet",
+					"Helping Hand",
+					"Hydro Cannon",
+					"Hyper Voice",
+					"Icy Wind",
+					"Iron Tail",
+					"Snore",
+					"Uproar",
+					"Water Pledge",
+					"Water Pulse",
+					"Wonder Room"
+				]
+	        },
+			"capture_rate": 20,
+			"experience_drop": 15
+		},
+		{
+			"id": 139,
+			"name": "Brionne",
+	        "base_stats": {
+	            "HP": 6,
+	            "ATK": 7,
+	            "DEF": 7,
+	            "SPA": 9,
+	            "SDF": 8,
+	            "SPD": 5
+	        },
+	        "type": [
+				"Water"
+			],
+	        "abilities": {
+	            "basic": [
+					"Torrent",
+					"Swift Swim"
+	            ],
+	            "high": [
+	                "Liquid Voice"
+	            ]
+	        },
+	        "evolution": {
+	            "138": "---",
+	            "139": "Minimum level 15",
+	            "140": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 0.6,
+					"class": "Medium"
+				},
+	            "weight": {
+					"value": 17.5,
+					"class": 3
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Water 1",
+					"Field"
+				],
+				"hatch_rate": 10,
+	            "diet": [
+					"Herbivore"
+	            ],
+	            "habitat": [
+					"Beach",
+					"Ocean"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 4,
+				"Surface": 7,
+				"Underwater": 7,
+	            "Jump": 2,
+	            "Power": 3,
+	            "Intelligence": 4,
+	            "Other": [
+					"Fountain",
+					"Icestep"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"04": "Growl",
+					"08": "Disarming Voice",
+					"11": "Baby-Doll Eyes",
+					"15": "Aqua Jet",
+					"19": "Encore",
+					"24": "Bubble Beam",
+					"28": "Sing",
+					"33": "Double Slap",
+					"37": "Hyper Voice",
+					"42": "Moonblast",
+					"46": "Captivate",
+					"51": "Hydro Pump",
+					"55": "Misty Terrain"
+				},
+				"tutor": [
+					"Aqua Tail",
+					"Covet",
+					"Helping Hand",
+					"Hydro Cannon",
+					"Hyper Voice",
+					"Icy Wind",
+					"Iron Tail",
+					"Snore",
+					"Uproar",
+					"Water Pledge",
+					"Water Pulse",
+					"Wonder Room"
+				]
+	        },
+			"capture_rate": 10,
+			"experience_drop": 30
+		},
+		{
+			"id": 140,
+			"name": "Primarina",
+	        "base_stats": {
+	            "HP": 8,
+	            "ATK": 7,
+	            "DEF": 7,
+	            "SPA": 13,
+	            "SDF": 12,
+	            "SPD": 6
+	        },
+	        "type": [
+				"Water",
+				"Fairy"
+			],
+	        "abilities": {
+	            "basic": [
+					"Torrent",
+					"Fae Force",
+					"Swift Swim"
+	            ],
+	            "high": [
+	                "Liquid Voice"
+	            ]
+	        },
+	        "evolution": {
+	            "138": "---",
+	            "139": "Minimum level 15",
+	            "140": "Minimum level 30"
+	        },
+	        "biology": {
+				"height": {
+					"value": 1.8,
+					"class": "Large"
+				},
+	            "weight": {
+					"value": 44,
+					"class": 3
+				},
+	            "male_ratio": 0.875,
+	            "egg_group": [
+					"Water 1",
+					"Field"
+				],
+				"hatch_rate": 10,
+	            "diet": [
+					"Omnivore"
+	            ],
+	            "habitat": [
+					"Beach",
+					"Ocean"
+	            ]
+	        },
+	        "skills": {
+				"Overland": 4,
+				"Surface": 8,
+				"Underwater": 10,
+	            "Jump": 4,
+	            "Power": 4,
+	            "Intelligence": 4,
+	            "Other": [
+					"Fountain",
+					"Icestep"
+	            ]
+	        },
+	        "moves": {
+	            "natural": {
+					"E": "Sparkling Aria",
+					"04": "Growl",
+					"08": "Disarming Voice",
+					"11": "Baby-Doll Eyes",
+					"15": "Aqua Jet",
+					"19": "Encore",
+					"24": "Bubble Beam",
+					"28": "Sing",
+					"33": "Double Slap",
+					"38": "Hyper Voice",
+					"44": "Moonblast",
+					"49": "Captivate",
+					"55": "Hydro Pump",
+					"60": "Misty Terrain"
+				},
+				"tutor": [
+					"Aqua Tail",
+					"Covet",
+					"Helping Hand",
+					"Hydro Cannon",
+					"Hyper Voice",
+					"Icy Wind",
+					"Iron Tail",
+					"Liquidation",
+					"Snore",
+					"Uproar",
+					"Water Pledge",
+					"Water Pulse",
+					"Wonder Room"
 				]
 	        },
 			"capture_rate": 5,
