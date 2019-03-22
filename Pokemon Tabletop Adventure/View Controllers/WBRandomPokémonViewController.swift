@@ -10,31 +10,32 @@ import SnapKit
 import UIKit
 
 class WBRandomPokémonViewController: WBBaseViewController {
-    // TODO: Need to add label at the bottom to indicate logo author. HTML for this:
-//    <div>
-//        Icons made by <a href="https://www.flaticon.com/authors/nikita-golubev" title="Nikita Golubev">Nikita Golubev</a> from
-//        <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by
-//        <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
-//    </div>
+    /* Need to add label at the bottom to indicate logo author. HTML for this:
+     <div>
+        Icons made by <a href="https://www.flaticon.com/authors/nikita-golubev" title="Nikita Golubev">Nikita Golubev</a> from <a
+        href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a
+        href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+     </div>
+     */
     let descriptionLabel: UILabel
     
     var randomViewModel: WBRandomPokémonViewModel
     
-    override init(with viewModel: WBBaseViewModel) {
+    override init(with viewModel: WBBaseViewModel, credits: String? = nil) {
         let randomViewModel = viewModel as? WBRandomPokémonViewModel ?? WBRandomPokémonViewModel()
         self.randomViewModel = randomViewModel
         self.descriptionLabel = UILabel(frame: .zero)
         
-        super.init(with: viewModel)
+        super.init(with: viewModel, credits: credits)
     }
     
     required init?(coder aDecoder: NSCoder) {
-        fatalError("\"init?(coder aDecoder: NSCoder)\" not implemented; check your code structure to see how this is being called!")
+        fatalError("\"\(#function)\" not implemented; check your code structure to see how this is being called!")
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-
+        
         descriptionLabel.text = randomViewModel.describeCurrentPokémon
     }
     
@@ -58,7 +59,6 @@ class WBRandomPokémonViewController: WBBaseViewController {
         view.addSubview(descriptionLabel)
         descriptionLabel.snp.makeConstraints { make in
             make.topMargin.left.right.equalToSuperview().inset(50)
-            
         }
     }
     

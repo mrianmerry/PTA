@@ -18,7 +18,7 @@ class WBRandomPokémonViewModel: WBBaseViewModel {
     }
     
     override init() {
-        pokémon = WBJSON.pokémon()
+        pokémon = WBJSON.pokémon
     }
     
     func getRandomPokémon() -> Pokémon {
