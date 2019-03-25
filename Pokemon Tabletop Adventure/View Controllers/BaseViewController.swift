@@ -1,5 +1,5 @@
 //
-//  WBBaseViewController.swift
+//  BaseViewController.swift
 //  Pokemon Tabletop Adventure
 //
 //  Created by Ian Merry on 06/07/2018.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class WBBaseViewController: UIViewController {
+class BaseViewController: UIViewController {
 
     convenience init() {
-        self.init(with: WBBaseViewModel())
+        self.init(with: BaseViewModel())
     }
     
-    init(with viewModel: WBBaseViewModel, credits: String? = nil) {
+    init(with viewModel: BaseViewModel, credits: String? = nil) {
         super.init(nibName: nil, bundle: nil)
     }
     

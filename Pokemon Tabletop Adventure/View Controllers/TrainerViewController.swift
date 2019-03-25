@@ -1,5 +1,5 @@
 //
-//  WBTrainerViewController.swift
+//  TrainerViewController.swift
 //  Pokemon Tabletop Adventure
 //
 //  Created by Ian Merry on 18/07/2018.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class WBTrainerViewController: WBBaseViewController {
+class TrainerViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

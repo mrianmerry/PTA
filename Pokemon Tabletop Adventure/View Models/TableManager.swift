@@ -1,5 +1,5 @@
 //
-//  WBTableManager.swift
+//  TableManager.swift
 //  Pokemon Tabletop Adventure
 //
 //  Created by Ian Merry on 10/08/2018.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class WBTableManager: NSObject {
+class TableManager: NSObject {
 
     var publicIdentifierKey: String
 
@@ -27,11 +27,11 @@ class WBTableManager: NSObject {
     }
 
     private func reuseIdentifier(for index: Int) -> String {
-        return String(format: "wbtablemanager_reuseidentifier_%@_%i", publicIdentifierKey, index)
+        return String(format: "tablemanager_reuseidentifier_%@_%i", publicIdentifierKey, index)
     }
 }
 
-extension WBTableManager: UITableViewDataSource, UITableViewDelegate {
+extension TableManager: UITableViewDataSource, UITableViewDelegate {
     func numberOfSections(in tableView: UITableView) -> Int {
         return sectionCount()
     }

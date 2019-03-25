@@ -1,5 +1,5 @@
 //
-//  WBRandomPokémonViewControllerTests.swift
+//  RandomPokemonViewControllerTests.swift
 //  Pokemon Tabletop AdventureTests
 //
 //  Created by Ian Merry on 18/07/2018.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class WBRandomPokémonViewControllerTests: XCTestCase {
+class RandomPokemonViewControllerTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

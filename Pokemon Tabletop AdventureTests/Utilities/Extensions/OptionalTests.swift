@@ -1,5 +1,5 @@
 //
-//  WBOptionalTests.swift
+//  OptionalTests.swift
 //  Pokemon Tabletop AdventureTests
 //
 //  Created by Ian Merry on 26/07/2018.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class WBOptionalTests: XCTestCase {
+class OptionalTests: XCTestCase {
     
     func testExists() {
         var testOptional: Int?

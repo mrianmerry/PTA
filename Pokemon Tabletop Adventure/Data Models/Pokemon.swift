@@ -1,5 +1,5 @@
 //
-//  WBPokémon.swift
+//  Pokemon.swift
 //  Pokemon Tabletop Adventure
 //
 //  Created by Ian Merry on 08/07/2018.
@@ -8,11 +8,11 @@
 
 import Foundation
 
-struct Pokédex: Codable {
-    let pokémon: [Pokémon]
+struct Pokedex: Codable {
+    let pokemon: [Pokemon]
 }
 
-struct Pokémon: Codable, Equatable {
+struct Pokemon: Codable, Equatable {
     let dexID: Int
     let ptaID: Int
     let name: String
@@ -24,7 +24,7 @@ struct Pokémon: Codable, Equatable {
 
     func basicDescription() -> String {
         return """
-        Pokémon: \(name)
+        Pokemon: \(name)
         Base Stats:
              HP: \(stats.HP)
             ATK: \(stats.ATK)
@@ -35,7 +35,7 @@ struct Pokémon: Codable, Equatable {
         """
     }
     
-    static func == (lhs: Pokémon, rhs: Pokémon) -> Bool {
+    static func == (lhs: Pokemon, rhs: Pokemon) -> Bool {
         let areEqual = lhs.dexID == rhs.dexID
         return areEqual
     }

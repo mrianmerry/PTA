@@ -1,5 +1,5 @@
 //
-//  WBBaseViewModel.swift
+//  BaseViewModel.swift
 //  Pokemon Tabletop Adventure
 //
 //  Created by Ian Merry on 09/07/2018.
@@ -8,6 +8,6 @@
 
 import Foundation
 
-class WBBaseViewModel {
+class BaseViewModel {
     
 }
