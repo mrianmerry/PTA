@@ -10,31 +10,31 @@ import Foundation
 
 enum JSON {
 
-    private static var cachedPokédex: Pokédex?
+    private static var cachedPokedex: Pokedex?
 
-    /// Parse the bundled Pokédex and return it
+    /// Parse the bundled Pokedex and return it
     ///
-    /// - Returns: The Pokédex value related to the bundled JSON
-    static var pokédex: Pokédex {
-        if let pokédex = cachedPokédex {
-            return pokédex
+    /// - Returns: The Pokedex value related to the bundled JSON
+    static var pokedex: Pokedex {
+        if let pokedex = cachedPokedex {
+            return pokedex
         }
 
         let jsonDecoder = JSONDecoder()
-        guard let pokédexJSON = getJSON(from: "pokédex"),
-            let pokédex = try? jsonDecoder.decode(Pokédex.self, from: pokédexJSON) else {
-           fatalError("Either could not read pokédex file, or could not convert pokédex json to data object!")
+        guard let pokedexJSON = getJSON(from: "pokedex"),
+            let pokedex = try? jsonDecoder.decode(Pokedex.self, from: pokedexJSON) else {
+           fatalError("Either could not read pokedex file, or could not convert pokedex json to data object!")
         }
 
-        cachedPokédex = pokédex
-        return pokédex
+        cachedPokedex = pokedex
+        return pokedex
     }
 
-    /// Parse the bundled Pokédex and return a list of the pokémon represented within
+    /// Parse the bundled Pokedex and return a list of the pokemon represented within
     ///
-    /// - Returns: Array containing all the pokémon contained in the bundled pokédex
-    static var pokémon: [Pokémon] {
-        return pokédex.pokémon
+    /// - Returns: Array containing all the pokemon contained in the bundled pokedex
+    static var pokemon: [Pokemon] {
+        return pokedex.pokemon
     }
     
     static func getJSON(from filename: String) -> Data? {

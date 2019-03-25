@@ -39,7 +39,7 @@ class PokedexViewController: BaseViewController {
     }
 
     private func setupNavigationView() {
-        navigationItem.title = "Pokedex"
+        navigationItem.title = "Pokédex"
     }
 
     private func setupTableView() {
