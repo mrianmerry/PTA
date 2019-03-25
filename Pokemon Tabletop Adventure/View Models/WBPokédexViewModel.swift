@@ -25,7 +25,7 @@ class WBPokédexViewModel: WBBaseViewModel {
             let pokémon = pokédex.pokémon[index]
 
             cell.detailTextLabel?.text = pokémon.name
-            cell.textLabel?.text = pokémon.dexNumber.written()
+            cell.textLabel?.text = pokémon.dexID.written()
         })
     }
 }
