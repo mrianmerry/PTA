@@ -1,5 +1,5 @@
 //
-//  WBTabBarController.swift
+//  TabBarController.swift
 //  Pokemon Tabletop Adventure
 //
 //  Created by Ian Merry on 09/07/2018.
@@ -8,21 +8,21 @@
 
 import UIKit
 
-class WBTabBarController: UITabBarController {
+class TabBarController: UITabBarController {
 
     convenience init() {
-        let pokédex = WBPokédexViewController()
-        var icon = UIImage(named: "tabbar-items/pokédex")
-        var tabBarItem = UITabBarItem(title: "Pokédex", image: icon, selectedImage: icon)
-        pokédex.tabBarItem = tabBarItem
+        let pokedex = PokedexViewController()
+        var icon = UIImage(named: "tabbar-items/pokedex")
+        var tabBarItem = UITabBarItem(title: "Pokedex", image: icon, selectedImage: icon)
+        pokedex.tabBarItem = tabBarItem
 
-        let randomiser = WBRandomPokémonViewController(with: WBRandomPokémonViewModel())
-        icon = UIImage(named: "tabbar-items/pokéball")
+        let randomiser = RandomPokemonViewController(with: RandomPokemonViewModel())
+        icon = UIImage(named: "tabbar-items/pokeball")
         tabBarItem = UITabBarItem(title: "Randomiser", image: icon, selectedImage: icon)
         randomiser.tabBarItem = tabBarItem
 
         self.init(with: [
-            pokédex,
+            pokedex,
             randomiser
             ])
     }

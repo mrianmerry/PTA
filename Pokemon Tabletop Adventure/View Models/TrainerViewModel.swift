@@ -1,5 +1,5 @@
 //
-//  WBTrainerViewModel.swift
+//  TrainerViewModel.swift
 //  Pokemon Tabletop Adventure
 //
 //  Created by Ian Merry on 18/07/2018.
@@ -8,8 +8,8 @@
 
 import UIKit
 
-class WBTrainerViewModel: WBBaseViewModel {
+class TrainerViewModel: BaseViewModel {
     
-    let pokémon: [String: Pokémon] = [:]
+    let pokemon: [String: Pokemon] = [:]
     
 }

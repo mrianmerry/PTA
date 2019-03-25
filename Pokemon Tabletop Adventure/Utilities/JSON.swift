@@ -1,5 +1,5 @@
 //
-//  WBJSON.swift
+//  JSON.swift
 //  Pokemon Tabletop Adventure
 //
 //  Created by Ian Merry on 08/07/2018.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum WBJSON {
+enum JSON {
 
     private static var cachedPokédex: Pokédex?
 

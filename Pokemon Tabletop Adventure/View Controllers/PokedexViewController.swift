@@ -1,5 +1,5 @@
 //
-//  WBPokédexViewController.swift
+//  PokedexViewController.swift
 //  Pokemon Tabletop Adventure
 //
 //  Created by Ian Merry on 10/08/2018.
@@ -9,20 +9,20 @@
 import SafariServices
 import UIKit
 
-class WBPokédexViewController: WBBaseViewController {
+class PokedexViewController: BaseViewController {
     // Need to add a label at the bottom to indicate logo author. HTML for this:
     private static let iconCredits = "Icons made by <a href=\"https://www.flaticon.com/authors/those-icons\" title=\"Those Icons\">Those Icons</a> from <a href=\"https://www.flaticon.com/\" title=\"Flaticon\">www.flaticon.com</a> is licensed by <a href=\"http://creativecommons.org/licenses/by/3.0/\" title=\"Creative Commons BY 3.0\" target=\"_blank\">CC 3.0 BY</a>" // swiftlint:disable:this line_length
     let credits = UITextView(frame: .zero)
     
-    private let pokédexTableView = UITableView(frame: .zero, style: .grouped)
+    private let pokedexTableView = UITableView(frame: .zero, style: .grouped)
 
-    var pokédexViewModel: WBPokédexViewModel
+    var pokedexViewModel: PokedexViewModel
 
-    override init(with viewModel: WBBaseViewModel, credits: String? = nil) {
-        let pokédexViewModel = viewModel as? WBPokédexViewModel ?? WBPokédexViewModel()
-        self.pokédexViewModel = pokédexViewModel
+    override init(with viewModel: BaseViewModel, credits: String? = nil) {
+        let pokedexViewModel = viewModel as? PokedexViewModel ?? PokedexViewModel()
+        self.pokedexViewModel = pokedexViewModel
 
-        self.credits.attributedText = (credits ?? WBPokédexViewController.iconCredits).html
+        self.credits.attributedText = (credits ?? PokedexViewController.iconCredits).html
         super.init(with: viewModel)
     }
 
@@ -39,23 +39,23 @@ class WBPokédexViewController: WBBaseViewController {
     }
 
     private func setupNavigationView() {
-        navigationItem.title = "Pokédex"
+        navigationItem.title = "Pokedex"
     }
 
     private func setupTableView() {
-        pokédexTableView.translatesAutoresizingMaskIntoConstraints = false
-        pokédexTableView.dataSource = pokédexViewModel.tableManager
-        pokédexTableView.delegate = pokédexViewModel.tableManager
-        pokédexTableView.rowHeight = UITableViewAutomaticDimension
-        pokédexTableView.backgroundColor = .lightGray
-        pokédexTableView.estimatedRowHeight = 44.0
+        pokedexTableView.translatesAutoresizingMaskIntoConstraints = false
+        pokedexTableView.dataSource = pokedexViewModel.tableManager
+        pokedexTableView.delegate = pokedexViewModel.tableManager
+        pokedexTableView.rowHeight = UITableView.automaticDimension
+        pokedexTableView.backgroundColor = .lightGray
+        pokedexTableView.estimatedRowHeight = 44.0
 
-        view.addSubview(pokédexTableView)
+        view.addSubview(pokedexTableView)
         let layoutGuide = view.layoutGuide
 
-        pokédexTableView.topAnchor.constraint(equalTo: layoutGuide.topAnchor, constant: 4).isActive = true
-        pokédexTableView.widthAnchor.constraint(equalTo: layoutGuide.widthAnchor).isActive = true
-        pokédexTableView.centerXAnchor.constraint(equalTo: layoutGuide.centerXAnchor).isActive = true
+        pokedexTableView.topAnchor.constraint(equalTo: layoutGuide.topAnchor, constant: 4).isActive = true
+        pokedexTableView.widthAnchor.constraint(equalTo: layoutGuide.widthAnchor).isActive = true
+        pokedexTableView.centerXAnchor.constraint(equalTo: layoutGuide.centerXAnchor).isActive = true
     }
 
     private func setupCreditation() {
@@ -67,7 +67,7 @@ class WBPokédexViewController: WBBaseViewController {
         view.addSubview(credits)
         let layoutGuide = view.layoutGuide
         let height: CGFloat = credits.attributedText.value.isEmpty ? 0 : 32
-        credits.topAnchor.constraint(equalTo: pokédexTableView.bottomAnchor, constant: 4).isActive = true
+        credits.topAnchor.constraint(equalTo: pokedexTableView.bottomAnchor, constant: 4).isActive = true
         credits.bottomAnchor.constraint(equalTo: layoutGuide.bottomAnchor).isActive = true
         credits.heightAnchor.constraint(equalToConstant: height).isActive = true
         credits.widthAnchor.constraint(equalTo: layoutGuide.widthAnchor).isActive = true
@@ -75,12 +75,15 @@ class WBPokédexViewController: WBBaseViewController {
     }
 }
 
-extension WBPokédexViewController: UITextViewDelegate {
+extension PokedexViewController: UITextViewDelegate {
     // swiftlint:disable:next line_length
     func textView(_ textView: UITextView, shouldInteractWith URL: URL, in characterRange: NSRange, interaction: UITextItemInteraction) -> Bool {
         guard textView == credits else { return false }
-        
-        let safariController = SFSafariViewController(url: URL, entersReaderIfAvailable: true)
+
+        let safariConfiguration = SFSafariViewController.Configuration()
+        safariConfiguration.entersReaderIfAvailable = true
+        safariConfiguration.barCollapsingEnabled = true
+        let safariController = SFSafariViewController(url: URL, configuration: safariConfiguration)
         present(safariController, animated: true, completion: nil)
         return false
     }

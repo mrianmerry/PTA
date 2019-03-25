@@ -24,7 +24,7 @@
             "style": "Effect",
             "range": "Ranged - 6",
             "targets": 1,
-            "description": "At the beginning of each of the target's turns, the target loses 1/8th of their full HP. Do not apply weakness or resistance to the HP lost. Leech Seed's user then gains HP equal to the amount the target lost. Leech Seed lasts until the target faints or is returned to a Pokéball. Leech Seed cannot hit a Grass-type Pokémon.",
+            "description": "At the beginning of each of the target's turns, the target loses 1/8th of their full HP. Do not apply weakness or resistance to the HP lost. Leech Seed's user then gains HP equal to the amount the target lost. Leech Seed lasts until the target faints or is returned to a Pokeball. Leech Seed cannot hit a Grass-type Pokemon.",
             "contest": {
                 "type": "Smart",
                 "appeal": "None",

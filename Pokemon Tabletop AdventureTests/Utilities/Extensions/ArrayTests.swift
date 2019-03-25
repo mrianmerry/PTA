@@ -1,5 +1,5 @@
 //
-//  WBArrayTests.swift
+//  ArrayTests.swift
 //  Pokemon Tabletop AdventureTests
 //
 //  Created by Ian Merry on 18/07/2018.
@@ -8,12 +8,12 @@
 
 import XCTest
 
-class WBArrayTests: XCTestCase {
+class ArrayTests: XCTestCase {
     var testArray: [Int]!
     
     override func setUp() {
         super.setUp()
-        testArray = [1, 2]
+        testArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
     }
     
     override func tearDown() {

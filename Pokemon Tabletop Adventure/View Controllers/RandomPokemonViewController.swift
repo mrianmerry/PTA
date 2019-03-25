@@ -1,5 +1,5 @@
 //
-//  WBRandomPokémonViewController.swift
+//  RandomPokemonViewController.swift
 //  Pokemon Tabletop Adventure
 //
 //  Created by Ian Merry on 09/07/2018.
@@ -9,7 +9,7 @@
 import SnapKit
 import UIKit
 
-class WBRandomPokémonViewController: WBBaseViewController {
+class RandomPokemonViewController: BaseViewController {
     /* Need to add label at the bottom to indicate logo author. HTML for this:
      <div>
         Icons made by <a href="https://www.flaticon.com/authors/nikita-golubev" title="Nikita Golubev">Nikita Golubev</a> from <a
@@ -19,10 +19,10 @@ class WBRandomPokémonViewController: WBBaseViewController {
      */
     let descriptionLabel: UILabel
     
-    var randomViewModel: WBRandomPokémonViewModel
+    var randomViewModel: RandomPokemonViewModel
     
-    override init(with viewModel: WBBaseViewModel, credits: String? = nil) {
-        let randomViewModel = viewModel as? WBRandomPokémonViewModel ?? WBRandomPokémonViewModel()
+    override init(with viewModel: BaseViewModel, credits: String? = nil) {
+        let randomViewModel = viewModel as? RandomPokemonViewModel ?? RandomPokemonViewModel()
         self.randomViewModel = randomViewModel
         self.descriptionLabel = UILabel(frame: .zero)
         
@@ -36,7 +36,7 @@ class WBRandomPokémonViewController: WBBaseViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        descriptionLabel.text = randomViewModel.describeCurrentPokémon
+        descriptionLabel.text = randomViewModel.describeCurrentPokemon
     }
     
     override func setupViews() {
@@ -47,8 +47,8 @@ class WBRandomPokémonViewController: WBBaseViewController {
     }
     
     private func setupNavigationBar() {
-        let randomPokémon = UIBarButtonItem(title: "Next 'mon", style: .plain, target: self, action: #selector(showRandomPokémon))
-        navigationItem.rightBarButtonItem = randomPokémon
+        let randomPokemon = UIBarButtonItem(title: "Next 'mon", style: .plain, target: self, action: #selector(showRandomPokemon))
+        navigationItem.rightBarButtonItem = randomPokemon
         navigationItem.title = "Randomiser"
     }
     
@@ -62,8 +62,8 @@ class WBRandomPokémonViewController: WBBaseViewController {
         }
     }
     
-    @objc private func showRandomPokémon() {
-        let chosenPokémon: Pokémon = randomViewModel.getRandomPokémon()
-        descriptionLabel.text = chosenPokémon.basicDescription()
+    @objc private func showRandomPokemon() {
+        let chosenPokemon: Pokemon = randomViewModel.getRandomPokemon()
+        descriptionLabel.text = chosenPokemon.basicDescription()
     }
 }
