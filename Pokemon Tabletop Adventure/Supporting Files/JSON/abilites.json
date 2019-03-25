@@ -1,0 +1,469 @@
+{
+    "abilities": [
+        {
+            "name": "Battle Armour",
+            "type": "Static",
+            "keyword": [
+                "Immune"
+            ],
+            "effect": "Critical Hits"
+        },
+        {
+            "name": "Blaze",
+            "type": "Trigger",
+            "keyword": [
+                "Last Chance"
+            ],
+            "effect": "Fire"
+        },
+        {
+            "name": "Bulletproof",
+            "type": "Static",
+            "keyword": [
+                "Immune"
+            ],
+            "effect": "The following moves have no effect on the Pokemon: Acid Spray, Aura Sphere, Barrage, Beak Blast, Bullet Seed, Egg Bomb, Electro Ball, Energy Ball, Focus Blast, Gyro Ball, Ice Ball, Magnet Bomb, Mist Ball, Mud Bomb, Octazooka, Pollen Puff, Rock Wrecker, Searing Shot, Seed Bomb, Shadow Ball, Sludge Bomb, Weather Ball, and Zap Cannon."
+        },
+        {
+            "name": "Chlorophyll",
+            "type": "Trigger",
+            "keyword": [
+                "Hourly"
+            ],
+            "effect": "While in Sunny Weather, the Speed stat of the Pokemon is doubled."
+        },
+        {
+            "name": "Contrary",
+            "type": "Static",
+            "keyword": [
+                
+            ],
+            "effect": "Effects that lower or raise the the user's Combat Stages have the opposite effect."
+        },
+        {
+            "name": "Cute Charm",
+            "type": "Trigger",
+            "keyword": [
+                "Daily"
+            ],
+            "effect": "When an opposite gendered foe attacks the user, they become Infatuated after damage is dealt."
+        },
+        {
+            "name": "Damp",
+            "type": "Static",
+            "keyword": [
+                
+            ],
+            "effect": "A pokemon may not use the Moves Explosion or Self-Destruct, nor activate the Ability Aftermath, within 20 meters of the user."
+        },
+        {
+            "name": "Dark Art",
+            "type": "Trigger",
+            "keyword": [
+                "Last Chance"
+            ],
+            "effect": "Dark"
+        },
+        {
+            "name": "Defiant",
+            "type": "Static",
+            "keyword": [
+                
+            ],
+            "effect": "Whenever the user has a Combat Stage lowered by an external force, its Attack is raised by 2 Combat Stages for each stage the other was lowered."
+        },
+        {
+            "name": "Dry Skin",
+            "type": "Static",
+            "keyword": [
+                
+            ],
+            "effect": "The user loses 1/8th of its maximum HP at the beginning of each round while in Sunny Weather, and heals the same amount in Rainy Weather. Fire type Moves deal damage as if the attacker were 1 Combat Stage higher in the relevant stat, and Water type Moves heal the user for the amount of damage they would cause if the user was Resistant to them."
+        },
+        {
+            "name": "Early Bird",
+            "type": "Staic",
+            "keyword": [
+                
+            ],
+            "effect": "When making Sleep Checks, the counter starts at 11."
+        },
+        {
+            "name": "Fae Force",
+            "type": "Trigger",
+            "keyword": [
+                "Last Chance"
+            ],
+            "effect": "Fairy"
+        },
+        {
+            "name": "Flame Body",
+            "type": "Trigger",
+            "keyword": [
+                "Daily"
+            ],
+            "effect": "When a foe hits the user with a Melee move, they become Burned after damage is dealt."
+        },
+        {
+            "name": "Flash Fire",
+            "type": "Static",
+            "keyword": [
+                
+            ],
+            "effect": "The user does not take damage from Fire moves and may not be Frozen. If hit by a Fire move, the user adds +1/2 STAB to the next Fire Type move they use in the current encounter."
+        },
+        {
+            "name": "Flower Gift",
+            "type": "Trigger",
+            "keyword": [
+                "Burst",
+                "Hourly"
+            ],
+            "effect": "In Sunny Weather, Flower Gift creates a 4-meter burst. The user and all of their allies in Sunny Weather have their Attack and Special Defense raised by 2 Combat Stages."
+        },
+        {
+            "name": "Focus",
+            "type": "Trigger",
+            "keyword": [
+                "Last Chance"
+            ],
+            "effect": "Fighting"
+        },
+        {
+            "name": "Frisk",
+            "type": "Cast",
+            "keyword": [
+                "Hourly"
+            ],
+            "effect": "The adjacent target reveals what item they are holding, if any."
+        },
+        {
+            "name": "Gluttony",
+            "type": "Trigger",
+            "keyword": [
+                
+            ],
+            "effect": "When given a consumable item, the Pokemon immediately eats it. Any effects of the item are doubled."
+        },
+        {
+            "name": "Haunt",
+            "type": "Trigger",
+            "keyword": [
+                "Last Chance"
+            ],
+            "effect": "Ghost"
+        },
+        {
+            "name": "Heatproof",
+            "type": "Static",
+            "keyword": [
+                
+            ],
+            "effect": "The user halves the damage they would take from Fire type Moves after applying weakness and resistance."
+        },
+        {
+            "name": "Hydration",
+            "type": "Trigger",
+            "keyword": [
+                
+            ],
+            "effect": "While in Rainy Weather, the user is healed of Burn, Freezing, Paralysis, Poison, or Sleep effects."
+        },
+        {
+            "name": "Hyper Cutter",
+            "type": "Static",
+            "keyword": [
+                
+            ],
+            "effect": "The user's Attack is raised by 1 Combat Stage, but the user's Accuracy Check requirements for Physical Moves are raised by 2."
+        },
+        {
+            "name": "Infiltrator",
+            "type": "Static",
+            "keyword": [
+                
+            ],
+            "effect": "The user ignores Coats, Hazards, and Walls."
+        },
+        {
+            "name": "Inner Focus",
+            "type": "Static",
+            "keyword": [
+                "Immune"
+            ],
+            "effect": "Flinching"
+        },
+        {
+            "name": "Intimidate",
+            "type": "Cast",
+            "keyword": [
+                "Hourly"
+            ],
+            "effect": "Lower one target's Attack 1 Combat Stage."
+        },
+        {
+            "name": "Iron Fist",
+            "type": "Static",
+            "keyword": [
+                
+            ],
+            "effect": "The user deals an additional 2 STAB damage when using Punch Moves, as well as Hammer-Arm, Meteor Mash, and Sky Uppercut."
+        },
+        {
+            "name": "Keen Eye",
+            "type": "Static",
+            "keyword": [
+                
+            ],
+            "effect": "The user cannot have its Accuracy Check negatively effected by anything other than the target's Evasion."
+        },
+        {
+            "name": "Klutz",
+            "type": "Static",
+            "keyword": [
+                
+            ],
+            "effect": "The user may drop helf items at will as a free action, even if they have status afflictions. The user may also hold an item and ignore any effects the item has."
+        },
+        {
+            "name": "Landslide",
+            "type": "Trigger",
+            "keyword": [
+                "Last Chance"
+            ],
+            "effect": "Ground"
+        },
+        {
+            "name": "Leaf Guard",
+            "type": "Trigger",
+            "keyword": [
+
+            ],
+            "effect": "While in Sunny Weather, the user is healed of Burn, Freezing, Paralysis, Poison, or Sleep effects."
+        },
+        {
+            "name": "Liquid Voice",
+            "type": "Trigger",
+            "keyword": [
+                
+            ],
+            "effect": "When using a Move with the Sound keyword, the Move is changed into a Water type."
+        },
+        {
+            "name": "Long Reach",
+            "type": "Static",
+            "keyword": [
+                
+            ],
+            "effect": "The user makes no contact with targets when using moves. Also, melee ranged moves are treated as Ranged (10) instead."
+        },
+        {
+            "name": "Mach Speed",
+            "type": "Trigger",
+            "keyword": [
+                "Last Chance"
+            ],
+            "effect": "Flying"
+        },
+        {
+            "name": "Magician",
+            "type": "Trigger",
+            "keyword": [
+                
+            ],
+            "effect": "When the user hits an opponent that is holding an item with a ranged move, and is not holding an item, the user takes the target's held item."
+        },
+        {
+            "name": "Marvel Scale",
+            "type": "Static",
+            "keyword": [
+
+            ],
+            "effect": "When Asleep, Burned, Frozen, Paralyzed, or Poisoned, the user's Defense and Special Defense are raised by 2 Combat Stages. They return to their previous values when cured of their status affliction."
+        },
+        {
+            "name": "Mind Mold",
+            "type": "Trigger",
+            "keyword": [
+                "Last Chance"
+            ],
+            "effect": "Psychic"
+        },
+        {
+            "name": "Moxie",
+            "type": "Trigger",
+            "keyword": [
+                
+            ],
+            "effect": "Whenever the user's Moves cause a target to faint, the user may raise its Attack by 1 Combat Stage."
+        },
+        {
+            "name": "Oblivious",
+            "type": "Static",
+            "keyword": [
+                "Immune"
+            ],
+            "effect": "The Infatuation conditon, and the effects of the Move Taunt."
+        },
+        {
+            "name": "Overgrow",
+            "type": "Trigger",
+            "keyword": [
+                "Last Chance"
+            ],
+            "effect": "Grass"
+        },
+        {
+            "name": "Prankster",
+            "type": "Cast",
+            "keyword": [
+                "Daily"
+            ],
+            "effect": "For the remainder of the encounter, any none-damaging Moves the user knows can be used as an Interrupt, unless it sets the target's HP to 0."
+        },
+        {
+            "name": "Protean",
+            "type": "Cast",
+            "keyword": [
+                "Hourly"
+            ],
+            "effect": "For the remainder of the encounter, whenever the user uses a Move, it immediately changes its Type to match the Move it's using, before dealing damge."
+        },
+        {
+            "name": "Rain Dish",
+            "type": "Trigger",
+            "keyword": [
+                
+            ],
+            "effect": "When in Rainy Weather, the user regains 1/16th of their maximum HP at the beginning of their turns."
+        },
+        {
+            "name": "Reckless",
+            "type": "Static",
+            "keyword": [
+                
+            ],
+            "effect": "The user deals an additional 2 STAB damage when using Moves that cause recoil damage."
+        },
+        {
+            "name": "Rivalry",
+            "type": "Static",
+            "keyword": [
+                
+            ],
+            "effect": "When battling a same-gendered foe, the user may raise their Attack by 2 Combat Stages - once per Encounter only."
+        },
+        {
+            "name": "Rock Head",
+            "type": "Static",
+            "keyword": [
+                "Immune"
+            ],
+            "effect": "Recoil"
+        },
+        {
+            "name": "Sap Sipper",
+            "type": "Static",
+            "keyword": [
+
+            ],
+            "effect": "The user does not take damage from Grass moves. If hit by one, the user may raise its Attack 1 Combat Stage once per turn."
+        },
+        {
+            "name": "Sheer Force",
+            "type": "Cast",
+            "keyword": [
+                "Daily"
+            ],
+            "effect": "Once used, Sheer Force is active until the end of the encounter. Moves that have additional effects that activate during an Accuracy Check ignore the additional effects, and instead deal an additional 2 STAB damage."
+        },
+        {
+            "name": "Shell Armour",
+            "type": "Static",
+            "keyword": [
+                "Immune"
+            ],
+            "effect": "Critical Hits"
+        },
+        {
+            "name": "Sniper",
+            "type": "Static",
+            "keyword": [
+                
+            ],
+            "effect": "Add an additional Damage Dice Roll - including the base damage - when the user gets a Critical Hit."
+        },
+        {
+            "name": "Solar Power",
+            "type": "Trigger",
+            "keyword": [
+                
+            ],
+            "effect": "While in Sunny Weather, the user loses 1/8ths of its max hp on its turn, and its Special Attack is raised by 2 Combat Stages."
+        },
+        {
+            "name": "Speed Boost",
+            "type": "Cast",
+            "keyword": [
+                "Hourly"
+            ],
+            "effect": "For the remainder of the encounter, the user's Speed is raised by 1 Combat Stage at the start of its turn."
+        },
+        {
+            "name": "Swift Swim",
+            "type": "Trigger",
+            "keyword": [
+                "Hourly"
+            ],
+            "effect": "While in Rainy Weather, the user's Speed is raised by 4 Combat Stages."
+        },
+        {
+            "name": "Thick Fat",
+            "type": "Static",
+            "keyword": [
+                
+            ],
+            "effect": "The user is resistant to Fire and Ice type Moves."
+        },
+        {
+            "name": "Torrent",
+            "type": "Trigger",
+            "keyword": [
+                "Last Chance"
+            ],
+            "effect": "Water"
+        },
+        {
+            "name": "Unbreakable",
+            "type": "Trigger",
+            "keyword": [
+                "Last Chance"
+            ],
+            "effect": "Steel"
+        },
+        {
+            "name": "Unburden",
+            "type": "Trigger",
+            "keyword": [
+
+            ],
+            "effect": "After consuming a held item, the user's Speed is raised by 2 Combat Stages."
+        },
+        {
+            "name": "Venom",
+            "type": "Trigger",
+            "keyword": [
+                "Last Chance"
+            ],
+            "effect": "Poison"
+        },
+        {
+            "name": "",
+            "type": "",
+            "keyword": [
+                
+            ],
+            "effect": ""
+        }
+    ]
+}
