@@ -2,8 +2,8 @@
 //  JSON.swift
 //  Pokemon Tabletop Adventure
 //
-//  Created by Ian Merry on 08/07/2018.
-//  Copyright © 2018 WeatherBear. All rights reserved.
+//  Created by Ian Merryweather on 08/07/2018.
+//  Copyright © 2018 Undersea Love. All rights reserved.
 //
 
 import Foundation

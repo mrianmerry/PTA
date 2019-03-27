@@ -31,6 +31,10 @@
 		DCDA770A20EF5B9000BC0D55 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDA770920EF5B9000BC0D55 /* BaseViewController.swift */; };
 		DCDA770D20EF5E3A00BC0D55 /* pokedex.json in Resources */ = {isa = PBXBuildFile; fileRef = DCDA770C20EF5E3A00BC0D55 /* pokedex.json */; };
 		DCF15BD6211E35710003DA31 /* TableManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF15BD5211E35710003DA31 /* TableManager.swift */; };
+		FF56E246224BA39800E14330 /* IntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF56E245224BA39800E14330 /* IntTests.swift */; };
+		FF56E248224BBA6300E14330 /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF56E247224BBA6300E14330 /* StringTests.swift */; };
+		FF56E24A224BBF5F00E14330 /* ParagraphStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF56E249224BBF5F00E14330 /* ParagraphStyleTests.swift */; };
+		FF56E24C224BC0E700E14330 /* ColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF56E24B224BC0E700E14330 /* ColorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,13 +48,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DC3BD48B20A3591D0043B49C /* Pokemon Tabletop Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokemon Tabletop Adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3BD48B20A3591D0043B49C /* P:TA Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "P:TA Companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3BD48E20A3591D0043B49C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC3BD49620A3591D0043B49C /* Pokemon_Tabletop_Adventure.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pokemon_Tabletop_Adventure.xcdatamodel; sourceTree = "<group>"; };
 		DC3BD49820A3591F0043B49C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC3BD49B20A3591F0043B49C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC3BD49D20A3591F0043B49C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC3BD4A220A3591F0043B49C /* Pokemon Tabletop AdventureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pokemon Tabletop AdventureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3BD4A220A3591F0043B49C /* P:TA Companion Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "P:TA Companion Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3BD4A820A3591F0043B49C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC60F27520F3C33E00DF1C98 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		DC6A20D4211E02390024F77D /* PokedexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +75,10 @@
 		DCDA770920EF5B9000BC0D55 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		DCDA770C20EF5E3A00BC0D55 /* pokedex.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pokedex.json; sourceTree = "<group>"; };
 		DCF15BD5211E35710003DA31 /* TableManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableManager.swift; sourceTree = "<group>"; };
+		FF56E245224BA39800E14330 /* IntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntTests.swift; sourceTree = "<group>"; };
+		FF56E247224BBA6300E14330 /* StringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
+		FF56E249224BBF5F00E14330 /* ParagraphStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParagraphStyleTests.swift; sourceTree = "<group>"; };
+		FF56E24B224BC0E700E14330 /* ColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +112,8 @@
 		DC3BD48C20A3591D0043B49C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DC3BD48B20A3591D0043B49C /* Pokemon Tabletop Adventure.app */,
-				DC3BD4A220A3591F0043B49C /* Pokemon Tabletop AdventureTests.xctest */,
+				DC3BD48B20A3591D0043B49C /* P:TA Companion.app */,
+				DC3BD4A220A3591F0043B49C /* P:TA Companion Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,7 +153,11 @@
 			isa = PBXGroup;
 			children = (
 				DC9E1DCE20FFD65E006D6B97 /* ArrayTests.swift */,
+				FF56E24B224BC0E700E14330 /* ColorTests.swift */,
+				FF56E245224BA39800E14330 /* IntTests.swift */,
 				DCAB27C7210A7EDB00B8EFC7 /* OptionalTests.swift */,
+				FF56E249224BBF5F00E14330 /* ParagraphStyleTests.swift */,
+				FF56E247224BBA6300E14330 /* StringTests.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -241,9 +253,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DC3BD48A20A3591D0043B49C /* Pokemon Tabletop Adventure */ = {
+		DC3BD48A20A3591D0043B49C /* P:TA Companion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC3BD4B620A3591F0043B49C /* Build configuration list for PBXNativeTarget "Pokemon Tabletop Adventure" */;
+			buildConfigurationList = DC3BD4B620A3591F0043B49C /* Build configuration list for PBXNativeTarget "P:TA Companion" */;
 			buildPhases = (
 				DC3BD48720A3591D0043B49C /* Sources */,
 				DC3BD48820A3591D0043B49C /* Frameworks */,
@@ -255,14 +267,14 @@
 			);
 			dependencies = (
 			);
-			name = "Pokemon Tabletop Adventure";
+			name = "P:TA Companion";
 			productName = "Pokemon Tabletop Adventure";
-			productReference = DC3BD48B20A3591D0043B49C /* Pokemon Tabletop Adventure.app */;
+			productReference = DC3BD48B20A3591D0043B49C /* P:TA Companion.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DC3BD4A120A3591F0043B49C /* Pokemon Tabletop AdventureTests */ = {
+		DC3BD4A120A3591F0043B49C /* P:TA Companion Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC3BD4B920A3591F0043B49C /* Build configuration list for PBXNativeTarget "Pokemon Tabletop AdventureTests" */;
+			buildConfigurationList = DC3BD4B920A3591F0043B49C /* Build configuration list for PBXNativeTarget "P:TA Companion Tests" */;
 			buildPhases = (
 				DC3BD49E20A3591F0043B49C /* Sources */,
 				DC3BD49F20A3591F0043B49C /* Frameworks */,
@@ -273,9 +285,9 @@
 			dependencies = (
 				DC3BD4A420A3591F0043B49C /* PBXTargetDependency */,
 			);
-			name = "Pokemon Tabletop AdventureTests";
+			name = "P:TA Companion Tests";
 			productName = "Pokemon Tabletop AdventureTests";
-			productReference = DC3BD4A220A3591F0043B49C /* Pokemon Tabletop AdventureTests.xctest */;
+			productReference = DC3BD4A220A3591F0043B49C /* P:TA Companion Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -313,8 +325,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DC3BD48A20A3591D0043B49C /* Pokemon Tabletop Adventure */,
-				DC3BD4A120A3591F0043B49C /* Pokemon Tabletop AdventureTests */,
+				DC3BD48A20A3591D0043B49C /* P:TA Companion */,
+				DC3BD4A120A3591F0043B49C /* P:TA Companion Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -399,9 +411,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF56E246224BA39800E14330 /* IntTests.swift in Sources */,
 				DC9E1DCF20FFD65E006D6B97 /* ArrayTests.swift in Sources */,
 				DC9E1DD020FFD96D006D6B97 /* Extensions.swift in Sources */,
 				DCAB27C8210A7EDB00B8EFC7 /* OptionalTests.swift in Sources */,
+				FF56E24A224BBF5F00E14330 /* ParagraphStyleTests.swift in Sources */,
+				FF56E24C224BC0E700E14330 /* ColorTests.swift in Sources */,
+				FF56E248224BBA6300E14330 /* StringTests.swift in Sources */,
 				DC9E1DCC20FFD62A006D6B97 /* RandomPokémonViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,7 +427,7 @@
 /* Begin PBXTargetDependency section */
 		DC3BD4A420A3591F0043B49C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DC3BD48A20A3591D0043B49C /* Pokemon Tabletop Adventure */;
+			target = DC3BD48A20A3591D0043B49C /* P:TA Companion */;
 			targetProxy = DC3BD4A320A3591F0043B49C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -602,11 +618,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.weatherbear.Pokemon-Tabletop-AdventureTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.undersealove.Pokemon-Tabletop-AdventureTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pokemon Tabletop Adventure.app/Pokemon Tabletop Adventure";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/P:TA Companion.app/P:TA Companion";
 			};
 			name = Debug;
 		};
@@ -622,11 +638,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.weatherbear.Pokemon-Tabletop-AdventureTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.undersealove.Pokemon-Tabletop-AdventureTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pokemon Tabletop Adventure.app/Pokemon Tabletop Adventure";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/P:TA Companion.app/P:TA Companion";
 			};
 			name = Release;
 		};
@@ -642,7 +658,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC3BD4B620A3591F0043B49C /* Build configuration list for PBXNativeTarget "Pokemon Tabletop Adventure" */ = {
+		DC3BD4B620A3591F0043B49C /* Build configuration list for PBXNativeTarget "P:TA Companion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DC3BD4B720A3591F0043B49C /* Debug */,
@@ -651,7 +667,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC3BD4B920A3591F0043B49C /* Build configuration list for PBXNativeTarget "Pokemon Tabletop AdventureTests" */ = {
+		DC3BD4B920A3591F0043B49C /* Build configuration list for PBXNativeTarget "P:TA Companion Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DC3BD4BA20A3591F0043B49C /* Debug */,
