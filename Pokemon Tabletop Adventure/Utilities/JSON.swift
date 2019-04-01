@@ -36,15 +36,17 @@ enum JSON {
     static var pokemon: [Pokemon] {
         return pokedex.pokemon
     }
-    
+
+    static func setupPokedexCache(completion: @escaping () -> Void) {
+        cachedPokedex = pokedex
+        DispatchQueue.main.async { completion() }
+    }
+
     static func getJSON(from filename: String) -> Data? {
         guard let url = Bundle.main.url(forResource: filename, withExtension: "json") else {
             print("Could not open file: \"\(filename)\"")
             return nil
         }
-
-        /* I would like to make this a guard, but I'm not sure how to get the error message into the following:
-         guard let foo = try? bar else { print(error) } */
 
         do {
             let data = try Data(contentsOf: url)

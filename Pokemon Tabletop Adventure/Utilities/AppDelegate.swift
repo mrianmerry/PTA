@@ -31,7 +31,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let rootController = RootViewController()
         window?.rootViewController = rootController
 
-        UIView.appearance(whenContainedInInstancesOf: [TabBarController.self]).tintColor = .appLogo
+        UIView.appearance(whenContainedInInstancesOf: [RootViewController.self]).tintColor = .appLogo
 
         return true
     }
