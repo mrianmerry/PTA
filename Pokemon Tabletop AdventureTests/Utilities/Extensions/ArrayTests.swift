@@ -2,8 +2,8 @@
 //  ArrayTests.swift
 //  Pokemon Tabletop AdventureTests
 //
-//  Created by Ian Merry on 18/07/2018.
-//  Copyright © 2018 WeatherBear. All rights reserved.
+//  Created by Ian Merryweather on 18/07/2018.
+//  Copyright © 2018 Undersea Love. All rights reserved.
 //
 
 import XCTest
@@ -21,24 +21,29 @@ class ArrayTests: XCTestCase {
         super.tearDown()
     }
     
-    func testRandomAvoidingElementHappyPath() {
+    func test_RandomAvoidingElement_HappyPath() {
         let element = testArray[0]
 
         let testValue = testArray.random(avoiding: element)
-        XCTAssert(testArray.contains(testValue), "returned value not in array?!")
-        XCTAssert(testArray.index(of: element) != testArray.index(of: testValue), "Test Value and Element had same index")
+        XCTAssertTrue(testArray.contains(testValue))
+        XCTAssertTrue(testArray.index(of: element) != testArray.index(of: testValue))
+    }
+
+    func test_RandomAvoidingElement_NoElement() {
+        let testValue = testArray.random()
+        XCTAssertTrue(testArray.contains(testValue))
+    }
+
+    func test_RandomAvoidingElement_BadIndex() {
+        let element = 10
+        XCTAssertFalse(testArray.contains(element))
+
+        let testValue = testArray.random(avoiding: element)
+        XCTAssertTrue(testArray.contains(testValue))
     }
     
-    func testTrueRandom() {
+    func test_TrueRandom() {
         let testElement = testArray.trueRandom
-        XCTAssert(testArray.index(of: testElement).exists, "Test Element \"\(testElement)\" not found in Test Array")
-    }
-    
-//    func testPerformanceRandomAvoidingElement() {
-//        // This is an example of a performance test case.
-//        self.measure {
-//            // Put the code you want to measure the time of here.
-//        }
-//    }
-    
+        XCTAssertTrue(testArray.index(of: testElement).exists)
+    }    
 }

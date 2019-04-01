@@ -2,8 +2,8 @@
 //  PokedexViewController.swift
 //  Pokemon Tabletop Adventure
 //
-//  Created by Ian Merry on 10/08/2018.
-//  Copyright © 2018 WeatherBear. All rights reserved.
+//  Created by Ian Merryweather on 10/08/2018.
+//  Copyright © 2018 Undersea Love. All rights reserved.
 //
 
 import SafariServices
@@ -60,11 +60,13 @@ class PokedexViewController: BaseViewController {
         pokedexTableView.estimatedRowHeight = 44.0
 
         view.addSubview(pokedexTableView)
-        let layoutGuide = view.layoutGuide
+        let layoutGuide = view.safeAreaLayoutGuide
 
-        pokedexTableView.topAnchor.constraint(equalTo: layoutGuide.topAnchor, constant: 4).isActive = true
-        pokedexTableView.widthAnchor.constraint(equalTo: layoutGuide.widthAnchor).isActive = true
-        pokedexTableView.centerXAnchor.constraint(equalTo: layoutGuide.centerXAnchor).isActive = true
+        NSLayoutConstraint.activate(
+            [pokedexTableView.topAnchor.constraint(equalTo: layoutGuide.topAnchor, constant: 4),
+             pokedexTableView.widthAnchor.constraint(equalTo: layoutGuide.widthAnchor),
+             pokedexTableView.centerXAnchor.constraint(equalTo: layoutGuide.centerXAnchor)]
+        )
     }
 
     private func setupCreditation() {
@@ -74,13 +76,16 @@ class PokedexViewController: BaseViewController {
         credits.delegate = self
 
         view.addSubview(credits)
-        let layoutGuide = view.layoutGuide
+        let layoutGuide = view.safeAreaLayoutGuide
         let height: CGFloat = credits.attributedText.value.isEmpty ? 0 : 32
-        credits.topAnchor.constraint(equalTo: pokedexTableView.bottomAnchor, constant: 4).isActive = true
-        credits.bottomAnchor.constraint(equalTo: layoutGuide.bottomAnchor).isActive = true
-        credits.heightAnchor.constraint(equalToConstant: height).isActive = true
-        credits.widthAnchor.constraint(equalTo: layoutGuide.widthAnchor).isActive = true
-        credits.centerXAnchor.constraint(equalTo: layoutGuide.centerXAnchor).isActive = true
+
+        NSLayoutConstraint.activate(
+            [credits.topAnchor.constraint(equalTo: pokedexTableView.bottomAnchor, constant: 4),
+             credits.bottomAnchor.constraint(equalTo: layoutGuide.bottomAnchor),
+             credits.heightAnchor.constraint(equalToConstant: height),
+             credits.widthAnchor.constraint(equalTo: layoutGuide.widthAnchor),
+             credits.centerXAnchor.constraint(equalTo: layoutGuide.centerXAnchor)]
+        )
     }
 }
 

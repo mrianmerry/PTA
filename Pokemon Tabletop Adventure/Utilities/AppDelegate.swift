@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Pokemon Tabletop Adventure
 //
-//  Created by Ian Merry on 09/05/2018.
-//  Copyright © 2018 WeatherBear. All rights reserved.
+//  Created by Ian Merryweather on 09/05/2018.
+//  Copyright © 2018 Undersea Love. All rights reserved.
 //
 
 import CoreData
@@ -12,17 +12,27 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    // swiftlint:disable force_cast force_unwrapping
+    static var shared: AppDelegate { return UIApplication.shared.delegate as! AppDelegate }
+    var root: RootViewController { return window!.rootViewController as! RootViewController }
+    // swiftlint:enable force_cast force_unwrap
+
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions options: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
 
-        let rootViewController = TabBarController()
-        window?.rootViewController = rootViewController
-        
+        // MARK: Legacy
+//        let rootViewController = TabBarController()
+//        window?.rootViewController = rootViewController
+
+        // MARK: New
+        let rootController = RootViewController()
+        window?.rootViewController = rootController
+
+        UIView.appearance(whenContainedInInstancesOf: [RootViewController.self]).tintColor = .appLogo
+
         return true
     }
 
