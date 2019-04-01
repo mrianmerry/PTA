@@ -35,6 +35,8 @@
 		FF56E248224BBA6300E14330 /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF56E247224BBA6300E14330 /* StringTests.swift */; };
 		FF56E24A224BBF5F00E14330 /* ParagraphStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF56E249224BBF5F00E14330 /* ParagraphStyleTests.swift */; };
 		FF56E24C224BC0E700E14330 /* ColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF56E24B224BC0E700E14330 /* ColorTests.swift */; };
+		FF56E24E224BCE7E00E14330 /* LabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF56E24D224BCE7E00E14330 /* LabelTests.swift */; };
+		FFF91FDC2252247E0064BEF6 /* ProgressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF91FDB2252247E0064BEF6 /* ProgressTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,8 @@
 		FF56E247224BBA6300E14330 /* StringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
 		FF56E249224BBF5F00E14330 /* ParagraphStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParagraphStyleTests.swift; sourceTree = "<group>"; };
 		FF56E24B224BC0E700E14330 /* ColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTests.swift; sourceTree = "<group>"; };
+		FF56E24D224BCE7E00E14330 /* LabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTests.swift; sourceTree = "<group>"; };
+		FFF91FDB2252247E0064BEF6 /* ProgressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,8 +159,10 @@
 				DC9E1DCE20FFD65E006D6B97 /* ArrayTests.swift */,
 				FF56E24B224BC0E700E14330 /* ColorTests.swift */,
 				FF56E245224BA39800E14330 /* IntTests.swift */,
+				FF56E24D224BCE7E00E14330 /* LabelTests.swift */,
 				DCAB27C7210A7EDB00B8EFC7 /* OptionalTests.swift */,
 				FF56E249224BBF5F00E14330 /* ParagraphStyleTests.swift */,
+				FFF91FDB2252247E0064BEF6 /* ProgressTests.swift */,
 				FF56E247224BBA6300E14330 /* StringTests.swift */,
 			);
 			path = Extensions;
@@ -417,8 +423,10 @@
 				DCAB27C8210A7EDB00B8EFC7 /* OptionalTests.swift in Sources */,
 				FF56E24A224BBF5F00E14330 /* ParagraphStyleTests.swift in Sources */,
 				FF56E24C224BC0E700E14330 /* ColorTests.swift in Sources */,
+				FFF91FDC2252247E0064BEF6 /* ProgressTests.swift in Sources */,
 				FF56E248224BBA6300E14330 /* StringTests.swift in Sources */,
 				DC9E1DCC20FFD62A006D6B97 /* RandomPokémonViewControllerTests.swift in Sources */,
+				FF56E24E224BCE7E00E14330 /* LabelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

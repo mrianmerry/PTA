@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch" translatesAutoresizingMaskIntoConstraints="NO" id="ViI-yd-B09">
-                                <rect key="frame" x="20.5" y="153.5" width="373" height="372.5"/>
+                                <rect key="frame" x="20.5" y="166.5" width="373" height="373"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ViI-yd-B09" secondAttribute="height" multiplier="1:1" id="KVV-ag-o5m"/>
                                 </constraints>
@@ -28,7 +28,7 @@
                         <color key="backgroundColor" red="0.92139714959999997" green="0.27492386099999999" blue="0.23515313860000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="ViI-yd-B09" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.9" id="IlT-3x-HiD"/>
-                            <constraint firstItem="ViI-yd-B09" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="0.75" id="Wf6-au-epG"/>
+                            <constraint firstItem="ViI-yd-B09" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-100" id="Wf6-au-epG"/>
                             <constraint firstItem="ViI-yd-B09" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="qeB-n1-gKZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

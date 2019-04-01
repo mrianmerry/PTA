@@ -9,6 +9,13 @@
 import XCTest
 
 class ColorTests: XCTestCase {
+    func test_AppLogo() {
+        let testColor = UIColor.appLogo
+        let expectation = UIColor(hex: "#eb463c")
+
+        XCTAssertTrue(testColor.isEqual(expectation))
+    }
+
     func test_Inverted() {
         let testColour = UIColor(red: 0.75, green: 0.75, blue: 0.25, alpha: 0.5)
         let expectation = UIColor(red: 0.25, green: 0.25, blue: 0.75, alpha: 0.5)

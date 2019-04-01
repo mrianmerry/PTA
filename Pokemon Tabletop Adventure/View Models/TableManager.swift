@@ -45,6 +45,7 @@ extension TableManager: UITableViewDataSource, UITableViewDelegate {
         let cell = tableView.dequeueReusableCell(withIdentifier: identifier) ??
             UITableViewCell(style: .value2, reuseIdentifier: identifier)
 
+        cell.tintColor = .appLogo
         cell.selectionStyle = .none
         cellConfiguration(cell, indexPath.row)
 

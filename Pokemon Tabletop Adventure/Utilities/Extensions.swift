@@ -84,9 +84,9 @@ public extension NSParagraphStyle {
 }
 
 public extension UIColor {
-    var inverted: UIColor {
-        return inverse(includingAlpha: false)
-    }
+    static var appLogo: UIColor { return UIColor(hex: "#eb463c") }
+
+    var inverted: UIColor { return inverse(includingAlpha: false) }
 
     func inverse(includingAlpha: Bool = true) -> UIColor {
         var red: CGFloat = 0, green: CGFloat = 0, blue: CGFloat = 0, alpha: CGFloat = 0
@@ -128,5 +128,12 @@ public extension UILabel {
         guard let text = attributedText, text.string.first.exists else { return [:] }
         let attributes = text.attributes(at: 0, effectiveRange: nil)
         return attributes
+    }
+}
+
+public extension UIProgressView {
+    func loop() {
+        (progressTintColor, trackTintColor) = (trackTintColor, progressTintColor)
+        setProgress(0, animated: false)
     }
 }

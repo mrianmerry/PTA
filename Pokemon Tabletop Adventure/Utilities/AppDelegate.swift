@@ -12,17 +12,27 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    // swiftlint:disable force_cast force_unwrapping
+    static var shared: AppDelegate { return UIApplication.shared.delegate as! AppDelegate }
+    var root: RootViewController { return window!.rootViewController as! RootViewController }
+    // swiftlint:enable force_cast force_unwrap
+
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions options: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
 
-        let rootViewController = TabBarController()
-        window?.rootViewController = rootViewController
-        
+        // MARK: Legacy
+//        let rootViewController = TabBarController()
+//        window?.rootViewController = rootViewController
+
+        // MARK: New
+        let rootController = RootViewController()
+        window?.rootViewController = rootController
+
+        UIView.appearance(whenContainedInInstancesOf: [TabBarController.self]).tintColor = .appLogo
+
         return true
     }
 
