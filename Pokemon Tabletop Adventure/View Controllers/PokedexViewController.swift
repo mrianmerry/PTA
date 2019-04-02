@@ -24,6 +24,10 @@ class PokedexViewController: BaseViewController {
 
         self.credits.attributedText = (credits ?? PokedexViewController.iconCredits).html
         super.init(with: viewModel)
+
+        if traitCollection.forceTouchCapability == .available {
+            // TODO: Find out how we can register _each cell_ for 3D Touch!
+        }
     }
 
     required init?(coder aDecoder: NSCoder) {
@@ -100,5 +104,20 @@ extension PokedexViewController: UITextViewDelegate {
         let safariController = SFSafariViewController(url: URL, configuration: safariConfiguration)
         present(safariController, animated: true, completion: nil)
         return false
+    }
+}
+
+extension PokedexViewController: UIViewControllerPreviewingDelegate {
+    func previewingContext(_ previewingContext: UIViewControllerPreviewing,
+                           viewControllerForLocation location: CGPoint) -> UIViewController? {
+        guard let cell = previewingContext.sourceView as? UITableViewCell else { return nil }
+
+        // TODO: Make a RandomPokemonViewController - probably rename it as PokemonDetailViewController - and display it with the right 'mon
+
+        return nil
+    }
+
+    func previewingContext(_ previewingContext: UIViewControllerPreviewing, commit viewControllerToCommit: UIViewController) {
+        navigationController?.show(viewControllerToCommit, sender: nil)
     }
 }
