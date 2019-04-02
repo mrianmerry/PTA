@@ -75,6 +75,18 @@ public extension Array where Element: Equatable {
     }
 }
 
+public extension NSAttributedString {
+    func copy(with newColor: UIColor) -> NSAttributedString {
+        var stringRange =  NSRange(location: 0, length: string.count)
+        var attributes = self.attributes(at: 0, effectiveRange: &stringRange)
+        attributes[.foregroundColor] = newColor
+
+        let mutable = NSMutableAttributedString(attributedString: self)
+        mutable.setAttributes(attributes, range: stringRange)
+        return mutable
+    }
+}
+
 public extension NSParagraphStyle {
     static var centered: NSParagraphStyle {
         let style = NSMutableParagraphStyle()
@@ -83,8 +95,21 @@ public extension NSParagraphStyle {
     }
 }
 
+public extension UIApplication {
+    static var buildVersion: String {
+        return (Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String).orEmpty
+    }
+
+    static var appVersion: String {
+        return (Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as? String).orEmpty
+    }
+}
+
 public extension UIColor {
-    static var appLogo: UIColor { return UIColor(hex: "#eb463c") }
+    static var bodyHex: String = "#404040"
+    static var logoHex: String = "#eb463c"
+    static var body: UIColor { return UIColor(hex: bodyHex) }
+    static var logo: UIColor { return UIColor(hex: logoHex) }
 
     var inverted: UIColor { return inverse(includingAlpha: false) }
 

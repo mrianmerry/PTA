@@ -39,6 +39,8 @@
 		FF56E24C224BC0E700E14330 /* ColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF56E24B224BC0E700E14330 /* ColorTests.swift */; };
 		FF56E24E224BCE7E00E14330 /* LabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF56E24D224BCE7E00E14330 /* LabelTests.swift */; };
 		FFF91FDC2252247E0064BEF6 /* ProgressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF91FDB2252247E0064BEF6 /* ProgressTests.swift */; };
+		FFF91FDE22524B800064BEF6 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF91FDD22524B800064BEF6 /* AboutViewController.swift */; };
+		FFF91FE22252577E0064BEF6 /* CreditAttributionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF91FE12252577E0064BEF6 /* CreditAttributionTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,8 @@
 		FF56E24B224BC0E700E14330 /* ColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTests.swift; sourceTree = "<group>"; };
 		FF56E24D224BCE7E00E14330 /* LabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTests.swift; sourceTree = "<group>"; };
 		FFF91FDB2252247E0064BEF6 /* ProgressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTests.swift; sourceTree = "<group>"; };
+		FFF91FDD22524B800064BEF6 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		FFF91FE12252577E0064BEF6 /* CreditAttributionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditAttributionTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,7 @@
 				DCB170A420F2AF7000BAA64D /* Data Models */,
 				DCDA770820EF5B6800BC0D55 /* View Controllers */,
 				DCB170AA20F34E1600BAA64D /* View Models */,
+				FFF91FDF2252572F0064BEF6 /* Views */,
 				DCB170A020F25FF400BAA64D /* Frameworks */,
 				DCDA770720EF5B5D00BC0D55 /* Supporting Files */,
 			);
@@ -226,6 +231,7 @@
 		DCDA770820EF5B6800BC0D55 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FFF91FDD22524B800064BEF6 /* AboutViewController.swift */,
 				DCDA770920EF5B9000BC0D55 /* BaseViewController.swift */,
 				DC6A20D4211E02390024F77D /* PokedexViewController.swift */,
 				FF56E242224B9A2500E14330 /* PreliminaryLoadingViewController.swift */,
@@ -260,6 +266,22 @@
 				DC9E1DCB20FFD62A006D6B97 /* RandomPokémonViewControllerTests.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FFF91FDF2252572F0064BEF6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FFF91FE0225257710064BEF6 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FFF91FE0225257710064BEF6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FFF91FE12252577E0064BEF6 /* CreditAttributionTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -406,6 +428,7 @@
 				DC6A20D5211E02390024F77D /* PokedexViewController.swift in Sources */,
 				DCB170B320F3529700BAA64D /* Extensions.swift in Sources */,
 				DCB170AF20F34E7F00BAA64D /* RandomPokemonViewController.swift in Sources */,
+				FFF91FE22252577E0064BEF6 /* CreditAttributionTableViewCell.swift in Sources */,
 				DCB170AD20F34E5500BAA64D /* RandomPokemonViewModel.swift in Sources */,
 				FF56E241224B9A0F00E14330 /* RootViewController.swift in Sources */,
 				FF56E243224B9A2500E14330 /* PreliminaryLoadingViewController.swift in Sources */,
@@ -413,6 +436,7 @@
 				DC9E1DC720FFCE11006D6B97 /* TrainerViewModel.swift in Sources */,
 				DC3BD49720A3591D0043B49C /* Pokemon_Tabletop_Adventure.xcdatamodeld in Sources */,
 				DCF15BD6211E35710003DA31 /* TableManager.swift in Sources */,
+				FFF91FDE22524B800064BEF6 /* AboutViewController.swift in Sources */,
 				DCB170A920F2B4A400BAA64D /* JSON.swift in Sources */,
 				DCB170A620F2AF8600BAA64D /* Pokemon.swift in Sources */,
 				DCDA770A20EF5B9000BC0D55 /* BaseViewController.swift in Sources */,

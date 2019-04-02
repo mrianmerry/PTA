@@ -2,7 +2,7 @@
 //  ProgressTests.swift
 //  P:TA Companion Tests
 //
-//  Created by DevPair21 on 01/04/2019.
+//  Created by Ian Merryweather on 01/04/2019.
 //  Copyright © 2019 Undersea Love. All rights reserved.
 //
 

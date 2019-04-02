@@ -21,9 +21,15 @@ class TabBarController: UITabBarController {
         tabBarItem = UITabBarItem(title: "Randomiser", image: icon, selectedImage: icon)
         randomiser.tabBarItem = tabBarItem
 
+        let about = AboutViewController()
+        icon = UIImage(named: "tabbar-items/information")
+        tabBarItem = UITabBarItem(title: "About", image: icon, selectedImage: icon)
+        about.tabBarItem = tabBarItem
+
         self.init(with: [
             pokedex,
-            randomiser
+            randomiser,
+            about
             ])
     }
     

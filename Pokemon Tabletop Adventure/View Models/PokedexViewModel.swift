@@ -13,7 +13,7 @@ enum PokemonIdentifier {
     case tabletopAdventure
 
     var sortTitle: String {
-        return self == .nationalPokedex ? "Tabletop 'dex" : "National 'dex"
+        return self == .nationalPokedex ? "National Pokédex" : "Tabletop Pokédex"
     }
 }
 
