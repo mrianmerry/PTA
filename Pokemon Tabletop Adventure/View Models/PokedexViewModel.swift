@@ -21,6 +21,8 @@ class PokedexViewModel: BaseViewModel {
 
     private var pokemon: [Pokemon]
     var pokemonSorting: PokemonIdentifier = .nationalPokedex
+    var cellConfiguration: CellConfiguration?
+
     lazy var tableManager: TableManager = TableManager(with: "pokedex", rowCount: { [unowned self] _ -> Int in
         return self.pokemon.count
     }, sectionCount: { () -> Int in
@@ -31,6 +33,8 @@ class PokedexViewModel: BaseViewModel {
         cell.detailTextLabel?.text = pokemon.name
         let pokemonIdentifier = self.pokemonSorting == .nationalPokedex ? pokemon.dexID : pokemon.ptaID
         cell.textLabel?.text = pokemonIdentifier.numeral()
+
+        self.cellConfiguration?(cell, index)
     })
 
     override init() {
@@ -47,5 +51,12 @@ class PokedexViewModel: BaseViewModel {
             case .tabletopAdventure: return first.ptaID < last.ptaID
             }
         }
+    }
+
+    func pokemon(for index: Int) -> Pokemon {
+        guard index >= 0, index < pokemon.count else { fatalError("Take more care with ensuring the index you're supplying is valid!") }
+
+        let indexedPokemon = pokemon[index]
+        return indexedPokemon
     }
 }

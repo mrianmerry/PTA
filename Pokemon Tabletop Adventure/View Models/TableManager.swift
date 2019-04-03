@@ -51,8 +51,8 @@ extension TableManager: UITableViewDataSource, UITableViewDelegate {
 
         return cell
     }
-
-    typealias RowCount = (Int) -> Int
-    typealias SectionCount = () -> Int
-    typealias CellConfiguration = (UITableViewCell, Int) -> Void
 }
+
+typealias RowCount = (Int) -> Int
+typealias SectionCount = () -> Int
+typealias CellConfiguration = (UITableViewCell, Int) -> Void

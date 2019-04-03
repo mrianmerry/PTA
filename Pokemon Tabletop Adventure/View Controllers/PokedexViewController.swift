@@ -24,16 +24,23 @@ class PokedexViewController: BaseViewController {
 
         self.credits.attributedText = (credits ?? PokedexViewController.iconCredits).html
         super.init(with: viewModel)
-
-        if traitCollection.forceTouchCapability == .available {
-            // TODO: Find out how we can register _each cell_ for 3D Touch!
-        }
     }
 
     required init?(coder aDecoder: NSCoder) {
         fatalError("\"\(#function)\" not implemented; check your code structure to see how this is being called!")
     }
-    
+
+    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+        super.traitCollectionDidChange(previousTraitCollection)
+
+        if self.traitCollection.forceTouchCapability == .available {
+            pokedexViewModel.cellConfiguration = { [weak self] cell, _ in
+                guard let self = self else { return }
+                self.registerForPreviewing(with: self, sourceView: cell)
+            }
+        }
+    }
+
     override func setupViews() {
         view.backgroundColor = .lightGray
 
@@ -110,11 +117,13 @@ extension PokedexViewController: UITextViewDelegate {
 extension PokedexViewController: UIViewControllerPreviewingDelegate {
     func previewingContext(_ previewingContext: UIViewControllerPreviewing,
                            viewControllerForLocation location: CGPoint) -> UIViewController? {
-        guard let cell = previewingContext.sourceView as? UITableViewCell else { return nil }
+        guard let cell = previewingContext.sourceView as? UITableViewCell,
+            let index = pokedexTableView.indexPath(for: cell)?.row else { return nil }
 
-        // TODO: Make a RandomPokemonViewController - probably rename it as PokemonDetailViewController - and display it with the right 'mon
-
-        return nil
+        let pokemon = pokedexViewModel.pokemon(for: index)
+        let viewModel = RandomPokemonViewModel(initialPokemon: pokemon)
+        let viewController = RandomPokemonViewController(with: viewModel)
+        return viewController
     }
 
     func previewingContext(_ previewingContext: UIViewControllerPreviewing, commit viewControllerToCommit: UIViewController) {

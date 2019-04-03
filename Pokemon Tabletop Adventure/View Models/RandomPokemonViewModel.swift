@@ -16,11 +16,16 @@ class RandomPokemonViewModel: BaseViewModel {
         let pokemon = current ?? getRandomPokemon()
         return pokemon.basicDescription()
     }
-    
+
     override init() {
         pokemon = JSON.pokemon
     }
-    
+
+    init(initialPokemon: Pokemon? = nil) {
+        pokemon = JSON.pokemon
+        current = initialPokemon
+    }
+
     func getRandomPokemon() -> Pokemon {
         let random = pokemon.random(avoiding: current)
         print("Choosing pokemon #\(random.dexID) - \(random.name)")
