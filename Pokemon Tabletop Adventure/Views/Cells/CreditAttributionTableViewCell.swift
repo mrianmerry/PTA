@@ -11,63 +11,72 @@ import UIKit
 class CreditAttributionTableViewCell: UITableViewCell {
     required init?(coder aDecoder: NSCoder) { return nil }
 
+    let nameplate: UILabel
     let attribution: UITextView
 
     override var tintColor: UIColor! {
         didSet {
             super.tintColor = tintColor
-            textLabel?.attributedText = textLabel?.attributedText?.copy(with: tintColor)
+            nameplate.attributedText = nameplate.attributedText?.copy(with: tintColor)
         }
     }
 
-    init(credits: String, reuseIdentifier: String?) {
+    init(author: String, credits: String, reuseIdentifier: String?) {
+        nameplate = UILabel(frame: .zero)
         attribution = UITextView(frame: .zero)
-        attribution.attributedText = credits.html
+//        attribution.attributedText = credits.html
         super.init(style: .default, reuseIdentifier: reuseIdentifier)
 
         setupViews()
+        set(title: author, message: credits)
     }
-
-    func setupViews() {
-        setupTitle()
-        setupAttribution()
-        detailTextLabel?.removeFromSuperview()
-    }
-
-    func setupTitle() {
-        guard let title = textLabel else { fatalError("How the fuck did this happen?") }
+    
+    func set(title: String, message: String) {
+        guard let tint = tintColor else { return }
 
         let paragraphStyle = NSMutableParagraphStyle()
         paragraphStyle.alignment = .right
         let font = UIFont.systemFont(ofSize: 13)
+        let attributes: [NSAttributedString.Key: Any] = [.font: font, .foregroundColor: tint, .paragraphStyle: paragraphStyle]
+        nameplate.attributedText = NSAttributedString(string: title, attributes: attributes)
+        
+        attribution.attributedText = message.html
+    }
+}
 
-        let attributes: [NSAttributedString.Key: Any] = [.font: font, .foregroundColor: tintColor, .paragraphStyle: paragraphStyle]
-        title.attributedText = NSAttributedString(string: " ", attributes: attributes)
+private extension CreditAttributionTableViewCell {
+    func setupViews() {
+        translatesAutoresizingMaskIntoConstraints = false
+        setupNameplate()
+        setupAttribution()
+        textLabel?.removeFromSuperview()
+        detailTextLabel?.removeFromSuperview()
+    }
 
-        title.translatesAutoresizingMaskIntoConstraints = false
+    func setupNameplate() {
+        contentView.addSubview(nameplate)
+        nameplate.translatesAutoresizingMaskIntoConstraints = false
         let layoutGuide = contentView.safeAreaLayoutGuide
-        NSLayoutConstraint.activate(
-        [title.leftAnchor.constraint(equalTo: layoutGuide.leftAnchor, constant: 20),
-         title.widthAnchor.constraint(equalTo: layoutGuide.widthAnchor, multiplier: 0.22),
-         title.topAnchor.constraint(equalTo: layoutGuide.topAnchor, constant: 14)]
+        NSLayoutConstraint.activate([
+            nameplate.leftAnchor.constraint(equalTo: layoutGuide.leftAnchor, constant: 20),
+            nameplate.widthAnchor.constraint(equalTo: layoutGuide.widthAnchor, multiplier: 0.22),
+            nameplate.topAnchor.constraint(equalTo: layoutGuide.topAnchor, constant: 14)]
         )
     }
 
     func setupAttribution() {
-        guard let titleGuide = textLabel?.safeAreaLayoutGuide else { fatalError("How the fuck did this happen?") }
-
         contentView.addSubview(attribution)
         attribution.translatesAutoresizingMaskIntoConstraints = false
         attribution.isScrollEnabled = false
         attribution.isEditable = false
         let layoutGuide = contentView.safeAreaLayoutGuide
-        NSLayoutConstraint.activate(
-            [attribution.rightAnchor.constraint(equalTo: layoutGuide.rightAnchor, constant: -20),
-             attribution.leftAnchor.constraint(equalTo: titleGuide.rightAnchor, constant: 3),
-             attribution.topAnchor.constraint(equalTo: layoutGuide.topAnchor, constant: 6),
-             attribution.bottomAnchor.constraint(equalTo: layoutGuide.bottomAnchor, constant: -6),
-             attribution.heightAnchor.constraint(greaterThanOrEqualTo: titleGuide.heightAnchor, multiplier: 1)]
+        let nameGuide = nameplate.safeAreaLayoutGuide
+        NSLayoutConstraint.activate([
+            attribution.rightAnchor.constraint(equalTo: layoutGuide.rightAnchor, constant: -20),
+            attribution.leftAnchor.constraint(equalTo: nameGuide.rightAnchor, constant: 3),
+            attribution.topAnchor.constraint(equalTo: layoutGuide.topAnchor, constant: 6),
+            attribution.bottomAnchor.constraint(equalTo: layoutGuide.bottomAnchor, constant: -6),
+            attribution.heightAnchor.constraint(greaterThanOrEqualTo: nameGuide.heightAnchor, multiplier: 1)]
         )
-
     }
 }

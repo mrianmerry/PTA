@@ -337,11 +337,11 @@
 				TargetAttributes = {
 					DC3BD48A20A3591D0043B49C = {
 						CreatedOnToolsVersion = 9.3;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1020;
 					};
 					DC3BD4A120A3591F0043B49C = {
 						CreatedOnToolsVersion = 9.3;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1020;
 						TestTargetID = DC3BD48A20A3591D0043B49C;
 					};
 				};
@@ -617,7 +617,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.undersealove.ptacompanion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -641,7 +641,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.undersealove.ptacompanion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -660,7 +660,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.undersealove.Pokemon-Tabletop-AdventureTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/P:TA Companion.app/P:TA Companion";
 			};
@@ -680,7 +680,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.undersealove.Pokemon-Tabletop-AdventureTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/P:TA Companion.app/P:TA Companion";
 			};

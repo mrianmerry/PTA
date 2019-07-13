@@ -9,14 +9,14 @@
 import UIKit
 
 public extension Int {
-    public func numeral(withDigits digits: Int = 3) -> String {
+    func numeral(withDigits digits: Int = 3) -> String {
         let numeral = String(format: "%0\(digits)d", self)
         return numeral
     }
 }
 
 public extension String {
-    public var html: NSAttributedString? {
+    var html: NSAttributedString? {
 
         let data = Data(utf8)
         let htmlOptions: [NSAttributedString.DocumentReadingOptionKey: Any] =
@@ -24,7 +24,7 @@ public extension String {
         return try? NSAttributedString(data: data, options: htmlOptions, documentAttributes: nil)
     }
     
-    public var htmlBasic: String { return html.value }
+    var htmlBasic: String { return html.value }
 }
 
 public extension Optional {
@@ -33,7 +33,7 @@ public extension Optional {
 }
 
 public extension Optional where Wrapped == String {
-    public var orEmpty: String { return self ?? "" }
+    var orEmpty: String { return self ?? "" }
 }
 
 public extension Optional where Wrapped == Int {
@@ -53,13 +53,13 @@ public extension Optional where Wrapped == Bool {
 }
 
 public extension Optional where Wrapped == NSAttributedString {
-    public var value: String { return self?.string ?? "" }
+    var value: String { return self?.string ?? "" }
 }
 
 public extension Array where Element: Equatable {
-    public func random(avoiding element: Element? = nil) -> Element {
+    func random(avoiding element: Element? = nil) -> Element {
         guard let element = element,
-            let index = index(of: element) else { return trueRandom }
+            let index = firstIndex(of: element) else { return trueRandom }
 
         var randomIndex = index
         while randomIndex == index {
@@ -69,7 +69,7 @@ public extension Array where Element: Equatable {
         return self[randomIndex]
     }
 
-    public var trueRandom: Element {
+    var trueRandom: Element {
         let randomIndex = Int(arc4random_uniform(UInt32(count)))
         return self[randomIndex]
     }
@@ -151,7 +151,8 @@ public extension UILabel {
     /// Returns the attributes of the first character for any attributedText set in the label.
     var attributes: [NSAttributedString.Key: Any] {
         guard let text = attributedText, text.string.first.exists else { return [:] }
-        let attributes = text.attributes(at: 0, effectiveRange: nil)
+        var textRange =  NSRange(location: 0, length: text.string.count)
+        let attributes = text.attributes(at: 0, effectiveRange: &textRange)
         return attributes
     }
 }

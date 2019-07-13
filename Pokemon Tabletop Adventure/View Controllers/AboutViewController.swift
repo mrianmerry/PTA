@@ -42,11 +42,14 @@ class AboutViewController: BaseViewController {
         tableView.estimatedRowHeight = 44.0
         tableView.tableFooterView = UIView()
     }
+}
 
+private extension AboutViewController {
     func configure(_ cell: UITableViewCell, at row: Int) {
-        cell.translatesAutoresizingMaskIntoConstraints = false
-        cell.textLabel?.updateAttributedText(title(for: row))
-        cell.detailTextLabel?.updateAttributedText(message(for: row))
+        if (cell as? CreditAttributionTableViewCell).isNone {
+            cell.textLabel?.updateAttributedText(title(for: row))
+            cell.detailTextLabel?.updateAttributedText(message(for: row))
+        }
     }
 
     func title(for row: Int) -> String {
@@ -93,7 +96,9 @@ class AboutViewController: BaseViewController {
     func cell(for row: Int, with identifier: String) -> UITableViewCell {
         switch row {
         case 1, 2, 3, 4:
-            return CreditAttributionTableViewCell(credits: message(for: row), reuseIdentifier: identifier)
+            return CreditAttributionTableViewCell(author: title(for: row),
+                                                  credits: message(for: row),
+                                                  reuseIdentifier: identifier)
         default:
             return UITableViewCell(style: .value2, reuseIdentifier: identifier)
         }
