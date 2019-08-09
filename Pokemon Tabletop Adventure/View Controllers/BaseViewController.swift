@@ -14,7 +14,7 @@ class BaseViewController: UIViewController {
         self.init(with: BaseViewModel())
     }
     
-    init(with viewModel: BaseViewModel, credits: String? = nil) {
+    init(with viewModel: BaseViewModel) {
         super.init(nibName: nil, bundle: nil)
     }
     

@@ -94,7 +94,7 @@ private extension PreliminaryLoadingViewController {
 // MARK: Setup
 private extension PreliminaryLoadingViewController {
     func setupViews() {
-        view.backgroundColor = .appLogo
+        view.backgroundColor = .logo
         setupAppLogo()
         setupProgress()
         setupWarning()

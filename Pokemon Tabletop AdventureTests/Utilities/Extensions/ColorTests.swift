@@ -2,16 +2,37 @@
 //  ColorTests.swift
 //  P:TA Companion Tests
 //
-//  Created by DevPair21 on 27/03/2019.
+//  Created by Ian Merryweather on 27/03/2019.
 //  Copyright © 2019 Undersea Love. All rights reserved.
 //
 
 import XCTest
 
 class ColorTests: XCTestCase {
-    func test_AppLogo() {
-        let testColor = UIColor.appLogo
-        let expectation = UIColor(hex: "#eb463c")
+    func test_AppBody_Hex() {
+        let testString = UIColor.bodyHex
+        let expectation = "#404040"
+
+        XCTAssertTrue(testString == expectation)
+    }
+
+    func test_AppLogo_Hex() {
+        let testString = UIColor.logoHex
+        let expectation = "#eb463c"
+
+        XCTAssertTrue(testString == expectation)
+    }
+
+    func test_AppBody_Color() {
+        let testColor = UIColor.body
+        let expectation = UIColor(hex: UIColor.bodyHex)
+
+        XCTAssertTrue(testColor.isEqual(expectation))
+    }
+
+    func test_AppLogo_Color() {
+        let testColor = UIColor.logo
+        let expectation = UIColor(hex: UIColor.logoHex)
 
         XCTAssertTrue(testColor.isEqual(expectation))
     }

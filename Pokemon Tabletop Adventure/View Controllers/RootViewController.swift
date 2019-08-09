@@ -34,7 +34,7 @@ class RootViewController: UIViewController {
     }
 
     private func updateAppearance() {
-        let backgroundColor: UIColor = .appLogo
+        let backgroundColor: UIColor = .logo
         view.backgroundColor = backgroundColor
         children.forEach { $0.view.backgroundColor = backgroundColor }
     }

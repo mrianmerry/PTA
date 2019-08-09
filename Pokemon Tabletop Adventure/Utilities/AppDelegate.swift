@@ -31,9 +31,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let rootController = RootViewController()
         window?.rootViewController = rootController
 
-        UIView.appearance(whenContainedInInstancesOf: [RootViewController.self]).tintColor = .appLogo
+        setAppearances()
 
         return true
+    }
+
+    func setAppearances() {
+        let rootViewController = [RootViewController.self]
+        var attributes: [NSAttributedString.Key: Any] = [.font: UIFont.italicSystemFont(ofSize: 12)]
+        UIView.appearance(whenContainedInInstancesOf: rootViewController).tintColor = .logo
+        let allBarButtonItems = UIBarButtonItem.appearance(whenContainedInInstancesOf: rootViewController)
+        allBarButtonItems.setTitleTextAttributes(attributes, for: .normal)
+        allBarButtonItems.setTitleTextAttributes(attributes, for: .selected)
+        allBarButtonItems.setTitleTextAttributes(attributes, for: .highlighted)
+        let allNavigationBars = UINavigationBar.appearance(whenContainedInInstancesOf: rootViewController)
+        allNavigationBars.prefersLargeTitles = true
+        attributes = [.foregroundColor: UIColor.body]
+        allNavigationBars.titleTextAttributes = attributes
+        allNavigationBars.largeTitleTextAttributes = attributes
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

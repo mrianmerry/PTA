@@ -26,7 +26,7 @@ class ArrayTests: XCTestCase {
 
         let testValue = testArray.random(avoiding: element)
         XCTAssertTrue(testArray.contains(testValue))
-        XCTAssertTrue(testArray.index(of: element) != testArray.index(of: testValue))
+        XCTAssertTrue(testArray.firstIndex(of: element) != testArray.firstIndex(of: testValue))
     }
 
     func test_RandomAvoidingElement_NoElement() {
@@ -44,6 +44,6 @@ class ArrayTests: XCTestCase {
     
     func test_TrueRandom() {
         let testElement = testArray.trueRandom
-        XCTAssertTrue(testArray.index(of: testElement).exists)
+        XCTAssertTrue(testArray.firstIndex(of: testElement).exists)
     }    
 }

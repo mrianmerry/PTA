@@ -15,15 +15,18 @@ class TableManager: NSObject {
     private var rowCount: RowCount
     private var sectionCount: SectionCount
     private var cellConfiguration: CellConfiguration
+    private var cellInitialisation: CellInitialisation?
 
     init(with publicIdentifierKey: String,
          rowCount: @escaping RowCount,
          sectionCount: @escaping SectionCount,
-         cellConfiguration: @escaping CellConfiguration) {
+         cellConfiguration: @escaping CellConfiguration,
+         cellInitialisation: CellInitialisation? = nil) {
         self.publicIdentifierKey = publicIdentifierKey
         self.cellConfiguration = cellConfiguration
         self.sectionCount = sectionCount
         self.rowCount = rowCount
+        self.cellInitialisation = cellInitialisation
     }
 
     private func reuseIdentifier(for index: Int) -> String {
@@ -41,13 +44,17 @@ extension TableManager: UITableViewDataSource, UITableViewDelegate {
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let identifier = reuseIdentifier(for: indexPath.row)
+        let row = indexPath.row
+        let identifier = reuseIdentifier(for: row)
         let cell = tableView.dequeueReusableCell(withIdentifier: identifier) ??
+            cellInitialisation?(row, identifier) ??
             UITableViewCell(style: .value2, reuseIdentifier: identifier)
 
-        cell.tintColor = .appLogo
+        cell.detailTextLabel?.numberOfLines = 0
+        cell.detailTextLabel?.textColor = .body
         cell.selectionStyle = .none
-        cellConfiguration(cell, indexPath.row)
+        cell.tintColor = .logo
+        cellConfiguration(cell, row)
 
         return cell
     }
@@ -55,4 +62,5 @@ extension TableManager: UITableViewDataSource, UITableViewDelegate {
     typealias RowCount = (Int) -> Int
     typealias SectionCount = () -> Int
     typealias CellConfiguration = (UITableViewCell, Int) -> Void
+    typealias CellInitialisation = (Int, String) -> UITableViewCell
 }

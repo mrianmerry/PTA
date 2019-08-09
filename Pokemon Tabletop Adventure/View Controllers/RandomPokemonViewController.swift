@@ -6,27 +6,19 @@
 //  Copyright © 2018 Undersea Love. All rights reserved.
 //
 
-import SnapKit
 import UIKit
 
 class RandomPokemonViewController: BaseViewController {
-    /* Need to add label at the bottom to indicate logo author. HTML for this:
-     <div>
-        Icons made by <a href="https://www.flaticon.com/authors/nikita-golubev" title="Nikita Golubev">Nikita Golubev</a> from <a
-        href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a
-        href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
-     </div>
-     */
     let descriptionLabel: UILabel
     
     var randomViewModel: RandomPokemonViewModel
     
-    override init(with viewModel: BaseViewModel, credits: String? = nil) {
+    override init(with viewModel: BaseViewModel) {
         let randomViewModel = viewModel as? RandomPokemonViewModel ?? RandomPokemonViewModel()
         self.randomViewModel = randomViewModel
         self.descriptionLabel = UILabel(frame: .zero)
         
-        super.init(with: viewModel, credits: credits)
+        super.init(with: viewModel)
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -53,13 +45,16 @@ class RandomPokemonViewController: BaseViewController {
     }
     
     private func setupLabel() {
+        descriptionLabel.translatesAutoresizingMaskIntoConstraints = false
         descriptionLabel.numberOfLines = 0
-        descriptionLabel.textAlignment = .left
+        descriptionLabel.textColor = .body
         
         view.addSubview(descriptionLabel)
-        descriptionLabel.snp.makeConstraints { make in
-            make.topMargin.left.right.equalToSuperview().inset(50)
-        }
+        NSLayoutConstraint.activate([
+            descriptionLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 50),
+            descriptionLabel.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 50),
+            descriptionLabel.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: 50)]
+        )
     }
     
     @objc private func showRandomPokemon() {
