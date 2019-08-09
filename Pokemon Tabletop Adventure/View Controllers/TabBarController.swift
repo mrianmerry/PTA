@@ -30,7 +30,7 @@ class TabBarController: UITabBarController {
             pokedex,
             randomiser,
             about
-            ])
+        ])
     }
     
     init(with viewControllers: [UIViewController]) {

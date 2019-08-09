@@ -6,9 +6,12 @@
 //  Copyright © 2018 Undersea Love. All rights reserved.
 //
 
+import RxSwift
 import UIKit
 
 class BaseViewController: UIViewController {
+
+    let disposeBag = DisposeBag()
 
     convenience init() {
         self.init(with: BaseViewModel())

@@ -6,6 +6,7 @@
 //  Copyright © 2018 Undersea Love. All rights reserved.
 //
 
+import RxRelay
 import UIKit
 
 enum PokemonIdentifier {
@@ -21,6 +22,8 @@ class PokedexViewModel: BaseViewModel {
 
     private var pokemon: [Pokemon]
     var pokemonSorting: PokemonIdentifier = .nationalPokedex
+    let selectedPokemon = BehaviorRelay<Pokemon?>(value: nil)
+
     lazy var tableManager: TableManager = TableManager(with: "pokedex", rowCount: { [unowned self] _ -> Int in
         return self.pokemon.count
     }, sectionCount: { () -> Int in
@@ -31,6 +34,11 @@ class PokedexViewModel: BaseViewModel {
         cell.detailTextLabel?.text = pokemon.name
         let pokemonIdentifier = self.pokemonSorting == .nationalPokedex ? pokemon.dexID : pokemon.ptaID
         cell.textLabel?.text = pokemonIdentifier.numeral()
+    }, cellTapHandler: { [unowned self] indexPath in
+        guard indexPath.row < self.pokemon.count else { return }
+
+        let selected = self.pokemon[indexPath.row]
+        self.selectedPokemon.accept(selected)
     })
 
     override init() {

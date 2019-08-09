@@ -17,16 +17,20 @@ class TableManager: NSObject {
     private var cellConfiguration: CellConfiguration
     private var cellInitialisation: CellInitialisation?
 
+    var cellTapHandler: CellTapHandler?
+
     init(with publicIdentifierKey: String,
          rowCount: @escaping RowCount,
          sectionCount: @escaping SectionCount,
          cellConfiguration: @escaping CellConfiguration,
-         cellInitialisation: CellInitialisation? = nil) {
+         cellInitialisation: CellInitialisation? = nil,
+         cellTapHandler: CellTapHandler? = nil) {
         self.publicIdentifierKey = publicIdentifierKey
         self.cellConfiguration = cellConfiguration
         self.sectionCount = sectionCount
         self.rowCount = rowCount
         self.cellInitialisation = cellInitialisation
+        self.cellTapHandler = cellTapHandler
     }
 
     private func reuseIdentifier(for index: Int) -> String {
@@ -59,8 +63,13 @@ extension TableManager: UITableViewDataSource, UITableViewDelegate {
         return cell
     }
 
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        cellTapHandler?(indexPath)
+    }
+
     typealias RowCount = (Int) -> Int
     typealias SectionCount = () -> Int
     typealias CellConfiguration = (UITableViewCell, Int) -> Void
     typealias CellInitialisation = (Int, String) -> UITableViewCell
+    typealias CellTapHandler = (IndexPath) -> Void
 }

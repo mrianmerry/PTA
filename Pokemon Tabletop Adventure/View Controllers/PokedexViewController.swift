@@ -6,6 +6,8 @@
 //  Copyright © 2018 Undersea Love. All rights reserved.
 //
 
+import RxCocoa
+import RxRelay
 import SafariServices
 import UIKit
 
@@ -26,27 +28,25 @@ class PokedexViewController: BaseViewController {
     }
     
     override func setupViews() {
-        // I'm not sure why this is needed to get rid of the red tint coming through from RootViewController :/
-        view.backgroundColor = .white
+        super.setupViews()
 
+        bindViewModel()
         setupNavigationView()
         setupTableView()
     }
+}
 
-    private func setupNavigationView() {
+// MARK: Setup
+private extension PokedexViewController {
+    func setupNavigationView() {
         navigationItem.title = pokedexViewModel.pokemonSorting.sortTitle
 
-        let toggleSort = UIBarButtonItem(title: "Toggle 'dex", style: .plain, target: self, action: #selector(sortPokedex))
-        navigationItem.rightBarButtonItem = toggleSort
+        let toggle = UIBarButtonItem(title: "Toggle 'dex", style: .plain, target: nil, action: nil)
+        toggle.rx.tap.bind { self.sortPokedex() }.disposed(by: disposeBag)
+        navigationItem.rightBarButtonItem = toggle
     }
 
-    @objc func sortPokedex() {
-        pokedexViewModel.toggleSort()
-        navigationItem.title = pokedexViewModel.pokemonSorting.sortTitle
-        pokedexTableView.reloadData()
-    }
-
-    private func setupTableView() {
+    func setupTableView() {
         pokedexTableView.translatesAutoresizingMaskIntoConstraints = false
         pokedexTableView.dataSource = pokedexViewModel.tableManager
         pokedexTableView.delegate = pokedexViewModel.tableManager
@@ -58,11 +58,29 @@ class PokedexViewController: BaseViewController {
         view.addSubview(pokedexTableView)
         let layoutGuide = view.safeAreaLayoutGuide
 
-        NSLayoutConstraint.activate(
-            [pokedexTableView.heightAnchor.constraint(equalTo: layoutGuide.heightAnchor),
-             pokedexTableView.centerYAnchor.constraint(equalTo: layoutGuide.centerYAnchor),
-             pokedexTableView.widthAnchor.constraint(equalTo: layoutGuide.widthAnchor),
-             pokedexTableView.centerXAnchor.constraint(equalTo: layoutGuide.centerXAnchor)]
-        )
+        NSLayoutConstraint.activate([
+            pokedexTableView.heightAnchor.constraint(equalTo: layoutGuide.heightAnchor),
+            pokedexTableView.centerYAnchor.constraint(equalTo: layoutGuide.centerYAnchor),
+            pokedexTableView.widthAnchor.constraint(equalTo: layoutGuide.widthAnchor),
+            pokedexTableView.centerXAnchor.constraint(equalTo: layoutGuide.centerXAnchor)
+        ])
+    }
+}
+
+// MARK: Behaviour
+private extension PokedexViewController {
+    func bindViewModel() {
+        pokedexViewModel.selectedPokemon.bind { selected in
+            guard let selected = selected else { return }
+            let pokemon = PokemonViewController(pokemon: selected, viewModel: BaseViewModel())
+
+            self.navigationController?.pushViewController(pokemon, animated: true)
+        }.disposed(by: disposeBag)
+    }
+
+    func sortPokedex() {
+        pokedexViewModel.toggleSort()
+        navigationItem.title = pokedexViewModel.pokemonSorting.sortTitle
+        pokedexTableView.reloadData()
     }
 }

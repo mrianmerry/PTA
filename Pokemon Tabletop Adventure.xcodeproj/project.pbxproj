@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C2B1ADD22FDD13100763F7A /* PokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B1ADC22FDD13100763F7A /* PokemonViewController.swift */; };
+		3C6390C622FE0B4700863699 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6390C522FE0B4700863699 /* RxSwift.framework */; };
+		3C6390C822FE0B5000863699 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6390C722FE0B5000863699 /* RxCocoa.framework */; };
+		3C6390CF22FE0C5500863699 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6390CE22FE0C5400863699 /* RxRelay.framework */; };
 		DC3BD48F20A3591D0043B49C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BD48E20A3591D0043B49C /* AppDelegate.swift */; };
 		DC3BD49720A3591D0043B49C /* Pokemon_Tabletop_Adventure.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC3BD49520A3591D0043B49C /* Pokemon_Tabletop_Adventure.xcdatamodeld */; };
 		DC3BD49920A3591F0043B49C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3BD49820A3591F0043B49C /* Assets.xcassets */; };
@@ -53,6 +57,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C2B1ADC22FDD13100763F7A /* PokemonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewController.swift; sourceTree = "<group>"; };
+		3C6390C522FE0B4700863699 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
+		3C6390C722FE0B5000863699 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
+		3C6390CE22FE0C5400863699 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxRelay.framework; sourceTree = "<group>"; };
 		DC3BD48B20A3591D0043B49C /* P:TA Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "P:TA Companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3BD48E20A3591D0043B49C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC3BD49620A3591D0043B49C /* Pokemon_Tabletop_Adventure.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pokemon_Tabletop_Adventure.xcdatamodel; sourceTree = "<group>"; };
@@ -70,7 +78,6 @@
 		DC9E1DCE20FFD65E006D6B97 /* ArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTests.swift; sourceTree = "<group>"; };
 		DCA38C40211053B600CA1A8E /* moves.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = moves.json; sourceTree = "<group>"; };
 		DCAB27C7210A7EDB00B8EFC7 /* OptionalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalTests.swift; sourceTree = "<group>"; };
-		DCB170A120F2600B00BAA64D /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = SOURCE_ROOT; };
 		DCB170A520F2AF8600BAA64D /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		DCB170A820F2B4A400BAA64D /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 		DCB170AC20F34E5500BAA64D /* RandomPokemonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPokemonViewModel.swift; sourceTree = "<group>"; };
@@ -97,6 +104,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C6390C822FE0B5000863699 /* RxCocoa.framework in Frameworks */,
+				3C6390CF22FE0C5500863699 /* RxRelay.framework in Frameworks */,
+				3C6390C622FE0B4700863699 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +120,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C6390CD22FE0B9400863699 /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				3C6390C722FE0B5000863699 /* RxCocoa.framework */,
+				3C6390CE22FE0C5400863699 /* RxRelay.framework */,
+				3C6390C522FE0B4700863699 /* RxSwift.framework */,
+			);
+			name = RxSwift;
+			sourceTree = "<group>";
+		};
 		DC3BD48220A3591D0043B49C = {
 			isa = PBXGroup;
 			children = (
@@ -178,7 +198,7 @@
 		DCB170A020F25FF400BAA64D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DCB170A120F2600B00BAA64D /* SnapKit.framework */,
+				3C6390CD22FE0B9400863699 /* RxSwift */,
 			);
 			name = Frameworks;
 			path = ../Carthage/Build/iOS;
@@ -196,8 +216,8 @@
 			isa = PBXGroup;
 			children = (
 				DC3BD48E20A3591D0043B49C /* AppDelegate.swift */,
-				DCB170A820F2B4A400BAA64D /* JSON.swift */,
 				DCB170B220F3529700BAA64D /* Extensions.swift */,
+				DCB170A820F2B4A400BAA64D /* JSON.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -232,6 +252,7 @@
 				FFF91FDD22524B800064BEF6 /* AboutViewController.swift */,
 				DCDA770920EF5B9000BC0D55 /* BaseViewController.swift */,
 				DC6A20D4211E02390024F77D /* PokedexViewController.swift */,
+				3C2B1ADC22FDD13100763F7A /* PokemonViewController.swift */,
 				FF56E242224B9A2500E14330 /* PreliminaryLoadingViewController.swift */,
 				DCB170AE20F34E7F00BAA64D /* RandomPokemonViewController.swift */,
 				FF56E240224B9A0F00E14330 /* RootViewController.swift */,
@@ -405,7 +426,9 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxRelay.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
 			);
 			name = "Copy Carthage Frameworks";
 			outputPaths = (
@@ -427,6 +450,7 @@
 				DCB170B320F3529700BAA64D /* Extensions.swift in Sources */,
 				DCB170AF20F34E7F00BAA64D /* RandomPokemonViewController.swift in Sources */,
 				FFF91FE22252577E0064BEF6 /* CreditAttributionTableViewCell.swift in Sources */,
+				3C2B1ADD22FDD13100763F7A /* PokemonViewController.swift in Sources */,
 				DCB170AD20F34E5500BAA64D /* RandomPokemonViewModel.swift in Sources */,
 				FF56E241224B9A0F00E14330 /* RootViewController.swift in Sources */,
 				FF56E243224B9A2500E14330 /* PreliminaryLoadingViewController.swift in Sources */,
@@ -600,8 +624,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55RZSA88AA;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -624,8 +649,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55RZSA88AA;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
