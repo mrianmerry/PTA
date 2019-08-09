@@ -6,7 +6,6 @@
 //  Copyright © 2018 Undersea Love. All rights reserved.
 //
 
-import SnapKit
 import UIKit
 
 class RandomPokemonViewController: BaseViewController {
@@ -46,13 +45,16 @@ class RandomPokemonViewController: BaseViewController {
     }
     
     private func setupLabel() {
+        descriptionLabel.translatesAutoresizingMaskIntoConstraints = false
         descriptionLabel.numberOfLines = 0
         descriptionLabel.textColor = .body
         
         view.addSubview(descriptionLabel)
-        descriptionLabel.snp.makeConstraints { make in
-            make.topMargin.left.right.equalToSuperview().inset(50)
-        }
+        NSLayoutConstraint.activate([
+            descriptionLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 50),
+            descriptionLabel.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 50),
+            descriptionLabel.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: 50)]
+        )
     }
     
     @objc private func showRandomPokemon() {

@@ -21,7 +21,6 @@
 		DC9E1DD020FFD96D006D6B97 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB170B220F3529700BAA64D /* Extensions.swift */; };
 		DCA38C41211053B600CA1A8E /* moves.json in Resources */ = {isa = PBXBuildFile; fileRef = DCA38C40211053B600CA1A8E /* moves.json */; };
 		DCAB27C8210A7EDB00B8EFC7 /* OptionalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB27C7210A7EDB00B8EFC7 /* OptionalTests.swift */; };
-		DCB170A220F2600B00BAA64D /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB170A120F2600B00BAA64D /* SnapKit.framework */; };
 		DCB170A620F2AF8600BAA64D /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB170A520F2AF8600BAA64D /* Pokemon.swift */; };
 		DCB170A920F2B4A400BAA64D /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB170A820F2B4A400BAA64D /* JSON.swift */; };
 		DCB170AD20F34E5500BAA64D /* RandomPokemonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB170AC20F34E5500BAA64D /* RandomPokemonViewModel.swift */; };
@@ -98,7 +97,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCB170A220F2600B00BAA64D /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,7 +607,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Pokemon Tabletop Adventure/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -633,7 +631,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Pokemon Tabletop Adventure/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
