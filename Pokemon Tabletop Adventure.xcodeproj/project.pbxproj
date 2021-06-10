@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		73F59BA42672ACF100A77A21 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F59BA32672ACF100A77A21 /* Coordinator.swift */; };
 		73F59BAE2672B18E00A77A21 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F59BAD2672B18E00A77A21 /* RootCoordinator.swift */; };
+		73F59BB62672B4E200A77A21 /* ActionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F59BB52672B4E200A77A21 /* ActionDelegate.swift */; };
+		73F59BBC2672B73B00A77A21 /* PreliminaryLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F59BBB2672B73B00A77A21 /* PreliminaryLoadingViewModel.swift */; };
 		DC3BD48F20A3591D0043B49C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BD48E20A3591D0043B49C /* AppDelegate.swift */; };
 		DC3BD49720A3591D0043B49C /* Pokemon_Tabletop_Adventure.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC3BD49520A3591D0043B49C /* Pokemon_Tabletop_Adventure.xcdatamodeld */; };
 		DC3BD49920A3591F0043B49C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3BD49820A3591F0043B49C /* Assets.xcassets */; };
@@ -57,6 +59,8 @@
 /* Begin PBXFileReference section */
 		73F59BA32672ACF100A77A21 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		73F59BAD2672B18E00A77A21 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		73F59BB52672B4E200A77A21 /* ActionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionDelegate.swift; sourceTree = "<group>"; };
+		73F59BBB2672B73B00A77A21 /* PreliminaryLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreliminaryLoadingViewModel.swift; sourceTree = "<group>"; };
 		DC3BD48B20A3591D0043B49C /* PTA Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PTA Companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3BD48E20A3591D0043B49C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC3BD49620A3591D0043B49C /* Pokemon_Tabletop_Adventure.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pokemon_Tabletop_Adventure.xcdatamodel; sourceTree = "<group>"; };
@@ -207,6 +211,7 @@
 		DCB170A720F2B48600BAA64D /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				73F59BB52672B4E200A77A21 /* ActionDelegate.swift */,
 				DC3BD48E20A3591D0043B49C /* AppDelegate.swift */,
 				DCB170A820F2B4A400BAA64D /* JSON.swift */,
 				DCB170B220F3529700BAA64D /* Extensions.swift */,
@@ -219,6 +224,7 @@
 			children = (
 				DCB170B020F34EFD00BAA64D /* BaseViewModel.swift */,
 				DC6A20D6211E02E30024F77D /* PokedexViewModel.swift */,
+				73F59BBB2672B73B00A77A21 /* PreliminaryLoadingViewModel.swift */,
 				DCB170AC20F34E5500BAA64D /* RandomPokemonViewModel.swift */,
 				DCF15BD5211E35710003DA31 /* TableManager.swift */,
 				DC9E1DC620FFCE11006D6B97 /* TrainerViewModel.swift */,
@@ -436,9 +442,11 @@
 				DCB170B120F34EFD00BAA64D /* BaseViewModel.swift in Sources */,
 				DC6A20D5211E02390024F77D /* PokedexViewController.swift in Sources */,
 				DCB170B320F3529700BAA64D /* Extensions.swift in Sources */,
+				73F59BB62672B4E200A77A21 /* ActionDelegate.swift in Sources */,
 				DCB170AF20F34E7F00BAA64D /* RandomPokemonViewController.swift in Sources */,
 				FFF91FE22252577E0064BEF6 /* CreditAttributionTableViewCell.swift in Sources */,
 				DCB170AD20F34E5500BAA64D /* RandomPokemonViewModel.swift in Sources */,
+				73F59BBC2672B73B00A77A21 /* PreliminaryLoadingViewModel.swift in Sources */,
 				FF56E241224B9A0F00E14330 /* RootViewController.swift in Sources */,
 				FF56E243224B9A2500E14330 /* PreliminaryLoadingViewController.swift in Sources */,
 				DC9E1DC520FFBDB2006D6B97 /* TrainerViewController.swift in Sources */,

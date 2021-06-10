@@ -17,7 +17,17 @@ class RootCoordinator: Coordinator {
     }
     
     func start() {
-        launch(rootViewController)
+        router.setNavigationBarHidden(true, animated: false)
+        launch(preliminaryLoadingViewController)
+    }
+}
+
+extension RootCoordinator: ActionDelegate {
+    func respondToAction(_ action: Action) {
+        switch action {
+        case .preliminaryLoadingCompleted:
+            preliminaryLoadingCompleted()
+        }
     }
 }
 
@@ -28,6 +38,18 @@ private extension RootCoordinator {
         } else {
             router.pushViewController(viewController, animated: true)
         }
+    }
+    
+    func preliminaryLoadingCompleted() {
+        print("PRELIMINARY LOADING COMPLETED! YEY!")
+    }
+    
+    var preliminaryLoadingViewController: PreliminaryLoadingViewController {
+        let viewModel = PreliminaryLoadingViewModel(actionDelegate: self)
+        let controller = PreliminaryLoadingViewController(loadable: viewModel)
+        controller.actionDelegate = self
+        
+        return controller
     }
     
     var rootViewController: RootViewController {
