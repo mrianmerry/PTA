@@ -121,9 +121,9 @@ public extension UIColor {
 
     convenience init(hex hexString: String) {
         let hex = hexString.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
-        var int = UInt32()
-        Scanner(string: hex).scanHexInt32(&int)
-        let red, green, blue, alpha: UInt32
+        var int: UInt64 = 0
+        Scanner(string: hex).scanHexInt64(&int)
+        let red, green, blue, alpha: UInt64
         switch hex.count {
         case 3: // RGB (12-bit)
             (red, green, blue, alpha) = ((int >> 8) * 17, (int >> 4 & 0xF) * 17, (int & 0xF) * 17, 255)

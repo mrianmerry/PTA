@@ -53,37 +53,35 @@ private extension AboutViewController {
     }
 
     func title(for row: Int) -> String {
-        let realRow = row + 1
-        switch realRow {
-        case 1: return "Build"
-        case 2: return "P:TA Author"
-        case 3: return "Pokedex Icon"
-        case 4: return "Pokeball Icon"
-        case 5: return "About Icon"
+        switch row {
+        case 0: return "Build"
+        case 1: return "P:TA Author"
+        case 2: return "Pokedex Icon"
+        case 3: return "Pokeball Icon"
+        case 4: return "About Icon"
         default: fatalError("Be more careful when generating table views!")
         }
     }
 
     func message(for row: Int) -> String {
-        let realRow = row + 1
-        switch realRow {
-        case 1: return """
+        switch row {
+        case 0: return """
             Number: \(UIApplication.buildVersion)
             App Version: \(UIApplication.appVersion)
             """
-        case 2: return """
+        case 1: return """
             <html><head><style type=\"text/css\">body{font-family: '-apple-system'; font-size: 11; color:\(UIColor.bodyHex);}</style></head>
             <body>Pokémon: Tabletop Adventures was written by <a href=\"https://www.tapatalk.com/groups/pokemon_tabletop/memberlist.php?mode
             =viewprofile&u=70&sid= 3d276a5f674e3b4b54861862e4c79323\">Dr Mr Stark</a>, and is sourced from the <a href=\"https://www.
             tapatalk.com/groups/pokemon_tabletop/pokemon-tabletop-adventures-f10/\">P:TA forums</a></body></html>
             """
-        case 3, 5: return """
+        case 2, 4: return """
             <html><head><style type=\"text/css\">body{font-family: '-apple-system'; font-size: 11; color:\(UIColor.bodyHex)}</style></head>
             <body> The icon used was made by <a href=\"https://www.flaticon.com/authors/those-icons\" title=\"Those Icons\">Those Icons</a>
             from <a href=\"https://www.flaticon.com/\" title=\"Flaticon\">www.flaticon.com</a>, and is licensed by <a href=\"http://creative
             commons.org/licenses/by/3.0/\" title=\"Creative Commons BY 3.0\" target=\"_blank\">CC 3.0 BY</a></body></html>
             """
-        case 4: return """
+        case 3: return """
             <html><head><style type=\"text/css\">body{font-family: '-apple-system'; font-size: 11; color:\(UIColor.bodyHex)}</style></head>
             <body>The icon used was made by <a href=\"https://www.flaticon.com/authors/nikita-golubev" title="Nikita Golubev">Nikita Golubev
             </a> from <a href=\"https://www.flaticon.com/\" title=\"Flaticon\">www.flaticon.com</a>, and is licensed by <a href=\"http://
