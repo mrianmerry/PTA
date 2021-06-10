@@ -69,6 +69,6 @@ class LabelTests: XCTestCase {
         let labelAttribute = testLabel.attributes[.foregroundColor] as? UIColor
         XCTAssertTrue(testAttribute.exists)
         XCTAssertTrue(labelAttribute.exists)
-        XCTAssertTrue(testAttribute!.isEqual(labelAttribute)) //swiftlint:disable:this force_unwrapping
+        XCTAssertTrue(testAttribute!.isEqual(labelAttribute)) // swiftlint:disable:this force_unwrapping
     }
 }

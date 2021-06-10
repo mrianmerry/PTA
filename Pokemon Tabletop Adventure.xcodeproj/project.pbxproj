@@ -53,13 +53,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DC3BD48B20A3591D0043B49C /* P:TA Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "P:TA Companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3BD48B20A3591D0043B49C /* PTA Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PTA Companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3BD48E20A3591D0043B49C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC3BD49620A3591D0043B49C /* Pokemon_Tabletop_Adventure.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pokemon_Tabletop_Adventure.xcdatamodel; sourceTree = "<group>"; };
 		DC3BD49820A3591F0043B49C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC3BD49B20A3591F0043B49C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC3BD49D20A3591F0043B49C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC3BD4A220A3591F0043B49C /* P:TA Companion Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "P:TA Companion Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3BD4A220A3591F0043B49C /* PTA Companion Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PTA Companion Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3BD4A820A3591F0043B49C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC60F27520F3C33E00DF1C98 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		DC6A20D4211E02390024F77D /* PokedexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexViewController.swift; sourceTree = "<group>"; };
@@ -70,7 +70,6 @@
 		DC9E1DCE20FFD65E006D6B97 /* ArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTests.swift; sourceTree = "<group>"; };
 		DCA38C40211053B600CA1A8E /* moves.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = moves.json; sourceTree = "<group>"; };
 		DCAB27C7210A7EDB00B8EFC7 /* OptionalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalTests.swift; sourceTree = "<group>"; };
-		DCB170A120F2600B00BAA64D /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = SOURCE_ROOT; };
 		DCB170A520F2AF8600BAA64D /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		DCB170A820F2B4A400BAA64D /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 		DCB170AC20F34E5500BAA64D /* RandomPokemonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPokemonViewModel.swift; sourceTree = "<group>"; };
@@ -122,8 +121,8 @@
 		DC3BD48C20A3591D0043B49C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DC3BD48B20A3591D0043B49C /* P:TA Companion.app */,
-				DC3BD4A220A3591F0043B49C /* P:TA Companion Tests.xctest */,
+				DC3BD48B20A3591D0043B49C /* PTA Companion.app */,
+				DC3BD4A220A3591F0043B49C /* PTA Companion Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -178,7 +177,6 @@
 		DCB170A020F25FF400BAA64D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DCB170A120F2600B00BAA64D /* SnapKit.framework */,
 			);
 			name = Frameworks;
 			path = ../Carthage/Build/iOS;
@@ -285,9 +283,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DC3BD48A20A3591D0043B49C /* P:TA Companion */ = {
+		DC3BD48A20A3591D0043B49C /* PTA Companion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC3BD4B620A3591F0043B49C /* Build configuration list for PBXNativeTarget "P:TA Companion" */;
+			buildConfigurationList = DC3BD4B620A3591F0043B49C /* Build configuration list for PBXNativeTarget "PTA Companion" */;
 			buildPhases = (
 				DC3BD48720A3591D0043B49C /* Sources */,
 				DC3BD48820A3591D0043B49C /* Frameworks */,
@@ -299,14 +297,14 @@
 			);
 			dependencies = (
 			);
-			name = "P:TA Companion";
+			name = "PTA Companion";
 			productName = "Pokemon Tabletop Adventure";
-			productReference = DC3BD48B20A3591D0043B49C /* P:TA Companion.app */;
+			productReference = DC3BD48B20A3591D0043B49C /* PTA Companion.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DC3BD4A120A3591F0043B49C /* P:TA Companion Tests */ = {
+		DC3BD4A120A3591F0043B49C /* PTA Companion Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC3BD4B920A3591F0043B49C /* Build configuration list for PBXNativeTarget "P:TA Companion Tests" */;
+			buildConfigurationList = DC3BD4B920A3591F0043B49C /* Build configuration list for PBXNativeTarget "PTA Companion Tests" */;
 			buildPhases = (
 				DC3BD49E20A3591F0043B49C /* Sources */,
 				DC3BD49F20A3591F0043B49C /* Frameworks */,
@@ -317,9 +315,9 @@
 			dependencies = (
 				DC3BD4A420A3591F0043B49C /* PBXTargetDependency */,
 			);
-			name = "P:TA Companion Tests";
+			name = "PTA Companion Tests";
 			productName = "Pokemon Tabletop AdventureTests";
-			productReference = DC3BD4A220A3591F0043B49C /* P:TA Companion Tests.xctest */;
+			productReference = DC3BD4A220A3591F0043B49C /* PTA Companion Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -330,7 +328,7 @@
 			attributes = {
 				CLASSPREFIX = "";
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "Undersea Love";
 				TargetAttributes = {
 					DC3BD48A20A3591D0043B49C = {
@@ -357,8 +355,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DC3BD48A20A3591D0043B49C /* P:TA Companion */,
-				DC3BD4A120A3591F0043B49C /* P:TA Companion Tests */,
+				DC3BD48A20A3591D0043B49C /* PTA Companion */,
+				DC3BD4A120A3591F0043B49C /* PTA Companion Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -405,7 +403,6 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
 			);
 			name = "Copy Carthage Frameworks";
 			outputPaths = (
@@ -465,7 +462,7 @@
 /* Begin PBXTargetDependency section */
 		DC3BD4A420A3591F0043B49C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DC3BD48A20A3591D0043B49C /* P:TA Companion */;
+			target = DC3BD48A20A3591D0043B49C /* PTA Companion */;
 			targetProxy = DC3BD4A320A3591F0043B49C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -508,6 +505,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -533,7 +531,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -568,6 +566,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -587,7 +586,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -600,6 +599,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -624,6 +624,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -660,7 +661,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/P:TA Companion.app/P:TA Companion";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PTA Companion.app/PTA Companion";
 			};
 			name = Debug;
 		};
@@ -680,7 +681,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/P:TA Companion.app/P:TA Companion";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PTA Companion.app/PTA Companion";
 			};
 			name = Release;
 		};
@@ -696,7 +697,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC3BD4B620A3591F0043B49C /* Build configuration list for PBXNativeTarget "P:TA Companion" */ = {
+		DC3BD4B620A3591F0043B49C /* Build configuration list for PBXNativeTarget "PTA Companion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DC3BD4B720A3591F0043B49C /* Debug */,
@@ -705,7 +706,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC3BD4B920A3591F0043B49C /* Build configuration list for PBXNativeTarget "P:TA Companion Tests" */ = {
+		DC3BD4B920A3591F0043B49C /* Build configuration list for PBXNativeTarget "PTA Companion Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DC3BD4BA20A3591F0043B49C /* Debug */,

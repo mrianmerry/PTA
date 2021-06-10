@@ -34,7 +34,7 @@ class OptionalTests: XCTestCase {
     }
 
     func test_OrFalse_Bool() {
-        var testBool: Bool? //swiftlint:disable:this discouraged_optional_boolean
+        var testBool: Bool? // swiftlint:disable:this discouraged_optional_boolean
         XCTAssertFalse(testBool.orFalse)
 
         testBool = false
