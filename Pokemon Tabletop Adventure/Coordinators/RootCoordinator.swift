@@ -8,16 +8,16 @@
 
 import UIKit
 
-class RootCoordinator: Coordinator {
+final class RootCoordinator: Coordinator {
     var childCoordinators: [Coordinator] = []
     var router: UINavigationController
     
     init(router: UINavigationController) {
+        router.setNavigationBarHidden(true, animated: false)
         self.router = router
     }
     
     func start() {
-        router.setNavigationBarHidden(true, animated: false)
         launch(preliminaryLoadingViewController)
     }
 }
@@ -32,16 +32,8 @@ extension RootCoordinator: ActionDelegate {
 }
 
 private extension RootCoordinator {
-    func launch(_ viewController: UIViewController) {
-        if router.viewControllers.contains(viewController) {
-            router.popToViewController(viewController, animated: true)
-        } else {
-            router.pushViewController(viewController, animated: true)
-        }
-    }
-    
     func preliminaryLoadingCompleted() {
-        print("PRELIMINARY LOADING COMPLETED! YEY!")
+        router.crossDissolveViewController(tabBarController, replaceOldViewControllers: true)
     }
     
     var preliminaryLoadingViewController: PreliminaryLoadingViewController {
@@ -52,7 +44,7 @@ private extension RootCoordinator {
         return controller
     }
     
-    var rootViewController: RootViewController {
-        RootViewController()
+    var tabBarController: TabBarController {
+        TabBarController()
     }
 }
