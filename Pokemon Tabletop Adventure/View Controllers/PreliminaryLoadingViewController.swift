@@ -87,7 +87,7 @@ private extension PreliminaryLoadingViewController {
         timer.invalidate()
         progressIndicator.isHidden = true
         loadingWarning.isHidden = true
-        AppDelegate.shared.root.splashDidFinish()
+//        AppDelegate.shared.root.splashDidFinish()
     }
 }
 

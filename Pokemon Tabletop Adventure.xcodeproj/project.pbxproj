@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73F59BA42672ACF100A77A21 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F59BA32672ACF100A77A21 /* Coordinator.swift */; };
+		73F59BAE2672B18E00A77A21 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F59BAD2672B18E00A77A21 /* RootCoordinator.swift */; };
 		DC3BD48F20A3591D0043B49C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BD48E20A3591D0043B49C /* AppDelegate.swift */; };
 		DC3BD49720A3591D0043B49C /* Pokemon_Tabletop_Adventure.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC3BD49520A3591D0043B49C /* Pokemon_Tabletop_Adventure.xcdatamodeld */; };
 		DC3BD49920A3591F0043B49C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3BD49820A3591F0043B49C /* Assets.xcassets */; };
@@ -53,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		73F59BA32672ACF100A77A21 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		73F59BAD2672B18E00A77A21 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
 		DC3BD48B20A3591D0043B49C /* PTA Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PTA Companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3BD48E20A3591D0043B49C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC3BD49620A3591D0043B49C /* Pokemon_Tabletop_Adventure.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pokemon_Tabletop_Adventure.xcdatamodel; sourceTree = "<group>"; };
@@ -109,6 +113,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73F59BA22672ACD300A77A21 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				73F59BA32672ACF100A77A21 /* Coordinator.swift */,
+				73F59BAD2672B18E00A77A21 /* RootCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
 		DC3BD48220A3591D0043B49C = {
 			isa = PBXGroup;
 			children = (
@@ -130,8 +143,9 @@
 		DC3BD48D20A3591D0043B49C /* Pokemon Tabletop Adventure */ = {
 			isa = PBXGroup;
 			children = (
-				DCB170A720F2B48600BAA64D /* Utilities */,
+				73F59BA22672ACD300A77A21 /* Coordinators */,
 				DCB170A420F2AF7000BAA64D /* Data Models */,
+				DCB170A720F2B48600BAA64D /* Utilities */,
 				DCDA770820EF5B6800BC0D55 /* View Controllers */,
 				DCB170AA20F34E1600BAA64D /* View Models */,
 				FFF91FDF2252572F0064BEF6 /* Views */,
@@ -430,12 +444,14 @@
 				DC9E1DC520FFBDB2006D6B97 /* TrainerViewController.swift in Sources */,
 				DC9E1DC720FFCE11006D6B97 /* TrainerViewModel.swift in Sources */,
 				DC3BD49720A3591D0043B49C /* Pokemon_Tabletop_Adventure.xcdatamodeld in Sources */,
+				73F59BA42672ACF100A77A21 /* Coordinator.swift in Sources */,
 				DCF15BD6211E35710003DA31 /* TableManager.swift in Sources */,
 				FFF91FDE22524B800064BEF6 /* AboutViewController.swift in Sources */,
 				DCB170A920F2B4A400BAA64D /* JSON.swift in Sources */,
 				DCB170A620F2AF8600BAA64D /* Pokemon.swift in Sources */,
 				DCDA770A20EF5B9000BC0D55 /* BaseViewController.swift in Sources */,
 				DC60F27620F3C33E00DF1C98 /* TabBarController.swift in Sources */,
+				73F59BAE2672B18E00A77A21 /* RootCoordinator.swift in Sources */,
 				DC3BD48F20A3591D0043B49C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
