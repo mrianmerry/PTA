@@ -9,20 +9,19 @@
 import UIKit
 
 class PreliminaryLoadingViewController: UIViewController {
+    required init?(coder aDecoder: NSCoder) { fatalError("No storyboards!") }
 
-    private let appLogo: UIImageView
-    private let loadingWarning: UILabel
-    private let progressIndicator: UIProgressView
+    weak var actionDelegate: ActionDelegate?
+    
+    private let appLogo = UIImageView(frame: .zero)
+    private let loadingWarning = UILabel(frame: .zero)
+    private let progressIndicator = UIProgressView(progressViewStyle: .default)
+    private let viewModel: PreliminaryLoadable
 
-    init() {
-        appLogo = UIImageView(frame: .zero)
-        loadingWarning = UILabel(frame: .zero)
-        progressIndicator = UIProgressView(progressViewStyle: .default)
-
+    init(loadable viewModel: PreliminaryLoadable) {
+        self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
     }
-
-    required init?(coder aDecoder: NSCoder) { return nil }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -87,7 +86,7 @@ private extension PreliminaryLoadingViewController {
         timer.invalidate()
         progressIndicator.isHidden = true
         loadingWarning.isHidden = true
-        AppDelegate.shared.root.splashDidFinish()
+        actionDelegate?.respondToAction(.preliminaryLoadingCompleted)
     }
 }
 
