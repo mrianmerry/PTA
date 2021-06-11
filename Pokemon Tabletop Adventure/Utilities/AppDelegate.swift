@@ -22,10 +22,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         
-        let navigationController = UINavigationController()
-        window?.rootViewController = navigationController
+        let router = Router()
+        window?.rootViewController = router
         
-        rootCoordinator = RootCoordinator(router: navigationController)
+        rootCoordinator = RootCoordinator(router: router)
         setAppearances()
 
         rootCoordinator?.start()
@@ -33,14 +33,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func setAppearances() {
-        let rootViewController = [RootViewController.self]
+        let router = [Router.self]
         var attributes: [NSAttributedString.Key: Any] = [.font: UIFont.italicSystemFont(ofSize: 12)]
-        UIView.appearance(whenContainedInInstancesOf: rootViewController).tintColor = .logo
-        let allBarButtonItems = UIBarButtonItem.appearance(whenContainedInInstancesOf: rootViewController)
+        UIView.appearance(whenContainedInInstancesOf: router).tintColor = .logo
+        let allBarButtonItems = UIBarButtonItem.appearance(whenContainedInInstancesOf: router)
         allBarButtonItems.setTitleTextAttributes(attributes, for: .normal)
         allBarButtonItems.setTitleTextAttributes(attributes, for: .selected)
         allBarButtonItems.setTitleTextAttributes(attributes, for: .highlighted)
-        let allNavigationBars = UINavigationBar.appearance(whenContainedInInstancesOf: rootViewController)
+        let allNavigationBars = UINavigationBar.appearance(whenContainedInInstancesOf: router)
         allNavigationBars.prefersLargeTitles = true
         attributes = [.foregroundColor: UIColor.body]
         allNavigationBars.titleTextAttributes = attributes

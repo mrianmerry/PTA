@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73713A2626736414006C17F4 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73713A2526736414006C17F4 /* Router.swift */; };
 		73F59BA42672ACF100A77A21 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F59BA32672ACF100A77A21 /* Coordinator.swift */; };
 		73F59BAE2672B18E00A77A21 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F59BAD2672B18E00A77A21 /* RootCoordinator.swift */; };
 		73F59BB62672B4E200A77A21 /* ActionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F59BB52672B4E200A77A21 /* ActionDelegate.swift */; };
@@ -57,6 +58,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		73713A2526736414006C17F4 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		73F59BA32672ACF100A77A21 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		73F59BAD2672B18E00A77A21 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
 		73F59BB52672B4E200A77A21 /* ActionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 			children = (
 				73F59BA32672ACF100A77A21 /* Coordinator.swift */,
 				73F59BAD2672B18E00A77A21 /* RootCoordinator.swift */,
+				73713A2526736414006C17F4 /* Router.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -153,7 +156,6 @@
 				DCDA770820EF5B6800BC0D55 /* View Controllers */,
 				DCB170AA20F34E1600BAA64D /* View Models */,
 				FFF91FDF2252572F0064BEF6 /* Views */,
-				DCB170A020F25FF400BAA64D /* Frameworks */,
 				DCDA770720EF5B5D00BC0D55 /* Supporting Files */,
 			);
 			path = "Pokemon Tabletop Adventure";
@@ -190,14 +192,6 @@
 				FF56E247224BBA6300E14330 /* StringTests.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		DCB170A020F25FF400BAA64D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			path = ../Carthage/Build/iOS;
 			sourceTree = "<group>";
 		};
 		DCB170A420F2AF7000BAA64D /* Data Models */ = {
@@ -310,7 +304,6 @@
 				DC3BD48720A3591D0043B49C /* Sources */,
 				DC3BD48820A3591D0043B49C /* Frameworks */,
 				DC3BD48920A3591D0043B49C /* Resources */,
-				DCB170A320F2622500BAA64D /* Copy Carthage Frameworks */,
 				DCA38C3F210F4F6900CA1A8E /* Run SwiftLint */,
 			);
 			buildRules = (
@@ -417,20 +410,6 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
 		};
-		DCB170A320F2622500BAA64D /* Copy Carthage Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Carthage Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -454,6 +433,7 @@
 				DC3BD49720A3591D0043B49C /* Pokemon_Tabletop_Adventure.xcdatamodeld in Sources */,
 				73F59BA42672ACF100A77A21 /* Coordinator.swift in Sources */,
 				DCF15BD6211E35710003DA31 /* TableManager.swift in Sources */,
+				73713A2626736414006C17F4 /* Router.swift in Sources */,
 				FFF91FDE22524B800064BEF6 /* AboutViewController.swift in Sources */,
 				DCB170A920F2B4A400BAA64D /* JSON.swift in Sources */,
 				DCB170A620F2AF8600BAA64D /* Pokemon.swift in Sources */,
