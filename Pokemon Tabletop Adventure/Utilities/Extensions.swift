@@ -158,13 +158,13 @@ public extension UILabel {
 }
 
 public extension UINavigationController {
-    /// Instructs the navigation controller to add a view controller to its stack without animation, thus preventing the built-in animations, and applies a fade layer transition using the Core
-    /// Animation Transition API for the supplied duration.
+    /// Instructs the navigation controller to add a view controller to its stack without animation, thus preventing built-in animations,
+    /// and applies a fade layer transition using the Core Animation Transition API for the supplied duration.
     /// - Parameters:
     ///   - viewController: The view controller to add to the navigation controller's view controller stack.
     ///   - duration: The time interval the animation should stretch over. The default value is `0.3`.
-    ///   - replaceOldViewControllers: A flag that instructs the navigation controller to replace the pre-existing view controller stack with the supplied view controller.
-    ///   The default value is `false`.
+    ///   - replaceOldViewControllers: A flag that instructs the navigation controller to replace the pre-existing view controller stack
+    ///   with the supplied view controller. The default value is `false`.
     func crossDissolveViewController(_ viewController: UIViewController,
                                      duration: TimeInterval = 0.3,
                                      replaceOldViewControllers shouldReplace: Bool = false) {
