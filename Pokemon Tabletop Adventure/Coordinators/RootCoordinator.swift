@@ -10,9 +10,9 @@ import UIKit
 
 final class RootCoordinator: Coordinator {
     var childCoordinators: [Coordinator] = []
-    var router: UINavigationController
+    var router: Router
     
-    init(router: UINavigationController) {
+    init(router: Router) {
         router.setNavigationBarHidden(true, animated: false)
         self.router = router
     }
