@@ -59,6 +59,6 @@ class RandomPokemonViewController: BaseViewController {
     
     @objc private func showRandomPokemon() {
         let chosenPokemon: Pokemon = randomViewModel.getRandomPokemon()
-        descriptionLabel.text = chosenPokemon.basicDescription()
+        descriptionLabel.text = chosenPokemon.basicDescription
     }
 }

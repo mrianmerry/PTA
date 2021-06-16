@@ -34,16 +34,7 @@ class PokedexViewController: BaseViewController {
     }
 
     private func setupNavigationView() {
-        navigationItem.title = pokedexViewModel.pokemonSorting.sortTitle
-
-        let toggleSort = UIBarButtonItem(title: "Toggle 'dex", style: .plain, target: self, action: #selector(sortPokedex))
-        navigationItem.rightBarButtonItem = toggleSort
-    }
-
-    @objc func sortPokedex() {
-        pokedexViewModel.toggleSort()
-        navigationItem.title = pokedexViewModel.pokemonSorting.sortTitle
-        pokedexTableView.reloadData()
+        navigationItem.title = "National Dex"
     }
 
     private func setupTableView() {

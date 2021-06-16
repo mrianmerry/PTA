@@ -52,7 +52,7 @@ private extension PreliminaryLoadingViewController {
         let main = DispatchQueue.main
         jsonQueue.async {
             Thread.sleep(forTimeInterval: 0.5)
-            JSON.setupPokedexCache { [weak self] in
+            JSON.setupPokemonCache { [weak self] in
                 guard let self = self else { return }
                 self.loadingWarning.updateAttributedText(LoadingMessage.valueAnalysingPokedex)
 

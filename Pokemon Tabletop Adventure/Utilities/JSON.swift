@@ -10,35 +10,32 @@ import Foundation
 
 enum JSON {
 
-    private static var cachedPokedex: Pokedex?
+    private static var cachedPokemon: [Pokemon]?
 
     /// Parse the bundled Pokedex and return it
     ///
     /// - Returns: The Pokedex value related to the bundled JSON
-    static var pokedex: Pokedex {
-        if let pokedex = cachedPokedex {
+    static var pokemon: [Pokemon] {
+        if let pokedex = cachedPokemon {
             return pokedex
         }
 
         let jsonDecoder = JSONDecoder()
-        guard let pokedexJSON = getJSON(from: "pokedex"),
-            let pokedex = try? jsonDecoder.decode(Pokedex.self, from: pokedexJSON) else {
-           fatalError("Either could not read pokedex file, or could not convert pokedex json to data object!")
+        guard let pokedexJSON = getJSON(from: "pokedex backup") else {
+           fatalError("Could not convert the pokedex file into usable data")
         }
-
-        cachedPokedex = pokedex
-        return pokedex
+        
+        var pokemon: [Pokemon] = []
+        do {
+            pokemon = try jsonDecoder.decode([Pokemon].self, from: pokedexJSON)
+        } catch { print("Failed decoding json:", error) }
+        
+        cachedPokemon = pokemon
+        return pokemon
     }
 
-    /// Parse the bundled Pokedex and return a list of the pokemon represented within
-    ///
-    /// - Returns: Array containing all the pokemon contained in the bundled pokedex
-    static var pokemon: [Pokemon] {
-        return pokedex.pokemon
-    }
-
-    static func setupPokedexCache(completion: @escaping () -> Void) {
-        cachedPokedex = pokedex
+    static func setupPokemonCache(completion: @escaping () -> Void) {
+        cachedPokemon = pokemon
         DispatchQueue.main.async { completion() }
     }
 
