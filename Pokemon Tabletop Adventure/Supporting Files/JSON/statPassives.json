@@ -1,5 +1,856 @@
 {
     "statPassives": [
-        
+        {
+            "category": "Attack",
+            "name": "Gear Up",
+            "effect": {
+                "attack": 1,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Attack",
+            "name": "Gorilla Tactics",
+            "effect": {
+                "attack": 1,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Attack",
+            "name": "Howl",
+            "effect": {
+                "attack": 1,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Attack",
+            "name": "Leer",
+            "effect": {
+                "attack": 1,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Attack",
+            "name": "Meditate",
+            "effect": {
+                "attack": 1,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Attack",
+            "name": "Moxie",
+            "effect": {
+                "attack": 1,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Attack",
+            "name": "Sharpen",
+            "effect": {
+                "attack": 1,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Attack",
+            "name": "Tail Whip",
+            "effect": {
+                "attack": 1,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Attack",
+            "name": "Hone Claws",
+            "effect": {
+                "attack": 2,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Attack",
+            "name": "Screech",
+            "effect": {
+                "attack": 2,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Attack",
+            "name": "Swords Dance",
+            "effect": {
+                "attack": 2,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Attack",
+            "name": "Huge Power",
+            "effect": {
+                "attack": 6,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Attack",
+            "name": "Pure Power",
+            "effect": {
+                "attack": 6,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Defence",
+            "name": "Baby-Doll Eyes",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 1,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Defence",
+            "name": "Charm",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 1,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Defence",
+            "name": "Defence Curl",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 1,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Defence",
+            "name": "Growl",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 1,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Defence",
+            "name": "Harden",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 1,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Defence",
+            "name": "Intimidate",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 1,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Defence",
+            "name": "Play Nice",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 1,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Defence",
+            "name": "Withdraw",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 1,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Defence",
+            "name": "Acid Armor",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 2,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Defence",
+            "name": "Barrier",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 2,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Defence",
+            "name": "Feather Dance",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 2,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Defence",
+            "name": "Iron Defence",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 2,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Defence",
+            "name": "Stamina",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 2,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Defence",
+            "name": "Cotton Guard",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 3,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Defence",
+            "name": "Shelter",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 3,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Special Attack",
+            "name": "Metal Sound",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 1,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Special Attack",
+            "name": "Nast Plot",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 1,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Special Attack",
+            "name": "Fake Tears",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 1,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Special Attack",
+            "name": "Plan Out",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 2,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Special Attack",
+            "name": "Tail Glow",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 3,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Special Attack",
+            "name": "Big Brained",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 6,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Special Defence",
+            "name": "Aromatic Mist",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 1,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Special Defence",
+            "name": "Confide",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 1,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Special Defence",
+            "name": "Headache",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 1,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Special Defence",
+            "name": "Amnesia",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 2,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Special Defence",
+            "name": "Captivate",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 2,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Special Defence",
+            "name": "Eerie Impulse",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 2,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Special Defence",
+            "name": "Dissipate",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 1,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Speed",
+            "name": "Cotton Down",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 1
+            }
+        },
+        {
+            "category": "Speed",
+            "name": "Gooey",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 2
+            }
+        },
+        {
+            "category": "Speed",
+            "name": "Run Away",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 2
+            }
+        },
+        {
+            "category": "Speed",
+            "name": "Tangling Hair",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 1
+            }
+        },
+        {
+            "category": "Speed",
+            "name": "Agility",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 2
+            }
+        },
+        {
+            "category": "Speed",
+            "name": "Autotomise",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 2
+            }
+        },
+        {
+            "category": "Speed",
+            "name": "Cotton Spore",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 2
+            }
+        },
+        {
+            "category": "Speed",
+            "name": "Rock Polish",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 2
+            }
+        },
+        {
+            "category": "Speed",
+            "name": "Scary Face",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 2
+            }
+        },
+        {
+            "category": "Speed",
+            "name": "Speed Boost",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 2
+            }
+        },
+        {
+            "category": "Speed",
+            "name": "String Shot",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 2
+            }
+        },
+        {
+            "category": "Speed",
+            "name": "Tailwind",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 2
+            }
+        },
+        {
+            "category": "Mixed",
+            "name": "Bulk Up",
+            "effect": {
+                "attack": 1,
+                "critical": 20,
+                "defence": 1,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Mixed",
+            "name": "Calm Mind",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 1,
+                "specialDefence": 1,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Mixed",
+            "name": "Coil",
+            "effect": {
+                "attack": 2,
+                "critical": 20,
+                "defence": 1,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Mixed",
+            "name": "Cosmic Power",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 1,
+                "specialAttack": 0,
+                "specialDefence": 1,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Mixed",
+            "name": "Dragon Dance",
+            "effect": {
+                "attack": 1,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 1
+            }
+        },
+        {
+            "category": "Mixed",
+            "name": "Fae Frolic",
+            "effect": {
+                "attack": 1,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 1,
+                "specialDefence": 0,
+                "speed": 1
+            }
+        },
+        {
+            "category": "Mixed",
+            "name": "Growth",
+            "effect": {
+                "attack": 1,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 1,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Mixed",
+            "name": "Magnetic Flux",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 1,
+                "specialAttack": 0,
+                "specialDefence": 1,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Mixed",
+            "name": "Majesty's Order",
+            "effect": {
+                "attack": 1,
+                "critical": 20,
+                "defence": 1,
+                "specialAttack": 1,
+                "specialDefence": 1,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Mixed",
+            "name": "Noble Roar",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 1,
+                "specialAttack": 0,
+                "specialDefence": 1,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Mixed",
+            "name": "Quiver Dance",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 1,
+                "specialDefence": 1,
+                "speed": 1
+            }
+        },
+        {
+            "category": "Mixed",
+            "name": "Rototiller",
+            "effect": {
+                "attack": 1,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 1,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Mixed",
+            "name": "Shift Gear",
+            "effect": {
+                "attack": 1,
+                "critical": 20,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 2
+            }
+        },
+        {
+            "category": "Mixed",
+            "name": "Tearful Look",
+            "effect": {
+                "attack": 0,
+                "critical": 20,
+                "defence": 1,
+                "specialAttack": 0,
+                "specialDefence": 1,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Mixed",
+            "name": "Tickle",
+            "effect": {
+                "attack": 1,
+                "critical": 20,
+                "defence": 1,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Mixed",
+            "name": "Work Up",
+            "effect": {
+                "attack": 1,
+                "critical": 20,
+                "defence": 1,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Critical",
+            "name": "Focus Energy",
+            "effect": {
+                "attack": 0,
+                "critical": 18,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        },
+        {
+            "category": "Mixed",
+            "name": "Super Luck",
+            "effect": {
+                "attack": 0,
+                "critical": 18,
+                "defence": 0,
+                "specialAttack": 0,
+                "specialDefence": 0,
+                "speed": 0
+            }
+        }
     ]
 }
