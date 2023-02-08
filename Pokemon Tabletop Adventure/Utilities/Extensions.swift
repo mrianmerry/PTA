@@ -63,14 +63,14 @@ public extension Array where Element: Equatable {
 
         var randomIndex = index
         while randomIndex == index {
-            randomIndex = Int(arc4random_uniform(UInt32(count)))
+            randomIndex = Int.random(in: 0..<count)
         }
 
         return self[randomIndex]
     }
 
     var trueRandom: Element {
-        let randomIndex = Int(arc4random_uniform(UInt32(count)))
+        let randomIndex = Int.random(in: 0..<count)
         return self[randomIndex]
     }
 }
