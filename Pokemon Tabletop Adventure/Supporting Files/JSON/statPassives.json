@@ -841,7 +841,7 @@
             }
         },
         {
-            "category": "Mixed",
+            "category": "Critical",
             "name": "Super Luck",
             "effect": {
                 "attack": 0,
