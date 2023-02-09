@@ -1,5 +1,1540 @@
 {
     "abilityPassives": [
-        
+        {
+            "name": "Adaptability",
+            "effect": "Moves that are the same type as you deal +4 damage."
+        },
+        {
+            "name": "Aerilate",
+            "effect": "Normal-type moves performed by you are treated as Flying-type moves."
+        },
+        {
+            "name": "Aerilate",
+            "effect": "Normal-type moves performed by you are treated as Flying-type moves."
+        },
+        {
+            "name": "Aftermath",
+            "effect": "When knocked out by a melee attack, the attacker loses 1d20 HP."
+        },
+        {
+            "name": "Agile Entry",
+            "effect": "The first time you are attacked per day, your Defense and Special Defense are +1."
+        },
+        {
+            "name": "Alacrity",
+            "effect": "Your Speed cannot be lowered by a foe's effects."
+        },
+        {
+            "name": "All Out",
+            "effect": "When you are below 20 HP, your Fighting-type attacks deal +4 damage."
+        },
+        {
+            "name": "Analytic",
+            "effect": "When attacking a foe who has already acted this round, deal +4 damage."
+        },
+        {
+            "name": "Anger Point",
+            "effect": "When hit by a critical hit, raise Attack +6 for 10 mins. This passive does not stack."
+        },
+        {
+            "name": "Anger Shell",
+            "effect": "While you are below 20 HP, your attacks deal +4 damage."
+        },
+        {
+            "name": "Armor Tail",
+            "effect": "You are immune to priority attacks that are used out of turn order during combat."
+        },
+        {
+            "name": "Aroma Veil",
+            "effect": "You and your allies within 10ft of you are immune to the effects of the moves Heal Block, Taunt, Encore, and Disable and the passive Cursed Body."
+        },
+        {
+            "name": "Avenger",
+            "effect": "Whenever an ally is knocked out, your next damaging attack deals +4 damage. This effect can stack."
+        },
+        {
+            "name": "Backfire",
+            "effect": "When knocked out by a melee attack, the attacker's Attack, Special Attack, and Speed are -1 for 5 mins."
+        },
+        {
+            "name": "Backlash",
+            "effect": "When knocked out by a melee attack, the attacker's Defense, Special Defense, and Speed are -1 for 5 mins."
+        },
+        {
+            "name": "Battery",
+            "effect": "Allies within 15 ft of you have +1 Special Attack."
+        },
+        {
+            "name": "Battle Armor",
+            "effect": "Critical hits are treated as normal hits against you."
+        },
+        {
+            "name": "Battle Bond",
+            "effect": "Mega Greninja's Water Shuriken's base damage changes from 1d4 to 1d10."
+        },
+        {
+            "name": "Beauty Star",
+            "effect": "Your Beauty-type attacks deal +4 damage."
+        },
+        {
+            "name": "Benefactor",
+            "effect": "If any ally is knocked out within 10ft of you, you gain any temporary stat bonuses they had until those bonuses would expire."
+        },
+        {
+            "name": "Berserk",
+            "effect": "While below half HP, you have +2 Special Attack."
+        },
+        {
+            "name": "Big Pecks",
+            "effect": "Your Defense cannot be lowered by a foe's effects."
+        },
+        {
+            "name": "Binding Grasp",
+            "effect": "When rolling an effect that can bind a target on hit, roll twice and use the better result."
+        },
+        {
+            "name": "Bland",
+            "effect": "Your Normal-type attacks deal +4 damage."
+        },
+        {
+            "name": "Blaze",
+            "effect": "When you are below 20 HP, your Fire type attacks deal +4 damage."
+        },
+        {
+            "name": "Blaze",
+            "effect": "When you are below 20 HP, your Fire-type attacks deal +4 damage."
+        },
+        {
+            "name": "Brute",
+            "effect": "If your Attack modifier exceeds the target's Defense, deal +4 damage on hit."
+        },
+        {
+            "name": "Buggy Spirit",
+            "effect": "Bug-type attacks used within 10ft of you by your-self or allies deal +4 damage."
+        },
+        {
+            "name": "Bulk Buster",
+            "effect": "You deal +4 damage against targets at full HP"
+        },
+        {
+            "name": "Carry On",
+            "effect": "Whenever an ally is knocked out, recover 1d6 HP."
+        },
+        {
+            "name": "Centered Focus",
+            "effect": "Mega Gallade is immune to being Stunned. Mega Gallade has +2 more Defense."
+        },
+        {
+            "name": "Champion Boose",
+            "effect": "Whenever you knock out a foe, your highest stat is raised +2 for 10 mins. If you have two or more stats tied for your highest, pick one of them to raise by two this combat (This effect may stack)"
+        },
+        {
+            "name": "Cheek Pouch",
+            "effect": "Whenever you consume a berry, you recover 10 HP in addition to any other effects."
+        },
+        {
+            "name": "Chlorophyll",
+            "effect": "While in Sunny Weather, your Speed is +2."
+        },
+        {
+            "name": "Clear Body",
+            "effect": "Your stats cannot be lowered by a foe's effects."
+        },
+        {
+            "name": "Clever Star",
+            "effect": "Your Clever-type attacks deal +4 damage."
+        },
+        {
+            "name": "Close Quarters",
+            "effect": "Add +1 during accuracy check whenever you use a melee attack."
+        },
+        {
+            "name": "Cloud Nine",
+            "effect": "As a free action you may deplete one use of Defog and use Defog.,"
+        },
+        {
+            "name": "Cold",
+            "effect": "Your Ice-type attacks deal +4 damage."
+        },
+        {
+            "name": "Color Change",
+            "effect": "Whenever you are attacked, your type is changed to the same type as the attack after taking damage and effects."
+        },
+        {
+            "name": "Comatose",
+            "effect": "You are always Asleep but can still act as if you aren't. You are also immune to other afflictions."
+        },
+        {
+            "name": "Combative",
+            "effect": "Your Fighting-type attacks deal +4 damage."
+        },
+        {
+            "name": "Commander",
+            "effect": "When adjacent to an allied Dondozo, Tatsugiri can go into Dondozo's mouth as a free action. While inside the allied Dondozo's mouth, Tatsugiri cannot act and its Skills and Passives cannot be used, but the allied Dondozo has +2 to its Attack, Defense, Special Attack, Special Defense, and Speed. Additionally, Tatsugiri cannot be targeted or hit by any attacks, is unaffected by the effects of any moves, and allows the allied Dondozo to use any of Tatsugiri's moves."
+        },
+        {
+            "name": "Competitive",
+            "effect": "If a foe lowers any of your stats, you have +2 Special Attack until your lowered stats are returned to normal."
+        },
+        {
+            "name": "Compound Eyes",
+            "effect": "Add +1 during accuracy check whenever you use a ranged attack."
+        },
+        {
+            "name": "Cool Star",
+            "effect": "Your Cool-type attacks deal +4 damage."
+        },
+        {
+            "name": "Corrosion",
+            "effect": "You can Poison and Toxify Steel-types and Poison-types."
+        },
+        {
+            "name": "Corrupted",
+            "effect": "Your Dark-type attacks deal +4 damage."
+        },
+        {
+            "name": "Costar",
+            "effect": "At the start of combat, copy a stat passive from your nearest ally until the end of combat."
+        },
+        {
+            "name": "Critastrophe",
+            "effect": "Your critical hits deal double the result of your rolled damage instead of dealing the maximum result possible."
+        },
+        {
+            "name": "Cud Chew",
+            "effect": "When you consume a berry, its effect will activate a second time 1 round of combat later."
+        },
+        {
+            "name": "Curious Medicine",
+            "effect": "Your stats and your adjacent ally's stats cannot be lowered by a foe's effects."
+        },
+        {
+            "name": "Cursed Body",
+            "effect": "When you are hit by a foe's melee attack, disable that attack for 10 mins. Cursed Body can only affect one attack at a time."
+        },
+        {
+            "name": "Cute Charm",
+            "effect": "Whenever you are hit with a melee attack, roll 1d4. On 4, Infatuate the attacker."
+        },
+        {
+            "name": "Cute Star",
+            "effect": "Your Cute-type attacks deal +4 damage."
+        },
+        {
+            "name": "Damp",
+            "effect": "Explosion, Misty Explosion, and Self-Destruct fail to do anything if used within 40ft of you."
+        },
+        {
+            "name": "Dark Spirit",
+            "effect": "Dark-type attacks used within 10ft of you by yourself or allies deal +4 damage."
+        },
+        {
+            "name": "Darken",
+            "effect": "Normal-type moves performed by you are treated as Dark-type moves."
+        },
+        {
+            "name": "Dauntless",
+            "effect": "Your Special Attack cannot be lowered by a foe's effects."
+        },
+        {
+            "name": "Dazzling",
+            "effect": "You may not be targeted by Priority moves that are being used out of turn order."
+        },
+        {
+            "name": "Deep Freeze",
+            "effect": "When you are below 20 HP, your Ice-type attacks deal +4 damage."
+        },
+        {
+            "name": "Defeatist",
+            "effect": "When your HP is below half of your max hit points, your stats are all -2."
+        },
+        {
+            "name": "Defiant",
+            "effect": "If a foe lowers any of your stats, you have +2 Attack until your lowered stats are returned to normal."
+        },
+        {
+            "name": "Devious Entrance",
+            "effect": "As a free action you may deplete one use of Toxic Spikes and use Toxic Spikes."
+        },
+        {
+            "name": "Dimming Light",
+            "effect": "When you are below 20 HP, your Dark-type attacks deal +4 damage."
+        },
+        {
+            "name": "Disguise",
+            "effect": "The first time you are hit with an attack each encounter, the attack is negated."
+        },
+        {
+            "name": "Download",
+            "effect": "Your Attack is +1 against targets with lower Special Defense than Defense. Your Special Attack is +1 against targets with lower Defense than Special Defense."
+        },
+        {
+            "name": "Draconian Spirit",
+            "effect": "Dragon-type attacks used within 10ft of you by yourself or allies deal +4 damage."
+        },
+        {
+            "name": "Draconian",
+            "effect": "Your Dragon-type attacks deal +4 damage."
+        },
+        {
+            "name": "Draconize",
+            "effect": "Normal-type moves performed by you are treated as Dragon-type attacks."
+        },
+        {
+            "name": "Dreaded",
+            "effect": "When you are below 20 HP, your Ghost-type attacks deal +4 damage."
+        },
+        {
+            "name": "Drizzle",
+            "effect": "As a free action you may deplete one use of Rain Dance and use Rain Dance."
+        },
+        {
+            "name": "Drought",
+            "effect": "As a free action you may deplete one use of Sunny Day and use Sunny Day."
+        },
+        {
+            "name": "Dry Skin",
+            "effect": "In sunny weather, you lose 4 HP at the end of your actions. In rainy weather, you recover 4 HP at the end of your actions. You are immune to Water-type attacks."
+        },
+        {
+            "name": "Dynamic Entry",
+            "effect": "You have +3 to your first accuracy check each combat."
+        },
+        {
+            "name": "Early Bird",
+            "effect": "You roll twice during checks to wake from Sleep and use the higher result."
+        },
+        {
+            "name": "Earth Eater",
+            "effect": "When you are hit by a Ground-type attack, halve the damage, then you heal that much HP instead of taking damage."
+        },
+        {
+            "name": "Effect Spore",
+            "effect": "Whenever you are hit with a melee attack, roll 1d4. On 4, randomly either Paralyze, Poison, or put to Sleep the attacker."
+        },
+        {
+            "name": "Electric Surge",
+            "effect": "As a free action you may deplete one use of Electric Terrain and use Electric Terrain."
+        },
+        {
+            "name": "Electromorphosis",
+            "effect": "When hit by an attack that deals damage, you may use the move Charge as a free action."
+        },
+        {
+            "name": "Emergency Exit",
+            "effect": "You cannot fight when first damaged below half of Max HP. You will want to run away or return to a Poke Ball for 2 rounds. During those two rounds, your speed is doubled."
+        },
+        {
+            "name": "Enduring",
+            "effect": "You can only be knocked out when you are at 1 HP."
+        },
+        {
+            "name": "Escape Artist",
+            "effect": "You are immune to being bound and cannot have your movement restricted."
+        },
+        {
+            "name": "Esper",
+            "effect": "Your Psychic-type attacks deal +4 damage."
+        },
+        {
+            "name": "Exceed Trigger",
+            "effect": "When hit by a critical hit, raise Speed +6 for 10 mins. This passive does not stack."
+        },
+        {
+            "name": "Exposed",
+            "effect": "When you use a move or attack, you have -8 Defense and -8 Special Defense until your next turn. You also deal -8 damage with all attacks before applying weakness and resistance), Sturdy (If you would be brought from Max HP to 0 or below, you are instead brought to 1 HP."
+        },
+        {
+            "name": "Fae",
+            "effect": "Your Fairy-type attacks deal +4 damage."
+        },
+        {
+            "name": "Fairy Spirit",
+            "effect": "Fairy-type attacks used within 10ft of you by yourself or allies deal +4 damage."
+        },
+        {
+            "name": "Fiery Spirit",
+            "effect": "Fire-type attacks used within 10ft of you by yourself or allies deal +4 damage."
+        },
+        {
+            "name": "Fighting Spirit",
+            "effect": "Fighting-type attacks used within 10ft of you by your-self or allies deal +4 damage."
+        },
+        {
+            "name": "Filter",
+            "effect": "Super-effective attacks against you deal -4 damage after applying weakness."
+        },
+        {
+            "name": "Final Gear",
+            "effect": "While below half HP, you have +2 Speed."
+        },
+        {
+            "name": "Flame Body",
+            "effect": "Whenever you are hit with a melee attack, roll 1d4. On 4, Burn the attacker."
+        },
+        {
+            "name": "Flaming",
+            "effect": "Your Fire-type attacks deal +4 damage."
+        },
+        {
+            "name": "Flare Boost",
+            "effect": "While Burned, your Special Attack is +4."
+        },
+        {
+            "name": "Flash Fire",
+            "effect": "You are immune to Fire-type attacks. If you would be hit by a Fire-type attack, your Fire type attacks deal +4 damage for 2 mins."
+        },
+        {
+            "name": "Flighty Spirit",
+            "effect": "Flying-type attacks used within 10ft of you by yourself or allies deal +4 damage."
+        },
+        {
+            "name": "Flower Gift",
+            "effect": "While Cherrim is in Sunny Weather, Cherrim's Attack and Special Defense is +6"
+        },
+        {
+            "name": "Flower Veil",
+            "effect": "You and your allied Grass-type's stats cannot be lowered by effects within 25ft of you."
+        },
+        {
+            "name": "Fluffy",
+            "effect": "If hit by a melee attack, you only take half the damage. If hit by a Fire-type attack, you take twice the damage."
+        },
+        {
+            "name": "Forecast",
+            "effect": "Your appearance and type changes with the weather. In Hailing, Hazy, or Misty weather, Castform is Ice-type. In Raining weather, Castform is Water-type. In Sandstorming weather, Castform is Rock-type. In Sunny weather, Castform is Fire-type."
+        },
+        {
+            "name": "Freefall",
+            "effect": "When you are below 20 HP, your Flying-type attacks deal +4 damage."
+        },
+        {
+            "name": "Friend Guard",
+            "effect": "Allies within 25ft of you take -1d4 damage when attacked."
+        },
+        {
+            "name": "Fur Coat",
+            "effect": "If hit by a move using the Attack stat, you only take half the damage you would take."
+        },
+        {
+            "name": "Gale Wings",
+            "effect": "If you use a Flying Type Move during your turn, your Speed is +2 until your next turn."
+        },
+        {
+            "name": "Galvanize",
+            "effect": "Normal-type moves performed by you are treated as Electric-type moves."
+        },
+        {
+            "name": "Galvanize",
+            "effect": "Normal-type moves performed by you are treated as Electric-type moves."
+        },
+        {
+            "name": "Gap Closer",
+            "effect": "You deal +4 damage against targets that have a higher Speed than you."
+        },
+        {
+            "name": "Gassy",
+            "effect": "As a free action you may deplete one use of Smoke Screen and use Smoke Screen."
+        },
+        {
+            "name": "Ghastly Spirit",
+            "effect": "Ghost-type attacks used within 10ft of you by yourself or allies deal +4 damage."
+        },
+        {
+            "name": "Good as Gold",
+            "effect": "You are immune to Effect moves"
+        },
+        {
+            "name": "Granitize",
+            "effect": "Normal-type moves performed by you are treated as Rock-type attacks."
+        },
+        {
+            "name": "Grass Pelt",
+            "effect": "While in Grassy Terrain, your Defense is +2."
+        },
+        {
+            "name": "Grassy Spirit",
+            "effect": "Grass-type attacks used within 10ft of you by your-self or allies deal +4 damage."
+        },
+        {
+            "name": "Grassy Surge",
+            "effect": "As a free action you may deplete one use of Grassy Terrain and use Grassy Terrain."
+        },
+        {
+            "name": "Gravitoid",
+            "effect": "As a free action you may deplete one use of Stealth Rock and use Stealth Rock."
+        },
+        {
+            "name": "Gritty",
+            "effect": "While afflicted, you have +1 Defense and +1 Special Defense."
+        },
+        {
+            "name": "Grounded Spirit",
+            "effect": "Ground-type attacks used within 10ft of you by yourself or allies deal +4 damage."
+        },
+        {
+            "name": "Grounded",
+            "effect": "Your Ground-type attacks deal +4 damage."
+        },
+        {
+            "name": "Guard Dog",
+            "effect": "If a foe's effect would cause you to flee or be moved, instead your Attack is raised +1 for 10 mins"
+        },
+        {
+            "name": "Gulp Missile",
+            "effect": "Whenever Cramorant goes underwater, it gathers waste in its mouth. When hit by an attack within 30ft while Cramorant has waste, Cramorant ejects the waste at the offender, dealing 4 damage or 8 damage if Cramorant has less than 20 HP"
+        },
+        {
+            "name": "Guts",
+            "effect": "While afflicted, your Attack is +2."
+        },
+        {
+            "name": "Harvest",
+            "effect": "When using a Berry, you only use half of it while still gaining its full effects. You can only use half of a Berry if you have Harvest."
+        },
+        {
+            "name": "Haymaker",
+            "effect": "When calculating damage, apply your relevant modi-fier twice."
+        },
+        {
+            "name": "Healer",
+            "effect": "After acting, you may roll 1d20. On 16 or higher, any adjacent allies are cured of all afflictions."
+        },
+        {
+            "name": "Heatproof",
+            "effect": "Fire-type attacks are resisted by you. If you are already resistant to Fire-type, half any Fire-type attack's damage again."
+        },
+        {
+            "name": "Herald",
+            "effect": "If any allies within 10ft have no stat passives, they have your stat passives."
+        },
+        {
+            "name": "Hunger Switch",
+            "effect": "Whenever Morpeko acts, it changes from Full Belly mode to Hangry mode or back into Full Belly mode from Hangry mode. Aura Wheel is Electric-type in Full Belly mode, Aura Wheel is Dark-type in Hangry mode."
+        },
+        {
+            "name": "Hustle",
+            "effect": "Your attacks against foes have -2 Accuracy. After thefirst time you miss an attack during an encounter, the -2 Accuracy penalty is removed and you gain +4 Attack until the end ofthe encounter.)"
+        },
+        {
+            "name": "Hydrate",
+            "effect": "Normal-type moves performed by you are treated as Water-type moves."
+        },
+        {
+            "name": "Hydration",
+            "effect": "While in Raining weather, you are cured of any afflictions."
+        },
+        {
+            "name": "Hyper Cutter",
+            "effect": "Your Attack cannot be lowered by a foe's effects."
+        },
+        {
+            "name": "Ice Body",
+            "effect": "If in Hailing weather, you recover 4 HP during your action and you don't take damage from Hailing weather."
+        },
+        {
+            "name": "Ice Face",
+            "effect": "The first time you are hit with a melee attack each encounter; the attack is negated. Ice Face is reset whenever it starts Hailing while you are within its area of effect."
+        },
+        {
+            "name": "Ice Scales",
+            "effect": "If hit by a Special Attack, you only take half the damage you would take."
+        },
+        {
+            "name": "Icy Spirit",
+            "effect": "Ice-type attacks used within 10ft of you by yourself or allies deal +4 damage."
+        },
+        {
+            "name": "Illusion",
+            "effect": "As a free action, you may change your appearance to look like any Pokémon you have interacted with within the past hour. You may not appear as a Pokémon more than twice your size and the illusion is dropped when you are hit by an attack."
+        },
+        {
+            "name": "Immunity",
+            "effect": "You are immune to getting Poisoned and Toxified."
+        },
+        {
+            "name": "Impervious",
+            "effect": "Your stats cannot be lowered."
+        },
+        {
+            "name": "Imposter",
+            "effect": "As a free action you may use Transform."
+        },
+        {
+            "name": "Infiltrator",
+            "effect": "Hindering terrain and Walls do not affect you or your attacks."
+        },
+        {
+            "name": "Inflariate",
+            "effect": "Normal-type moves performed by you are treated as Fire-type moves."
+        },
+        {
+            "name": "Ingrown",
+            "effect": "Your Grass-type attacks deal +4 damage."
+        },
+        {
+            "name": "Innards Out",
+            "effect": "When you are knocked out by a melee attack, deal damage to the attacker equal to the damage you just took."
+        },
+        {
+            "name": "Inner Focus",
+            "effect": "You are immune to being Stunned."
+        },
+        {
+            "name": "Insectoid",
+            "effect": "Your Bug-type attacks deal +4 damage."
+        },
+        {
+            "name": "Insomnia",
+            "effect": "You are immune to being put to Sleep."
+        },
+        {
+            "name": "Iron Barbs",
+            "effect": "Whenever you are hit with a melee attack, the attacker takes 4 damage."
+        },
+        {
+            "name": "Iron Fist",
+            "effect": "Your punching attacks deal +4 damage."
+        },
+        {
+            "name": "Jackstones",
+            "effect": "As a free action you may deplete one use of Spikes and use Spikes."
+        },
+        {
+            "name": "Justified",
+            "effect": "When a foe hits you with a Dark-type attack, your Attack is +1 for 10 mins."
+        },
+        {
+            "name": "Keen Eye",
+            "effect": "Your accuracy checks cannot be negatively affected by foes."
+        },
+        {
+            "name": "Last Breath",
+            "effect": "When knocked out by an attack, all adjacent allies recover 1d12 HP."
+        },
+        {
+            "name": "Last Chance",
+            "effect": "When you are below 20 HP, your Normal-type attacks deal +4 damage."
+        },
+        {
+            "name": "Leaf Guard",
+            "effect": "While in sunny weather, you are cured of any afflictions."
+        },
+        {
+            "name": "Levitate",
+            "effect": "You are immune to Ground-type moves while you are airborne."
+        },
+        {
+            "name": "Libero",
+            "effect": "You may change your type to the same type as an attack you are making while making it for 10 mins."
+        },
+        {
+            "name": "Lightning Rod",
+            "effect": "Any foe's ranged Electric-type attacks within 25ft or any adjacent foe's Electric-type attacks are negated and drawn to you. Your Special Attack is +2 until the end of your next turn whenever you negate an Electric-type attack"
+        },
+        {
+            "name": "Limber",
+            "effect": "You are immune to being Paralyzed."
+        },
+        {
+            "name": "Lingering Aroma",
+            "effect": "When you are hit by a foe's melee attack, disable all of the foe's ability passives, then they gain Lingering Aroma for 10 mins."
+        },
+        {
+            "name": "Liquid Ooze",
+            "effect": "If you are hit by an attack that damages you and heals the attacker, the attacker is dealt damage equal to what they would have healed, instead of healing."
+        },
+        {
+            "name": "Liquid Voice",
+            "effect": "Sound-based moves made by you are Water-type."
+        },
+        {
+            "name": "Livewire",
+            "effect": "Your Electric-type attacks deal +4 damage."
+        },
+        {
+            "name": "Long Reach",
+            "effect": "Your melee ranged attacks all have a range of 25ft, and are still melee attacks."
+        },
+        {
+            "name": "Magic Bounce",
+            "effect": "If you are hit by an attack that does not deal damage, the attacker is instead affected by the effects of their own attack."
+        },
+        {
+            "name": "Magic Guard",
+            "effect": "You can only take damage from attacks that deal damage. You are unaffected by damage from afflictions, coats, hazards, weather or any passives."
+        },
+        {
+            "name": "Magician",
+            "effect": "When hitting with a melee attack, you steal the target's held item, if any."
+        },
+        {
+            "name": "Magma Armor",
+            "effect": "You are immune being Frozen."
+        },
+        {
+            "name": "Manifest",
+            "effect": "Your Ghost-type attacks can hit Normal-type targets."
+        },
+        {
+            "name": "Martialize",
+            "effect": "Normal-type moves performed by you are treated as Fighting-type moves."
+        },
+        {
+            "name": "Marvel Scale",
+            "effect": "While afflicted, your Defense is +2."
+        },
+        {
+            "name": "Mega Adaptability",
+            "effect": "Moves that are the same type as Mega Beedrill or Mega Lucario deal +8 damage."
+        },
+        {
+            "name": "Mega Beak",
+            "effect": "Your avian attacks deal +4 damage."
+        },
+        {
+            "name": "Mega Cannon",
+            "effect": "Mega Blastoise's ranged attacks deal +8 damage."
+        },
+        {
+            "name": "Mega Filter",
+            "effect": "Super-effective attacks against Mega Aggron deal -1d20 damage."
+        },
+        {
+            "name": "Mega Healer",
+            "effect": "After acting, Mega Audino may roll 1d20. On 7 or higher, any adjacent allies are cured of all afflictions. Mega Healer replaces Mega Audino's Healer passive."
+        },
+        {
+            "name": "Mega Intimidate",
+            "effect": "Mega Manectric has +4 more Defense"
+        },
+        {
+            "name": "Mega Jaw",
+            "effect": "Mega Sharpedo's biting attacks deal +8 damage."
+        },
+        {
+            "name": "Mega Launcher",
+            "effect": "Your pulse attacks deal +4 damage."
+        },
+        {
+            "name": "Mega Shell Armor",
+            "effect": "Critical hits are treated as normal hits against Mega Slowbro. Mega Slowbro has +2 more Defense."
+        },
+        {
+            "name": "Mega Skill Link",
+            "effect": "Mega Heracross's scatter moves get to be completely used, even if you miss you may still attempt each possible attack."
+        },
+        {
+            "name": "Mega Technician",
+            "effect": "When rolling damage, replace any rolled 1s, 2s, or 3s with 4s."
+        },
+        {
+            "name": "Merciless",
+            "effect": "On hit, your attacks are critical hits if the target is Poisoned or Toxified."
+        },
+        {
+            "name": "Metalcoating",
+            "effect": "Normal-type moves performed by you are treated as Steel-type moves."
+        },
+        {
+            "name": "Mettle",
+            "effect": "Your attacks cannot be redirected by passives or any other ability, instead only hitting a target your attack was directed at."
+        },
+        {
+            "name": "Mettle",
+            "effect": "Your Special Defense cannot be lowered by a foe's effects."
+        },
+        {
+            "name": "Mimicry",
+            "effect": "Your Type changes to reflect your current surroundings. If you are in a grassy field, Grass type; if you are in water, Water type; if you are on a mountain, Rock type; etc."
+        },
+        {
+            "name": "Mind Fortress",
+            "effect": "When you are below 20 HP, your Psychic-type attacks deal +4 damage."
+        },
+        {
+            "name": "Minus",
+            "effect": "If at least one ally has Plus or Minus within 10ft you, you have +3 Special Attack."
+        },
+        {
+            "name": "Mirror Armor",
+            "effect": "If your stats would be lowered by a foe's effects, instead that offender's stat is lowered."
+        },
+        {
+            "name": "Misty Surge",
+            "effect": "As a free action you may deplete one use of Misty Terrain and use Misty Terrain."
+        },
+        {
+            "name": "Mold Breaker",
+            "effect": "Your attacks ignore any passives that would redirect, negate or weaken your attacks."
+        },
+        {
+            "name": "Motor Drive",
+            "effect": "Any Electric-type attack that hits you is negated and your speed is +1 for 10 mins."
+        },
+        {
+            "name": "Multiscale",
+            "effect": "When you are at Max HP, you take -4 damage from all attacks."
+        },
+        {
+            "name": "Mummy",
+            "effect": "Whenever you are hit with a melee attack, the not-Stat passives of the attacker become Mummy for 10 mins."
+        },
+        {
+            "name": "Mycelium Might",
+            "effect": "When using an attack that can cause afflictions, ignore any immunities that foes may have when applying the affliction."
+        },
+        {
+            "name": "Natural Cure",
+            "effect": "Whenever returned to a Poke Ball, you are cured of any afflictions."
+        },
+        {
+            "name": "Neutralizing Gas",
+            "effect": "Non-Stat passives other than your own do not work within 10ft of you."
+        },
+        {
+            "name": "No Guard",
+            "effect": "You cannot miss your attacks, and attacks made against you cannot miss."
+        },
+        {
+            "name": "No Quarter",
+            "effect": "Your attacks made against Stunned or bound target deal +4 damage."
+        },
+        {
+            "name": "No Scope",
+            "effect": "If your Special Attack modifier exceeds the target's Special Defense, deal +4 damage on hit."
+        },
+        {
+            "name": "Normalize",
+            "effect": "Attacks performed by you are treated as Normal-type attacks."
+        },
+        {
+            "name": "Normalize",
+            "effect": "Attacks performed by you are treated as Normal-type attacks."
+        },
+        {
+            "name": "Normy Spirit",
+            "effect": "Poison-type attacks used within 10ft of you by yourself or allies deal +4 damage."
+        },
+        {
+            "name": "Oblivious",
+            "effect": "You are immune to Infatuation."
+        },
+        {
+            "name": "Overcoat",
+            "effect": "You are immune to damage from weather."
+        },
+        {
+            "name": "Overdose",
+            "effect": "When you are below 20 HP, your Poison-type attacks deal +4 damage."
+        },
+        {
+            "name": "Overgrow",
+            "effect": "When you are below 20 HP, your Grass-type attacks deal +4 damage."
+        },
+        {
+            "name": "Overgrow",
+            "effect": "When you are below 20 HP, your Grass-type attacks deal +4 damage"
+        },
+        {
+            "name": "Own Tempo",
+            "effect": "You are immune to being Confused."
+        },
+        {
+            "name": "Parental Bond",
+            "effect": "After attacking, Mega Kangas-khan may immediately make the same attack again. If they hit with the second attack, do not add any die rolls to your damage, instead only using your modifier and any non-dice bonuses as damage."
+        },
+        {
+            "name": "Pastel Veil",
+            "effect": "You and your allies within 10ft of you are immune to being Poisoned or Toxified."
+        },
+        {
+            "name": "Perish Body",
+            "effect": "When you are hit by a melee attack, the offender receives 3 Perish Coats. The Coat has the following ability: After acting, destroy one of your Perish Coats. If this is the third Perish coat you've destroyed during this encounter, set your HP to 0."
+        },
+        {
+            "name": "Pickpocket",
+            "effect": "When you are hit by a melee attack, you steal the offender's held item, if any."
+        },
+        {
+            "name": "Pixilate",
+            "effect": "Normal-type moves performed by you are treated as Fairy-type moves."
+        },
+        {
+            "name": "Pixilate",
+            "effect": "Normal-type moves performed by you are treated as Fairy-type moves."
+        },
+        {
+            "name": "Plantify",
+            "effect": "Normal-type moves performed by you are treated as Grass-type moves."
+        },
+        {
+            "name": "Plus",
+            "effect": "If at least one ally has Plus or Minus within 10ft you, you have +3 Special Attack."
+        },
+        {
+            "name": "Poison Heal",
+            "effect": "While afflicted with Poison or Toxification, you are healed instead of damaged by those afflictions. You are cured of Poison or Toxin once you are at Max HP."
+        },
+        {
+            "name": "Poison Point",
+            "effect": "Whenever you are hit with a melee attack, roll 1d4. On 4, Poison the attacker."
+        },
+        {
+            "name": "Poison Touch",
+            "effect": "Whenever you hit with a melee attack, you may roll 1d6. On 6, Poison the target."
+        },
+        {
+            "name": "Poisonous Spirit",
+            "effect": "Poison-type attacks used within 10ft of you by yourself or allies deal +4 damage."
+        },
+        {
+            "name": "Poisonous",
+            "effect": "Your Poison-type attacks deal +4 damage."
+        },
+        {
+            "name": "Power of Alchemy",
+            "effect": "When an ally is knocked out within 10ft of you, you gain one of your ally's passives for 2 mins."
+        },
+        {
+            "name": "Power Spot",
+            "effect": "Attacks made within 10ft of you deal +4 damage, regardless if the attacker is friend or foe."
+        },
+        {
+            "name": "Prankster",
+            "effect": "Your attacks that do not deal damage on hit have Priority."
+        },
+        {
+            "name": "Pressure",
+            "effect": "If you are hit by a 3/day attack, the attacker can't use that attack for the remainder of the day."
+        },
+        {
+            "name": "Propeller Tail",
+            "effect": "Your attacks cannot be redirected by passives or any other ability, instead only hitting a target your attack was directed at."
+        },
+        {
+            "name": "Protean",
+            "effect": "You may change your type to the same type as an attack you are making while making it for 10 mins."
+        },
+        {
+            "name": "Psionate",
+            "effect": "Normal-type moves performed by you are treated as Psychic-type attacks."
+        },
+        {
+            "name": "Psychic Surge",
+            "effect": "As a free action you may deplete one use of Psychic Terrain and use Psychic Terrain."
+        },
+        {
+            "name": "Psychy Spirit",
+            "effect": "Psychic-type attacks used within 10ft of you by yourself or allies deal +4 damage."
+        },
+        {
+            "name": "Punk Rock",
+            "effect": "Your sound-based attacks deal +4 damage. You take 4 less damage from sound-based attacks."
+        },
+        {
+            "name": "Purest Power",
+            "effect": "Mega Medicham has +4 More Attack"
+        },
+        {
+            "name": "Purifying Salt",
+            "effect": "You are immune to status afflictions. You are resistant to Ghost-type attacks."
+        },
+        {
+            "name": "Quakate",
+            "effect": "Normal-type moves performed by you are treated as Ground-type attacks."
+        },
+        {
+            "name": "Queenly Majesty",
+            "effect": "You may not be targeted by Priority moves that are being used out of turn order."
+        },
+        {
+            "name": "Quick Draw",
+            "effect": "1/day, you may give one of your moves priority."
+        },
+        {
+            "name": "Quick Feet",
+            "effect": "While afflicted, your Speed is +2."
+        },
+        {
+            "name": "Rain Dish",
+            "effect": "If in Raining Weather, you regain 4 HP after you act."
+        },
+        {
+            "name": "Rattled",
+            "effect": "When a foe hits you with a Bug-type, Ghost-type, or Dark-type attack, your Speed is +1 for 10 mins."
+        },
+        {
+            "name": "Receiver",
+            "effect": "When an ally is knocked out within 10ft of you, you gain one of your ally's passives for 2 mins."
+        },
+        {
+            "name": "Reckless",
+            "effect": "Your attacks that damage yourself on hit, deal +4 damage."
+        },
+        {
+            "name": "Recycle",
+            "effect": "When using a Berry, you only use half of it while still gaining its full effects. You can only use half of a Berry if you have Recycle."
+        },
+        {
+            "name": "Reformation",
+            "effect": "The first time you take damage during combat, recover 1d12 HP."
+        },
+        {
+            "name": "Refrigerate",
+            "effect": "Normal-type moves performed by you are treated as Ice-type moves."
+        },
+        {
+            "name": "Refrigerate",
+            "effect": "Normal-type moves performed by you are treated as Ice-type moves."
+        },
+        {
+            "name": "Regenerator",
+            "effect": "When returned to a Poke Ball, you recover to Max HP after being stored for 1 hour."
+        },
+        {
+            "name": "Resilience",
+            "effect": "You cannot receive any afflictions if you've already been cured of an affliction during the same combat."
+        },
+        {
+            "name": "Resistance Up",
+            "effect": "While below half HP, you have +2 Special De-fense."
+        },
+        {
+            "name": "Restoration",
+            "effect": "Whenever you recover HP, recover an additional 1d6 HP."
+        },
+        {
+            "name": "Ridicure",
+            "effect": "Whenever a foe fails to hit an attack where you were a possible target, recover 1d4 HP."
+        },
+        {
+            "name": "Ripen",
+            "effect": "When you use a Berry, double any effects it has."
+        },
+        {
+            "name": "Rock Head",
+            "effect": "Your attacks that damage yourself on hit do not damage yourself."
+        },
+        {
+            "name": "Rocky Payload",
+            "effect": "Your Rock-type attacks deal +4 damage."
+        },
+        {
+            "name": "Rocky Spirit",
+            "effect": "Rock-type attacks used within 10ft of you by your-self or allies deal +4 damage."
+        },
+        {
+            "name": "Rough Skin",
+            "effect": "Whenever you are hit with a melee attack, the attacker takes 4 damage."
+        },
+        {
+            "name": "Sand Force",
+            "effect": "While in Sandstorming Weather, your Rock-type and Ground-type attacks deal +4 damage and you don't take damage from Sandstorming weather."
+        },
+        {
+            "name": "Sand Power",
+            "effect": "While in Sandstorming Weather, Mega Garchomp's Rock-type and Ground-type attacks deal +8 damage."
+        },
+        {
+            "name": "Sand Rush",
+            "effect": "While in Sandstorming Weather, Your Speed is +2 and you don't take damage from Sandstorming weather."
+        },
+        {
+            "name": "Sand Shelter",
+            "effect": "You take no damage from Sandstorming weather."
+        },
+        {
+            "name": "Sand Spit",
+            "effect": "Whenever you are hit with a melee attack, use Sandstorm as a free action."
+        },
+        {
+            "name": "Sand Stream",
+            "effect": "As a free action you may deplete one use of Sandstorm and use Sandstorm."
+        },
+        {
+            "name": "Sand Veil",
+            "effect": "While in Sandstorming Weather, any foe's attacks made against you have -1 during accuracy check and you don't take damage from Sandstorming weather."
+        },
+        {
+            "name": "Sand Vortex",
+            "effect": "As a free action Mega Tyranitar may use Sandstorm, even if it's not on their move list."
+        },
+        {
+            "name": "Sap Sipper",
+            "effect": "You are immune to Grass-type attacks. If you would be hit by a Grass-type attack, your Attack is +2 for 10 mins. This effect does not stack."
+        },
+        {
+            "name": "Scheming",
+            "effect": "Your attacks against foes have -2 Accuracy. After the first time you miss an attack during an encounter, the -2 Accuracy penalty is removed and you gain +4 Special Attack until the end of the encounter."
+        },
+        {
+            "name": "Schooling",
+            "effect": "When Wishiwashi is at half its HP or higher, it is in its School form. In its School form, Wishiwashi summons hundreds of fish-shaped balls of water and surrounds itself making it appear larger and making it stronger. When below 15 HP, Wishiwashi is in its Single form, dropping its façade and appearing much smaller on its own."
+        },
+        {
+            "name": "Scrappy",
+            "effect": "Your Normal-type and Fighting-type attacks can hit Ghost-type targets."
+        },
+        {
+            "name": "Screen Cleaner",
+            "effect": "Whenever you move through a Wall, Hazard, or adjacent to someone with a Coat, destroy all Walls, Hazards and Coats."
+        },
+        {
+            "name": "Scuttlize",
+            "effect": "Normal-type moves performed by you are treated as Bug-type attacks."
+        },
+        {
+            "name": "Seed Sower",
+            "effect": "When you are hit by an attack that dealt damage, as a free action you may deplete one use of Grassy Terrain and use Grassy Terrain immediately."
+        },
+        {
+            "name": "Seed Trap",
+            "effect": "When you are hit by an attack that dealt damage, as a free action you may deplete one use of Leech Seed and use Leech Seed immediately."
+        },
+        {
+            "name": "Sentry",
+            "effect": "If a foe's effect would cause you to flee or be moved, instead your Special Attack is raised +1 for 10 mins."
+        },
+        {
+            "name": "Shadow Pull",
+            "effect": "Foes within 10ft of Mega Gengar cannot move away from you"
+        },
+        {
+            "name": "Sharpness",
+            "effect": "Your slashing attacks deal +4 damage."
+        },
+        {
+            "name": "Shattering",
+            "effect": "When you are below 20 HP, your Rock-type attacks deal +4 damage."
+        },
+        {
+            "name": "Shed Skin",
+            "effect": "After acting, you may roll 1d4. On 4, you are cured of any afflictions."
+        },
+        {
+            "name": "Sheer Force",
+            "effect": "Your attacks that have additional effects that affect the target may deal +4 damage, but will not have those additional effects."
+        },
+        {
+            "name": "Sheerest Force",
+            "effect": "Mega Camerupt's attacks that have additional effects that affect the target may deal +1d20 damage, but will not have those additional effects."
+        },
+        {
+            "name": "Shell Armor",
+            "effect": "Critical hits are treated as normal hits against you"
+        },
+        {
+            "name": "Shield Dust",
+            "effect": "You are unaffected by additional effects from attacks that deal damage."
+        },
+        {
+            "name": "Shields Down",
+            "effect": "When your HP is below half of your max hit points, your form changes to Core Form and your stats change. While Minior is not in its Core Revealed from, it is immune to afflictions"
+        },
+        {
+            "name": "Shields Up",
+            "effect": "While below half HP, you have +2 Defense."
+        },
+        {
+            "name": "Side Effects",
+            "effect": "When attacking a foe who recovered HP since your last turn, you deal +1d12 damage on hit."
+        },
+        {
+            "name": "Signature Spotlight",
+            "effect": "Your signature moves deal +4 damage."
+        },
+        {
+            "name": "Sinkhole",
+            "effect": "When you are below 20 HP, your Ground-type attacks deal +4 damage."
+        },
+        {
+            "name": "Skill Link",
+            "effect": "Your scatter moves have +2 during Accuracy Check."
+        },
+        {
+            "name": "Sky Fall",
+            "effect": "As a free action you may deplete one use of Gravity and use Gravity."
+        },
+        {
+            "name": "Slush Rush",
+            "effect": "While in Hailing weather, your Speed is +2 and you don't take damage from Hailing weather."
+        },
+        {
+            "name": "Sniper",
+            "effect": "When you land a critical hit, you deal an additional 8 damage, applied before weakness and resistances."
+        },
+        {
+            "name": "Snow Caller",
+            "effect": "As a free action you may deplete one use of Snowscape and use Snowscape."
+        },
+        {
+            "name": "Snow Cloak",
+            "effect": "While in Hailing weather, any foe's attacks made against you have -1 during Accuracy Check and you don't take damage from Hailing weather"
+        },
+        {
+            "name": "Snow Front",
+            "effect": "While in Hailing Weather, Mega Abomasnow's Ice-type attacks deal +1d8 damage."
+        },
+        {
+            "name": "Snow Shelter",
+            "effect": "You take no damage from Hailing weather."
+        },
+        {
+            "name": "Snow Warning",
+            "effect": "As a free action you may deplete one use of Hail and use Hail."
+        },
+        {
+            "name": "Solar Energy",
+            "effect": "While in Sunny weather, Mega Houndoom deals an additional 8 damage while attacking."
+        },
+        {
+            "name": "Solar Power",
+            "effect": "While in Sunny weather, you deal an additional 4 damage while attacking. After acting in Sunny weather, you take 4 damage."
+        },
+        {
+            "name": "Solid Rock",
+            "effect": "Super-effective attacks against you deal -4 damage after applying weakness."
+        },
+        {
+            "name": "Soul-Heart",
+            "effect": "When an ally is knocked out within 10ft of you, your Special Attack is +1 for 10 mins."
+        },
+        {
+            "name": "Soundproof",
+            "effect": "You are immune to sound-based attacks, like Boomburst, Bug Buzz, Chatter, Clanging Scales, Disarming Voice, Echoed Voice, Eerie Spell, Grass  Whistle, Hyper Voice, Overdrive, Perish Song, Roar, Round, Sing,  Snore, Sparkling Aria, Supersonic, Uproar"
+        },
+        {
+            "name": "Sparking",
+            "effect": "When you are below 20 HP, your Electric-type attacks deal +4 damage."
+        },
+        {
+            "name": "Speed Purity",
+            "effect": "Mega Blaziken has +4 more Speed"
+        },
+        {
+            "name": "Spirit",
+            "effect": "Your Ghost-type attacks deal +4 damage."
+        },
+        {
+            "name": "Spookify",
+            "effect": "Normal-type moves performed by you are treated as Ghost-type attacks."
+        },
+        {
+            "name": "Spritespell",
+            "effect": "When you are below 20 HP, your Fairy-type attacks deal +4 damage."
+        },
+        {
+            "name": "Stakeout",
+            "effect": "When you attack a target who has just joined the encounter since your last turn, you deal +4 damage."
+        },
+        {
+            "name": "Stalwart",
+            "effect": "Your attacks cannot be redirected by passives or any other ability, instead only hitting a target your attack was directed at."
+        },
+        {
+            "name": "Stance Change",
+            "effect": "Aegislash has two forms it constantly changes between. When you attack a foe, before making your accuracy check change into your Sword Form. When using a reaction move such as King's Shield or Protect, or a protective move like Safeguard or Light Screen, immediately change to Shield Form."
+        },
+        {
+            "name": "Standfast",
+            "effect": "While Stunned, you have +3 Defense and +3 Special Defense."
+        },
+        {
+            "name": "Static",
+            "effect": "Whenever you are hit with a melee attack, roll 1d4. On 4, Paralyze the attacker."
+        },
+        {
+            "name": "Steadfast",
+            "effect": "When you are Stunned, your Speed is +1 for 10 mins."
+        },
+        {
+            "name": "Steam Engine",
+            "effect": "When a foe hits you with a Fire-type or Water-type attack, your Speed is +2 for 10 mins."
+        },
+        {
+            "name": "Steel Force",
+            "effect": "While in Sandstorming Weather, Mega Steelix's Rock-type and Ground-type attacks deal +8 damage."
+        },
+        {
+            "name": "Steelworker",
+            "effect": "Your Steel-type attacks deal +4 damage."
+        },
+        {
+            "name": "Steelworker",
+            "effect": "Your Steel-type attacks deal +4 damage."
+        },
+        {
+            "name": "Steely Spirit",
+            "effect": "Steel-type attacks used within 10ft of you by your-self or allies deal +4 damage."
+        },
+        {
+            "name": "Steely Spirit",
+            "effect": "Steel-type attacks used within 10ft of you by yourself or allies deal +4 damage."
+        },
+        {
+            "name": "Stench",
+            "effect": "Whenever you are hit with a melee attack, roll 1d4. On 4, Stun the attacker"
+        },
+        {
+            "name": "Sticky Hold",
+            "effect": "You cannot drop held items or have held items stolen from you."
+        },
+        {
+            "name": "Storm Drain",
+            "effect": "Any foe's ranged Water-type attacks within 25ft or any adjacent foe's Water-type attacks are negated and drawn to you. Your Special Attack is +2 until the end of your next turn whenever you negate an Water-type attack."
+        },
+        {
+            "name": "Strong Jaw",
+            "effect": "Your biting attacks deal +4 damage."
+        },
+        {
+            "name": "Sturdy",
+            "effect": "If you would be brought from Max HP to 0 or below, you are instead brought to 1 HP."
+        },
+        {
+            "name": "Suction Cups",
+            "effect": "You cannot be moved by a foe's attacks."
+        },
+        {
+            "name": "Supreme Overlord",
+            "effect": "When you join combat, your Attack and Special Attack are each raised +1 for each ally who has already been knocked out in the current encounter, for 10 mins. Supreme Overlord can only raise your Attack and Special Attack each up to +4."
+        },
+        {
+            "name": "Surge Surfer",
+            "effect": "While in Electrified terrain, your Speed is +2."
+        },
+        {
+            "name": "Swarm",
+            "effect": "When you are below 20 HP, your Bug-type attacks deal +4 damage."
+        },
+        {
+            "name": "Swarm",
+            "effect": "When you are below 20 HP, your Bug-type attacks deal +4 damage"
+        },
+        {
+            "name": "Sweet Veil",
+            "effect": "You and your allies within 10ft of you are immune to being put to Sleep."
+        },
+        {
+            "name": "Swift Swim",
+            "effect": "While in Raining weather, your Speed is +2."
+        },
+        {
+            "name": "Swifter Swim",
+            "effect": "While in Raining weather, Mega Swampert's Speed is +4."
+        },
+        {
+            "name": "Symbiosis",
+            "effect": "You can pass held items to allies within 10ft as a free action."
+        },
+        {
+            "name": "Synchronize",
+            "effect": "When you are Burned, Poisoned, Paralyzed, or Toxified by a foe, the offender is also given the same affliction."
+        },
+        {
+            "name": "Tangled Feet (Spinda)",
+            "effect": "When Own Tempo prevent you from becoming confused, any foe's attacks made against you have -1 during accuracy check for the remainder of combat."
+        },
+        {
+            "name": "Tangled Feet",
+            "effect": "While you are confused, foes need to roll +1 during Accuracy Checks against you."
+        },
+        {
+            "name": "Technician",
+            "effect": "When rolling damage, replace any rolled 1s or 2s with 3s."
+        },
+        {
+            "name": "Telepathy",
+            "effect": "Your allies within 25ft do not harm you when the ally is using attacks that have an area of effect."
+        },
+        {
+            "name": "Tera Aura",
+            "effect": "Your stats cannot be lowered by a foe's effects."
+        },
+        {
+            "name": "Thermal Exchange",
+            "effect": "You are immune to being Burned. When you are hit by a Fire - type attack, your Attack is +2 for 10 mins. This effect does not stack."
+        },
+        {
+            "name": "Thick Fat",
+            "effect": "You take -4 damage from Fire-type attacks and Ice-type attacks."
+        },
+        {
+            "name": "Thicker Fat",
+            "effect": "Mega Venusaur takes -6 damage from Fire-type and Ice-type attacks after applying weaknesses and resistance."
+        },
+        {
+            "name": "Tinted Lens",
+            "effect": "Your resisted attacks deal +4 damage after applying weaknesses and resistance."
+        },
+        {
+            "name": "Too Pure",
+            "effect": "All attacks made against you are treated as if they are super-effective. If the attack already is, the attacker rolls +1 dice while rolling for damage."
+        },
+        {
+            "name": "Torrent",
+            "effect": "When you are below 20 HP, your Water-type attacks deal +4 damage."
+        },
+        {
+            "name": "Torrent",
+            "effect": "When you are below 20 HP, your Water-type attacks deal +4 damage"
+        },
+        {
+            "name": "Tough Claws and Fangs",
+            "effect": "Mega Charizard X's, Mega Aeridactyl's, and Mega Metagross's slashing and biting attacks deal +8 damage."
+        },
+        {
+            "name": "Tough Claws",
+            "effect": "Your slashing attacks deal +4 damage."
+        },
+        {
+            "name": "Tough Star",
+            "effect": "Your Tough-type attacks deal +4 damage."
+        },
+        {
+            "name": "Toxic Boost",
+            "effect": "If you would have been Poisoned or Toxified you are not and your Attack is +2 for 2 mins. This effect does not stack"
+        },
+        {
+            "name": "Toxic Debris",
+            "effect": "When you are hit by an attack that dealt damage, as a free action you may deplete one use of Toxic Spikes and use Toxic Spikes immediately."
+        },
+        {
+            "name": "Toxicate",
+            "effect": "Normal-type moves performed by you are treated as Poison-type moves."
+        },
+        {
+            "name": "Trace",
+            "effect": "If Mega Alakazam is affected by a foe's passive, Mega Alakazam gains that passive until you lose Trace."
+        },
+        {
+            "name": "Triage",
+            "effect": "Any moves you know that can heal have Reaction."
+        },
+        {
+            "name": "Trick Entrance",
+            "effect": "As a free action you may deplete one use of Trick Room and use Trick Room."
+        },
+        {
+            "name": "Truant",
+            "effect": "You can't act on a round after a round where you have acted. Truant cannot be removed or disabled by any means."
+        },
+        {
+            "name": "Unbreakable",
+            "effect": "When you are below 20 HP, your Steel-type attacks deal +4 damage."
+        },
+        {
+            "name": "Unnerve",
+            "effect": "Foes within 25ft of you cannot consume food."
+        },
+        {
+            "name": "Unyielding",
+            "effect": "If you at half of your max HP or less, you cannot take more than 20 damage at a time."
+        },
+        {
+            "name": "Very Limber",
+            "effect": "Mega Lopunny are immune to being Paralyzed. Mega Lopunny has +2 more Speed"
+        },
+        {
+            "name": "Viral",
+            "effect": "When you successfully afflict a target, any adjacent foes are also afflicted with the same affliction."
+        },
+        {
+            "name": "Vital Spirit",
+            "effect": "You are immune to being put to Sleep."
+        },
+        {
+            "name": "Volt Absorb",
+            "effect": "When you are hit by an electric-type attack, half the damage, then you heal that much HP instead of taking damage."
+        },
+        {
+            "name": "Wandering Spirit",
+            "effect": "Whenever you are hit with a melee attack, you gain all of the offender's Not-Stat passives and lose Wandering Spirit, then they gain Wandering Spirit and lose all of their Not-Stat Passives for 10 mins."
+        },
+        {
+            "name": "Water Absorb (Maractus)",
+            "effect": "When you negate a water-type attack, heal half the amount of damage your would have taken if you had not negated the attack."
+        },
+        {
+            "name": "Water Absorb",
+            "effect": "When you are hit by a water-type attack, half the damage, then you heal that much HP instead of taking damage."
+        },
+        {
+            "name": "Water Bubble",
+            "effect": "You take -4 damage from Fire-type attacks. You add +4 damage to Water-type attacks. You are immune to being Burned."
+        },
+        {
+            "name": "Water Compaction",
+            "effect": "When a foe hits you with a Water-type attack, your Defense is +2 for 10 mins."
+        },
+        {
+            "name": "Water Veil",
+            "effect": "You are immune to being Burned."
+        },
+        {
+            "name": "Watery Spirit",
+            "effect": "Water-type attacks used within 10ft of you by yourself or allies deal +4 damage."
+        },
+        {
+            "name": "Watery",
+            "effect": "Your Water-type attacks deal +4 damage."
+        },
+        {
+            "name": "Weak Armor",
+            "effect": "When you are hit by a melee attack, Your Defense is -3 and your Speed is +3 for 10 mins. This does not stack."
+        },
+        {
+            "name": "Weather Mute",
+            "effect": "You ignore the effects of weather and terrain. This does not dismiss weather or terrain."
+        },
+        {
+            "name": "Well-Baked Body",
+            "effect": "You are immune to Fire-type attacks. When you are hit by Fire-type attacks, instead your Defense is +2 for 10 mins."
+        },
+        {
+            "name": "White Smoke",
+            "effect": "Your stats cannot be lowered by a foe's effects."
+        },
+        {
+            "name": "Wind Power",
+            "effect": "When hit by a wind based attack, you may usethe move Charge as a free action.(Wind based attacks: Air Cutter, Blizzard, Fairy Wind, Gust,Heat Wave, Hurricane, Icy Wind, Petal Blizzard, Twister, Whirlwind)"
+        },
+        {
+            "name": "Wind Rider",
+            "effect": "When hit by a wind based attack, your Attack is +1 for 10 mins. (Wind based attacks: Air Cutter, Blizzard, Fairy Wind, Gust, Heat Wave, Hurricane, Icy Wind, Petal Blizzard, Twister, Whirlwind)"
+        },
+        {
+            "name": "Winged",
+            "effect": "Your Flying-type attacks deal +4 damage."
+        },
+        {
+            "name": "Wonder Guard",
+            "effect": "Shedinja is immune to attacks that are not super-effective. Wonder Guard cannot be removed or disabled by any means."
+        },
+        {
+            "name": "Wonder Skin",
+            "effect": "Your stats cannot be lowered by a foe's effects."
+        },
+        {
+            "name": "Wonderful Entry",
+            "effect": "As a free action you may deplete one use of Wonder Room and use Wonder Room."
+        },
+        {
+            "name": "Wyrmflare",
+            "effect": "When you are below 20 HP, your Dragon-type attacks deal +4 damage."
+        },
+        {
+            "name": "Zappy Spirit",
+            "effect": "Electric-type attacks used within 10ft of you by yourself or allies deal +4 damage."
+        },
+        {
+            "name": "Zen Mode",
+            "effect": "Darmanitan changes to its Zen Form when it is below half of its max HP."
+        },
+        {
+            "name": "Zero to Hero",
+            "effect": "When Palafin is reduced to 30 or less HP or if an ally is knocked out within 30ft of Palafin, you change from your Zero form to your Hero form for 10 mins."
+        }
     ]
 }
