@@ -58,7 +58,8 @@ public extension Optional where Wrapped == NSAttributedString {
 
 public extension Array where Element: Equatable {
     func random(avoiding element: Element? = nil) -> Element {
-        guard let element = element,
+        guard count > 1,
+            let element = element,
             let index = firstIndex(of: element) else { return trueRandom }
 
         var randomIndex = index

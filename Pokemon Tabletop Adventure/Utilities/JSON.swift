@@ -21,13 +21,25 @@ enum JSON {
         }
 
         let jsonDecoder = JSONDecoder()
-        guard let pokedexJSON = getJSON(from: "pokedex"),
-            let pokedex = try? jsonDecoder.decode(Pokedex.self, from: pokedexJSON) else {
-           fatalError("Either could not read pokedex file, or could not convert pokedex json to data object!")
+        do {
+            guard let pokedexJSON = getJSON(from: "pokedex") else {
+                throw JSONError.pokedexDataNotJSON
+            }
+            let pokedex = try jsonDecoder.decode(Pokedex.self, from: pokedexJSON)
+            cachedPokedex = pokedex
+            return pokedex
+        } catch {
+            var description: String
+            switch error as? DecodingError {
+            case let .dataCorrupted(context): description = context.debugDescription
+            case let .keyNotFound(_, context): description = context.debugDescription
+            case let .typeMismatch(_, context): description = context.debugDescription
+            case let .valueNotFound(_, context): description = context.debugDescription
+            default: description = error.localizedDescription
+            }
+            print("PTAERROR:- Could not convert pokedex json to pokedex model. Error: \(description)")
+            return Pokedex.empty
         }
-
-        cachedPokedex = pokedex
-        return pokedex
     }
 
     /// Parse the bundled Pokedex and return a list of the pokemon represented within
@@ -55,5 +67,10 @@ enum JSON {
             print("Error encountered while opening file \"\(filename)\":\n\(error)")
             return nil
         }
+    }
+    
+    private enum JSONError: Error {
+        case pokedexDataNotJSON
+        case pokedexFormatWrong
     }
 }

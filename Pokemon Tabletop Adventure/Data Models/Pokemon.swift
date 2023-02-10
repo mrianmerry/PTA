@@ -9,102 +9,82 @@
 import Foundation
 
 struct Pokedex: Codable {
+    static var empty = Self(pokemon: [])
     let pokemon: [Pokemon]
 }
 
 struct Pokemon: Codable, Equatable {
-    let dexID: Int
-    let ptaID: Int
+    let biology: Biology
+    let evolution: [Evolution]
+    let moves: [String]             // Convert to PokeMove
     let name: String
-    let stats: StatArray
+    let passives: Passives
+    let proficiencies: Proficiency
+    let ptaID: Int
+    let ptaPage: String
+    let size: SizeClass
+    let skills: [String]            // Convert to PokeSkill
+    let stats: Stats
     let type: [PokeType]
-    let abilities: PokeAbilities
-    let evolution: [String: String]
-    let biology: PokeBiology
+    let weight: WeightClass
 
     func basicDescription() -> String {
         return """
         Pokemon: \(name)
         Base Stats:
-             HP: \(stats.HP)
-            ATK: \(stats.ATK)
-            DEF: \(stats.DEF)
-            SPA: \(stats.SPA)
-            SDF: \(stats.SDF)
-            SPD: \(stats.SPD)
+             HP: \(stats.hitPoints)
+            ATK: \(stats.attack)
+            DEF: \(stats.defence)
+            SPA: \(stats.specialAttack)
+            SDF: \(stats.specialDefence)
+            SPD: \(stats.speed)
         """
     }
     
     static func == (lhs: Pokemon, rhs: Pokemon) -> Bool {
-        let areEqual = lhs.dexID == rhs.dexID
+        let areEqual = lhs.ptaID == rhs.ptaID
         return areEqual
     }
-    
-    private enum CodingKeys: String, CodingKey {
-        case dexID = "dexID"
-        case ptaID = "ptaID"
-        case name = "name"
-        case stats = "base_stats"
-        case type = "type"
-        case abilities = "abilities"
-        case evolution = "evolution"
-        case biology = "biology"
-    }
 }
 
-struct StatArray: Codable {
-    let HP: Int // swiftlint:disable:this identifier_name
-    let ATK: Int
-    let DEF: Int
-    let SPA: Int
-    let SDF: Int
-    let SPD: Int
-}
-
-struct PokeAbilities: Codable {
-    // TODO: Change String to Ability once written
-    let basic: [String]
-    let high: [String]
-}
-
-struct PokeBiology: Codable {
-    let height: PokeHeight
-    let weight: PokeWeight
-    let maleRatio: Double
+struct Biology: Codable {
+    let diet: [Diet]
     let eggGroup: [EggGroup]
-    let hatchRate: Int?
-    let diet: [DietType]
+    let hatchRate: Int
     let habitat: [Environment]
-
-    private enum CodingKeys: String, CodingKey {
-        case height = "height"
-        case weight = "weight"
-        case maleRatio = "male_ratio"
-        case eggGroup = "egg_group"
-        case hatchRate = "hatch_rate"
-        case diet = "diet"
-        case habitat = "habitat"
-    }
 }
 
-struct PokeHeight: Codable {
-    let value: Double
-    let sizeClass: SizeClass
-
-    private enum CodingKeys: String, CodingKey {
-        case value = "value"
-        case sizeClass = "class"
-    }
+struct Evolution: Codable {
+    let method: String
+    let ptaID: Int
+    let stage: Int
 }
 
-struct PokeWeight: Codable {
-    let value: Double
-    let weightClass: Int
+struct Passives: Codable {
+    let ability: [String]
+    let stat: [String]
+}
 
-    private enum CodingKeys: String, CodingKey {
-        case value = "value"
-        case weightClass = "class"
-    }
+struct Proficiency: Codable {
+    let groups: [String]            // Convert to ProficiencyGroup
+    let signature: [String]         // Convert to PokeMove
+}
+
+struct Stats: Codable {
+    let attack: Int
+    let defence: Int
+    let hitPoints: Int
+    let specialAttack: Int
+    let specialDefence: Int
+    let speed: Int
+}
+
+enum WeightClass: String, Codable {
+    case featherweight = "Featherweight"
+    case light = "Light"
+    case medium = "Medium"
+    case heavy = "Heavy"
+    case superweight = "Superweight"
 }
 
 enum PokeType: String, Codable {
@@ -122,28 +102,21 @@ enum PokeType: String, Codable {
     case water = "Water"
 }
 
-enum AbilityType: String, Codable {
-    case basic = "basic"
-    case high = "high"
-}
-
 enum SizeClass: String, Codable {
+    case tiny = "Tiny"
     case small = "Small"
     case medium = "Medium"
     case large = "Large"
+    case huge = "Huge"
+    case gigantic = "Gigantic"
 }
 
 enum EggGroup: String, Codable {
-    case dragon = "Dragon"
-    case field = "Field"
-    case flying = "Flying"
-    case humanshape = "Humanshape"
+    case grass = "Grass"
     case monster = "Monster"
-    case plant = "Plant"
-    case waterOne = "Water 1"
 }
 
-enum DietType: String, Codable {
+enum Diet: String, Codable {
     case carnivore = "Carnivore"
     case herbivore = "Herbivore"
     case omnivore = "Omnivore"
@@ -151,16 +124,6 @@ enum DietType: String, Codable {
 }
 
 enum Environment: String, Codable {
-    case beach = "Beach"
-    case cave = "Cave"
     case forest = "Forest"
-    case freshwater = "Freshwater"
-    case grassland = "Grassland"
-    case marsh = "Marsh"
-    case mountain = "Mountain"
-    case ocean = "Ocean"
-    case rainforest = "Rainforest"
-    case taiga = "Taiga"
-    case tundra = "Tundra"
-    case urban = "Urban"
+    case jungle = "Jungle"
 }

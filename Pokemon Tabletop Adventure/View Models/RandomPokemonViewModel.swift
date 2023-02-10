@@ -23,7 +23,7 @@ class RandomPokemonViewModel: BaseViewModel {
     
     func getRandomPokemon() -> Pokemon {
         let random = pokemon.random(avoiding: current)
-        print("Choosing pokemon #\(random.dexID) - \(random.name)")
+        print("Choosing pokemon #\(random.ptaID) - \(random.name)")
         current = random
         return random
     }
