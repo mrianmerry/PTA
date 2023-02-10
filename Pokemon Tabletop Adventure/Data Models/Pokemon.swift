@@ -87,6 +87,13 @@ enum WeightClass: String, Codable {
     case superweight = "Superweight"
 }
 
+struct PokeSkill: Codable {
+    let description: String
+    let grantedBy: [String]
+    let name: String
+    let summary: String
+}
+
 enum PokeType: String, Codable {
     case dark = "Dark"
     case fairy = "Fairy"
