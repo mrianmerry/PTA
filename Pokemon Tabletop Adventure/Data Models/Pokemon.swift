@@ -28,11 +28,11 @@ struct Pokemon: Codable, Equatable {
     let type: [PokeType]
     let weight: WeightClass
 
-    func basicDescription() -> String {
+    var basicDescription: String {
         return """
         Pokemon: \(name)
         Base Stats:
-             HP: \(stats.hitPoints)
+             HP: \(stats.maxHP)
             ATK: \(stats.attack)
             DEF: \(stats.defence)
             SPA: \(stats.specialAttack)
@@ -73,7 +73,7 @@ struct Proficiency: Codable {
 struct Stats: Codable {
     let attack: Int
     let defence: Int
-    let hitPoints: Int
+    let maxHP: Int
     let specialAttack: Int
     let specialDefence: Int
     let speed: Int

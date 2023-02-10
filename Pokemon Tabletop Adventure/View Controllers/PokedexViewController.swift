@@ -34,7 +34,7 @@ class PokedexViewController: BaseViewController {
     }
 
     private func setupNavigationView() {
-        navigationItem.title = pokedexViewModel.pokemonSorting.sortTitle
+        navigationItem.title = "Pokédex"
     }
 
     private func setupTableView() {

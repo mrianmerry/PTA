@@ -8,19 +8,9 @@
 
 import UIKit
 
-enum PokemonIdentifier {
-    case nationalPokedex
-    case tabletopAdventure
-
-    var sortTitle: String {
-        return self == .nationalPokedex ? "National Pokédex" : "Tabletop Pokédex"
-    }
-}
-
 class PokedexViewModel: BaseViewModel {
-
     private var pokemon: [Pokemon]
-    var pokemonSorting: PokemonIdentifier = .nationalPokedex
+
     lazy var tableManager: TableManager = TableManager(with: "pokedex", rowCount: { [unowned self] _ -> Int in
         return self.pokemon.count
     }, sectionCount: { () -> Int in

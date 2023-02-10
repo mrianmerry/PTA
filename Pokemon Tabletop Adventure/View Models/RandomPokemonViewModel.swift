@@ -14,7 +14,12 @@ class RandomPokemonViewModel: BaseViewModel {
     
     var describeCurrentPokemon: String {
         let pokemon = current ?? getRandomPokemon()
-        return pokemon.basicDescription()
+        return pokemon.basicDescription
+    }
+    
+    var describeRandomPokemon: String {
+        let pokemon = getRandomPokemon()
+        return pokemon.basicDescription
     }
     
     override init() {
