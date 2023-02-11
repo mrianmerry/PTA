@@ -54,6 +54,24 @@ struct Biology: Codable {
     let habitat: [Environment]
 }
 
+struct Contest: Codable {
+    enum Category: String, Codable {
+        case beauty = "Beauty"
+        case cool = "Cool"
+        case cute = "Cute"
+        case smart = "Smart"
+        case tough = "Tough"
+    }
+    
+    enum Effect: String, Codable {
+        case appeal = "Appeal"
+        case torrential = "Torrential Appeal"
+    }
+    
+    let category: Contest.Category
+    let effect: Contest.Effect
+}
+
 struct Evolution: Codable {
     let method: String
     let ptaID: Int
@@ -63,6 +81,38 @@ struct Evolution: Codable {
 struct Passives: Codable {
     let ability: [String]
     let stat: [String]
+}
+
+struct PokeMove: Codable {
+    enum Category: String, Codable {
+        case attack = "Attack"
+        case effect = "Effect"
+        case special = "Special Attack"
+    }
+    
+    enum Frequency: String, Codable {
+        case atWill = "At-Will"
+        case daily = "1/day"
+        case encounter = "1/combat"
+        case limited = "3/day"
+    }
+    
+    let category: PokeMove.Category
+    let contest: Contest
+    let damageAmount: Int
+    let damageDie: Int
+    let effect: String
+    let frequency: PokeMove.Frequency
+    let name: String
+    let range: String
+    let type: PokeType
+}
+
+struct PokeSkill: Codable {
+    let description: String
+    let grantedBy: [String]
+    let name: String
+    let summary: String
 }
 
 struct Proficiency: Codable {
@@ -79,19 +129,21 @@ struct Stats: Codable {
     let speed: Int
 }
 
-enum WeightClass: String, Codable {
-    case featherweight = "Featherweight"
-    case light = "Light"
-    case medium = "Medium"
-    case heavy = "Heavy"
-    case superweight = "Superweight"
+enum Diet: String, Codable {
+    case carnivore = "Carnivore"
+    case herbivore = "Herbivore"
+    case omnivore = "Omnivore"
+    case phototroph = "Phototroph"
 }
 
-struct PokeSkill: Codable {
-    let description: String
-    let grantedBy: [String]
-    let name: String
-    let summary: String
+enum EggGroup: String, Codable {
+    case grass = "Grass"
+    case monster = "Monster"
+}
+
+enum Environment: String, Codable {
+    case forest = "Forest"
+    case jungle = "Jungle"
 }
 
 enum PokeType: String, Codable {
@@ -118,19 +170,10 @@ enum SizeClass: String, Codable {
     case gigantic = "Gigantic"
 }
 
-enum EggGroup: String, Codable {
-    case grass = "Grass"
-    case monster = "Monster"
-}
-
-enum Diet: String, Codable {
-    case carnivore = "Carnivore"
-    case herbivore = "Herbivore"
-    case omnivore = "Omnivore"
-    case phototroph = "Phototroph"
-}
-
-enum Environment: String, Codable {
-    case forest = "Forest"
-    case jungle = "Jungle"
+enum WeightClass: String, Codable {
+    case featherweight = "Featherweight"
+    case light = "Light"
+    case medium = "Medium"
+    case heavy = "Heavy"
+    case superweight = "Superweight"
 }
