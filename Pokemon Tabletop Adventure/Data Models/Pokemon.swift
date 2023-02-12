@@ -17,7 +17,7 @@ struct Pokedex: Codable {
 struct Pokemon: Codable, Equatable {
     let biology: Biology
     let evolution: [Evolution]
-    let moves: [String]             // Convert to PokeMove
+    let moves: [PokeMove]
     let name: String
     let passives: Passives
     let proficiencies: Proficiency
@@ -45,6 +45,28 @@ struct Pokemon: Codable, Equatable {
     static func == (lhs: Pokemon, rhs: Pokemon) -> Bool {
         let areEqual = lhs.ptaID == rhs.ptaID
         return areEqual
+    }
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        self.biology = try container.decode(Biology.self, forKey: .biology)
+        self.evolution = try container.decode([Evolution].self, forKey: .evolution)
+        self.name = try container.decode(String.self, forKey: .name)
+        self.passives = try container.decode(Passives.self, forKey: .passives)
+        self.proficiencies = try container.decode(Proficiency.self, forKey: .proficiencies)
+        self.ptaID = try container.decode(Int.self, forKey: .ptaID)
+        self.ptaPage = try container.decode(String.self, forKey: .ptaPage)
+        self.size = try container.decode(SizeClass.self, forKey: .size)
+        self.skills = try container.decode([String].self, forKey: .skills)
+        self.stats = try container.decode(Stats.self, forKey: .stats)
+        self.type = try container.decode([PokeType].self, forKey: .type)
+        self.weight = try container.decode(WeightClass.self, forKey: .weight)
+        
+        let moveNames = try container.decode([String].self, forKey: .moves)
+        let moves = PokeMove.cachedMoves ?? [].filter { move in
+            moveNames.contains(move.name)
+        }
+        self.moves = moves
     }
 }
 
