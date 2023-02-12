@@ -9,6 +9,7 @@
 import Foundation
 
 struct Pokedex: Codable {
+    static var cachedPokedex: Pokedex?
     static var empty = Self(pokemon: [])
     let pokemon: [Pokemon]
 }
@@ -16,7 +17,7 @@ struct Pokedex: Codable {
 struct Pokemon: Codable, Equatable {
     let biology: Biology
     let evolution: [Evolution]
-    let moves: [String]             // Convert to PokeMove
+    let moves: [PokeMove]
     let name: String
     let passives: Passives
     let proficiencies: Proficiency
@@ -38,12 +39,38 @@ struct Pokemon: Codable, Equatable {
             SPA: \(stats.specialAttack)
             SDF: \(stats.specialDefence)
             SPD: \(stats.speed)
+        Moves:
+            \(moves.isEmpty ? "" : "• \(moves[0].description)")
+            \(moves.count > 1 ? "• \(moves[1].description)" : "")
+            \(moves.count > 2 ? "• \(moves[2].description)" : "")
         """
     }
     
     static func == (lhs: Pokemon, rhs: Pokemon) -> Bool {
         let areEqual = lhs.ptaID == rhs.ptaID
         return areEqual
+    }
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        self.biology = try container.decode(Biology.self, forKey: .biology)
+        self.evolution = try container.decode([Evolution].self, forKey: .evolution)
+        self.name = try container.decode(String.self, forKey: .name)
+        self.passives = try container.decode(Passives.self, forKey: .passives)
+        self.proficiencies = try container.decode(Proficiency.self, forKey: .proficiencies)
+        self.ptaID = try container.decode(Int.self, forKey: .ptaID)
+        self.ptaPage = try container.decode(String.self, forKey: .ptaPage)
+        self.size = try container.decode(SizeClass.self, forKey: .size)
+        self.skills = try container.decode([String].self, forKey: .skills)
+        self.stats = try container.decode(Stats.self, forKey: .stats)
+        self.type = try container.decode([PokeType].self, forKey: .type)
+        self.weight = try container.decode(WeightClass.self, forKey: .weight)
+        
+        let moveNames = try container.decode([String].self, forKey: .moves)
+        let moves = PokeMove.cachedMoves ?? [].filter { move in
+            moveNames.contains(move.name)
+        }
+        self.moves = moves
     }
 }
 
@@ -57,9 +84,9 @@ struct Biology: Codable {
 struct Contest: Codable {
     enum Category: String, Codable {
         case beauty = "Beauty"
+        case clever = "Clever"
         case cool = "Cool"
         case cute = "Cute"
-        case smart = "Smart"
         case tough = "Tough"
     }
     
@@ -84,6 +111,8 @@ struct Passives: Codable {
 }
 
 struct PokeMove: Codable {
+    static var cachedMoves: [PokeMove]?
+    
     enum Category: String, Codable {
         case attack = "Attack"
         case effect = "Effect"
@@ -106,6 +135,12 @@ struct PokeMove: Codable {
     let name: String
     let range: String
     let type: PokeType
+    
+    var description: String {
+        var descriptionText = "\(name): \(range) \(type.rawValue) \(category.rawValue): \(frequency.rawValue)"
+        descriptionText.append(" \(damageAmount > 0 ? "\(damageAmount)d\(damageDie)" : "")\(effect.isEmpty ? "" : "\n\(effect)")")
+        return descriptionText
+    }
 }
 
 struct PokeSkill: Codable {
@@ -147,7 +182,10 @@ enum Environment: String, Codable {
 }
 
 enum PokeType: String, Codable {
+    case bug = "Bug"
     case dark = "Dark"
+    case dragon = "Dragon"
+    case electric = "Electric"
     case fairy = "Fairy"
     case fire = "Fire"
     case fighting = "Fighting"
@@ -155,9 +193,13 @@ enum PokeType: String, Codable {
     case ghost = "Ghost"
     case grass = "Grass"
     case ground = "Ground"
+    case ice = "Ice"
+    case normal = "Normal"
     case poison = "Poison"
     case psychic = "Psychic"
+    case rock = "Rock"
     case steel = "Steel"
+    case typeless = "Typeless"
     case water = "Water"
 }
 
