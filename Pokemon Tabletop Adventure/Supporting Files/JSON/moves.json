@@ -1,50 +1,46 @@
 {
     "moves": [
         {
-            "name": "Growl",
-            "type": "Normal",
-            "frequency": "At-Will",
-            "accuracy": 2,
-            "style": "Effect",
-            "range": "Ranged - 5",
-            "targets": 0,
-            "effect": "Burst, Sound",
-            "description": "Growl creates a 5-meter Burst. Growl lowers all Legal Targets' Attack by 1 Combat Stage.",
+            "category": "Effect",
             "contest": {
-                "type": "Cute",
-                "appeal": "2d4",
-                "effect": "Excitement"
-            }
-        },
-        {
-            "name": "Leech Seed",
-            "type": "Grass",
-            "frequency": "Center",
-            "accuracy": 4,
-            "style": "Effect",
-            "range": "Ranged - 6",
-            "targets": 1,
-            "description": "At the beginning of each of the target's turns, the target loses 1/8th of their full HP. Do not apply weakness or resistance to the HP lost. Leech Seed's user then gains HP equal to the amount the target lost. Leech Seed lasts until the target faints or is returned to a Pokeball. Leech Seed cannot hit a Grass-type Pokemon.",
-            "contest": {
-                "type": "Smart",
-                "appeal": "None",
+                "category": "Clever",
                 "effect": "Torrential Appeal"
-            }
+            },
+            "damageAmount": 0,
+            "damageDie": 0,
+            "effect": "On hit, the target gets a Seed Coat. The Coat has the following ability: At the beginning of your turn, if you are within 20 ft of the enemy who gave you the Seed Coat, you lose 1d12 HP. The enemy who gave you the Seed Coat will gain the same amount of HP that you lost. This Coat lasts for 3 mins, or until you are at 0 or less HP.",
+            "frequency": "1/day",
+            "name": "Leech Seed",
+            "range": "Ranged - 10ft",
+            "type": "Grass",
         },
         {
-            "name": "Tackle",
-            "type": "Normal",
-            "damage": "2d8",
-            "frequency": "At-Will",
-            "accuracy": 3,
-            "style": "Physical",
-            "range": "Melee",
-            "targets": 1,
-            "effect": "Dash",
+            "category": "Attack",
             "contest": {
-                "type": "Tough",
-                "appeal": "3d4"
-            }
+                "category": "Tough",
+                "effect": "Appeal"
+            },
+            "damageAmount": 2,
+            "damageDie": 8,
+            "effect": "",
+            "frequency": "At-Will",
+            "name": "Tackle",
+            "range": "Melee",
+            "type": "Normal",
+        },
+        {
+            "category": "Attack",
+            "contest": {
+                "category": "Cool",
+                "effect": "Appeal"
+            },
+            "damageAmount": 2,
+            "damageDie": 8,
+            "effect": "",
+            "frequency": "At-Will",
+            "name": "Vine Whip",
+            "range": "Ranged(20ft)",
+            "type": "Grass",
         }
     ]
 }

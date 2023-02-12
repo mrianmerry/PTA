@@ -8,19 +8,9 @@
 
 import UIKit
 
-enum PokemonIdentifier {
-    case nationalPokedex
-    case tabletopAdventure
-
-    var sortTitle: String {
-        return self == .nationalPokedex ? "National Pokédex" : "Tabletop Pokédex"
-    }
-}
-
 class PokedexViewModel: BaseViewModel {
-
     private var pokemon: [Pokemon]
-    var pokemonSorting: PokemonIdentifier = .nationalPokedex
+
     lazy var tableManager: TableManager = TableManager(with: "pokedex", rowCount: { [unowned self] _ -> Int in
         return self.pokemon.count
     }, sectionCount: { () -> Int in
@@ -29,23 +19,12 @@ class PokedexViewModel: BaseViewModel {
         let pokemon = self.pokemon[index]
 
         cell.detailTextLabel?.text = pokemon.name
-        let pokemonIdentifier = self.pokemonSorting == .nationalPokedex ? pokemon.dexID : pokemon.ptaID
-        cell.textLabel?.text = pokemonIdentifier.numeral()
+        cell.textLabel?.text = pokemon.ptaID.numeral()
     })
 
     override init() {
         let pokedex = JSON.pokedex
-        let sortedPokemon = pokedex.pokemon.sorted { return $0.dexID < $1.dexID }
+        let sortedPokemon = pokedex.pokemon.sorted { return $0.ptaID < $1.ptaID }
         self.pokemon = sortedPokemon
-    }
-
-    func toggleSort() {
-        pokemonSorting = pokemonSorting == .nationalPokedex ? .tabletopAdventure : .nationalPokedex
-        pokemon.sort { first, last -> Bool in
-            switch pokemonSorting {
-            case .nationalPokedex: return first.dexID < last.dexID
-            case .tabletopAdventure: return first.ptaID < last.ptaID
-            }
-        }
     }
 }

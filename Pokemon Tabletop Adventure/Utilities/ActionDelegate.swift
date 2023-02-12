@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol ActionDelegate: class {
+protocol ActionDelegate: AnyObject {
     func respondToAction(_ action: Action)
 }
 

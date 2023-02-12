@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DFD83EA2993F2760051BEDE /* abilityPassives.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DFD83E82993F2760051BEDE /* abilityPassives.json */; };
+		6DFD83EB2993F2760051BEDE /* statPassives.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DFD83E92993F2760051BEDE /* statPassives.json */; };
+		6DFD83ED29965E0B0051BEDE /* skills.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DFD83EC29965E0B0051BEDE /* skills.json */; };
 		73713A2626736414006C17F4 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73713A2526736414006C17F4 /* Router.swift */; };
 		73F59BA42672ACF100A77A21 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F59BA32672ACF100A77A21 /* Coordinator.swift */; };
 		73F59BAE2672B18E00A77A21 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F59BAD2672B18E00A77A21 /* RootCoordinator.swift */; };
@@ -58,6 +61,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6DFD83E82993F2760051BEDE /* abilityPassives.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = abilityPassives.json; sourceTree = "<group>"; };
+		6DFD83E92993F2760051BEDE /* statPassives.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = statPassives.json; sourceTree = "<group>"; };
+		6DFD83EC29965E0B0051BEDE /* skills.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = skills.json; sourceTree = "<group>"; };
 		73713A2526736414006C17F4 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		73F59BA32672ACF100A77A21 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		73F59BAD2672B18E00A77A21 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
@@ -256,8 +262,11 @@
 		DCDA770B20EF5E3A00BC0D55 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
+				6DFD83E82993F2760051BEDE /* abilityPassives.json */,
 				DCA38C40211053B600CA1A8E /* moves.json */,
 				DCDA770C20EF5E3A00BC0D55 /* pokedex.json */,
+				6DFD83EC29965E0B0051BEDE /* skills.json */,
+				6DFD83E92993F2760051BEDE /* statPassives.json */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -382,6 +391,9 @@
 				DCA38C41211053B600CA1A8E /* moves.json in Resources */,
 				DCDA770D20EF5E3A00BC0D55 /* pokedex.json in Resources */,
 				DC3BD49C20A3591F0043B49C /* LaunchScreen.storyboard in Resources */,
+				6DFD83ED29965E0B0051BEDE /* skills.json in Resources */,
+				6DFD83EB2993F2760051BEDE /* statPassives.json in Resources */,
+				6DFD83EA2993F2760051BEDE /* abilityPassives.json in Resources */,
 				DC3BD49920A3591F0043B49C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +410,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		DCA38C3F210F4F6900CA1A8E /* Run SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
@@ -408,7 +421,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -606,10 +619,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/Pokemon Tabletop Adventure/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -631,10 +641,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/Pokemon Tabletop Adventure/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (

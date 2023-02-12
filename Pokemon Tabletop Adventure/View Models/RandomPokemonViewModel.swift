@@ -14,7 +14,12 @@ class RandomPokemonViewModel: BaseViewModel {
     
     var describeCurrentPokemon: String {
         let pokemon = current ?? getRandomPokemon()
-        return pokemon.basicDescription()
+        return pokemon.basicDescription
+    }
+    
+    var describeRandomPokemon: String {
+        let pokemon = getRandomPokemon()
+        return pokemon.basicDescription
     }
     
     override init() {
@@ -23,7 +28,7 @@ class RandomPokemonViewModel: BaseViewModel {
     
     func getRandomPokemon() -> Pokemon {
         let random = pokemon.random(avoiding: current)
-        print("Choosing pokemon #\(random.dexID) - \(random.name)")
+        print("Choosing pokemon #\(random.ptaID) - \(random.name)")
         current = random
         return random
     }

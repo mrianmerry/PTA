@@ -1,0 +1,348 @@
+{
+    "skills": [
+        {
+            "name": "Alluring",
+            "description": "Pokémon who are alluring smell very pleasant. They may attract wild Pokémon easily. Attention is commonly turned toward fragrant, alluring Pokémon by wilds.",
+            "summary": "attracts others with their aroma",
+            "grantedBy": [
+                "Aromatherapy",
+                "Sweet Scent"
+            ]
+        },
+        {
+            "name": "Amorphous",
+            "description": "Amorphous Pokémon have an inconsistent shape. They can flatten and reform themselves like gel. They can stretch out their body material and condense themselves as well. By doing this, a Pokémon can access places others couldn’t, or bypass a door or two, only to let their non-amorphous friends in afterwards.",
+            "summary": "can change their body into a liquid-like state",
+            "grantedBy": []
+        },
+        {
+            "name": "Beached",
+            "description": "When a Pokémon has the beached skill, they need to stay in water. Beached means the Pokémon has a hard time battling when not submerged in water. For every round of an encounter the Pokémon is not at least half way submerged in water, they lose 10% of their max HP. If the Pokémon is lowered to -100% HP for more than 10 rounds of combat, make a deaths savings roll as usual. Beached Pokémon can calmly remain out of water.",
+            "summary": "needs to be in water",
+            "grantedBy": []
+        },
+        {
+            "name": "Burrow",
+            "description": "Pokémon with Burrow can quickly dig through solid earth, rock, clay, or even soft sand. When moving through earth, burrowing Pokémon treat underground as normal terrain, without penalising their movement speed.",
+            "summary": "moves through earth easily",
+            "grantedBy": [
+                "Dig"
+            ]
+        },
+        {
+            "name": "Chilled",
+            "description": "Chilled Pokémon are always cold to the touch.",
+            "summary": "always cold",
+            "grantedBy": []
+        },
+        {
+            "name": "Climber",
+            "description": "Pokémon with an aptitude for climbing, or just many sticky legs, treat vertical terrain and even ceiling surfaces as normal terrain that they can navigate without penalising their movement speed.",
+            "summary": "treats walls and ceilings as normal terrain",
+            "grantedBy": []
+        },
+        {
+            "name": "Firestarter",
+            "description": "A Pokémon with the firestarter skill can produce flames. They can control how lightly or powerfully they produce the fire, such as creating a puffs of fire the size of a lighter or a large burst of fire capable of engulfing a tree.",
+            "summary": "can create fire",
+            "grantedBy": [
+                "Blast Burn",
+                "Blaze Kick",
+                "Ember",
+                "Fiery Dance",
+                "Fire Blast",
+                "Fire Fang",
+                "Fire Lash",
+                "Fire Punch",
+                "Fire Spin",
+                "Flame Burst",
+                "Flame Charge",
+                "Flame Wheel",
+                "Flamethrower",
+                "Flare Blitz",
+                "Heat Crash",
+                "Heat Wave",
+                "Incinerate"
+            ]
+        },
+        {
+            "name": "Flopper",
+            "description": "A Pokémon with the flopper skill probably doesn’t like being out of water. While it’s not dangerous to move around on, a flopper treats all normal terrain as difficult terrain and all difficult terrain as blocking terrain. If anything modifies how a Pokémon moves making movement easier, Pokémon with flopper will still treat difficult terrain as difficult terrain but can then flop around on normal terrain without trouble.",
+            "summary": "treat dry land as special terrain",
+            "grantedBy": []
+        },
+        {
+            "name": "Flight",
+            "description": "Pokémon with flight are not bound to the ground. Through means of wings, or psychic ability, or electromagnetic levitation, these Pokémon can remain in the air for hours at a time, sometimes never needing to return to the ground. These Pokémon can use their movements speeds in the air.",
+            "summary": "can fly",
+            "grantedBy": [
+                "Fly"
+            ]
+        },
+        {
+            "name": "Fountain",
+            "description": "A Pokémon who has the fountain skill can produce fresh water. They can control how lightly or powerfully they produce the water, such as sprinkling it or forcefully shooting it with the strength of a fire hose.",
+            "summary": "can create water",
+            "grantedBy": [
+                "Hydro Cannon",
+                "Hydro Pump",
+                "Liquidation",
+                "Scald",
+                "Soak",
+                "Water Gun",
+                "Water Pulse",
+                "Waterfall",
+                "Whirlpool"
+            ]
+        },
+        {
+            "name": "Freezer",
+            "description": "When a Pokémon has the freezer skill, they can produce ice at a controlled rate. They can make puffs of snow, or ice cubes, or spread icicles across surfaces. As their action, a Pokémon with freezer can target an area on the ground and slowly turn it into icy, difficult terrain. They can make one 5x5 ft. area into icy, difficult terrain or fluffy, snowy, difficult terrain per 6 seconds.",
+            "summary": "can create ice",
+            "grantedBy": [
+                "Aurora Beam",
+                "Blizzard",
+                "Freeze-Dry",
+                "Frost Breath",
+                "Ice Beam",
+                "Ice Fang",
+                "Ice Punch",
+                "Icy Wind",
+                "Powder Snow",
+                "Sheer Cold"
+            ]
+        },
+        {
+            "name": "Glow",
+            "description": "A Pokémon with the glow skill can emit light from a part of its body. Depending on the variety of wild Pokémon nearby, it might attract Pokémon or ward them away.",
+            "summary": "can produce light",
+            "grantedBy": [
+                "Flash",
+                "Tail Glow"
+            ]
+        },
+        {
+            "name": "Groundshaper",
+            "description": "A Pokémon with the groundshaper skill can skillfully and precisely transform the terrain around them to create difficult terrain or flatten out rough terrain to create normal terrain. As their action, a Pokémon with groundshaper can target an area on the ground and slowly turn it into sandy, or rock covered difficult terrain, or change difficult terrain into smooth dirt-covered, normal terrain. They can make one 5x5 ft. area into difficult terrain or normal terrain per 6 seconds.",
+            "summary": "can manipulate the ground",
+            "grantedBy": [
+                "Bulldoze",
+                "Earth Power",
+                "Earthquake",
+                "Sand Tomb",
+                "Stomping Tantrum"
+            ]
+        },
+        {
+            "name": "Guster",
+            "description": "A Pokémon with the guster skill can create bursts of wind. The power can vary from a light breeze to a powerful burst of air capable of lifting light objects into the air or providing lift for a chute.",
+            "summary": "can produce wind",
+            "grantedBy": [
+                "Gust",
+                "Hurricane",
+                "Tailwind"
+            ]
+        },
+        {
+            "name": "Heater",
+            "description": "A Pokémon with the heater skill is always warm when touched.",
+            "summary": "always warm",
+            "grantedBy": []
+        },
+        {
+            "name": "Hover",
+            "description": "Hovering Pokémon use some force in order to float above the ground, or even over water, without touching the surface. Whether its magnetic, gravitational, air currents, or some other magical power, it’s uncertain what keeps some of these Pokémon in the air, but they can’t go higher than 10 ft off the ground while staying airborne indefinitely.",
+            "summary": "can hover",
+            "grantedBy": [
+                "Magnet Rise"
+            ]
+        },
+        {
+            "name": "Inflatable",
+            "description": "A Pokémon with the skill inflatable can increase its size by one category. They do so by inhaling vast amounts of air or temporarily growing the size of their plant-like bodies. While inflated, a Pokémon does not change its weight. A Pokémon can maintain its larger size for up to 5 mins.",
+            "summary": "can expand",
+            "grantedBy": [
+                "Growth",
+                "Stockpile"
+            ]
+        },
+        {
+            "name": "Intelligence",
+            "description": "Intelligence marks a Pokémon for higher brain function and often these Pokémon can surpass human intellect. While intelligent Pokémon are capable of independent decisions, they still trust your leadership and will usually wait for your instruction. If you are unconscious or otherwise unable to make decisions, an intelligent Pokémon will act of its own accord, once per round if none of your other Pokémon are acting that round. Intelligent Pokémon are problem solvers and can be dangerous foes if encountered in the wild.",
+            "summary": "very smart",
+            "grantedBy": []
+        },
+        {
+            "name": "Invisibilty",
+            "description": " Pokémon who have the invisibility skill can turn invisible. Pokémon may not perform moves while invisible. While invisible, foes must roll +4 during an accuracy checks to hit you and still need a general idea of where you last were to hit you. When a Pokémon turns invisible, they can only remain invisible for up to 4 minutes. After becoming visible, they must wait two plus the number of minutes they spent invisible before using their invisibility again. You cannot turn invisible in the same turn you’ve attacked.",
+            "summary": "can turn invisible",
+            "grantedBy": []
+        },
+        {
+            "name": "Magnetic",
+            "description": "Magnetic Pokémon can lightly manipulate mag- netic fields. With this, they can repel iron and/or steel or attract iron and/or steel, holding it too their body or push- ing it away. Through this magnetic manipulation, they can also feel magnetic fields and discern north.",
+            "summary": "controls magnetic fields",
+            "grantedBy": [
+                "Magnet Bomb",
+                "Magnet Rise",
+                "Magnet Pull"
+            ]
+        },
+        {
+            "name": "Mind Lock",
+            "description": "Pokémon who have the mind lock skill cannot have their minds read.",
+            "summary": "minds can't be read",
+            "grantedBy": []
+        },
+        {
+            "name": "Modular",
+            "description": "Modular Pokémon are often made up of separate units that make of their body or consciousness. Modular Pokémon can often take up different spaces simultaneously during combat and reshape themselves to fit in different ways at different sizes everywhere. Modular Pokémon stats do not change no matter how they are configured. Modular Pokémon cannot separate a part of themselves further than 50ft from any other part of their body.",
+            "summary": "consists of %@ parts",
+            "grantedBy": []
+        },
+        {
+            "name": "Phasing",
+            "description": "A Pokémon with phasing may move through hindering or blocking terrain without their movement speed being affected. They can turn intangible and move through solid walls or another Pokémon. A Pokémon can remain intangible with phasing for up to 30 seconds. If a Pokémon remains intangible, they may not perform moves during their turn. Attacks that use the Special Attack stat can still target and hit a phasing Pokémon.",
+            "summary": "can move through solid objects",
+            "grantedBy": []
+        },
+        {
+            "name": "Reach",
+            "description": "A Pokémon with reach may make melee attacks from up to 25 ft. away. Pokémon with reach are either really large or have a stretchy limb with which they can strike foes from a distance.",
+            "summary": "melee range is %@ ft",
+            "grantedBy": []
+        },
+        {
+            "name": "Repulsive",
+            "description": "This Pokémon can emit an unpleasant odor that Wild Pokémon find repulsive. Wild Pokémon may ignore this smell to protect something precious to them.",
+            "summary": "repels others with a foul smell",
+            "grantedBy": [
+                "Corrosive Gas",
+                "Gastro Acid",
+                "Gunk Shot",
+                "Poison Gas",
+                "Sludge",
+                "Sludge Bomb",
+                "Sludge Wave",
+                "Smog",
+                "Venom Drench"
+            ]
+        },
+        {
+            "name": "Shrinkable",
+            "description": "A Pokémon with the skill shrinkable can shrink its size by one category. While shrunken, a Pokémon may not perform any moves and it does not change its weight. A Pokémon can maintain its smaller size for up to 5 mins.",
+            "summary": "can shrink",
+            "grantedBy": [
+                "Minimise"
+            ]
+        },
+        {
+            "name": "Sinker",
+            "description": "Sinker means the Pokémon cannot swim, or move while submerged in water. For every round of an encounter the Pokémon is in water that is deep enough for them to stand submerged in, they lose 10% of their max HP. If the Pokémon is lowered to -100% HP for more than 10 rounds of combat, make a deaths savings roll as usual. If a Pokémon gains the swimmer skill, they lose their sinker skill.",
+            "summary": "can't swim",
+            "grantedBy": []
+        },
+        {
+            "name": "Sprouter",
+            "description": "A Pokémon with the sprouter skill can rapidly influence the growth of plants and flora around them. Over 6 seconds, a sprouter can grow a plant 5 ft taller or wider than it previously was. Through the use of sprouter, the Pokémon can also make plants grow up to twice the size they would become naturally.",
+            "summary": "can manipulate plant life",
+            "grantedBy": [
+                "Frenzy Plant",
+                "Grass Knot",
+                "Ingrain",
+                "Leech Seed",
+                "Synthesis"
+            ]
+        },
+        {
+            "name": "Stealth",
+            "description": "Not all Pokémon are allowed to make a stealth check. With stealth, Pokémon may roll a stealth check like a human trainer, adding their Speed modifier, calculated like a human’s, to see if they can silently move during or outside of battle without being detected.",
+            "summary": "can make stealth checks",
+            "grantedBy": []
+        },
+        {
+            "name": "Strength",
+            "description": "A Pokémon with the strength skill is exceptionally strong, physically. With little effort, they can lift and move things vastly heavier than themselves. If they are featherweight, they can easily lift medium weights; if light  they can easily lift heavy weights; if medium weight, they can easily lift over 400-600 lbs.; at heavy weight, they can easily lift over 800-1000 lbs.; superweights with strength can lift or push up to 1000-1500 lbs.",
+            "summary": "very strong",
+            "grantedBy": [
+                "Strength"
+            ]
+        },
+        {
+            "name": "Swimmer",
+            "description": "A swimmer loves the water. They treat knee-deep water as normal terrain as well as anything deeper than that. Swimmers are not always gilled, so make sure they’re coming up for air when they need to.",
+            "summary": "can swim",
+            "grantedBy": []
+        },
+        {
+            "name": "Telekinetic",
+            "description": "Telekinetic Pokémon can move objects with their mind. They can lift things that are lighter than themselves. They can move objects up to 25 ft. away.",
+            "summary": "can move things with their mind",
+            "grantedBy": [
+                "Confusion",
+                "Extrasensory",
+                "Psychic",
+                "Trick"
+            ]
+        },
+        {
+            "name": "Telepath",
+            "description": "A telepathic Pokémon can read the minds of people and another Pokémon. Telepathic Pokémon can project their thoughts to humans and Pokémon. The Poké- mon can only read surface thoughts.",
+            "summary": "can read minds",
+            "grantedBy": [
+                "Mind Reader",
+                "Telepathy"
+            ]
+        },
+        {
+            "name": "Threaded",
+            "description": "If a Pokémon has the threaded skill they may move around with their threaded skill by shooting out silk webs or strong vines. A threaded movement is when a Pokémon targets an object less than 30 ft. away and shoots a strong, thin line of silk, or extends a vine from them- selves, and then quickly retracts that silk, or vine, pulling itself towards the object if the Pokémon is lighter than the object or pulling the object towards the Pokémon if the object is lighter than it is. If you target another Pokémon or person with a threaded movement, roll your accuracy check against their Speed stat. You may still use a move on the same turn you perform a threaded movement.",
+            "summary": "can move around on spun thread/vines",
+            "grantedBy": [
+                "Electro Web",
+                "Power Whip",
+                "Spider Web",
+                "String Shot",
+                "Vine Whip"
+            ]
+        },
+        {
+            "name": "Tracker",
+            "description": "Pokémon with the skill tracker have a strong sense of smell that they can use to follow other Pokémon or people using a Investigate skill check, adding their Special Attack modifier. If the Pokémon has smelled whom they want to track in the past day, or one of their personal belongings, they can pursue that prey with a skill check of 11 or better. To pick up a random scent from nothing, a skill check of 16 or better will allow the Pokémon to follow that scent. To pick up a specific scent from nothing, a skill check of 20 will allow the Pokémon to follow that scent. A Pokémon may only make these checks once per hour.",
+            "summary": "can follow scents",
+            "grantedBy": [
+                "Odor Sleuth"
+            ]
+        },
+        {
+            "name": "Wired",
+            "description": "Wired Pokémon have a special relation to electronic devices. They can enter machines and instantly travel through connected electronics through any cords that connect them. While inside machines, they can read data on the machine or they can even take control of the machine on a programming skill check adding their Special Attack modifier.",
+            "summary": "can go into electronics",
+            "grantedBy": []
+        },
+        {
+            "name": "Zapper",
+            "description": "Pokémon with the zapper skill can produce controlled electricity or send electrical currents through various conductive materials. If an electrical device is capable of being recharged, a Pokémon with zapper can slowly recharge it to full power.",
+            "summary": "can produce electricity",
+            "grantedBy": [
+                "Charge",
+                "Charge Beam",
+                "Discharge",
+                "Electrify",
+                "Electro Ball",
+                "Parabolic Charge",
+                "Shock Wave",
+                "Spark",
+                "Thunder",
+                "Thunder Fang",
+                "Thunder Punch",
+                "Thunder Shock",
+                "Thunder Wave",
+                "Thunderbolt",
+                "Volt Tackle",
+                "Wild Charge",
+                "Zap Cannon"
+            ]
+        }
+    ]
+}
