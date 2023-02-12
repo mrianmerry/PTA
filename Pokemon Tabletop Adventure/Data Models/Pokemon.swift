@@ -39,6 +39,10 @@ struct Pokemon: Codable, Equatable {
             SPA: \(stats.specialAttack)
             SDF: \(stats.specialDefence)
             SPD: \(stats.speed)
+        Moves:
+            \(moves.isEmpty ? "" : "• \(moves[0].description)")
+            \(moves.count > 1 ? "• \(moves[1].description)" : "")
+            \(moves.count > 2 ? "• \(moves[2].description)" : "")
         """
     }
     
@@ -131,6 +135,12 @@ struct PokeMove: Codable {
     let name: String
     let range: String
     let type: PokeType
+    
+    var description: String {
+        var descriptionText = "\(name): \(range) \(type.rawValue) \(category.rawValue): \(frequency.rawValue)"
+        descriptionText.append(" \(damageAmount > 0 ? "\(damageAmount)d\(damageDie)" : "")\(effect.isEmpty ? "" : "\n\(effect)")")
+        return descriptionText
+    }
 }
 
 struct PokeSkill: Codable {
