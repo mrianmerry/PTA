@@ -41,6 +41,20 @@ enum JSON {
         }
     }
     
+    private static func cachePokeMoves() {
+        let filename = "moves"
+        let jsonDecoder = JSONDecoder()
+        
+        do {
+            let movesJSON = try getJSON(from: filename)
+            let decoded = try jsonDecoder.decode([String: [PokeMove]].self, from: movesJSON)
+            guard let moves = decoded["moves"] else { throw JSONError.incorrectDataFormat(filename: "\(filename).json") }
+            PokeMove.cachedMoves = moves
+        } catch {
+            logJsonFailure(error, for: filename)
+        }
+    }
+    
     private static func logJsonFailure(_ error: Error, for filename: String, in function: String = #function) {
         var description: String
         switch error as? DecodingError {
@@ -54,6 +68,7 @@ enum JSON {
     }
 
     static func setupDataCache(completion: @escaping () -> Void) {
+        cachePokeMoves()
         cachePokedex()
         DispatchQueue.main.async { completion() }
     }
@@ -76,6 +91,6 @@ enum JSON {
     private enum JSONError: Error {
         case dataFileReadError(filename: String)
         case fileNotFound(filename: String)
-        case pokedexFormatWrong
+        case incorrectDataFormat(filename: String)
     }
 }

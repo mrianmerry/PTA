@@ -58,9 +58,9 @@ struct Biology: Codable {
 struct Contest: Codable {
     enum Category: String, Codable {
         case beauty = "Beauty"
+        case clever = "Clever"
         case cool = "Cool"
         case cute = "Cute"
-        case smart = "Smart"
         case tough = "Tough"
     }
     
@@ -85,6 +85,8 @@ struct Passives: Codable {
 }
 
 struct PokeMove: Codable {
+    static var cachedMoves: [PokeMove]?
+    
     enum Category: String, Codable {
         case attack = "Attack"
         case effect = "Effect"
@@ -148,7 +150,10 @@ enum Environment: String, Codable {
 }
 
 enum PokeType: String, Codable {
+    case bug = "Bug"
     case dark = "Dark"
+    case dragon = "Dragon"
+    case electric = "Electric"
     case fairy = "Fairy"
     case fire = "Fire"
     case fighting = "Fighting"
@@ -156,9 +161,13 @@ enum PokeType: String, Codable {
     case ghost = "Ghost"
     case grass = "Grass"
     case ground = "Ground"
+    case ice = "Ice"
+    case normal = "Normal"
     case poison = "Poison"
     case psychic = "Psychic"
+    case rock = "Rock"
     case steel = "Steel"
+    case typeless = "Typeless"
     case water = "Water"
 }
 
