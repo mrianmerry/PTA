@@ -1,0 +1,18 @@
+name: Testing
+on:
+  pull_request:
+    branches:
+    - main
+jobs:
+  test:
+    name: Testing Swift Package and iOS App
+    runs-on: macOS-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v1
+      - name: Force Xcode 14.2
+        run: sudo xcode-select -switch /Applications/Xcode_14.2.app
+      - name: Install xcbeautify
+        run: exec brew install xcbeautify
+      - name: Testing iOS App
+        run: exec ./.github/scripts/test_app.sh

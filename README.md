@@ -1,3 +1,5 @@
+[![Testing](https://github.com/mrianmerry/PTA/actions/workflows/Testing.yml/badge.svg?branch=main)](https://github.com/mrianmerry/PTA/actions/workflows/Testing.yml)
+
 # Welcome to the _unofficial_ PTA Companion app
 
 The game itself uses a lot of super-crunchy mechanics, and is very heavily stat-based. This means:
