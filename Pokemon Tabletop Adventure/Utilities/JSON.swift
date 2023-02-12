@@ -10,35 +10,15 @@ import Foundation
 
 enum JSON {
 
-    private static var cachedPokedex: Pokedex?
-
     /// Parse the bundled Pokedex and return it
     ///
     /// - Returns: The Pokedex value related to the bundled JSON
     static var pokedex: Pokedex {
-        if let pokedex = cachedPokedex {
+        if let pokedex = Pokedex.cachedPokedex {
             return pokedex
-        }
-
-        let jsonDecoder = JSONDecoder()
-        do {
-            guard let pokedexJSON = getJSON(from: "pokedex") else {
-                throw JSONError.pokedexDataNotJSON
-            }
-            let pokedex = try jsonDecoder.decode(Pokedex.self, from: pokedexJSON)
-            cachedPokedex = pokedex
-            return pokedex
-        } catch {
-            var description: String
-            switch error as? DecodingError {
-            case let .dataCorrupted(context): description = context.debugDescription
-            case let .keyNotFound(_, context): description = context.debugDescription
-            case let .typeMismatch(_, context): description = context.debugDescription
-            case let .valueNotFound(_, context): description = context.debugDescription
-            default: description = error.localizedDescription
-            }
-            print("PTAERROR:- Could not convert pokedex json to pokedex model. Error: \(description)")
-            return Pokedex.empty
+        } else {
+            cachePokedex()
+            return self.pokedex
         }
     }
 
@@ -48,16 +28,40 @@ enum JSON {
     static var pokemon: [Pokemon] {
         return pokedex.pokemon
     }
+    
+    private static func cachePokedex() {
+        let jsonDecoder = JSONDecoder()
+        
+        do {
+            let pokedexJSON = try getJSON(from: "pokedex")
+            let pokedex = try jsonDecoder.decode(Pokedex.self, from: pokedexJSON)
+            Pokedex.cachedPokedex = pokedex
+        } catch {
+            logJsonFailure(error, for: "pokedex")
+        }
+    }
+    
+    private static func logJsonFailure(_ error: Error, for filename: String, in function: String = #function) {
+        var description: String
+        switch error as? DecodingError {
+        case let .dataCorrupted(context): description = context.debugDescription
+        case let .keyNotFound(_, context): description = context.debugDescription
+        case let .typeMismatch(_, context): description = context.debugDescription
+        case let .valueNotFound(_, context): description = context.debugDescription
+        default: description = error.localizedDescription
+        }
+        print("PTAERROR:- Could not convert \(filename) to data model in \(function). Error: \(description)")
+    }
 
-    static func setupPokedexCache(completion: @escaping () -> Void) {
-        cachedPokedex = pokedex
+    static func setupDataCache(completion: @escaping () -> Void) {
+        cachePokedex()
         DispatchQueue.main.async { completion() }
     }
 
-    static func getJSON(from filename: String) -> Data? {
+    static func getJSON(from filename: String) throws -> Data {
         guard let url = Bundle.main.url(forResource: filename, withExtension: "json") else {
             print("Could not open file: \"\(filename)\"")
-            return nil
+            throw JSONError.fileNotFound(filename: "\(filename).json")
         }
 
         do {
@@ -65,12 +69,13 @@ enum JSON {
             return data
         } catch {
             print("Error encountered while opening file \"\(filename)\":\n\(error)")
-            return nil
+            throw JSONError.dataFileReadError(filename: "\(filename).json")
         }
     }
     
     private enum JSONError: Error {
-        case pokedexDataNotJSON
+        case dataFileReadError(filename: String)
+        case fileNotFound(filename: String)
         case pokedexFormatWrong
     }
 }

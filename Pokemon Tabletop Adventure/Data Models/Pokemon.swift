@@ -9,6 +9,7 @@
 import Foundation
 
 struct Pokedex: Codable {
+    static var cachedPokedex: Pokedex?
     static var empty = Self(pokemon: [])
     let pokemon: [Pokemon]
 }
