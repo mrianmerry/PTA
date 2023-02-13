@@ -4,6 +4,20 @@
             "category": "Effect",
             "contest": {
                 "category": "Clever",
+                "effect": "Reflective Appeal"
+            },
+            "damageAmount": 0,
+            "damageDie": 0,
+            "effect": "Target an ally or yourself. Target is cured of all afflictions.",
+            "frequency": "3/day",
+            "name": "Aromatherapy",
+            "range": "Melee",
+            "type": "Grass"
+        },
+        {
+            "category": "Effect",
+            "contest": {
+                "category": "Clever",
                 "effect": "Torrential Appeal"
             },
             "damageAmount": 0,
@@ -11,7 +25,49 @@
             "effect": "On hit, the target gets a Seed Coat. The Coat has the following ability: At the beginning of your turn, if you are within 20 ft of the enemy who gave you the Seed Coat, you lose 1d12 HP. The enemy who gave you the Seed Coat will gain the same amount of HP that you lost. This Coat lasts for 3 mins, or until you are at 0 or less HP.",
             "frequency": "1/day",
             "name": "Leech Seed",
-            "range": "Ranged - 10ft",
+            "range": "Ranged (10ft)",
+            "type": "Grass"
+        },
+        {
+            "category": "Effect",
+            "contest": {
+                "category": "Beauty",
+                "effect": "Hold That Thought"
+            },
+            "damageAmount": 0,
+            "damageDie": 0,
+            "effect": "Place 40ft of contiguous Light Screen Wall. Light Screen Wall is see-through, 12ft tall, and has the following ability: Special Attacks that target through this wall deal 10 less damage. This Wall disappears after 2 mins.",
+            "frequency": "3/day",
+            "name": "Light Screen",
+            "range": "Ranged (30ft)",
+            "type": "Psychic"
+        },
+        {
+            "category": "Special Attack",
+            "contest": {
+                "category": "Beauty",
+                "effect": "Round Starter"
+            },
+            "damageAmount": 3,
+            "damageDie": 8,
+            "effect": "You can't miss targets with less than 15 Special Defence.",
+            "frequency": "3/day",
+            "name": "Magical Leaf",
+            "range": "Ranged (25ft)",
+            "type": "Grass"
+        },
+        {
+            "category": "Attack",
+            "contest": {
+                "category": "Clever",
+                "effect": "Appeal"
+            },
+            "damageAmount": 3,
+            "damageDie": 10,
+            "effect": "",
+            "frequency": "3/day",
+            "name": "Petal Blizzard",
+            "range": "Ranged (10ft burst)",
             "type": "Grass"
         },
         {
@@ -25,7 +81,7 @@
             "effect": "Move to and attack the nearest possible target within 25ft. During your next action, move to and Petal Dance the neaarest possible target within 25ft, then you beome Confused. Petal Dance can and will target allies if possible.",
             "frequency": "1/day",
             "name": "Petal Dance",
-            "range": "Ranged - 5ft burst",
+            "range": "Ranged (5ft burst)",
             "type": "Grass"
         },
         {
@@ -53,8 +109,36 @@
             "effect": "On hit, if you got 18 or higher on Accuracy Check, Razor Leaf is a critical hit.",
             "frequency": "At-Will",
             "name": "Razor Leaf",
-            "range": "Ranged - 25ft",
+            "range": "Ranged (25ft)",
             "type": "Grass"
+        },
+        {
+            "category": "Effect",
+            "contest": {
+                "category": "Clever",
+                "effect": "Excitement"
+            },
+            "damageAmount": 0,
+            "damageDie": 0,
+            "effect": "Put a Reflect Coat on the target or yourself. The Coat has the following ability: Reduce damage frmo attacks taht use the attack stat that hit you by 10. This Coat lasts for 2 mins.",
+            "frequency": "3/day",
+            "name": "Reflect",
+            "range": "Melee",
+            "type": "Psychic"
+        },
+        {
+            "category": "Effect",
+            "contest": {
+                "category": "Beauty",
+                "effect": "Hold That Thought"
+            },
+            "damageAmount": 0,
+            "damageDie": 0,
+            "effect": "Put a Safe Coat on all allies and yourself. The Coat has the following ability: You cannot become afflicted. This Coat lasts for 2 mins.",
+            "frequency": "1/day",
+            "name": "Safeguard",
+            "range": "Ranged (10ft burst)",
+            "type": "Normal"
         },
         {
             "category": "Effect",
@@ -81,7 +165,7 @@
             "effect": "When you use this attack you immediately end your turn unless you are within Sunny Weather. During your next turn, or immediately if you are within Sunny Weather, you may target with and roll Solar Beam's Accuracy Check and Damage.",
             "frequency": "1/day",
             "name": "Solar Beam",
-            "range": "Ranged - 30ft beam",
+            "range": "Ranged (30ft beam)",
             "type": "Grass"
         },
         {
@@ -123,7 +207,7 @@
             "effect": "",
             "frequency": "At-Will",
             "name": "Vine Whip",
-            "range": "Ranged(20ft)",
+            "range": "Ranged (20ft)",
             "type": "Grass"
         }
     ]

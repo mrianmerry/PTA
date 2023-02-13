@@ -90,17 +90,8 @@ struct Contest: Codable {
         case tough = "Tough"
     }
     
-    enum Effect: String, Codable {
-        case appeal = "Appeal"
-        case excitement = "Excitement"
-        case inversed = "Inversed Appeal"
-        case reflective = "Reflective Appeal"
-        case specialAttention = "Special Attention"
-        case torrential = "Torrential Appeal"
-    }
-    
     let category: Contest.Category
-    let effect: Contest.Effect
+    let effect: String
 }
 
 struct Evolution: Codable {
@@ -181,8 +172,9 @@ enum EggGroup: String, Codable {
 }
 
 enum Environment: String, Codable {
-    case forest = "Forest"
-    case jungle = "Jungle"
+    case forest = "Forests"
+    case grassland = "Grasslands"
+    case jungle = "Jungles"
 }
 
 enum PokeType: String, Codable {
