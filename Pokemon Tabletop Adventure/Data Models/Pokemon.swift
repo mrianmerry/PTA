@@ -67,7 +67,7 @@ struct Pokemon: Codable, Equatable {
         self.weight = try container.decode(WeightClass.self, forKey: .weight)
         
         let moveNames = try container.decode([String].self, forKey: .moves)
-        let moves = PokeMove.cachedMoves ?? [].filter { move in
+        let moves = (PokeMove.cachedMoves ?? []).filter { move in
             moveNames.contains(move.name)
         }
         self.moves = moves
@@ -92,6 +92,10 @@ struct Contest: Codable {
     
     enum Effect: String, Codable {
         case appeal = "Appeal"
+        case excitement = "Excitement"
+        case inversed = "Inversed Appeal"
+        case reflective = "Reflective Appeal"
+        case specialAttention = "Special Attention"
         case torrential = "Torrential Appeal"
     }
     

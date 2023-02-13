@@ -76,6 +76,166 @@
                 "Poison"
             ],
             "weight": "Light"
+        },
+        {
+            "biology": {
+                "diet": [
+                    "Phototroph"
+                ],
+                "eggGroup": [
+                    "Monster",
+                    "Grass"
+                ],
+                "habitat": [
+                    "Forest",
+                    "Jungle"
+                ],
+                "hatchRate": 10
+            },
+            "evolution": [
+                {
+                    "method": "natural",
+                    "ptaID": 1,
+                    "stage": 1
+                },
+                {
+                    "method": "natural",
+                    "ptaID": 2,
+                    "stage": 2
+                },
+                {
+                    "method": "natural",
+                    "ptaID": 3,
+                    "stage": 3
+                }
+            ],
+            "moves": [
+                "Poison Powder",
+                "Sleep Powder",
+                "Razor Leaf"
+            ],
+            "name": "Ivysaur",
+            "passives": {
+                "ability": [
+                    "Overgrow"
+                ],
+                "stat": [
+                    "Growl",
+                    "Growth"
+                ]
+            },
+            "proficiencies": {
+                "groups": [
+                    "Grass",
+                    "Poison",
+                    "Floral"
+                ],
+                "signature": [
+                    "Vine Whip"
+                ]
+            },
+            "ptaID": 2,
+            "ptaPage": "PDX22",
+            "size": "Medium",
+            "skills": [
+                "Sprouter",
+                "Threaded"
+            ],
+            "stats": {
+                "attack": 6,
+                "defence": 6,
+                "maxHP": 36,
+                "specialAttack": 8,
+                "specialDefence": 8,
+                "speed": 6
+            },
+            "type": [
+                "Grass",
+                "Poison"
+            ],
+            "weight": "Medium"
+        },
+        {
+            "biology": {
+                "diet": [
+                    "Phototroph"
+                ],
+                "eggGroup": [
+                    "Monster",
+                    "Grass"
+                ],
+                "habitat": [
+                    "Forest",
+                    "Jungle"
+                ],
+                "hatchRate": 10
+            },
+            "evolution": [
+                {
+                    "method": "natural",
+                    "ptaID": 1,
+                    "stage": 1
+                },
+                {
+                    "method": "natural",
+                    "ptaID": 2,
+                    "stage": 2
+                },
+                {
+                    "method": "natural",
+                    "ptaID": 3,
+                    "stage": 3
+                }
+            ],
+            "moves": [
+                "Petal Dance",
+                "Synthesis",
+                "Solar Beam"
+            ],
+            "name": "Venusaur",
+            "passives": {
+                "ability": [
+                    "Chlorophyll",
+                    "Overgrow"
+                ],
+                "stat": [
+                    "Growl",
+                    "Growth"
+                ]
+            },
+            "proficiencies": {
+                "groups": [
+                    "Grass",
+                    "Poison",
+                    "Floral",
+                    "Stampeding"
+                ],
+                "signature": [
+                    "Frenzy Plant",
+                    "Power Whip",
+                    "Vine Whip"
+                ]
+            },
+            "ptaID": 3,
+            "ptaPage": "PDX23",
+            "size": "Large",
+            "skills": [
+                "Sprouter",
+                "Threaded"
+            ],
+            "stats": {
+                "attack": 8,
+                "defence": 8,
+                "maxHP": 48,
+                "specialAttack": 10,
+                "specialDefence": 9,
+                "speed": 8
+            },
+            "type": [
+                "Grass",
+                "Poison"
+            ],
+            "weight": "Heavy"
         }
     ]
 }

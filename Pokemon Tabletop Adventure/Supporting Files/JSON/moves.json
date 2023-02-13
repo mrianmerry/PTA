@@ -12,7 +12,91 @@
             "frequency": "1/day",
             "name": "Leech Seed",
             "range": "Ranged - 10ft",
-            "type": "Grass",
+            "type": "Grass"
+        },
+        {
+            "category": "Special Attack",
+            "contest": {
+                "category": "Clever",
+                "effect": "Appeal"
+            },
+            "damageAmount": 5,
+            "damageDie": 12,
+            "effect": "Move to and attack the nearest possible target within 25ft. During your next action, move to and Petal Dance the neaarest possible target within 25ft, then you beome Confused. Petal Dance can and will target allies if possible.",
+            "frequency": "1/day",
+            "name": "Petal Dance",
+            "range": "Ranged - 5ft burst",
+            "type": "Grass"
+        },
+        {
+            "category": "Effect",
+            "contest": {
+                "category": "Clever",
+                "effect": "Excitement"
+            },
+            "damageAmount": 0,
+            "damageDie": 0,
+            "effect": "Sleep Powder has -5 during Accuracy Check. On hit, the target is Poisoned.",
+            "frequency": "At-Will",
+            "name": "Poison Powder",
+            "range": "Melee",
+            "type": "Poison"
+        },
+        {
+            "category": "Attack",
+            "contest": {
+                "category": "Cool",
+                "effect": "Appeal"
+            },
+            "damageAmount": 2,
+            "damageDie": 8,
+            "effect": "On hit, if you got 18 or higher on Accuracy Check, Razor Leaf is a critical hit.",
+            "frequency": "At-Will",
+            "name": "Razor Leaf",
+            "range": "Ranged - 25ft",
+            "type": "Grass"
+        },
+        {
+            "category": "Effect",
+            "contest": {
+                "category": "Clever",
+                "effect": "Inversed Appeal"
+            },
+            "damageAmount": 0,
+            "damageDie": 0,
+            "effect": "Sleep Powder has -5 during Accuracy Check. On hit, the target is put to Sleep.",
+            "frequency": "At-Will",
+            "name": "Sleep Powder",
+            "range": "Melee",
+            "type": "Grass"
+        },
+        {
+            "category": "Special Attack",
+            "contest": {
+                "category": "Cool",
+                "effect": "Special Attention"
+            },
+            "damageAmount": 5,
+            "damageDie": 12,
+            "effect": "When you use this attack you immediately end your turn unless you are within Sunny Weather. During your next turn, or immediately if you are within Sunny Weather, you may target with and roll Solar Beam's Accuracy Check and Damage.",
+            "frequency": "1/day",
+            "name": "Solar Beam",
+            "range": "Ranged - 30ft beam",
+            "type": "Grass"
+        },
+        {
+            "category": "Effect",
+            "contest": {
+                "category": "Clever",
+                "effect": "Reflective Appeal"
+            },
+            "damageAmount": 0,
+            "damageDie": 0,
+            "effect": "You are healed HP equal to half your Max HP. If you are within Sunny Weather, you are healed HP equal to 3/4ths of your Max HP instead.",
+            "frequency": "1/day",
+            "name": "Synthesis",
+            "range": "Self",
+            "type": "Grass"
         },
         {
             "category": "Attack",
@@ -26,7 +110,7 @@
             "frequency": "At-Will",
             "name": "Tackle",
             "range": "Melee",
-            "type": "Normal",
+            "type": "Normal"
         },
         {
             "category": "Attack",
@@ -40,7 +124,7 @@
             "frequency": "At-Will",
             "name": "Vine Whip",
             "range": "Ranged(20ft)",
-            "type": "Grass",
+            "type": "Grass"
         }
     ]
 }
