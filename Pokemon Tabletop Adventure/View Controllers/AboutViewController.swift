@@ -64,31 +64,33 @@ private extension AboutViewController {
     }
 
     func message(for row: Int) -> String {
+        var message: String
         switch row {
         case 0: return """
             Number: \(UIApplication.buildVersion)
             App Version: \(UIApplication.appVersion)
             """
-        case 1: return """
-            <html><head><style type=\"text/css\">body{font-family: '-apple-system'; font-size: 11; color:\(UIColor.bodyHex);}</style></head>
-            <body>Pokémon: Tabletop Adventures was written by <a href=\"https://www.tapatalk.com/groups/pokemon_tabletop/memberlist.php?mode
-            =viewprofile&u=70&sid= 3d276a5f674e3b4b54861862e4c79323\">Dr Mr Stark</a>, and is sourced from the <a href=\"https://www.
-            tapatalk.com/groups/pokemon_tabletop/pokemon-tabletop-adventures-f10/\">P:TA forums</a></body></html>
+        case 1: message = """
+            Pokémon Tabletop Adventures was written by DrMrStark, sourced from the PTA
+            <a href=\"https://discord.gg/UgWJaH8\">Discord Server</a>
             """
-        case 2, 4: return """
-            <html><head><style type=\"text/css\">body{font-family: '-apple-system'; font-size: 11; color:\(UIColor.bodyHex)}</style></head>
-            <body> The icon used was made by <a href=\"https://www.flaticon.com/authors/those-icons\" title=\"Those Icons\">Those Icons</a>
+        case 2, 4: message = """
+            The icon used was made by <a href=\"https://www.flaticon.com/authors/those-icons\" title=\"Those Icons\">Those Icons</a>
             from <a href=\"https://www.flaticon.com/\" title=\"Flaticon\">www.flaticon.com</a>, and is licensed by <a href=\"http://creative
-            commons.org/licenses/by/3.0/\" title=\"Creative Commons BY 3.0\" target=\"_blank\">CC 3.0 BY</a></body></html>
+            commons.org/licenses/by/3.0/\" title=\"Creative Commons BY 3.0\" target=\"_blank\">CC 3.0 BY</a>
             """
-        case 3: return """
-            <html><head><style type=\"text/css\">body{font-family: '-apple-system'; font-size: 11; color:\(UIColor.bodyHex)}</style></head>
-            <body>The icon used was made by <a href=\"https://www.flaticon.com/authors/nikita-golubev" title="Nikita Golubev">Nikita Golubev
+        case 3: message = """
+            The icon used was made by <a href=\"https://www.flaticon.com/authors/nikita-golubev" title="Nikita Golubev">Nikita Golubev
             </a> from <a href=\"https://www.flaticon.com/\" title=\"Flaticon\">www.flaticon.com</a>, and is licensed by <a href=\"http://
-            creativecommons.org/licenses/by/3.0/\" title=\"Creative Commons BY 3.0\" target=\"_blank\">CC 3.0 BY</a></body></html>
+            creativecommons.org/licenses/by/3.0/\" title=\"Creative Commons BY 3.0\" target=\"_blank\">CC 3.0 BY</a>
             """
         default: fatalError("Be more careful when generating table views!")
         }
+        let html = """
+        <html><head><style type=\"text/css\">body{font-family: '-apple-system'; font-size: 10;
+        color:\(UIColor.bodyHex);}</style></head><body>\(message)</body></html>
+        """
+        return html
     }
 
     func cell(for row: Int, with identifier: String) -> UITableViewCell {
