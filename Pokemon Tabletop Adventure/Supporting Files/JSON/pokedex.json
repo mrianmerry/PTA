@@ -10,8 +10,8 @@
                     "Grass"
                 ],
                 "habitat": [
-                    "Forest",
-                    "Jungle"
+                    "Forests",
+                    "Jungles"
                 ],
                 "hatchRate": 10
             },
@@ -76,6 +76,392 @@
                 "Poison"
             ],
             "weight": "Light"
+        },
+        {
+            "biology": {
+                "diet": [
+                    "Phototroph"
+                ],
+                "eggGroup": [
+                    "Monster",
+                    "Grass"
+                ],
+                "habitat": [
+                    "Forests",
+                    "Jungles"
+                ],
+                "hatchRate": 10
+            },
+            "evolution": [
+                {
+                    "method": "natural",
+                    "ptaID": 1,
+                    "stage": 1
+                },
+                {
+                    "method": "natural",
+                    "ptaID": 2,
+                    "stage": 2
+                },
+                {
+                    "method": "natural",
+                    "ptaID": 3,
+                    "stage": 3
+                }
+            ],
+            "moves": [
+                "Poison Powder",
+                "Sleep Powder",
+                "Razor Leaf"
+            ],
+            "name": "Ivysaur",
+            "passives": {
+                "ability": [
+                    "Overgrow"
+                ],
+                "stat": [
+                    "Growl",
+                    "Growth"
+                ]
+            },
+            "proficiencies": {
+                "groups": [
+                    "Grass",
+                    "Poison",
+                    "Floral"
+                ],
+                "signature": [
+                    "Vine Whip"
+                ]
+            },
+            "ptaID": 2,
+            "ptaPage": "PDX22",
+            "size": "Medium",
+            "skills": [
+                "Sprouter",
+                "Threaded"
+            ],
+            "stats": {
+                "attack": 6,
+                "defence": 6,
+                "maxHP": 36,
+                "specialAttack": 8,
+                "specialDefence": 8,
+                "speed": 6
+            },
+            "type": [
+                "Grass",
+                "Poison"
+            ],
+            "weight": "Medium"
+        },
+        {
+            "biology": {
+                "diet": [
+                    "Phototroph"
+                ],
+                "eggGroup": [
+                    "Monster",
+                    "Grass"
+                ],
+                "habitat": [
+                    "Forests",
+                    "Jungles"
+                ],
+                "hatchRate": 10
+            },
+            "evolution": [
+                {
+                    "method": "natural",
+                    "ptaID": 1,
+                    "stage": 1
+                },
+                {
+                    "method": "natural",
+                    "ptaID": 2,
+                    "stage": 2
+                },
+                {
+                    "method": "natural",
+                    "ptaID": 3,
+                    "stage": 3
+                }
+            ],
+            "moves": [
+                "Petal Dance",
+                "Synthesis",
+                "Solar Beam"
+            ],
+            "name": "Venusaur",
+            "passives": {
+                "ability": [
+                    "Chlorophyll",
+                    "Overgrow"
+                ],
+                "stat": [
+                    "Growl",
+                    "Growth"
+                ]
+            },
+            "proficiencies": {
+                "groups": [
+                    "Grass",
+                    "Poison",
+                    "Floral",
+                    "Stampeding"
+                ],
+                "signature": [
+                    "Frenzy Plant",
+                    "Power Whip",
+                    "Vine Whip"
+                ]
+            },
+            "ptaID": 3,
+            "ptaPage": "PDX23",
+            "size": "Large",
+            "skills": [
+                "Sprouter",
+                "Threaded"
+            ],
+            "stats": {
+                "attack": 8,
+                "defence": 8,
+                "maxHP": 48,
+                "specialAttack": 10,
+                "specialDefence": 9,
+                "speed": 8
+            },
+            "type": [
+                "Grass",
+                "Poison"
+            ],
+            "weight": "Heavy"
+        },
+        {
+            "biology": {
+                "diet": [
+                    "Phototroph"
+                ],
+                "eggGroup": [
+                    "Monster",
+                    "Grass"
+                ],
+                "habitat": [
+                    "Grasslands"
+                ],
+                "hatchRate": 10
+            },
+            "evolution": [
+                {
+                    "method": "natural",
+                    "ptaID": 4,
+                    "stage": 1
+                },
+                {
+                    "method": "natural",
+                    "ptaID": 5,
+                    "stage": 2
+                },
+                {
+                    "method": "natural",
+                    "ptaID": 6,
+                    "stage": 3
+                }
+            ],
+            "moves": [
+                "Tackle",
+                "Razor Leaf",
+                "Synthesis"
+            ],
+            "name": "Chikorita",
+            "passives": {
+                "ability": [
+                    "Overgrow"
+                ],
+                "stat": [
+                    "Growl"
+                ]
+            },
+            "proficiencies": {
+                "groups": [
+                    "Grass",
+                    "Floral",
+                    "Healing"
+                ],
+                "signature": [
+                    "Vine Whip"
+                ]
+            },
+            "ptaID": 4,
+            "ptaPage": "PDX24",
+            "size": "Small",
+            "skills": [
+                "Alluring",
+                "Sprouter"
+            ],
+            "stats": {
+                "attack": 5,
+                "defence": 7,
+                "maxHP": 30,
+                "specialAttack": 5,
+                "specialDefence": 7,
+                "speed": 5
+            },
+            "type": [
+                "Grass"
+            ],
+            "weight": "Light"
+        },
+        {
+            "biology": {
+                "diet": [
+                    "Phototroph"
+                ],
+                "eggGroup": [
+                    "Monster",
+                    "Grass"
+                ],
+                "habitat": [
+                    "Grasslands"
+                ],
+                "hatchRate": 10
+            },
+            "evolution": [
+                {
+                    "method": "natural",
+                    "ptaID": 4,
+                    "stage": 1
+                },
+                {
+                    "method": "natural",
+                    "ptaID": 5,
+                    "stage": 2
+                },
+                {
+                    "method": "natural",
+                    "ptaID": 6,
+                    "stage": 3
+                }
+            ],
+            "moves": [
+                "Reflect",
+                "Light Screen",
+                "Magical Leaf"
+            ],
+            "name": "Bayleef",
+            "passives": {
+                "ability": [
+                    "Overgrow"
+                ],
+                "stat": [
+                    "Growl"
+                ]
+            },
+            "proficiencies": {
+                "groups": [
+                    "Grass",
+                    "Floral",
+                    "Healing"
+                ],
+                "signature": [
+                    "Vine Whip"
+                ]
+            },
+            "ptaID": 5,
+            "ptaPage": "PDX24",
+            "size": "Medium",
+            "skills": [
+                "Alluring",
+                "Sprouter"
+            ],
+            "stats": {
+                "attack": 6,
+                "defence": 8,
+                "maxHP": 36,
+                "specialAttack": 6,
+                "specialDefence": 8,
+                "speed": 6
+            },
+            "type": [
+                "Grass"
+            ],
+            "weight": "Medium"
+        },
+        {
+            "biology": {
+                "diet": [
+                    "Phototroph"
+                ],
+                "eggGroup": [
+                    "Monster",
+                    "Grass"
+                ],
+                "habitat": [
+                    "Grasslands"
+                ],
+                "hatchRate": 10
+            },
+            "evolution": [
+                {
+                    "method": "natural",
+                    "ptaID": 4,
+                    "stage": 1
+                },
+                {
+                    "method": "natural",
+                    "ptaID": 5,
+                    "stage": 2
+                },
+                {
+                    "method": "natural",
+                    "ptaID": 6,
+                    "stage": 3
+                }
+            ],
+            "moves": [
+                "Safeguard",
+                "Aromatherapy",
+                "Petal Blizzard"
+            ],
+            "name": "Meganium",
+            "passives": {
+                "ability": [
+                    "Leaf Guard",
+                    "Overgrow"
+                ],
+                "stat": [
+                    "Growl"
+                ]
+            },
+            "proficiencies": {
+                "groups": [
+                    "Grass",
+                    "Floral",
+                    "Healing"
+                ],
+                "signature": [
+                    "Vine Whip"
+                ]
+            },
+            "ptaID": 6,
+            "ptaPage": "PDX25",
+            "size": "Large",
+            "skills": [
+                "Alluring",
+                "Sprouter"
+            ],
+            "stats": {
+                "attack": 8,
+                "defence": 10,
+                "maxHP": 48,
+                "specialAttack": 7,
+                "specialDefence": 10,
+                "speed": 8
+            },
+            "type": [
+                "Grass"
+            ],
+            "weight": "Heavy"
         }
     ]
 }

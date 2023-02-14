@@ -67,7 +67,7 @@ struct Pokemon: Codable, Equatable {
         self.weight = try container.decode(WeightClass.self, forKey: .weight)
         
         let moveNames = try container.decode([String].self, forKey: .moves)
-        let moves = PokeMove.cachedMoves ?? [].filter { move in
+        let moves = (PokeMove.cachedMoves ?? []).filter { move in
             moveNames.contains(move.name)
         }
         self.moves = moves
@@ -90,13 +90,8 @@ struct Contest: Codable {
         case tough = "Tough"
     }
     
-    enum Effect: String, Codable {
-        case appeal = "Appeal"
-        case torrential = "Torrential Appeal"
-    }
-    
     let category: Contest.Category
-    let effect: Contest.Effect
+    let effect: String
 }
 
 struct Evolution: Codable {
@@ -177,8 +172,9 @@ enum EggGroup: String, Codable {
 }
 
 enum Environment: String, Codable {
-    case forest = "Forest"
-    case jungle = "Jungle"
+    case forest = "Forests"
+    case grassland = "Grasslands"
+    case jungle = "Jungles"
 }
 
 enum PokeType: String, Codable {
